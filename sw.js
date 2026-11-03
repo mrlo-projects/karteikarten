@@ -1,5 +1,5 @@
 // Bei jedem Update die Version hochzählen – dann lädt die App die neuen Karten.
-const VERSION = "2026-11-03-2";
+const VERSION = "2026-11-03-3";
 const CACHE = "karteikarten-" + VERSION;
 const CORE = ["./", "index.html", "cards.js", "manifest.webmanifest", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png"];
 
@@ -17,7 +17,12 @@ self.addEventListener("fetch", e => {
   const url = new URL(req.url);
   if (url.origin === location.origin) {
     // App-Dateien: aus dem Cache dieser Version (offline), Updates kommen über eine neue sw.js
-    e.respondWith(caches.match(req, { ignoreSearch: true }).then(r => r || fetch(req)));
+    if (req.mode === "navigate") {
+      e.respondWith(fetch(req).then(res => { const copy = res.clone(); caches.open(CACHE).then(c => c.put("./", copy)); return res; })
+        .catch(() => caches.match("./").then(r => r || caches.match("index.html"))));
+    } else {
+      e.respondWith(caches.match(req, { ignoreSearch: true }).then(r => r || fetch(req)));
+    }
   } else if (url.hostname.endsWith("fonts.googleapis.com") || url.hostname.endsWith("fonts.gstatic.com")) {
     e.respondWith(caches.open("karteikarten-fonts").then(c => c.match(req).then(r => r || fetch(req).then(res => { c.put(req, res.clone()); return res; }))));
   }

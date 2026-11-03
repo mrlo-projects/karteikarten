@@ -1,4 +1,4 @@
-const APP_VERSION = "2026-11-03 (2)";
+const APP_VERSION = "2026-11-03 (3)";
 const DECKS = [
 { id:"bio-berg", modul:"bio", name:"Bergemann", sub:"Vielfalt des Lebens", cards:[
 ["Was entstand beim Urknall – und wo entstehen schwerere Elemente wie C, N, O?","Beim Urknall nur Wasserstoff und Helium.\nSchwerere Elemente entstehen durch Kernfusion im Inneren von Sonnen („wir sind Sternenstaub“)."],
