@@ -85,6 +85,17 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
 .bar i{display:block;height:100%}
 .bar .k{background:var(--m-acc)} .bar .u{background:color-mix(in oklab, var(--again) 55%, var(--m-mid))}
 .meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.install{display:flex;flex-direction:column;gap:12px;margin:4px 0 22px;padding:18px;border-radius:20px;background:var(--surface);border:2px solid var(--mathe-acc);box-shadow:var(--shadow)}
+.install h2{font-size:21px;font-weight:800}
+.install p{margin:0;color:var(--muted);font-size:15px}
+.install ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;counter-reset:st}
+.install li{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;font-size:16px;line-height:1.45;counter-increment:st}
+.install li::before{content:counter(st);display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--mathe-mid);color:var(--mathe-ink);font-weight:800;font-family:var(--font-display)}
+.install .ic{display:inline-flex;vertical-align:-5px;width:24px;height:24px;margin:0 2px;color:#0A84FF}
+.install .ic svg{width:24px;height:24px}
+.install small{display:block;color:var(--muted);font-size:14px;margin-top:2px}
+.install .later{align-self:flex-start;border:1px solid var(--line);background:transparent;border-radius:12px;padding:8px 14px;font-weight:700;cursor:pointer;color:var(--muted)}
+.installed{display:inline-flex;align-items:center;gap:6px;margin:0 0 14px;padding:6px 12px;border-radius:999px;background:var(--ok-soft);color:var(--ok);font-size:14px;font-weight:700}
 .foot{margin-top:28px;font-size:13px;color:var(--muted)}
 .foot button{background:none;border:0;padding:0;text-decoration:underline;cursor:pointer;color:var(--muted)}
 
@@ -145,12 +156,33 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
     return { k, u, n: deck.cards.length };
   }
 
+  const SHARE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1"/></svg>';
+  const ADD_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><path d="M12 8v8M8 12h8"/></svg>';
+  const DOTS_SVG = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>';
+  const isStandalone = () => window.navigator.standalone === true || (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);
+  const isIOS = () => /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  const forceGuide = /[?&]install/.test(location.search);
+  let guideHidden = false; try { guideHidden = localStorage.getItem("bia1-guide-later") === "1"; } catch(e) {}
+  function installGuide(){
+    if (isStandalone()) return `<span class="installed">✓ Als App installiert</span>`;
+    if (!(isIOS() || forceGuide) || (guideHidden && !forceGuide)) return "";
+    const notSafari = /CriOS|FxiOS|EdgiOS/.test(navigator.userAgent);
+    return `<section class="install" aria-labelledby="ih"><h2 id="ih">Als App aufs iPhone holen</h2>
+      <p>Apple erlaubt keinen Download-Knopf außerhalb des App Stores. So bekommst du trotzdem ein eigenes App-Symbol, Vollbild und Offline-Nutzung:</p>
+      <ol>
+        <li><div>Tippe auf <b>Teilen</b> <span class="ic">${SHARE_SVG}</span>${notSafari ? " (oben rechts neben der Adresszeile)" : " in der Leiste unten"}.<small>Siehst du kein Teilen-Symbol? Tippe zuerst unten rechts auf <span class="ic">${DOTS_SVG}</span> und dann auf <b>Teilen</b>.</small></div></li>
+        <li><div>Im Menü etwas <b>nach unten wischen</b> und auf <b>„Zum Home-Bildschirm“</b> <span class="ic">${ADD_SVG}</span> tippen.<small>Steht es nicht da: ganz unten „Aktionen bearbeiten …“ öffnen und „Zum Home-Bildschirm“ hinzufügen.</small></div></li>
+        <li><div>Den Schalter <b>„Als Web-App öffnen“</b> eingeschaltet lassen und oben rechts auf <b>Hinzufügen</b> tippen.</div></li>
+        <li><div>Fertig: Ab jetzt die App über das Symbol <b>„Karteikarten“</b> auf dem Home-Bildschirm öffnen, nicht mehr über Safari.<small>Dein Lernstand liegt dann in der App. Was du vorher in Safari gelernt hast, wird nicht übernommen.</small></div></li>
+      </ol>
+      <button class="later" id="later" type="button">Ausblenden</button></section>`;
+  }
   function home(){
     let total = 0, known = 0, unsure = 0;
     DECKS.forEach(d => { const c = counts(d); total += c.n; known += c.k; unsure += c.u; });
     const order = ["bio", "chem", "ana", "mathe", "prak", "wa"];
     let html = `<header class="head"><span class="eyebrow">BIA-1 · WiSe 26/27</span><h1>Karteikarten</h1>
-      <p>Tippe auf eine Karte, um die Antwort zu sehen. Dein Stand wird auf diesem Gerät gespeichert.</p></header>
+      <p>Tippe auf eine Karte, um die Antwort zu sehen. Dein Stand wird auf diesem Gerät gespeichert.</p></header>${installGuide()}
       <div class="summary"><span class="pill"><b>${total}</b> Karten</span><span class="pill"><b>${known}</b> gewusst</span><span class="pill"><b>${unsure}</b> unsicher</span></div>
       <button class="mix" id="mix" ${unsure ? "" : "disabled"}><div><b>Unsichere Karten aus allen Fächern</b><br><span>${unsure ? unsure + " Karten zum Wiederholen" : "Noch keine – erst ein Fach lernen"}</span></div><span aria-hidden="true">→</span></button>`;
     order.forEach(m => {
@@ -168,6 +200,8 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
     });
     html += `<p class="foot">Karten aus deinen Lernzetteln · Version ${typeof APP_VERSION !== "undefined" ? APP_VERSION : ""}. <button id="reset">Lernstand zurücksetzen</button> <span id="resetq" hidden>– wirklich? <button id="resetyes">Ja, alles auf neu</button></span></p>`;
     app.innerHTML = html;
+    const later = document.getElementById("later");
+    if (later) later.onclick = () => { guideHidden = true; try { localStorage.setItem("bia1-guide-later", "1"); } catch(e) {} home(); };
     app.querySelectorAll(".tile").forEach(b => b.onclick = () => start(DECKS.find(d => d.id === b.dataset.deck)));
     const mix = document.getElementById("mix");
     mix.onclick = () => startMixed();

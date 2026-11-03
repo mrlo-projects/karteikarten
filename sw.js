@@ -1,5 +1,5 @@
 // Bei jedem Update die Version hochzählen – dann lädt die App die neuen Karten.
-const VERSION = "2026-11-03-3";
+const VERSION = "2026-11-03-4";
 const CACHE = "karteikarten-" + VERSION;
 const CORE = ["./", "index.html", "cards.js", "manifest.webmanifest", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png"];
 
