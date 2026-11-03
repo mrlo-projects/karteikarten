@@ -134,7 +134,7 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
 </head>
 <body>
 <div class="wrap" id="app"></div>
-<button class="update" id="update" type="button" hidden><span>Neue Karten sind da.</span><b>Tippen zum Laden</b></button>
+
 <script src="cards.js"></script>
 <script>
 (function(){
@@ -281,25 +281,11 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
 })();
 </script>
 <script>
-(function(){
-  const bar = document.getElementById("update");
-  const hardReload = () => {
-    const go = () => window.location.replace(window.location.pathname + "?v=" + Date.now());
-    try {
-      if ("caches" in window) {
-        caches.keys().then(keys => Promise.all(keys.filter(k => k.startsWith("karteikarten-") && k !== "karteikarten-fonts").map(k => caches.delete(k)))).then(go, go);
-      } else go();
-    } catch (e) { go(); }
-    setTimeout(go, 1500);
-  };
-  bar.addEventListener("click", hardReload);
-  if (!("serviceWorker" in navigator)) return;
-  const hadController = !!navigator.serviceWorker.controller;
-  navigator.serviceWorker.addEventListener("controllerchange", () => { if (hadController) bar.hidden = false; });
+if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js").then(reg => {
     document.addEventListener("visibilitychange", () => { if (!document.hidden) reg.update().catch(() => {}); });
   }).catch(() => {});
-})();
+}
 </script>
 </body>
 </html>
