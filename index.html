@@ -248,18 +248,15 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
 </script>
 <script>
 if ("serviceWorker" in navigator) {
+  const hadController = !!navigator.serviceWorker.controller;
+  document.getElementById("reload").addEventListener("click", () => { window.location.reload(); });
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    // neue Version ist schon aktiv – nur bei echtem Update Hinweis zeigen
+    if (hadController) document.getElementById("update").hidden = false;
+  });
   navigator.serviceWorker.register("sw.js").then(reg => {
-    const show = () => { document.getElementById("update").hidden = false; };
-    if (reg.waiting && navigator.serviceWorker.controller) show();
-    reg.addEventListener("updatefound", () => {
-      const w = reg.installing;
-      w && w.addEventListener("statechange", () => { if (w.state === "installed" && navigator.serviceWorker.controller) show(); });
-    });
-    document.getElementById("reload").onclick = () => { if (reg.waiting) reg.waiting.postMessage("skip"); else location.reload(); };
     document.addEventListener("visibilitychange", () => { if (!document.hidden) reg.update().catch(() => {}); });
   }).catch(() => {});
-  let reloaded = false;
-  navigator.serviceWorker.addEventListener("controllerchange", () => { if (!reloaded) { reloaded = true; location.reload(); } });
 }
 </script>
 </body>

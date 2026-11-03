@@ -1,9 +1,10 @@
 // Bei jedem Update die Version hochzählen – dann lädt die App die neuen Karten.
-const VERSION = "2026-11-03-1";
+const VERSION = "2026-11-03-2";
 const CACHE = "karteikarten-" + VERSION;
 const CORE = ["./", "index.html", "cards.js", "manifest.webmanifest", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", e => {
+  self.skipWaiting();
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE.map(u => new Request(u, { cache: "reload" })))));
 });
 self.addEventListener("message", e => { if (e.data === "skip") self.skipWaiting(); });
