@@ -1,7 +1,7 @@
 // Karteikarten – Offline-Speicher.
 // Prinzip: immer zuerst aus dem Netz laden (neueste Karten), nur ohne Netz aus dem Speicher.
 // Kein skipWaiting/claim: eine neue sw.js übernimmt erst beim nächsten App-Start, ohne Meldung.
-const VERSION = "2026-11-03-5";
+const VERSION = "2026-11-05-6";
 const CACHE = "karteikarten-" + VERSION;
 const CORE = ["./", "index.html", "cards.js", "manifest.webmanifest", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png"];
 

@@ -129,6 +129,41 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
 .opt input{width:20px;height:20px;accent-color:var(--m-acc)}
 .update{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));top:calc(12px + env(safe-area-inset-top,0px));display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;border:0;border-radius:16px;background:var(--ink);color:var(--bg);box-shadow:var(--shadow);z-index:50;font:inherit;font-size:16px;text-align:left;cursor:pointer;touch-action:manipulation}
 .update b{white-space:nowrap}
+/* today + week */
+.today{margin:6px 0 18px;padding:18px;border-radius:20px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+.today h2{font-size:22px;font-weight:800}
+.today .focus{margin:-6px 0 0;color:var(--muted);font-size:14px}
+.tasks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.tasks label{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:start;font-size:15px;line-height:1.4;cursor:pointer}
+.tasks input{width:20px;height:20px;margin:1px 0 0;accent-color:var(--ok)}
+.tasks input:checked + span{color:var(--muted);text-decoration:line-through}
+.goal{display:flex;flex-direction:column;gap:8px;padding:12px 14px;border-radius:14px;background:var(--ok-soft)}
+.goal .gl{display:flex;justify-content:space-between;gap:10px;font-size:15px;font-weight:700;color:var(--ok)}
+.goal .gbar{height:8px;border-radius:99px;background:color-mix(in oklab, var(--ok) 20%, var(--surface));overflow:hidden}
+.goal .gbar i{display:block;height:100%;background:var(--ok)}
+.goal button{border:0;border-radius:12px;padding:12px;font-weight:700;font-size:16px;background:var(--ok);color:var(--surface);cursor:pointer}
+details.week{border-top:1px solid var(--line);padding-top:10px}
+details.week summary{cursor:pointer;font-weight:700;font-size:15px}
+.wday{margin-top:10px;font-size:14px}
+.wday b{display:block;font-family:var(--font-display)}
+.wday ul{margin:2px 0 0;padding-left:18px;color:var(--muted)}
+.wday.is-today b{color:var(--ok)}
+.switch{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 6px;padding:12px 14px;border-radius:14px;background:var(--surface);border:1px solid var(--line);font-size:15px;cursor:pointer}
+.switch input{width:22px;height:22px;accent-color:var(--ok)}
+/* typing */
+.type{display:flex;flex-direction:column;gap:8px;margin-top:auto}
+.type textarea{width:100%;min-height:96px;padding:12px;border-radius:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-size:16px;resize:vertical}
+.type small{color:var(--muted);font-size:13px}
+.check{display:flex;flex-direction:column;gap:8px;padding:12px;border-radius:14px;background:var(--m-soft)}
+.check .score{font-weight:700;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:14px;padding:3px 10px;border-radius:999px;border:1px solid transparent}
+.chip.hit{background:var(--ok-soft);color:var(--ok)}
+.chip.miss{background:var(--again-soft);color:var(--again)}
+.yours{font-size:14px;color:var(--muted);white-space:pre-wrap}
+.btn.skip{background:var(--line);color:var(--ink)}
+.btn.sug{outline:3px solid currentColor;outline-offset:-3px}
+.examtag{font-size:11px;font-weight:800;letter-spacing:.05em;padding:2px 8px;border-radius:999px;background:var(--m-acc);color:var(--surface);align-self:flex-start}
 @media (prefers-reduced-motion: reduce){ .prog i{transition:none} }
 </style>
 </head>
@@ -149,6 +184,56 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
   const statusOf = id => store[id] || 0;           // 0 neu, 1 unsicher, 2 gewusst
   const modVars = m => `--m-soft:var(--${m}-soft);--m-mid:var(--${m}-mid);--m-ink:var(--${m}-ink);--m-acc:var(--${m}-acc)`;
   const daysTo = iso => { if(!iso) return null; const t = new Date(iso + "T09:00:00"); return Math.ceil((t - new Date()) / 864e5); };
+
+  // ---- Tag, Tagesziel, Einstellungen (alles nur lokal auf dem Gerät) ----
+  const pad = n => String(n).padStart(2, "0");
+  const todayISO = () => { const d = new Date(); return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); };
+  const meta = () => { store.__meta = store.__meta || { log:{}, tasks:{}, typing:true }; return store.__meta; };
+  const typingOn = () => meta().typing !== false;
+  const doneToday = () => meta().log[todayISO()] || 0;
+  const isCard = k => k !== "__meta";
+
+  // ---- Antwort prüfen: Fachwörter der Karte (3. Feld) oder automatisch aus der Antwort ----
+  const STOP = new Set("aber alle allem allen aller alles also auch auf aus bei beim beide beiden bereits besonders bis dabei damit dann darf darum dass dazu dem den denen der deren des deshalb die dies diese diesem diesen dieser dieses doch dort durch eben eher eine einem einen einer eines einfach erst etwa etwas falls ganz gegen geht gibt gleich haben hat hier hierbei immer indem infolge insgesamt jede jedem jeden jeder jedes jetzt kann kein keine keinen können könnte lässt man mehr mehrere meist mit muss nach neben nicht noch nur ob oder ohne sehr sein seine sich sie sind sobald solche sondern sowie statt über um und uns unter viel viele vom von vor wann war warum was weil weiter weitere welche welcher wenn wer werden wie wieder wird wobei wurde zum zur zwar zwischen beispiel bzw ca etc usw".split(" "));
+  const norm = s => String(s).toLowerCase()
+    .replace(/[₀-₉]/g, c => "0123456789"["₀₁₂₃₄₅₆₇₈₉".indexOf(c)])
+    .replace(/[⁰¹²³⁴-⁹]/g, c => ({"⁰":"0","¹":"1","²":"2","³":"3","⁴":"4","⁵":"5","⁶":"6","⁷":"7","⁸":"8","⁹":"9"}[c] || ""))
+    .replace(/ß/g, "ss").replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue")
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/(\d),(\d)/g, "$1.$2").replace(/[−–]/g, "-")
+    .replace(/[^a-z0-9.+\-\/% ]+/g, " ").replace(/\s+/g, " ").trim();
+  function autoKeys(answer){
+    const raw = answer.split(/[\s,;:()·→=\/\n„“"!?]+/).map(w => w.replace(/^[.\-]+|[.\-]+$/g, "")).filter(Boolean);
+    const out = [], seen = new Set();
+    for (const w of raw){
+      const n = norm(w); if (!n || seen.has(n) || STOP.has(n)) continue;
+      const tech = /\d/.test(w) || /^[A-ZÄÖÜ]{2,}/.test(w) || /[A-Z][a-z]?\d/.test(w) || n.length >= 7 || (/^[A-ZÄÖÜ]/.test(w) && n.length >= 5);
+      if (tech){ seen.add(n); out.push(w); }
+    }
+    return out.slice(0, 8);
+  }
+  function lev(a, b){
+    if (Math.abs(a.length - b.length) > 2) return 9;
+    const d = Array.from({ length:a.length + 1 }, (_, i) => [i]);
+    for (let j = 1; j <= b.length; j++) d[0][j] = j;
+    for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++)
+      d[i][j] = Math.min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + (a[i-1] === b[j-1] ? 0 : 1));
+    return d[a.length][b.length];
+  }
+  function wordHit(word, text, toks){
+    if (!word) return true;
+    if (/\d/.test(word) || word.length <= 3) return (" " + text + " ").includes(" " + word + " ") || text.replace(/ /g, "").includes(word.replace(/ /g, ""));
+    if (text.includes(word)) return true;
+    const stem = word.slice(0, Math.max(4, word.length - 3));
+    return toks.some(t => t.startsWith(stem) || (t.length >= 4 && word.startsWith(t) && t.length >= word.length - 3) || lev(t, word) <= Math.floor(word.length / 6) + (word.length >= 8 ? 1 : 0));
+  }
+  function checkAnswer(card, typed){
+    const keys = (card[2] && card[2].length) ? card[2] : autoKeys(card[1]);
+    const text = norm(typed), toks = text.split(" ");
+    const res = keys.map(k => ({ k: k.split("|")[0], hit: k.split("|").some(alt => norm(alt).split(" ").filter(Boolean).every(w => wordHit(w, text, toks))) }));
+    const hits = res.filter(r => r.hit).length;
+    return { res, pct: keys.length ? Math.round(hits / keys.length * 100) : 0, auto: !(card[2] && card[2].length) };
+  }
 
   function counts(deck){
     let k = 0, u = 0;
@@ -182,8 +267,10 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
     DECKS.forEach(d => { const c = counts(d); total += c.n; known += c.k; unsure += c.u; });
     const order = ["bio", "chem", "ana", "mathe", "prak", "wa"];
     let html = `<header class="head"><span class="eyebrow">BIA-1 · WiSe 26/27</span><h1>Karteikarten</h1>
-      <p>Tippe auf eine Karte, um die Antwort zu sehen. Dein Stand wird auf diesem Gerät gespeichert.</p></header>${installGuide()}
+      <p>Antwort eintippen und prüfen lassen – oder den Tipp-Modus ausschalten und frei abfragen. Dein Stand bleibt auf diesem Gerät.</p></header>${installGuide()}
       <div class="summary"><span class="pill"><b>${total}</b> Karten</span><span class="pill"><b>${known}</b> gewusst</span><span class="pill"><b>${unsure}</b> unsicher</span></div>
+      ${todayBlock()}
+      <label class="switch"><span><b>Antworten eintippen</b><br><span style="color:var(--muted);font-size:14px">Ganzer Satz oder nur Fachwörter – die App prüft die Fachbegriffe</span></span><input type="checkbox" id="typing" ${typingOn() ? "checked" : ""}></label>
       <button class="mix" id="mix" ${unsure ? "" : "disabled"}><div><b>Unsichere Karten aus allen Fächern</b><br><span>${unsure ? unsure + " Karten zum Wiederholen" : "Noch keine – erst ein Fach lernen"}</span></div><span aria-hidden="true">→</span></button>`;
     order.forEach(m => {
       const decks = DECKS.filter(d => d.modul === m); if (!decks.length) return;
@@ -192,7 +279,7 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
       html += `<section class="group" style="${modVars(m)}"><div class="group-h"><h2>${esc(mod.name)}</h2><span class="exam">${esc(chip)}</span></div><div class="tiles">`;
       decks.forEach(d => {
         const c = counts(d);
-        html += `<button class="tile" data-deck="${d.id}"><h3>${esc(d.name)}</h3><div class="sub">${esc(d.sub)}</div>
+        html += `<button class="tile" data-deck="${d.id}">${d.exam ? `<span class="examtag">ALTKLAUSUR</span>` : ""}<h3>${esc(d.name)}</h3><div class="sub">${esc(d.sub)}</div>
           <div class="bar" aria-hidden="true"><i class="k" style="width:${c.k / c.n * 100}%"></i><i class="u" style="width:${c.u / c.n * 100}%"></i></div>
           <div class="meta"><span>${c.k} von ${c.n} gewusst</span><span>${c.u ? c.u + " unsicher" : ""}</span></div></button>`;
       });
@@ -205,23 +292,58 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
     app.querySelectorAll(".tile").forEach(b => b.onclick = () => start(DECKS.find(d => d.id === b.dataset.deck)));
     const mix = document.getElementById("mix");
     mix.onclick = () => startMixed();
+    document.getElementById("typing").onchange = e => { meta().typing = e.target.checked; save(); };
+    app.querySelectorAll("[data-task]").forEach(cb => cb.onchange = () => { const t = meta().tasks; t[cb.dataset.task] = cb.checked; save(); home(); });
+    const gb = document.getElementById("goalgo"); if (gb) gb.onclick = startGoal;
     document.getElementById("reset").onclick = () => { document.getElementById("resetq").hidden = false; };
-    document.getElementById("resetyes").onclick = () => { store = {}; save(); home(); };
+    document.getElementById("resetyes").onclick = () => { const m = store.__meta; store = {}; if (m) store.__meta = { log:{}, tasks:m.tasks || {}, typing:m.typing }; save(); home(); };
     window.scrollTo(0, 0);
+  }
+
+  function todayBlock(){
+    if (typeof PLAN === "undefined") return "";
+    const iso = todayISO(), keys = Object.keys(PLAN.days).sort();
+    let day = PLAN.days[iso], dayIso = iso;
+    if (!day){ dayIso = keys.find(k => k > iso); day = dayIso ? PLAN.days[dayIso] : null; }
+    const t = meta().tasks;
+    let h = `<section class="today" aria-labelledby="th"><h2 id="th">${day ? (dayIso === iso ? "Heute · " : "Nächster Plan-Tag · ") + esc(day.label) : "Kein Plan für heute"}</h2>
+      <p class="focus">${esc(PLAN.focus)}</p>`;
+    if (day){
+      h += `<ul class="tasks">${day.tasks.map((x, i) => { const id = dayIso + ":" + i; return `<li><label><input type="checkbox" data-task="${id}" ${t[id] ? "checked" : ""}><span>${esc(x)}</span></label></li>`; }).join("")}</ul>`;
+      if (day.cards && dayIso === iso){
+        const n = day.cards.n, d = Math.min(doneToday(), n);
+        const names = day.cards.decks.map(id => (DECKS.find(x => x.id === id) || {}).name).filter(Boolean).join(" + ");
+        h += `<div class="goal"><div class="gl"><span>Tagesziel: ${n} Karten · ${esc(names)}</span><span>${d}/${n}</span></div>
+          <div class="gbar"><i style="width:${d / n * 100}%"></i></div>
+          <button id="goalgo" type="button">${d >= n ? "Ziel geschafft – noch eine Runde" : "Tagesziel lernen"}</button></div>`;
+      }
+    }
+    h += `<details class="week"><summary>Wochenplan ${esc(PLAN.title)}</summary>${keys.map(k => { const dd = PLAN.days[k];
+      return `<div class="wday ${k === iso ? "is-today" : ""}"><b>${esc(dd.label)}</b><ul>${dd.tasks.map(x => `<li>${esc(x)}</li>`).join("")}${dd.cards ? `<li>Karten: ${dd.cards.n} aus ${esc(dd.cards.decks.map(id => (DECKS.find(x => x.id === id) || {}).name).join(" + "))}</li>` : ""}</ul></div>`; }).join("")}</details></section>`;
+    return h;
+  }
+  function startGoal(){
+    const day = PLAN.days[todayISO()]; if (!day || !day.cards) return;
+    let items = [];
+    day.cards.decks.forEach(id => { const d = DECKS.find(x => x.id === id); if (d) d.cards.forEach((c, i) => items.push({ deck:d, i, q:c[0], a:c[1], card:c })); });
+    const rank = it => { const s = statusOf(cid(it.deck, it.i)); return s === 1 ? 0 : s === 0 ? 1 : 2; };
+    items = shuffle(items).sort((a, b) => rank(a) - rank(b)).slice(0, day.cards.n);
+    S = { title:"Tagesziel " + day.label, modul:items[0] ? items[0].deck.modul : "bio", deck:null, queue:shuffle(items), done:0, total:items.length, ok:0, again:0, flipped:false, missed:new Set() };
+    study();
   }
 
   let S = null; // session
   function shuffle(a){ for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
   function start(deck, onlyUnsure){
-    let items = deck.cards.map((c, i) => ({ deck, i, q: c[0], a: c[1] }));
+    let items = deck.cards.map((c, i) => ({ deck, i, q: c[0], a: c[1], card: c }));
     if (onlyUnsure) items = items.filter(it => statusOf(cid(deck, it.i)) !== 2);
     S = { title: deck.name, modul: deck.modul, deck, queue: shuffle(items), done: 0, total: items.length, ok: 0, again: 0, flipped: false, missed: new Set() };
     study();
   }
   function startMixed(){
     let items = [];
-    DECKS.forEach(d => d.cards.forEach((c, i) => { if (statusOf(cid(d, i)) === 1) items.push({ deck: d, i, q: c[0], a: c[1] }); }));
+    DECKS.forEach(d => d.cards.forEach((c, i) => { if (statusOf(cid(d, i)) === 1) items.push({ deck: d, i, q: c[0], a: c[1], card: c }); }));
     S = { title: "Unsichere Karten", modul: null, deck: null, queue: shuffle(items), done: 0, total: items.length, ok: 0, again: 0, flipped: false, missed: new Set() };
     study();
   }
@@ -243,18 +365,40 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
       return;
     }
     const tag = S.deck ? MODULES[m].name : MODULES[m].name + " · " + it.deck.name;
-    html += `<div class="card" id="card" role="button" tabindex="0" aria-label="Karte umdrehen"><span class="tag">${esc(tag)}</span>
+    const typing = typingOn();
+    let checkHtml = "", sug = null;
+    if (S.flipped && S.typed !== undefined){
+      if (S.typed.trim()){
+        const c = checkAnswer(it.card || [it.q, it.a], S.typed);
+        sug = c.pct >= 70 ? "ok" : "again";
+        checkHtml = `<div class="check"><div class="score">${c.pct >= 70 ? "Sehr gut" : c.pct >= 40 ? "Teilweise" : "Noch nicht"} – ${c.res.filter(r => r.hit).length} von ${c.res.length} Fachbegriffen</div>
+          <div class="chips">${c.res.map(r => `<span class="chip ${r.hit ? "hit" : "miss"}">${r.hit ? "✓" : "✗"} ${esc(r.k)}</span>`).join("")}</div>
+          <div class="yours">Deine Antwort: ${esc(S.typed)}</div>${c.auto ? `<small style="color:var(--muted)">Begriffe automatisch aus der Antwort gewählt – vergleiche selbst mit der Lösung.</small>` : ""}</div>`;
+      } else { sug = "again"; }
+    }
+    html += `<div class="card" id="card" ${typing && !S.flipped ? "" : `role="button" tabindex="0" aria-label="Karte umdrehen"`}><span class="tag">${esc(tag)}${it.deck.exam ? " · Altklausur" : ""}</span>
       <div class="q">${esc(it.q)}</div>
-      ${S.flipped ? `<div class="a">${paras(it.a)}</div>` : `<div class="hint">Antwort im Kopf überlegen, dann tippen</div>`}</div>
+      ${S.flipped ? `${checkHtml}<div class="a">${paras(it.a)}</div>`
+        : typing ? `<div class="type"><textarea id="ta" placeholder="Antwort oder nur die Fachwörter eintippen …" autocapitalize="off" autocomplete="off" spellcheck="false"></textarea><small>Tippfehler und Groß/Klein sind egal. Strg/Cmd+Enter = prüfen.</small></div>`
+        : `<div class="hint">Antwort im Kopf überlegen, dann tippen</div>`}</div>
       <div class="btns">${S.flipped
-        ? `<button class="btn again" id="again">Nochmal</button><button class="btn ok" id="ok">Gewusst</button>`
+        ? `<button class="btn again ${sug === "again" ? "sug" : ""}" id="again">Nochmal</button><button class="btn ok ${sug === "ok" ? "sug" : ""}" id="ok">Gewusst</button>`
+        : typing ? `<button class="btn skip" id="skip">Weiß ich nicht</button><button class="btn ok" id="chk">Prüfen</button>`
         : `<button class="btn show" id="show">Antwort zeigen</button>`}</div></div>`;
     app.innerHTML = html;
     document.getElementById("back").onclick = home;
     const flip = () => { if (!S.flipped){ S.flipped = true; study(); } };
-    document.getElementById("card").onclick = flip;
-    if (!S.flipped) document.getElementById("show").onclick = flip;
-    else {
+    if (!S.flipped && typing){
+      const ta = document.getElementById("ta");
+      const go = v => { S.typed = v; S.flipped = true; study(); };
+      document.getElementById("chk").onclick = () => go(ta.value);
+      document.getElementById("skip").onclick = () => go("");
+      ta.addEventListener("keydown", e => { if (e.key === "Enter" && (e.metaKey || e.ctrlKey)){ e.preventDefault(); go(ta.value); } });
+      setTimeout(() => { try { ta.focus({ preventScroll:true }); } catch(e){} }, 50);
+    } else if (!S.flipped){
+      document.getElementById("card").onclick = flip;
+      document.getElementById("show").onclick = flip;
+    } else {
       document.getElementById("again").onclick = () => answer(false);
       document.getElementById("ok").onclick = () => answer(true);
     }
@@ -269,11 +413,13 @@ button:focus-visible,.tile:focus-visible{outline:3px solid var(--ink);outline-of
       const pos = Math.min(S.queue.length, 3 + Math.floor(Math.random() * 3));
       S.queue.splice(pos, 0, it);
     }
-    save(); S.flipped = false; study();
+    const lg = meta().log; lg[todayISO()] = (lg[todayISO()] || 0) + 1;
+    save(); S.flipped = false; S.typed = undefined; study();
   }
   document.addEventListener("keydown", e => {
     if (!S || !document.getElementById("card")) return;
-    if (e.key === " " || e.key === "Enter"){ e.preventDefault(); if (!S.flipped){ S.flipped = true; study(); } }
+    if (document.activeElement && document.activeElement.tagName === "TEXTAREA") return;
+    if ((e.key === " " || e.key === "Enter") && !typingOn()){ e.preventDefault(); if (!S.flipped){ S.flipped = true; study(); } }
     else if (S.flipped && (e.key === "1" || e.key === "ArrowLeft")) answer(false);
     else if (S.flipped && (e.key === "2" || e.key === "ArrowRight")) answer(true);
   });
