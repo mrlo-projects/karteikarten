@@ -1,6 +1,6 @@
-const APP_VERSION = "2026-11-05 (6)";
+const APP_VERSION = "2026-11-09 (7)";
 const DECKS = [
-{ id:"bio-berg", modul:"bio", name:"Bergemann", sub:"Vielfalt des Lebens", cards:[
+{ id:"bio-berg", modul:"bio", name:"Bergemann", sub:"Vielfalt des Lebens · Gewebe & Haut", cards:[
 ["Was entstand beim Urknall – und wo entstehen schwerere Elemente wie C, N, O?","Beim Urknall nur Wasserstoff und Helium.\nSchwerere Elemente entstehen durch Kernfusion im Inneren von Sonnen („wir sind Sternenstaub“)."],
 ["Miller-Experiment (1953): Aufbau und Ergebnis?","Uratmosphäre im Labor: Wasserdampf, CH₄, CO, NH₃, H₂ + elektrische Entladungen (Gewitter).\nNach wenigen Stunden waren Aminosäuren nachweisbar."],
 ["Die vier Stadien der Vier-Stadien-Hypothese?","1. Abiotische Synthese kleiner organischer Moleküle (Monomere)\n2. Verknüpfung zu Polymeren\n3. Selbst-replizierende Moleküle (Vererbung)\n4. Verpackung in membranumschlossene Vesikel"],
@@ -73,7 +73,7 @@ const DECKS = [
 ["Flaschenhals vs. Gründereffekt?","Flaschenhals: Katastrophe dezimiert Population (Gepard).\nGründereffekt: kleine Gruppe besiedelt neues Gebiet (Tristan da Cunha)."],
 ["Warum bleibt das Sichelzell-Allel erhalten?","Heterozygote (HbA/HbS) sind resistent gegen Malaria → ausgeglichener Polymorphismus."],
 ]},
-{ id:"bio-phys", modul:"bio", name:"Physiologie", sub:"Blut & Nervensystem", cards:[
+{ id:"bio-phys", modul:"bio", name:"Physiologie", sub:"Blut, Nervensystem & Herz", cards:[
 ["Physiologie vs. Anatomie?","Physiologie: Lehre von den Funktionen und Lebensvorgängen (inkl. Regulation/Homöostase).\nAnatomie: Bauplan des Körpers."],
 ["Organisationsebenen von klein nach groß?","Atome → Moleküle → Organellen → Zellen → Gewebe → Organe → Organsysteme"],
 ["Homöostase – Definition?","Fähigkeit, Zustandsgrößen in einem physiologischen Bereich zu halten (z. B. Blutdruck 120/80, Nüchtern-Glukose 3,3–6,0 mmol/l)."],
@@ -217,7 +217,7 @@ const DECKS = [
 ["Becquerel, Gray, Sievert?","Bq: Zerfälle/s · Gy: J/kg aufgenommen · Sv: biologisch gewichtet (natürlich ~1 mSv/Jahr)"],
 ["Aufbau der Herzog-Klausur?","60 min, 9 Aufgaben, 100 Punkte. Erlaubt: alles auf Papier aus Teil Herzog, nichts von Heindl, nur Taschenrechner."],
 ]},
-{ id:"ana", modul:"ana", name:"Analytik", sub:"Züchner", cards:[
+{ id:"ana", modul:"ana", name:"Analytik", sub:"Züchner · bis Elektrochemie & PCR", cards:[
 ["Gehalts-, Verteilungs-, Prozess-, Strukturanalyse?","Gehalt: was und wie viel · Verteilung: zusätzlich wo (Raumkoordinaten) · Prozess: über die Zeit · Struktur: räumlicher Aufbau (UV, IR, MS, NMR)"],
 ["Qualitativ vs. quantitativ – Beispiele?","Qualitativ: ist es drin? (Schwangerschaftstest)\nQuantitativ: wie viel? (Blutzuckermessung)"],
 ["Schritte des Analyseverfahrens?","Untersuchungsobjekt → Probennahme → Probenvorbereitung → Messung → Auswertung → analytische Information"],
@@ -324,7 +324,7 @@ const DECKS = [
 ["Was vor der Abgabe in Word tun?","Alle Felder aktualisieren (alles markieren, F9) · ungenutzte Formatvorlagen löschen · Schlangenlinien abarbeiten"],
 ["Dateiname für die Abgabe?","BIA_Nachname_Vorname_mmtt_A1.docx und .pdf (mmtt = Geburtstag, A1 = 1. Abgabe)"],
 ]},
-{ id:"phys", modul:"prak", name:"Physik-Praktikum", sub:"Eingangstests", cards:[
+{ id:"phys", modul:"prak", name:"Physik-Praktikum", sub:"Eingangstests & Fehlerrechnung", cards:[
 ["Deine Praktikumstermine (Gruppe 1)?","10.11. Kalorik (R 515) · 24.11. Elektrik (R 512) · 08.12. Optik (R 512) · 22.12. Nachholtermin"],
 ["Was muss vor jedem Versuchstag erledigt sein?","Anleitung lesen, ILIAS-Eingangstest (> 50 %), Messprotokoll drucken, Vorbereitungsversuch, Laborkittel."],
 ["Was führt sofort zur 5,0?","Messwerte mit Bleistift · kein Testat · zu spät/unentschuldigt · Protokoll fehlt oder zu spät"],
@@ -442,57 +442,59 @@ const MODULES = {
   prak: { name:"Praktikum", exam:"2026-11-10", examLabel:"Kalorik Di 10.11." },
 };
 
-// Wochenplan + Tagesziele (Stand 05.11.2026). cards.decks = Stapel fürs Tagesziel, n = Anzahl Karten, tippen = Antworten eintippen.
+// Wochenplan + Tagesziele (Stand 09.11.2026). cards.decks = Stapel fürs Tagesziel, n = Anzahl Karten.
 const PLAN = {
-  title: "Plan 06.–15.11.",
-  focus: "Mechanik-Protokoll bis Mo abgeben · Kalorik vorbereiten · Referat-Video bis So 15.11. hochladen",
+  title: "Plan 09.–22.11.",
+  focus: "Kalorik Di 10.11. · Mathe-Formular hochladen · Referat-Video bis So 15.11. · Word-Hausarbeit bis Mo 23.11.",
   days: {
-    "2026-11-06": { label:"Fr 06.11.", tasks:[
-      "9:00–10:00 Bio: LOH-03 Endosymbionten (Folien + Text) nacharbeiten",
-      "10:00–11:30 Mechanik-Auswertung durchlesen, gelbe Prüf-Stellen mit Original-Messprotokoll klären",
-      "12:00–15:00 Mathe Online-Test 0 (Test 007) + Test 1 (Test 107) – Passwörter in der WS26/27-Testübersicht",
-      "15:00–16:30 Chemie: VL Herzog (Mi) + Heindl nacharbeiten",
-      "ab 18:00 Arbeit"], cards:{ decks:["bio-loh","bio-alt"], n:25 } },
-    "2026-11-07": { label:"Sa 07.11.", tasks:[
-      "10:00–12:30 Mechanik-Protokoll fertig: Namen, Kräfteparallelogramm von Hand, alles in 1 PDF",
-      "bis 13:00 Mechanik-Protokoll mit dem Team abstimmen und in ILIAS abgeben",
-      "13:30–15:30 Mathe: Übungsblatt + Folien Pic (Mathematik 1_281026)",
-      "ab 18:00 Arbeit"], cards:{ decks:["chem-alt"], n:20 } },
-    "2026-11-08": { label:"So 08.11.", tasks:[
-      "10:00–11:00 Kalorik-Anleitung lesen (Praktika/Physik/Versuchsanleitungen)",
-      "11:00–12:00 ILIAS-Eingangstest Kalorik + Messprotokoll drucken",
-      "12:00–13:00 Wiss. Arbeiten: 3a-Gliederung + Formatierung04/05",
-      "ab 17:00 Arbeit"], cards:{ decks:["kalorik"], n:23 } },
     "2026-11-09": { label:"Mo 09.11.", tasks:[
-      "8:30 Mathe Online-Test 1 in ILIAS (Fenster bis 20 Uhr)",
-      "9:45 Mathe-VL Pic (Zusatztermin)",
-      "Spätestens heute: Mechanik-Protokoll abgegeben?",
-      "14:00 Bio/Physio Markewicz – sonst Folien „Herz“ nacharbeiten",
-      "Abends Laborkittel + Schutzbrille + Messprotokoll einpacken",
-      "ab 18:00 Arbeit"], cards:{ decks:["bio-phys"], n:15 } },
+      "Mathe: Formular Prüfungsantritt in ILIAS hochladen – laut ILIAS noch nicht abgegeben",
+      "Mathe Online-Tests 008 / 108 / 201 (8–20 Uhr, spätestens 19 Uhr starten) – App: Mathe Kap. 8",
+      "Kalorik: App-Kapitel 1–5 lesen, dann ILIAS-Eingangstest + Messprotokoll drucken",
+      "Mechanik: in ILIAS prüfen, ob die abgegebene Datei das ausgefüllte Protokoll ist (Frist 17.11.)",
+      "Physiologie: App-Kapitel Herz lesen (VL heute 14:00)",
+      "Abends Kittel, Schutzbrille, Messprotokoll, Taschenrechner einpacken"], cards:{ decks:["kalorik"], n:23 } },
     "2026-11-10": { label:"Di 10.11.", tasks:[
-      "8:45 losfahren · 9:45–13:00 Physik-Praktikum Kalorik (R 515, Kittel, Brille, Haare zusammen)",
-      "15:00–17:00 Kalorik-Auswertung anfangen"], cards:{ decks:["kalorik"], n:10 } },
+      "8:45 losfahren · 9:45–13:00 Physik-Praktikum Kalorik (Raum 515, Haare zusammen)",
+      "15:00–17:00 Kalorik-Auswertung anfangen – App: Praktikum Kap. Fehlerrechnung"], cards:{ decks:["phys"], n:12 } },
     "2026-11-11": { label:"Mi 11.11.", tasks:[
-      "Uni: Mathe Pic 9:45, Analytik 14:00, Chemie Herzog 15:45",
-      "19:00–19:45 Mathe Pic vom Tag wiederholen",
-      "30 min Kalorik-Auswertung"], cards:{ decks:["mathe"], n:15 } },
+      "Uni: Mathe 9:45 + 11:30, Analytik 14:00, Chemie 15:45",
+      "Abends: Analytik Kap. 7 Elektrochemie lesen + Fragen"], cards:{ decks:["ana"], n:15 } },
     "2026-11-12": { label:"Do 12.11.", tasks:[
-      "Uni: Analytik 9:45, Chemie Heindl 11:30, Bio 14:00, Mathe 15:45",
-      "Abends: Kalorik-Protokoll fertig machen und abgeben"], cards:{ decks:["ana"], n:20 } },
+      "Uni: Analytik 9:45, Chemie 11:30, Bio 14:00, Mathe 15:45",
+      "Abends: Kalorik-Protokoll fertig machen + mit dem Team abgeben"], cards:{ decks:["bio-phys"], n:15 } },
     "2026-11-13": { label:"Fr 13.11.", tasks:[
-      "9:00–11:30 Bio: Bergemann Gewebe/Haut + Physiologie Herz nacharbeiten",
-      "11:30 Referat-Video: letzte Kontrolle mit der Gruppe",
-      "12:00–14:30 Chemie nacharbeiten + 1 Aufgabe Altklausur Herzog",
-      "ab 18:00 Arbeit"], cards:{ decks:["bio-berg","chem-alt"], n:25 } },
+      "8:00–11:15 Wiss. Arbeiten Excel (PC-Pool 959/976 oder online)",
+      "Nachmittag: Bergemann Kap. 4 + 5 (Gewebe, Haut) lesen + Fragen"], cards:{ decks:["bio-berg"], n:20 } },
     "2026-11-14": { label:"Sa 14.11.", tasks:[
-      "10:00 Referat-Video Analytik in ILIAS hochladen (Frist So 15.11.)",
-      "10:30–12:30 Lernzettel der Woche abschreiben",
-      "13:30–15:30 Mathe Übungsblatt",
-      "ab 18:00 Arbeit"], cards:{ decks:["chem-heindl","chem-herzog"], n:20 } },
+      "Referat-Video Analytik in ILIAS hochladen (Frist So 15.11., 18:00)",
+      "Word-Hausarbeit weiterschreiben (Abgabe Mo 23.11.)",
+      "Analytik Kap. 8 PCR & Microarrays lesen"], cards:{ decks:["ana"], n:20 } },
     "2026-11-15": { label:"So 15.11.", tasks:[
-      "Referat-Video abgegeben? (sonst spätestens jetzt, vor der Arbeit)",
-      "10:00–12:00 Wiss. Arbeiten: Folien der Fr-VL",
-      "ab 17:00 Arbeit"], cards:{ decks:["bio-alt","chem-alt"], n:20 } },
+      "Referat-Video abgegeben? Sonst spätestens jetzt (bis 18:00)",
+      "Chemie: Heindl + Herzog der Woche wiederholen"], cards:{ decks:["chem-alt"], n:20 } },
+    "2026-11-16": { label:"Mo 16.11.", tasks:[
+      "Mathe Online-Test in ILIAS (8–20 Uhr)",
+      "Mechanik-Protokoll: Abgabe in Ordnung? Letzte Frist Di 17.11., 18:00",
+      "Word-Hausarbeit: Inhalt fertig"], cards:{ decks:["mathe"], n:15 } },
+    "2026-11-17": { label:"Di 17.11.", tasks:[
+      "Kein Praktikum für Gruppe 1 – Lerntag",
+      "Bio Lohrer Kap. 6 Energetik lesen (VL am Do)",
+      "Word-Hausarbeit formatieren (App: Wiss. Arbeiten Kap. 4)"], cards:{ decks:["bio-loh"], n:20 } },
+    "2026-11-18": { label:"Mi 18.11.", tasks:[
+      "Chemie Heindl schon um 8:00 (106-620) – ca. 6:45 losfahren",
+      "Uni: Mathe 9:45 + 11:30, Analytik 14:00, Chemie 15:45"], cards:{ decks:["chem-heindl"], n:15 } },
+    "2026-11-19": { label:"Do 19.11.", tasks:[
+      "Chemie 11:30 fällt aus",
+      "Uni: Analytik 9:45, Bio Lohrer VL 4 Energetik 14:00, Mathe 15:45"], cards:{ decks:["bio-loh"], n:15 } },
+    "2026-11-20": { label:"Fr 20.11.", tasks:[
+      "8:00–11:15 Wiss. Arbeiten",
+      "Word-Hausarbeit mit Checkliste prüfen (App: Wiss. Arbeiten Kap. 5)"], cards:{ decks:["wa"], n:17 } },
+    "2026-11-21": { label:"Sa 21.11.", tasks:[
+      "Word-Hausarbeit Endkontrolle + als Datei fertig machen",
+      "Chemie Herzog wiederholen"], cards:{ decks:["chem-herzog"], n:20 } },
+    "2026-11-22": { label:"So 22.11.", tasks:[
+      "Word-Hausarbeit in ILIAS hochladen (Frist Mo 23.11., 23:55)",
+      "ILIAS-Eingangstest Elektrik + Messprotokoll drucken (Praktikum Di 24.11., Raum 512!)"], cards:{ decks:["bio-alt"], n:20 } },
   }
 };

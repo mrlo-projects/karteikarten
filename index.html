@@ -164,6 +164,39 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
 .btn.skip{background:var(--line);color:var(--ink)}
 .btn.sug{outline:3px solid currentColor;outline-offset:-3px}
 .examtag{font-size:11px;font-weight:800;letter-spacing:.05em;padding:2px 8px;border-radius:999px;background:var(--m-acc);color:var(--surface);align-self:flex-start}
+/* deck overview + lessons (Stoff) */
+.dhead{display:flex;flex-direction:column;gap:6px;margin:6px 0 14px}
+.dhead h1{font-size:clamp(26px,6vw,34px);font-weight:800;color:var(--m-ink)}
+.dhead p{margin:0;color:var(--muted);font-size:15px}
+.dact{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 18px}
+.chs{display:flex;flex-direction:column;gap:10px}
+.ch{display:grid;grid-template-columns:36px 1fr;gap:12px;align-items:start;padding:14px;border-radius:18px;background:var(--m-soft);border:1px solid color-mix(in oklab, var(--m-mid) 70%, transparent)}
+.ch .num{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--m-mid);color:var(--m-ink);font-family:var(--font-display);font-weight:800}
+.ch .num.read{background:var(--m-acc);color:var(--surface)}
+.ch h3{font-size:18px;color:var(--m-ink)}
+.ch .sub{font-size:14px;color:var(--muted);margin:2px 0 8px}
+.ch .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ch .row span{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.sbtn{border:0;border-radius:12px;padding:9px 14px;font-weight:700;font-size:15px;cursor:pointer;background:var(--m-acc);color:var(--surface)}
+.sbtn.alt{background:var(--surface);color:var(--m-ink);border:1px solid var(--m-mid)}
+.newtag{font-size:11px;font-weight:800;letter-spacing:.05em;padding:2px 8px;border-radius:999px;background:var(--ok-soft);color:var(--ok)}
+.lesson{display:flex;flex-direction:column;gap:14px}
+.stoff{padding:20px 18px;border-radius:22px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);font-size:17px;line-height:1.6;overflow-wrap:anywhere}
+.stoff h2{font-size:24px;color:var(--m-ink);margin-bottom:4px}
+.stoff h3{font-size:19px;color:var(--m-ink);margin:22px 0 8px;padding-top:12px;border-top:2px solid var(--m-mid)}
+.stoff h2 + p.sub + h3,.stoff h2 + h3{border-top:0;padding-top:0}
+.stoff h4{font-size:17px;margin:14px 0 6px}
+.stoff p{margin:0 0 10px}
+.stoff p.sub{color:var(--muted);font-size:15px}
+.stoff ul{margin:0 0 12px;padding-left:20px}
+.stoff li{margin:0 0 6px}
+.stoff .box{margin:12px 0;padding:12px 14px;border-radius:14px;background:var(--m-soft);border-left:4px solid var(--m-acc)}
+.stoff .fig{font-size:13px;color:var(--muted);font-style:italic;margin:4px 0 12px}
+.stoff .link{font-size:14px;color:var(--m-ink);background:var(--m-soft);display:inline-block;padding:2px 10px;border-radius:999px}
+.stoff table{display:block;overflow-x:auto;border-collapse:collapse;margin:12px 0;font-size:15px;max-width:100%}
+.stoff th,.stoff td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left;min-width:90px}
+.stoff th{background:var(--m-soft)}
+.lnav{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:sticky;bottom:0;padding:10px 0 calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(transparent,var(--bg) 30%)}
 @media (prefers-reduced-motion: reduce){ .prog i{transition:none} }
 </style>
 </head>
@@ -171,9 +204,21 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
 <div class="wrap" id="app"></div>
 
 <script src="cards.js"></script>
+<script src="stoff.js"></script>
 <script>
 (function(){
   const app = document.getElementById("app");
+  // Stoff-Kapitel: neue Karten aus stoff.js an die Stapel hängen (bestehende Nummern bleiben gleich)
+  const ST = (typeof STOFF !== "undefined") ? STOFF : {};
+  Object.keys(ST).forEach(id => {
+    let d = DECKS.find(x => x.id === id);
+    if (!d && ST[id].deck){ d = Object.assign({ cards:[] }, ST[id].deck, { id }); DECKS.push(d); }
+    if (!d) return;
+    ST[id].chapters.forEach(ch => {
+      ch.c = (ch.c || []).slice();
+      (ch.neu || []).forEach(card => { d.cards.push(card); ch.c.push(d.cards.length - 1); });
+    });
+  });
   const KEY = "bia1-karten-v1";
   let store = {};
   try { store = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e) { store = {}; }
@@ -267,7 +312,7 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     DECKS.forEach(d => { const c = counts(d); total += c.n; known += c.k; unsure += c.u; });
     const order = ["bio", "chem", "ana", "mathe", "prak", "wa"];
     let html = `<header class="head"><span class="eyebrow">BIA-1 · WiSe 26/27</span><h1>Karteikarten</h1>
-      <p>Antwort eintippen und prüfen lassen – oder den Tipp-Modus ausschalten und frei abfragen. Dein Stand bleibt auf diesem Gerät.</p></header>${installGuide()}
+      <p>Fach antippen → Kapitel wählen → erst den Stoff lesen, dann die Fragen dazu. Dein Stand bleibt auf diesem Gerät.</p></header>${installGuide()}
       <div class="summary"><span class="pill"><b>${total}</b> Karten</span><span class="pill"><b>${known}</b> gewusst</span><span class="pill"><b>${unsure}</b> unsicher</span></div>
       ${todayBlock()}
       <label class="switch"><span><b>Antworten eintippen</b><br><span style="color:var(--muted);font-size:14px">Ganzer Satz oder nur Fachwörter – die App prüft die Fachbegriffe</span></span><input type="checkbox" id="typing" ${typingOn() ? "checked" : ""}></label>
@@ -279,7 +324,9 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
       html += `<section class="group" style="${modVars(m)}"><div class="group-h"><h2>${esc(mod.name)}</h2><span class="exam">${esc(chip)}</span></div><div class="tiles">`;
       decks.forEach(d => {
         const c = counts(d);
-        html += `<button class="tile" data-deck="${d.id}">${d.exam ? `<span class="examtag">ALTKLAUSUR</span>` : ""}<h3>${esc(d.name)}</h3><div class="sub">${esc(d.sub)}</div>
+        const nch = ST[d.id] ? ST[d.id].chapters.length : 0;
+        const nread = nch ? ST[d.id].chapters.filter((_, i) => readOf(d.id, i)).length : 0;
+        html += `<button class="tile" data-deck="${d.id}">${d.exam ? `<span class="examtag">ALTKLAUSUR</span>` : ""}<h3>${esc(d.name)}</h3><div class="sub">${esc(d.sub)}${nch ? ` · ${nread}/${nch} Kapitel gelesen` : ""}</div>
           <div class="bar" aria-hidden="true"><i class="k" style="width:${c.k / c.n * 100}%"></i><i class="u" style="width:${c.u / c.n * 100}%"></i></div>
           <div class="meta"><span>${c.k} von ${c.n} gewusst</span><span>${c.u ? c.u + " unsicher" : ""}</span></div></button>`;
       });
@@ -289,7 +336,7 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     app.innerHTML = html;
     const later = document.getElementById("later");
     if (later) later.onclick = () => { guideHidden = true; try { localStorage.setItem("bia1-guide-later", "1"); } catch(e) {} home(); };
-    app.querySelectorAll(".tile").forEach(b => b.onclick = () => start(DECKS.find(d => d.id === b.dataset.deck)));
+    app.querySelectorAll(".tile").forEach(b => b.onclick = () => { const d = DECKS.find(x => x.id === b.dataset.deck); ST[d.id] ? deckView(d) : start(d); });
     const mix = document.getElementById("mix");
     mix.onclick = () => startMixed();
     document.getElementById("typing").onchange = e => { meta().typing = e.target.checked; save(); };
@@ -335,10 +382,52 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
   let S = null; // session
   function shuffle(a){ for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
-  function start(deck, onlyUnsure){
+  // ---- Kapitel: Stoff lesen, dann Fragen ----
+  function readOf(id, i){ const r = meta().read || {}; return !!r[id + ":" + i]; }
+  function setRead(id, i){ meta().read = meta().read || {}; meta().read[id + ":" + i] = true; save(); }
+  function chCounts(deck, ch){ let k = 0; ch.c.forEach(i => { if (statusOf(cid(deck, i)) === 2) k++; }); return { k, n: ch.c.length }; }
+  function deckView(deck){
+    S = null;
+    const chs = ST[deck.id].chapters, c = counts(deck);
+    const next = chs.findIndex((_, i) => !readOf(deck.id, i));
+    let html = `<div style="${modVars(deck.modul)}"><div class="top"><button class="back" id="back">← Fächer</button></div>
+      <header class="dhead"><span class="eyebrow">${esc(MODULES[deck.modul].name)}</span><h1>${esc(deck.name)}</h1><p>${esc(deck.sub)} · ${chs.length} Kapitel · ${c.k} von ${c.n} Karten gewusst</p></header>
+      <div class="dact"><button class="btn show" id="go" style="grid-column:auto">${next >= 0 ? "Weiterlernen: Kap. " + (next + 1) : "Alles gelesen – wiederholen"}</button><button class="btn skip" id="all">Alle ${c.n} Karten abfragen</button></div>
+      <div class="chs">`;
+    chs.forEach((ch, i) => {
+      const cc = chCounts(deck, ch), rd = readOf(deck.id, i);
+      html += `<div class="ch"><span class="num ${rd ? "read" : ""}" aria-label="${rd ? "gelesen" : "noch nicht gelesen"}">${rd ? "✓" : i + 1}</span><div><h3>${esc(ch.t)} ${ch.neu && ch.neu.length ? `<span class="newtag">NEU</span>` : ""}</h3>${ch.sub ? `<div class="sub">${esc(ch.sub)}</div>` : ""}
+        <div class="row"><button class="sbtn" data-read="${i}">Stoff lesen</button>${cc.n ? `<button class="sbtn alt" data-quiz="${i}">${cc.n} Fragen</button><span>${cc.k}/${cc.n} gewusst</span>` : ""}</div></div></div>`;
+    });
+    html += `</div></div>`;
+    app.innerHTML = html;
+    document.getElementById("back").onclick = home;
+    document.getElementById("go").onclick = () => lesson(deck, next >= 0 ? next : 0);
+    document.getElementById("all").onclick = () => start(deck);
+    app.querySelectorAll("[data-read]").forEach(b => b.onclick = () => lesson(deck, +b.dataset.read));
+    app.querySelectorAll("[data-quiz]").forEach(b => b.onclick = () => start(deck, false, +b.dataset.quiz));
+    window.scrollTo(0, 0);
+  }
+  function lesson(deck, i){
+    S = null;
+    const chs = ST[deck.id].chapters, ch = chs[i];
+    let html = `<div class="lesson" style="${modVars(deck.modul)}"><div class="top"><button class="back" id="back">← ${esc(deck.name)}</button>
+      <div class="ttl"><b>Kapitel ${i + 1} von ${chs.length}</b><span>erst lesen, dann Fragen</span></div></div>
+      <article class="stoff"><h2>${esc(ch.t)}</h2>${ch.sub ? `<p class="sub">${esc(ch.sub)}</p>` : ""}${ch.h}</article>
+      <div class="lnav">${ch.c.length ? `<button class="btn show" id="toq" style="grid-column:1 / -1">Gelesen – weiter zu ${ch.c.length} Fragen</button>` : `<button class="btn show" id="nx" style="grid-column:1 / -1">${i + 1 < chs.length ? "Gelesen – nächstes Kapitel" : "Gelesen – fertig"}</button>`}</div></div>`;
+    app.innerHTML = html;
+    document.getElementById("back").onclick = () => deckView(deck);
+    const toq = document.getElementById("toq"); if (toq) toq.onclick = () => { setRead(deck.id, i); start(deck, false, i); };
+    const nx = document.getElementById("nx"); if (nx) nx.onclick = () => { setRead(deck.id, i); i + 1 < chs.length ? lesson(deck, i + 1) : deckView(deck); };
+    window.scrollTo(0, 0);
+  }
+
+  function start(deck, onlyUnsure, chIdx){
+    const chap = (chIdx !== undefined && ST[deck.id]) ? ST[deck.id].chapters[chIdx] : null;
     let items = deck.cards.map((c, i) => ({ deck, i, q: c[0], a: c[1], card: c }));
+    if (chap){ const set = new Set(chap.c); items = items.filter(it => set.has(it.i)); }
     if (onlyUnsure) items = items.filter(it => statusOf(cid(deck, it.i)) !== 2);
-    S = { title: deck.name, modul: deck.modul, deck, queue: shuffle(items), done: 0, total: items.length, ok: 0, again: 0, flipped: false, missed: new Set() };
+    S = { title: chap ? "Kap. " + (chIdx + 1) + " · " + chap.t : deck.name, modul: deck.modul, deck, ch: chap ? chIdx : undefined, queue: chap ? items : shuffle(items), done: 0, total: items.length, ok: 0, again: 0, flipped: false, missed: new Set() };
     study();
   }
   function startMixed(){
@@ -352,16 +441,18 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     const it = S.queue[0];
     const m = it ? it.deck.modul : (S.modul || "bio");
     const pct = S.total ? (S.done / S.total * 100) : 100;
-    let html = `<div class="study" style="${modVars(m)}"><div class="top"><button class="back" id="back">← Fächer</button>
+    let html = `<div class="study" style="${modVars(m)}"><div class="top"><button class="back" id="back">← ${S.deck && ST[S.deck.id] ? esc(S.deck.name) : "Fächer"}</button>
       <div class="ttl"><b>${esc(S.title)}</b><span>${Math.min(S.done + 1, S.total)} / ${S.total}${S.queue.length > S.total - S.done ? " · " + (S.queue.length - (S.total - S.done)) + " zur Wiederholung" : ""}</span></div></div>
       <div class="prog" aria-hidden="true"><i style="width:${pct}%"></i></div>`;
     if (!it){
       html += `<div class="done"><h2>Runde geschafft</h2><div class="stats"><div class="g"><b>${S.ok}</b>gewusst</div><div class="n"><b>${S.missed.size}</b>nochmal</div></div>
-        <div class="row">${S.missed.size && S.deck ? `<button class="btn show" id="redo">Nur die unsicheren nochmal</button>` : ""}<button class="btn ok" id="home2">Zurück zu den Fächern</button></div></div></div>`;
+        <div class="row">${S.missed.size && S.deck ? `<button class="btn show" id="redo">Nur die unsicheren nochmal</button>` : ""}${S.ch !== undefined && S.ch + 1 < ST[S.deck.id].chapters.length ? `<button class="btn show" id="nextch">Nächstes Kapitel lesen</button>` : ""}<button class="btn ok" id="home2">${S.deck && ST[S.deck.id] ? "Zur Kapitelübersicht" : "Zurück zu den Fächern"}</button></div></div></div>`;
       app.innerHTML = html;
-      document.getElementById("back").onclick = home;
-      document.getElementById("home2").onclick = home;
-      const r = document.getElementById("redo"); if (r) r.onclick = () => start(S.deck, true);
+      const toDeck = () => (S.deck && ST[S.deck.id]) ? deckView(S.deck) : home();
+      document.getElementById("back").onclick = toDeck;
+      document.getElementById("home2").onclick = toDeck;
+      const r = document.getElementById("redo"); if (r) r.onclick = () => start(S.deck, true, S.ch);
+      const nc = document.getElementById("nextch"); if (nc) nc.onclick = () => lesson(S.deck, S.ch + 1);
       return;
     }
     const tag = S.deck ? MODULES[m].name : MODULES[m].name + " · " + it.deck.name;
@@ -386,7 +477,7 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
         : typing ? `<button class="btn skip" id="skip">Weiß ich nicht</button><button class="btn ok" id="chk">Prüfen</button>`
         : `<button class="btn show" id="show">Antwort zeigen</button>`}</div></div>`;
     app.innerHTML = html;
-    document.getElementById("back").onclick = home;
+    document.getElementById("back").onclick = () => (S.deck && ST[S.deck.id]) ? deckView(S.deck) : home();
     const flip = () => { if (!S.flipped){ S.flipped = true; study(); } };
     if (!S.flipped && typing){
       const ta = document.getElementById("ta");
