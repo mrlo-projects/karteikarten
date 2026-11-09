@@ -1268,6 +1268,156 @@ const STOFF = {
 ]
 ]
 ]
+},
+{
+"t": "Immunologische Analytik",
+"sub": "Proteinstruktur · Antikörper · ELISA · SDS-PAGE · Western Blot · FACS (Züchner 07)",
+"h": "<div class='box'><b>Neu seit dem Lernzettel</b><br>Aus „Grundlagen Analytik_Zuechner_07.pdf“ (Immunologische Analysenmethoden). Steht auch im Lernzettel als Kap. 9.</div><h3>9.1 Proteinstruktur</h3><table><tr><th>Ebene</th><th>Was ist das?</th><th>Stabilisiert durch</th></tr><tr><td><b>Primär</b></td><td>Aminosäurefolge über <b>Peptidbindungen</b> (planar)</td><td>kovalent</td></tr><tr><td><b>Sekundär</b></td><td><b>α-Helix</b>, <b>β-Faltblatt</b> (parallel/antiparallel)</td><td><b>Wasserstoffbrücken</b></td></tr><tr><td><b>Tertiär</b></td><td>weitere Faltung; <b>hydrophil außen, hydrophob innen</b></td><td>hydrophobe/hydrophile WW, Disulfidbrücken</td></tr><tr><td><b>Quartär</b></td><td>mehrere Proteinmoleküle bilden einen Komplex (z. B. Kaliumkanal); <b>nicht jedes Protein</b></td><td>nicht-kovalent, v. a. <b>hydrophobe</b> WW</td></tr></table><ul><li><b>Cystein</b> (−SH): zwei Cysteine bilden durch Oxidation eine <b>Disulfidbrücke</b> (−S−S−) → „Disulfidbrücken geben Struktur!“</li><li><b>Ohne Struktur keine Funktion.</b></li><li><b>PTM</b> (posttranslationale Modifizierung) = kovalente Veränderung nach der Primärstruktur, meist enzymatisch: Phosphorylierung, Azetylierung, Glykosylierung, Amidierung.</li></ul><h3>9.2 Antikörper</h3><ul><li>Proteine des Immunsystems, erkennen <b>Antigene</b> hochspezifisch (Schlüssel-Schloss). Bioanalytisch meist <b>IgG</b>.</li><li>Y-Form: 2 <b>schwere</b> + 2 <b>leichte</b> Ketten, Disulfidbrücken; <b>variable Region</b> mit den Antigenbindungsstellen an den <b>Armspitzen</b>, konstante Region im Stamm. Antikörper sind <b>keine Klemmen</b>!</li><li><b>Monoklonal</b>: alle Moleküle identisch, binden dieselbe Stelle. <b>Polyklonal</b>: leicht verschieden, binden verschiedene Stellen desselben Antigens.</li></ul><h3>9.3 ELISA</h3><ul><li>Sandwich-Prinzip: <b>Fänger-Antikörper</b> an der Platte → <b>Blocken</b> → Probe, Analyt bindet → <b>Detektions-Antikörper mit Enzym</b> → <b>Substrat</b> wird zu farbigem Produkt. <b>Waschen zwischen jedem Schritt!</b></li><li><b>96-well-Platte</b> (ca. 8 × 12 cm, 250–300 µL pro Well); Kunststoff bindet fast jedes Protein unspezifisch.</li><li>Enzyme: <b>HRP</b> (Meerrettichperoxidase, 40 kDa, H₂O₂, pH ~7, wird bevorzugt: stabiler, aktiver, günstiger) und <b>AP</b> (alkalische Phosphatase, 140 kDa, spaltet Phosphat, pH 8–10).</li><li>Auswertung über <b>Standardkurve</b>; Beispiel: Substrat TMB, Stopp mit 2 M H₂SO₄, Messung bei 450 nm.</li><li>Signalverstärkung insgesamt ca. <b>10⁷–10⁹</b> (Enzym setzt 10⁴–10⁶ Substratmoleküle pro s um).</li><li>Detektionslimit bis <b>20 pg/mL</b> (≈ 0,2–2 pmol/L); Quantifizierung über <b>1–3 (4) Größenordnungen</b>; SD <b>5–15 %</b>; automatisierbar.</li></ul><h3>9.4 Elektrophorese</h3><ul><li>Geladene Teilchen wandern im elektrischen Feld durch ein Gel; <b>kleine wandern schneller</b>. Lauffront mit Farbstoff markieren, Proteine danach anfärben.</li><li>Gleichgewicht: q · E = k<sub>R</sub> · v → Mobilität <b>u = v/E = q/k<sub>R</sub></b>, Kugel: k<sub>R</sub> = 6πηr. Gleiche Ladung → kleinere schneller; gleiche Größe → stärker geladene schneller.</li><li>Strom erzeugt <b>Wärme</b> (abführen); Puffer erschöpft sich (erneuern).</li></ul><h3>9.5 SDS-PAGE</h3><ul><li><b>Polyacrylamidgel</b>: Acrylamid + Vernetzer (Methylenbisacrylamid); Monomer <b>toxisch</b>; Porengröße über Konzentration und Vernetzung → Trennbereich.</li><li><b>SDS</b> bindet an alle Proteine (<b>1,4 g SDS / 1 g Protein</b>) → konstantes Ladung/Masse-Verhältnis und Entfaltung → Trennung <b>nur nach Größe</b>.</li><li><b>Mercaptoethanol</b> (oder DTT) + <b>95 °C</b> reduziert Disulfidbrücken → lineare Proteine.</li><li>Ablauf: Vorbehandlung → <b>Sammelgel</b> → <b>Trenngel</b> mit <b>Größenstandard</b> → Färbung → Größe und Bandenintensität auswerten.</li><li>Färbungen: <b>Silber</b> (0,1–1 ng, sehr empfindlich, kleiner linearer Bereich), <b>Coomassie</b> (0,1 µg, linear ca. Faktor 100, schnell, MS-kompatibel), <b>Fluoreszenz</b> (empfindlich, weiter Bereich).</li></ul><h3>9.6 Western Blot</h3><ul><li>Gezielt <b>ein</b> Protein sichtbar machen: Proteine aus dem Gel <b>elektrophoretisch auf eine Membran</b> übertragen (Antikörper kommen nicht ins Gel).</li><li>Ablauf: Transfer → <b>Blocken</b> → <b>1. Antikörper</b> → <b>2. Antikörper mit Enzym</b> (HRP/AP) → Substrat → Bild mit <b>CCD-Kamera</b>. Empfindlichst: <b>HRP + Chemilumineszenz</b> (bis fg pro Bande).</li><li>Problem: <b>kleiner linearer Bereich</b>, schnelle Signalsättigung.</li></ul><h3>9.7 FACS</h3><ul><li><b>Fluoreszenzmarkierte Antikörper</b> binden an Oberflächenproteine von Zellen → Zellen einzeln im Laserstrahl erkennen und <b>sortieren</b> (geladene Tröpfchen werden abgelenkt). Seit 1975.</li><li><b>Forward Scatter</b> (gebeugtes Licht) ~ <b>Zellvolumen</b>; <b>Side Scatter</b> (gebrochenes Licht) ~ <b>„Dichte“ des Zellinhalts</b>. Gegeneinander aufgetragen trennen sich die Zellpopulationen (Lymphozyten, Monozyten, Granulozyten).</li></ul>",
+"c": [],
+"neu": [
+[
+"Die vier Ebenen der Proteinstruktur und was sie stabilisiert?",
+"Primär: Aminosäurefolge (Peptidbindungen). Sekundär: α-Helix/β-Faltblatt (Wasserstoffbrücken). Tertiär: weitere Faltung, hydrophob innen/hydrophil außen, Disulfidbrücken. Quartär: Komplex aus mehreren Proteinen (v. a. hydrophobe WW), nicht bei jedem Protein.",
+[
+"Primär",
+"Sekundär|Helix",
+"Tertiär",
+"Quartär",
+"Wasserstoff"
+]
+],
+[
+"Was ist eine Disulfidbrücke und warum ist sie wichtig?",
+"Kovalente −S−S−-Bindung zwischen zwei Cysteinen (Oxidation der −SH-Gruppen); stabilisiert die Proteinstruktur – ohne Struktur keine Funktion.",
+[
+"Cystein",
+"Oxidation|oxidiert",
+"Struktur"
+]
+],
+[
+"Aufbau eines Antikörpers?",
+"Y-Form aus zwei schweren und zwei leichten Ketten, über Disulfidbrücken verbunden; variable Region mit den Antigenbindungsstellen an den Armspitzen, konstante Region im Stamm. Meist IgG.",
+[
+"schwere",
+"leichte",
+"variable",
+"konstante",
+"Disulfid"
+]
+],
+[
+"Monoklonale vs. polyklonale Antikörper?",
+"Monoklonal: alle Moleküle identisch, binden dieselbe Stelle (Epitop). Polyklonal: leicht verschieden, binden verschiedene Stellen desselben Antigens.",
+[
+"identisch",
+"dieselbe|gleiche",
+"verschieden|unterschiedlich"
+]
+],
+[
+"Ablauf eines Sandwich-ELISA?",
+"Fänger-Antikörper an Platte → Blocken → Probe (Analyt bindet) → Detektions-Antikörper mit Enzym → Substrat → Farbe messen; Waschen zwischen jedem Schritt; Auswertung über Standardkurve.",
+[
+"Fänger|Capture",
+"Block",
+"Detektion",
+"Enzym",
+"Substrat",
+"Wasch"
+]
+],
+[
+"HRP oder AP – welches Enzym wird im ELISA bevorzugt und warum?",
+"HRP (Meerrettichperoxidase, 40 kDa, H₂O₂, pH ~7): stabiler, aktiver, kostengünstiger. AP: alkalische Phosphatase, 140 kDa, spaltet Phosphat, pH 8–10.",
+[
+"HRP|Meerrettich",
+"stabil",
+"aktiv",
+"günstig|kostengünstig"
+]
+],
+[
+"Leistungsdaten des ELISA?",
+"Detektionslimit bis ca. 20 pg/mL (0,2–2 pmol/L), Quantifizierung über 1–3 (4) Größenordnungen, Standardabweichung 5–15 %, Signalverstärkung bis 10⁷–10⁹, automatisierbar.",
+[
+"20 pg|20pg",
+"Größenordnungen",
+"5|15"
+]
+],
+[
+"Wovon hängt die Mobilität in der Elektrophorese ab?",
+"u = v/E = q/k_R; für Kugeln k_R = 6πηr → größere Ladung = schneller, größerer Radius und höhere Viskosität = langsamer. Gleiche Ladung: kleinere Moleküle schneller.",
+[
+"Ladung",
+"Radius|Größe",
+"Viskosität|Reibung"
+]
+],
+[
+"Wozu SDS in der SDS-PAGE?",
+"SDS bindet an alle Proteine (1,4 g/g Protein) → konstantes Ladung/Masse-Verhältnis und Entfaltung → Trennung nur nach Größe, unabhängig von Eigenladung und Form.",
+[
+"1,4",
+"Ladung",
+"Masse",
+"Größe",
+"entfalt"
+]
+],
+[
+"Wozu Mercaptoethanol und 95 °C bei der Probenvorbereitung?",
+"Reduziert die Disulfidbrücken (auch DTT möglich) → zusammen mit SDS lineare Proteine, damit die Struktur das Laufverhalten nicht beeinflusst.",
+[
+"Disulfid",
+"reduz",
+"linear"
+]
+],
+[
+"Silber- vs. Coomassie-Färbung?",
+"Silber: sehr empfindlich (0,1–1 ng), aber sehr kleiner linearer Bereich, zeitaufwändig. Coomassie: 0,1 µg, linear ca. Faktor 100, schnell, MS-kompatibel.",
+[
+"Silber",
+"ng",
+"Coomassie",
+"µg|ug",
+"linear"
+]
+],
+[
+"Ablauf eines Western Blots und warum braucht man die Membran?",
+"SDS-PAGE → elektrophoretischer Transfer auf Membran (Antikörper kommen nicht ins Gel) → Blocken → 1. Antikörper → 2. enzymgekoppelter Antikörper → Substrat → CCD-Kamera.",
+[
+"Membran",
+"Transfer",
+"Block",
+"Antikörper",
+"Substrat"
+]
+],
+[
+"Größtes Problem beim Western Blot, empfindlichste Detektion?",
+"Kleiner linearer Bereich, schnelle Signalsättigung. Am empfindlichsten: HRP + Chemilumineszenz (in Ausnahmefällen fg Protein pro Bande).",
+[
+"linear",
+"Sättigung",
+"Chemilumineszenz"
+]
+],
+[
+"Prinzip von FACS und was zeigen Forward und Side Scatter?",
+"Fluoreszenzmarkierte Antikörper markieren Zellen über Oberflächenproteine; Zellen werden einzeln gemessen und sortiert. Forward Scatter ~ Zellvolumen, Side Scatter ~ Dichte/Granularität des Zellinhalts.",
+[
+"Fluoreszenz",
+"Oberfläche",
+"sortier",
+"Volumen|Größe",
+"Dichte|Granularität"
+]
+]
+]
 }
 ]
 },

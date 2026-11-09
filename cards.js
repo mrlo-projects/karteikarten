@@ -1,4 +1,4 @@
-const APP_VERSION = "2026-11-09 (7)";
+const APP_VERSION = "2026-11-09 (8)";
 const DECKS = [
 { id:"bio-berg", modul:"bio", name:"Bergemann", sub:"Vielfalt des Lebens · Gewebe & Haut", cards:[
 ["Was entstand beim Urknall – und wo entstehen schwerere Elemente wie C, N, O?","Beim Urknall nur Wasserstoff und Helium.\nSchwerere Elemente entstehen durch Kernfusion im Inneren von Sonnen („wir sind Sternenstaub“)."],
@@ -217,7 +217,7 @@ const DECKS = [
 ["Becquerel, Gray, Sievert?","Bq: Zerfälle/s · Gy: J/kg aufgenommen · Sv: biologisch gewichtet (natürlich ~1 mSv/Jahr)"],
 ["Aufbau der Herzog-Klausur?","60 min, 9 Aufgaben, 100 Punkte. Erlaubt: alles auf Papier aus Teil Herzog, nichts von Heindl, nur Taschenrechner."],
 ]},
-{ id:"ana", modul:"ana", name:"Analytik", sub:"Züchner · bis Elektrochemie & PCR", cards:[
+{ id:"ana", modul:"ana", name:"Analytik", sub:"Züchner · bis ELISA, Western Blot & FACS", cards:[
 ["Gehalts-, Verteilungs-, Prozess-, Strukturanalyse?","Gehalt: was und wie viel · Verteilung: zusätzlich wo (Raumkoordinaten) · Prozess: über die Zeit · Struktur: räumlicher Aufbau (UV, IR, MS, NMR)"],
 ["Qualitativ vs. quantitativ – Beispiele?","Qualitativ: ist es drin? (Schwangerschaftstest)\nQuantitativ: wie viel? (Blutzuckermessung)"],
 ["Schritte des Analyseverfahrens?","Untersuchungsobjekt → Probennahme → Probenvorbereitung → Messung → Auswertung → analytische Information"],
