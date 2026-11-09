@@ -1,4 +1,4 @@
-const APP_VERSION = "2026-11-09 (8)";
+const APP_VERSION = "2026-11-09 (9)";
 const DECKS = [
 { id:"bio-berg", modul:"bio", name:"Bergemann", sub:"Vielfalt des Lebens · Gewebe & Haut", cards:[
 ["Was entstand beim Urknall – und wo entstehen schwerere Elemente wie C, N, O?","Beim Urknall nur Wasserstoff und Helium.\nSchwerere Elemente entstehen durch Kernfusion im Inneren von Sonnen („wir sind Sternenstaub“)."],
@@ -406,6 +406,34 @@ const DECKS = [
 ["Hardy-Weinberg: 1 von 40.000 erkrankt (autosomal rezessiv). Anteil Träger?","q² = 1/40.000 → q = 0,005; p = 0,995.\n2pq = 2 · 0,995 · 0,005 ≈ 0,01 → ca. 1 % Träger.",["q²|q quadrat|q^2","0,005","2pq","1 %|1%|ein prozent"]],
 ["Pingelap: 20 Überlebende, heute 5 % farbenblind (q² = 0,05). Wie viele Träger damals?","q = √0,05 = 0,224; p = 0,776.\n2pq = 0,35 → 35 % von 20 ≈ 7 Träger. Beispiel für Flaschenhals/Gründereffekt.",["0,224","2pq","7","Flaschenhals","Gründereffekt"]],
 ["Cytochrom c: Wer ist dem Menschen am nächsten, wer am fernsten? Mensch–Schwein vs. Mensch–Känguru?","Rhesusaffe am nächsten (identisch), Frosch am fernsten.\nGemeinsamer Vorfahr Mensch–Känguru liegt weiter zurück (mehr Abweichungen; Beuteltiere vs. Plazentatiere).",["Rhesusaffe","Frosch","Känguru","Beuteltiere","Vorfahr"]],
+]},
+{ id:"bio-klausur", modul:"bio", name:"Bio/Physio-Altklausuren", sub:"Markewicz, Bergemann, Lohrer · Gedächtnisprotokolle", exam:true, cards:[
+["Physio (3×): Warum nutzen Leistungssportler EPO als Dopingmittel?", "EPO (aus der Niere) regt die Erythrozytenbildung im Knochenmark an → mehr Hämoglobin → höhere O₂-Transportkapazität → mehr Ausdauer.", ["Erythrozyt", "Hämoglobin", "Sauerstoff|O2|O₂"]],
+["Physio (3×): Zwei mögliche Ursachen der Bluterkrankheit?", "1) Gerinnungsfaktor fehlt/defekt (z. B. Faktor VIII) → kein stabiles Fibrinnetz (sekundäre Hämostase).\n2) Zu wenige/defekte Thrombozyten → kein Plättchenpfropf (primäre Hämostase).", ["Gerinnungsfaktor", "Fibrin", "Thrombozyt"]],
+["Physio (3×): Antiserum mit Anti-A und Anti-B, keine Verklumpung – Blutgruppe?", "Blutgruppe 0 (keine A-/B-Antigene auf den Erythrozyten).", ["0"]],
+["Physio: Welche Transfusion verklumpt nicht? a Serum A→B · b Vollblut A→AB · c Erys 0→A · d Serum B→0 · e Serum AB→B · f Erys AB→0", "c, d, e.\n0-Erys tragen keine Antigene; Empfänger 0 hat keine Antigene; AB-Serum hat keine Antikörper.", ["c", "d", "e"]],
+["Physio (2×): Osmotischer Druck im Plasma – Form der Blutzellen / Teilchenzahl / v. a. Elektrolyte?", "Alle drei richtig. Der kolloidosmotische Druck kommt dagegen von den Plasmaproteinen.", ["richtig", "Elektrolyt", "kolloidosmotisch"]],
+["Physio (2×): Was liegt in der grauen, was in der weißen Substanz?", "Grau: Zellkörper, Dendriten, Synapsen.\nWeiß: myelinisierte Axone (Bahnen).", ["Zellkörper|Soma", "myelin", "Axon"]],
+["Physio (3×): Erregende vs. hemmende Synapse?", "Erregend: Kationenkanäle (Na⁺) öffnen → Depolarisation (EPSP).\nHemmend: Cl⁻-Kanäle öffnen → Hyperpolarisation (IPSP).\nEntscheidend ist der Rezeptor der postsynaptischen Membran.", ["EPSP", "IPSP", "Depolarisation", "Hyperpolarisation", "Rezeptor"]],
+["Physio: Na⁺-Leitfähigkeit höher in Depolarisation oder Repolarisation?", "Depolarisation (spannungsabhängige Na⁺-Kanäle offen). Repolarisation = K⁺-Ausstrom.", ["Depolarisation"]],
+["Physio: Aktionspotential – Phasen und Ionenströme?", "Ruhe −70 mV → Schwelle ca. −50 mV → Depolarisation (Na⁺ ein) → Repolarisation (K⁺ aus) → Hyperpolarisation → Ruhe.", ["Na", "K", "Schwelle", "Repolarisation"]],
+["Physio: Folge einer durchtrennten Vorderwurzel?", "Vorderwurzel = motorisch → schlaffe Lähmung der versorgten Muskeln.", ["motorisch", "Lähmung"]],
+["Physio (4×): Viertakt – wann sind welche Klappen offen?", "Anspannung: alle zu · Austreibung: Taschenklappen offen · Entspannung: alle zu · Füllung: Segelklappen offen.", ["Taschenklappen", "Austreibung", "Segelklappen", "Füllung"]],
+["Physio: Bedeutung des Ventilebenenmechanismus?", "Austreibung: Ventilebene → Herzspitze, Vorhöfe gedehnt, saugen Blut aus den Venen.\nDiastole: Ventilebene gleitet zurück über das Blut → schnelle Kammerfüllung.", ["Vorhöfe", "Venen", "Füllung"]],
+["Physio (2×): Erregungsleitung in Reihenfolge?", "Sinusknoten → Vorhofmuskulatur → AV-Knoten → His-Bündel → Tawara-Schenkel → Purkinje-Fasern.", ["Sinusknoten", "AV", "His", "Tawara", "Purkinje"]],
+["Physio: Warum gibt es im Herzskelett eine Durchtrittsstelle für das His-Bündel?", "Das Herzskelett isoliert Vorhöfe und Kammern elektrisch; Erregung kommt nur über AV-Knoten/His-Bündel in die Kammern → geordnet und verzögert.", ["isoliert", "His", "AV"]],
+["Physio (2×): Belastung – HZV sinkt / Vorlast links steigt / Frequenz steigt / Schlagvolumen steigt?", "HZV sinkt: falsch. Die anderen drei: richtig.", ["falsch", "richtig"]],
+["Physio (2×): Was passiert ohne Frank-Starling in der Lunge (größere Vorlast links)?", "Linke Kammer wirft das Mehrvolumen nicht aus → Rückstau in den Lungenkreislauf → Lungenödem.", ["Rückstau|Stau", "Lungenödem|Ödem"]],
+["Bergemann (2×): Woraus besteht ein Nukleotid genau?", "Phosphat (1–3) + Pentose (Ribose/Desoxyribose) + Base (Purin A, G / Pyrimidin C, T, U).", ["Phosphat", "Pentose|Zucker", "Base"]],
+["Bergemann (2×): Vier-Stadien-Hypothese – welcher Punkt fehlt neben abiotischer Synthese, Selbstreplikation, Vesikeln?", "Verknüpfung der Monomere zu Polymeren (z. B. Proteine, Nukleinsäuren).", ["Polymer", "Monomer"]],
+["Bergemann (2×): Melanozyt – wo und wozu?", "Epidermis (Basalschicht); bildet Melanin, gibt es über Melanosomen an ca. 36 Keratinozyten ab → Bräunung, UV-Schutz.", ["Epidermis", "Melanin", "UV"]],
+["Bergemann: Fehlertext – „Epithelien besitzen eine eigene Blutversorgung“?", "Falsch: Epithelien haben keine eigenen Blutgefäße, Versorgung per Diffusion aus dem Bindegewebe.", ["keine", "Diffusion", "Bindegewebe"]],
+["Bergemann: „Die ECM des Bindegewebes bilden die Talgdrüsen“ – richtig?", "Falsch: die Fibroblasten bilden die ECM.", ["Fibroblast"]],
+["Bergemann: „Viren 0,1 nm, Bakterien 0,01 µm, menschliche Zellen 0,1 cm“ – korrigieren", "Viren ca. 0,1 µm, Bakterien ca. 1 µm, menschliche Zellen ca. 10 µm.", ["0,1 µm|100 nm", "1 µm", "10 µm"]],
+["Lohrer: Wie viele Membranen? Zellkern, Mitochondrium, Golgi, Lysosom, Ribosom, ER, Mikrotubuli, Vakuole", "Kern 2 · Mitochondrium 2 · Golgi 1 · Lysosom 1 · Ribosom 0 · ER 1 · Mikrotubuli 0 · Vakuole 1.", ["2", "1", "0"]],
+["Lohrer: Energiediagramm endergonische Reaktion mit/ohne Enzym?", "Produkte höher als Edukte (ΔG > 0); mit Enzym niedrigerer Buckel (Aktivierungsenergie), ΔG bleibt gleich.", ["höher", "Aktivierungsenergie", "ΔG|delta G"]],
+["Lohrer: Molekulare Homologie definieren + Kriterium", "Übereinstimmung von DNA-/Aminosäuresequenzen durch gemeinsame Abstammung; Kriterium: Grad der Sequenzübereinstimmung.", ["Sequenz", "Abstammung", "Übereinstimmung"]],
+["Lohrer: Acetabularia – Ergebnis und Schluss?", "Der neue Hut hat die Form der Art, von der der Zellkern stammt (erster Hut evtl. Mischform) → der Zellkern trägt die Erbinformation.", ["Zellkern|Kern", "Erbinformation"]]
 ]},
 { id:"kalorik", modul:"prak", name:"Kalorik", sub:"Versuchstag Di 10.11. · Eingangstest", cards:[
 ["Längenausdehnung: Formel und Bedeutung von α?","Δl = α · l₀ · ΔT\nα = Längenausdehnungskoeffizient in 1/K, Materialkonstante (Al ≈ 23·10⁻⁶ /K, Stahl ≈ 12·10⁻⁶ /K).",["α","l0|l₀","ΔT|delta T|Temperaturdifferenz","1/K"]],
