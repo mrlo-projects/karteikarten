@@ -1560,6 +1560,127 @@ const STOFF = {
 "c": [
 0,
 1
+],
+"mehr": [
+[
+"Wer war Robert Hooke – und welches Werk schrieb er?",
+"Robert Hooke (1635–1702): Begründer der Zellbiologie, baute das erste brauchbare Mikroskop (1650), Werk „Micrographia“.",
+[
+"Zellbiologie|Zelle",
+"Mikroskop",
+"Micrographia"
+],
+""
+],
+[
+"Wann lebte der letzte gemeinsame Vorfahre aller Lebewesen?",
+"Vor ca. 3,5 Mrd. Jahren.",
+[
+"3,5"
+],
+""
+],
+[
+"Die drei Organismenreiche (Domänen)?",
+"Bacteria, Archaea, Eukarya.",
+[
+"Bacteria|Bakterien",
+"Archaea",
+"Eukarya|Eukaryoten"
+],
+""
+],
+[
+"Wann wurden Mitochondrien bzw. Chloroplasten aufgenommen, wann breiteten sich Vielzeller aus?",
+"Mitochondrien vor ca. 2,5 Mrd. J., Chloroplasten vor ca. 1,5 Mrd. J., Vielzeller vor ca. 0,5 Mrd. J.",
+[
+"2,5",
+"1,5",
+"0,5"
+],
+""
+],
+[
+"Wer gehört zu den Prokarya, wer zu den Eukarya?",
+"Prokarya (ohne Kern): Archaea und Bakterien. Eukarya (mit Kern): Archaezoen, Protozoen, Pilze, Tiere, Pflanzen.",
+[
+"Archaea",
+"Bakterien",
+"Pilze|Tiere|Pflanzen|Protozoen"
+],
+""
+],
+[
+"Funktion von Cytoplasmamembran, Cytoplasma, Ribosomen, Erbsubstanz?",
+"Membran: Begrenzung, definiert Innen/Außen · Cytoplasma: Raum für biochemische Reaktionen · Ribosomen: Proteinbiosynthese · Erbsubstanz: Regulation des Stoffwechsels und Vererbung.",
+[
+"~Begrenzung|innen und außen",
+"~Raum für Reaktionen|Reaktionsraum",
+"Proteinbiosynthese|Proteine",
+"~Vererbung|Regulation"
+],
+""
+],
+[
+"Was ist eine Eucyte, was eine Protocyte?",
+"Eucyte = eukaryotische Zelle (mit Kern, z. B. Pflanzenzelle). Protocyte = prokaryotische Zelle (Bakterium).",
+[
+"~eukaryotische Zelle|mit Kern",
+"~prokaryotische Zelle|Bakterium"
+],
+"begriff"
+],
+[
+"Wie viel Prozent des Körpergewichts machen O, C, H und N aus?",
+"O 65 %, C 18,5 %, H 9,5 %, N 3,3 % – zusammen ca. 96 %.",
+[
+"65",
+"18,5",
+"9,5",
+"3,3"
+],
+""
+],
+[
+"Was sind Spurenelemente – nenne fünf.",
+"Elemente mit < 0,01 % Körpergewicht, z. B. Fe, I, Zn, Cu, Se (auch B, Cr, Co, F, Mn, Mo, Si, Sn, V).",
+[
+"0,01",
+"Fe|Eisen|Iod|Zink|Kupfer|Selen"
+],
+"begriff"
+],
+[
+"Was sind emergente Eigenschaften?",
+"Eine Verbindung hat neue Eigenschaften, die ihre Elemente nicht haben – z. B. Na (Metall) + Cl₂ (giftiges Gas) → Kochsalz.",
+[
+"~neue Eigenschaften|andere Eigenschaften",
+"Kochsalz|NaCl"
+],
+"begriff"
+],
+[
+"Bakterienzelle: Gewichtsanteil Wasser und Makromoleküle – und was sagt das?",
+"Wasser 70 % (nur 1 Molekültyp), Makromoleküle 26 % (~3000 Typen) → die Makromoleküle tragen die Organisation des Lebens.",
+[
+"70",
+"26",
+"3000"
+],
+""
+],
+[
+"Klausurtyp: Nenne die vier absolut essentiellen Strukturen jeder Zelle und begründe, warum eine Zelle ohne Erbsubstanz stirbt.",
+"Membran, Cytoplasma, Ribosomen, Erbsubstanz. Ohne DNA werden Proteine und mRNAs abgebaut, aber nicht ersetzt → Zelle stirbt nach einiger Zeit.",
+[
+"Membran",
+"Cytoplasma",
+"Ribosomen",
+"Erbsubstanz|DNA",
+"~nicht ersetzt|abgebaut"
+],
+"klausur"
+]
 ]
 },
 {
@@ -1570,6 +1691,151 @@ const STOFF = {
 2,
 3,
 4
+],
+"mehr": [
+[
+"Warum ist das Wassermolekül gewinkelt?",
+"Die zwei freien Elektronenpaare des O und die zwei H bilden einen Tetraeder mit O im Zentrum.",
+[
+"Tetraeder",
+"~freie Elektronenpaare|Elektronenpaare"
+],
+""
+],
+[
+"Was ist die Knallgasreaktion?",
+"2 H₂ + O₂ → 2 H₂O – stark exotherm.",
+[
+"2 H2 + O2|H2 und O2",
+"exotherm"
+],
+"begriff"
+],
+[
+"Was ist eine Wasserstoffbrücke – wie stark und wie lange?",
+"Kurzzeitige Bindung zwischen freiem Elektronenpaar des O und einem H eines Nachbarmoleküls. Ca. 1/20 einer Atombindung, besteht nur ca. 10⁻¹² s; bis zu 4 pro Wassermolekül.",
+[
+"~freies Elektronenpaar und H|zwischen Molekülen",
+"1/20|schwach",
+"4|vier"
+],
+"begriff"
+],
+[
+"Was sind Van-der-Waals-Wechselwirkungen?",
+"Sehr schwache Anziehung: kurzzeitig ungleiche Elektronenverteilung induziert Teilladungen im Nachbarmolekül; nur bei unmittelbarer Nähe.",
+[
+"~ungleiche Elektronenverteilung|Teilladung",
+"schwach"
+],
+"begriff"
+],
+[
+"Kohäsion vs. Adhäsion?",
+"Kohäsion: Zusammenhalt gleicher Moleküle (Wasser über H-Brücken; Oberflächenspannung trägt den Wasserläufer). Adhäsion: Haften an anderen Stoffen (z. B. Kapillarwand).",
+[
+"~Zusammenhalt|gleiche Moleküle",
+"~an anderen Stoffen|Wand|Haften"
+],
+"begriff"
+],
+[
+"Was ist das Hydronium-Ion?",
+"H₃O⁺ – H⁺ lagert sich sofort an H₂O an; entspricht eher der Realität als freies H⁺.",
+[
+"H3O"
+],
+"begriff"
+],
+[
+"Warum leitet Wasser mit Ionen Strom?",
+"Ionen sind Ladungsträger; über die Leitfähigkeit kann man die Teilchenkonzentration bestimmen.",
+[
+"Ionen|Ladung"
+],
+""
+],
+[
+"Rechne: [H⁺] = 10⁻¹⁰ mol/l – welcher pH, sauer oder basisch?",
+"pH = −log 10⁻¹⁰ = 10 → basisch.",
+[
+"10",
+"basisch|alkalisch"
+],
+""
+],
+[
+"pH im Cytoplasma und im Lysosom – wie viel mehr H⁺ im Lysosom?",
+"Cytoplasma pH 7,2; Lysosom bis pH 4 → ca. 1000-fach höhere H⁺-Konzentration.",
+[
+"7,2",
+"4",
+"1000"
+],
+""
+],
+[
+"Was ist ein Puffer – und welche zwei Puffersysteme hat das Blut?",
+"Puffer minimiert pH-Schwankungen (nimmt H₃O⁺ auf oder gibt es ab). Blut: Kohlensäure/Bicarbonat (H₂CO₃ ⇌ HCO₃⁻ + H⁺) und Phosphat (H₂PO₄⁻ ⇌ HPO₄²⁻ + H⁺).",
+[
+"~pH konstant|Schwankungen",
+"Bicarbonat|Kohlensäure|HCO3",
+"Phosphat"
+],
+"begriff"
+],
+[
+"Welcher Blut-pH ist nur wenige Minuten überlebbar?",
+"7,0 oder 7,8.",
+[
+"7,0",
+"7,8"
+],
+""
+],
+[
+"Was ist ein Ampholyt – Beispiel?",
+"Stoff, der als Säure und als Base reagieren kann, z. B. Aminosäure als Zwitterion (–NH₃⁺ gibt H⁺ ab, –COO⁻ nimmt H⁺ auf), oder Wasser.",
+[
+"~Säure und Base",
+"Aminosäure|Wasser"
+],
+"begriff"
+],
+[
+"Was ist eine Hydrathülle?",
+"Hülle aus Wasser-Dipolen um ein gelöstes Ion/hydrophiles Teilchen (z. B. beim Lösen von NaCl).",
+[
+"~Wassermoleküle um|Wasser umhüllt|Dipole"
+],
+"begriff"
+],
+[
+"Was ist der hydrophobe Effekt?",
+"Unpolare Moleküle können keine Wechselwirkung mit Wasser eingehen und werden zusammengedrängt (Aggregation) – z. B. Inneres globulärer Proteine, Membranen.",
+[
+"~lagern sich zusammen|Aggregation|zusammengedrängt",
+"unpolar|hydrophob"
+],
+"begriff"
+],
+[
+"Wie viel Prozent unseres Körpergewichts ist Wasser?",
+"Ca. 60 %.",
+[
+"60"
+],
+""
+],
+[
+"Klausurtyp: Gibt es in einer starken Säure noch OH⁻-Ionen? Begründe.",
+"Ja – das Ionenprodukt [H⁺]·[OH⁻] = 10⁻¹⁴ bleibt immer gleich; steigt [H⁺], sinkt [OH⁻], wird aber nie null.",
+[
+"ja",
+"10^-14|10-14|Ionenprodukt"
+],
+"klausur"
+]
 ]
 },
 {
@@ -1584,6 +1850,150 @@ const STOFF = {
 9,
 10,
 11
+],
+"mehr": [
+[
+"Was ist Brown’sche Molekularbewegung (random walk)?",
+"Zufällige Wärmebewegung der Teilchen im Raum; der tatsächlich zurückgelegte Weg ist viel länger als die gemessene Entfernung.",
+[
+"zufällig",
+"Wärme|Bewegung"
+],
+"begriff"
+],
+[
+"Wovon hängt die Teilchenbewegung ab – und wann stehen Teilchen still?",
+"Von Teilchengröße und Temperatur; nur bei 0 K stehen sie still.",
+[
+"Größe|Teilchengröße",
+"Temperatur",
+"0 K|absoluter Nullpunkt"
+],
+""
+],
+[
+"Wie kommt trotz Zufallsbewegung ein Netto-Transport zustande?",
+"In jeder Ebene gleiche Wahrscheinlichkeit nach oben/unten – wo mehr Teilchen sind, wandern mehr weg, aus dem verdünnten Bereich kommen weniger zurück → netto von hoch nach niedrig.",
+[
+"~mehr Teilchen wandern weg|wo viele sind",
+"~von hoher zu niedriger Konzentration|hoch nach niedrig"
+],
+""
+],
+[
+"Wovon hängt der Diffusionskoeffizient D ab – und welche Einheit hat er?",
+"Stoffspezifisch: vom Molekulargewicht und der absoluten Temperatur. Einheit m²/s.",
+[
+"Molekulargewicht|Masse|Größe",
+"Temperatur",
+"m2/s|m²/s"
+],
+""
+],
+[
+"Wofür steht das Minuszeichen im 1. Fick’schen Gesetz?",
+"Teilchen verlassen die konzentriertere Schicht (Fluss entgegen dem Gradienten nach unten).",
+[
+"~verlassen die konzentrierte|von hoch nach niedrig"
+],
+""
+],
+[
+"Warum rührt man den Zucker im Kaffee um?",
+"Diffusion in Flüssigkeiten ist sehr langsam (in Gasen ca. 10⁴-mal schneller) – Umrühren transportiert schneller.",
+[
+"langsam",
+"10^4|10000"
+],
+""
+],
+[
+"Wie lange braucht ein Protein für 1 m im Axon durch Diffusion – und was folgt daraus?",
+"Ca. 200 Jahre (im Bakterium quer nur ≈ 1 ms). → Für große Entfernungen braucht es Transportsysteme.",
+[
+"200",
+"Transport"
+],
+""
+],
+[
+"Was ist eine selektiv-permeable Membran?",
+"Membran, die nur bestimmte Teilchen (z. B. das Lösungsmittel Wasser) durchlässt, den gelösten Stoff nicht.",
+[
+"~nur bestimmte|nur Wasser|halbdurchlässig|semipermeabel"
+],
+"begriff"
+],
+[
+"Was ist ein dynamisches Gleichgewicht?",
+"Hin- und Rückprozess laufen gleich schnell (z. B. Wasser-Ein- und Ausstrom im Osmometer) – es passiert weiter etwas, aber ohne Netto-Änderung.",
+[
+"~gleich schnell|gleich viel",
+"~ohne Netto|keine Netto-Änderung"
+],
+"begriff"
+],
+[
+"Rechne: Π von 0,533 mol/l Saccharose bei 20 °C (R = 0,082 atm·l/(mol·K))?",
+"Π = c·R·T = 0,533 · 0,082 · 293 ≈ 12,8 atm.",
+[
+"12,8"
+],
+""
+],
+[
+"Wofür kann man den gemessenen osmotischen Druck nutzen?",
+"Zur Bestimmung des Molekulargewichts: MG = (R·T/Π)·(m/V).",
+[
+"Molekulargewicht|Molmasse"
+],
+""
+],
+[
+"Wie heißt die Form eines geschrumpften Erythrozyten – und was ist Hämolyse?",
+"Stechapfelform (in hypertoner Lösung). Hämolyse = Platzen der Erythrozyten (in hypotoner Lösung).",
+[
+"Stechapfel",
+"~Platzen|platzen"
+],
+"begriff"
+],
+[
+"Warum bekommen Patienten isotone Kochsalzlösung (0,9 %)?",
+"Kein Netto-Wasserstrom → Blutzellen behalten ihre Form, platzen nicht und schrumpfen nicht.",
+[
+"isoton",
+"~kein Netto|behalten Form|platzen nicht"
+],
+""
+],
+[
+"Klausurtyp (R/F): „Diffusion führt zu einem Konzentrationsausgleich.“",
+"Richtig – Osmose dagegen nicht (dort stellt sich ein Druckgleichgewicht ein).",
+[
+"richtig",
+"Osmose"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"bio-alt",
+0
+],
+[
+"bio-alt",
+1
+],
+[
+"bio-alt",
+2
+],
+[
+"bio-alt",
+3
+]
 ]
 },
 {
@@ -1596,6 +2006,253 @@ const STOFF = {
 14,
 15,
 16
+],
+"mehr": [
+[
+"Wie macht man Kompartimente im Elektronenmikroskop sichtbar?",
+"Gefrierätztechnik: Die Zelle bricht entlang lipophiler Grenzflächen (Membranen) → membranumschlossene Räume werden sichtbar.",
+[
+"Gefrierätz",
+"~lipophile Grenzflächen|Membranen"
+],
+""
+],
+[
+"Was ist der perinukleäre Raum?",
+"Raum zwischen den beiden Membranen der Kernhülle.",
+[
+"~zwischen den Membranen|zwischen Kernmembranen"
+],
+"begriff"
+],
+[
+"Was ist Chromatin, was der Nucleolus?",
+"Chromatin: DNA + Proteine im Kern. Nucleolus (Kernkörperchen): Zusammenbau der Ribosomen-Untereinheiten.",
+[
+"~DNA und Protein|DNA + Protein",
+"Ribosomen"
+],
+"begriff"
+],
+[
+"Was passiert im Zellkern – und wie kommen Proteine hinein/heraus?",
+"Transkription und mRNA-Reifung; Sicherung der Erbinformation. Import/Export signalvermittelt über die Kernporen.",
+[
+"Transkription",
+"Kernporen"
+],
+""
+],
+[
+"Was ist die Leader-Sequenz?",
+"Signalsequenz am Anfang sekretorischer Proteine; leitet sie ins ER und wird dort abgetrennt.",
+[
+"~Signal|leitet ins ER",
+"abgetrennt|abgespalten"
+],
+"begriff"
+],
+[
+"Aufgaben des glatten ER – mit Beispiel?",
+"Membranproduktion, Entgiftung (Leber), Steroidhormone – z. B. Testosteron-bildende Zellen des Hodens.",
+[
+"Membran",
+"Entgiftung",
+"Steroid|Hormone"
+],
+""
+],
+[
+"Beispielzellen mit viel rauem ER?",
+"Pankreaszellen (bilden Verdauungsenzyme zum Ausschleusen).",
+[
+"Pankreas"
+],
+""
+],
+[
+"cis- und trans-Seite des Golgi-Apparats?",
+"cis: zum ER hin (Eingang). trans: Versandseite (Ausgang, Vesikel schnüren ab).",
+[
+"~zum ER|Eingang",
+"~Versand|Ausgang"
+],
+""
+],
+[
+"Was ist Endocytose, was Exocytose, was Phagozytose?",
+"Endocytose: Aufnahme von Stoffen durch Einstülpung der Membran. Exocytose: Ausschleusen über Vesikel. Phagozytose: Aufnahme großer Partikel („Zellfressen“, z. B. Makrophagen).",
+[
+"~Aufnahme|aufnehmen",
+"~Ausschleusen|abgeben|raus",
+"~fressen|große Partikel"
+],
+"begriff"
+],
+[
+"Was ist Autophagie?",
+"Lysosomen verdauen zelleigene, nicht mehr benötigte Bestandteile.",
+[
+"~zelleigene|eigene Bestandteile"
+],
+"begriff"
+],
+[
+"Was ist der Tonoplast – und wozu dient die Vakuole?",
+"Membran der Vakuole. Vakuole: Speicher (Ionen, Pigmente, Gifte), „Müllplatz“, Stabilität der Pflanze über den Turgor.",
+[
+"~Membran der Vakuole|Vakuolenmembran",
+"Speicher|Turgor"
+],
+"begriff"
+],
+[
+"Was ist Turgor?",
+"Innendruck der Pflanzenzelle durch die wassergefüllte Vakuole gegen die Zellwand → Stabilität.",
+[
+"Innendruck|Druck",
+"Vakuole|Wasser"
+],
+"begriff"
+],
+[
+"Woraus bestehen Mikrotubuli, Actinfasern, intermediäre Fasern?",
+"Mikrotubuli: Tubulin-Dimere · Actinfasern: Actin · intermediäre Fasern: verschiedene Protein-Einheiten.",
+[
+"Tubulin",
+"Actin"
+],
+""
+],
+[
+"Welches Zellskelett-Element bildet die Spindel bei der Zellteilung?",
+"Mikrotubuli.",
+[
+"Mikrotubuli"
+],
+""
+],
+[
+"Wie ist Präproinsulin aufgebaut?",
+"Leader – B-Kette – C-Peptid – A-Kette.",
+[
+"Leader",
+"B-Kette",
+"C-Peptid",
+"A-Kette"
+],
+""
+],
+[
+"Wo wird das C-Peptid entfernt, wo der Leader?",
+"Leader im ER (→ Proinsulin); C-Peptid im Golgi (→ aktives Insulin).",
+[
+"~Leader im ER|ER",
+"~C-Peptid im Golgi|Golgi"
+],
+""
+],
+[
+"Klausurtyp (R/F): „Im Zellkern werden Proteine gebildet.“",
+"Falsch – Translation an Ribosomen im Cytoplasma; im Kern läuft die Transkription.",
+[
+"falsch",
+"Ribosomen|Cytoplasma"
+],
+"klausur"
+],
+[
+"Klausurtyp (R/F): „Die Kernporen öffnen sich in das ER.“",
+"Falsch – ins Cytoplasma; die äußere Kernmembran geht ins ER über.",
+[
+"falsch",
+"Cytoplasma"
+],
+"klausur"
+],
+[
+"Klausurtyp (R/F): „Der Golgi-Apparat hat cis- und contra-Polarität.“",
+"Falsch – cis und trans.",
+[
+"falsch",
+"trans"
+],
+"klausur"
+],
+[
+"Klausurtyp (R/F): „Lysosomen geben Verdauungsenzyme ins Cytoplasma ab.“",
+"Falsch – die Enzyme bleiben in der Verdauungsvakuole.",
+[
+"falsch",
+"~bleiben in der Vakuole|Verdauungsvakuole"
+],
+"klausur"
+],
+[
+"Bild: Benenne die nummerierten Strukturen 1–6 am Zellkern.",
+"1 Doppelmembran (Kernhülle), 2 perinukleärer Raum, 3 ER, 4 Ribosomen, 5 Kernporen, 6 Nucleolus.",
+[
+"Doppelmembran|Kernhülle",
+"perinukleär",
+"ER",
+"Ribosomen",
+"Kernporen",
+"Nucleolus"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-loh/ad53ae7985f4.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild: Beschreibe den Weg des Insulins in den Schritten 1–7.",
+"1 Transkription/Translation → Präproinsulin · 2 ins ER, Leader ab → Proinsulin · 3 Faltung, Disulfidbrücken · 4 ER-Vesikel zum Golgi · 5 Golgi: C-Peptid ab → Insulin · 6 Golgi-Vesikel · 7 Exocytose ins Blut.",
+[
+"Präproinsulin",
+"ER",
+"Golgi",
+"C-Peptid",
+"Exocytose"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-loh/2809f1e08af9.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-alt",
+4
+],
+[
+"bio-alt",
+5
+],
+[
+"bio-alt",
+6
+],
+[
+"bio-alt",
+7
+],
+[
+"bio-alt",
+8
+],
+[
+"bio-alt",
+9
+],
+[
+"bio-alt",
+10
+],
+[
+"bio-klausur",
+22
+],
+[
+"bio-klausur",
+25
+]
 ]
 },
 {
@@ -1609,6 +2266,201 @@ const STOFF = {
 20,
 21,
 22
+],
+"mehr": [
+[
+"Wie viele Hüllmembranen haben Zellkern, ER, Lysosom, Ribosom, Mitochondrium?",
+"Kern 2 · ER 1 · Lysosom 1 · Ribosom 0 · Mitochondrium 2 (Chloroplast 2, Golgi 1, Vakuole 1).",
+[
+"2",
+"1",
+"0"
+],
+""
+],
+[
+"Was sind Cristae, Matrix und Intermembranraum?",
+"Cristae: Einstülpungen der inneren Mitochondrienmembran. Matrix: innerer Reaktionsraum mit Enzymen. Intermembranraum: zwischen äußerer und innerer Membran.",
+[
+"Einstülpung",
+"~innerer Raum|innen",
+"~zwischen den Membranen"
+],
+"begriff"
+],
+[
+"Von welchen Bakterien stammen Mitochondrien bzw. Chloroplasten ab?",
+"Mitochondrien: Purpurbakterien. Chloroplasten: Cyanobakterien.",
+[
+"Purpurbakterien",
+"Cyanobakterien"
+],
+""
+],
+[
+"Was bedeutet semiautonom?",
+"Organell hat eigene DNA und Ribosomen, ist aber auf Gene im Zellkern angewiesen (viele Gene wurden in den Wirtskern verlagert).",
+[
+"~eigene DNA|eigene",
+"~auf den Kern angewiesen|Gene im Kern"
+],
+"begriff"
+],
+[
+"mtDNA: Größe, Genzahl, Besonderheiten?",
+"Zirkulär, 16.569 bp, 37 Gene, keine Introns, hohe Mutationsrate.",
+[
+"zirkulär|ringförmig",
+"16",
+"37",
+"Introns"
+],
+""
+],
+[
+"Welche Organe treffen mitochondriale Erbkrankheiten – drei Beispiele?",
+"Organe mit hohem ATP-Verbrauch. KSS (Kearns-Sayre: Retina, Taubheit), LHON (Sehnerv), MMC (Muskel-/Herzmuskelschwäche).",
+[
+"ATP|Energie",
+"KSS|LHON|MMC"
+],
+""
+],
+[
+"Charlie Gard: Warum ist nicht jedes „Mitochondrien-Leiden“ maternal vererbt?",
+"Das defekte Gen (FBXL4) liegt im Zellkern und wird nach Mendel vererbt; nur das Protein wirkt im Mitochondrium.",
+[
+"Zellkern|Kern",
+"Mendel"
+],
+"klausur"
+],
+[
+"Wo laufen Glykolyse und Zitronensäurezyklus ab?",
+"Glykolyse im Cytoplasma, Zitronensäurezyklus in der Mitochondrienmatrix.",
+[
+"Cytoplasma",
+"Matrix"
+],
+""
+],
+[
+"Was ist die Endoxidation?",
+"Am Ende der Atmungskette: 2 e⁻ + ½ O₂ + 2 H⁺ → H₂O („gezähmte Knallgasreaktion“, an Komplex IV).",
+[
+"H2O|Wasser",
+"O2|Sauerstoff",
+"Knallgas|Komplex IV"
+],
+"begriff"
+],
+[
+"Wozu dient der Protonengradient – und wie viele H⁺ braucht ein ATP?",
+"Die Energie der Elektronen pumpt H⁺ in den Intermembranraum; beim Rückstrom treibt der Gradient die ATP-Synthase an. Ca. 4 H⁺ pro ATP.",
+[
+"Intermembranraum",
+"ATP-Synthase",
+"4"
+],
+""
+],
+[
+"Wie viel ATP liefert 1 mol Glucose – und wie schnell arbeitet die ATP-Synthase?",
+"Ca. 35 mol ATP; ca. 100 ATP pro Sekunde pro Synthase.",
+[
+"35",
+"100"
+],
+""
+],
+[
+"Was ist das Stroma, was sind Thylakoide?",
+"Stroma: innerer Raum des Chloroplasten (Dunkelreaktion). Thylakoide: Membranstapel, Ort der Lichtreaktion.",
+[
+"~innerer Raum|Dunkelreaktion",
+"~Membranstapel|Lichtreaktion"
+],
+"begriff"
+],
+[
+"Lichtreaktion: Was liefern PS II und PS I?",
+"PS II: Elektronen angeregt → Elektronentransportkette → ATP. PS I: erneute Anregung → zweite ETK → NADPH.",
+[
+"ATP",
+"NADPH"
+],
+""
+],
+[
+"Wie effizient ist die Energieübertragung in den Lichtsammelkomplexen?",
+"Fast 100 % (Photovoltaik nur 5–15 %).",
+[
+"100"
+],
+""
+],
+[
+"Welchen Ribosomentyp haben Bakterien, welchen Eukaryoten?",
+"Bakterien und Archaea 70S; Eukaryoten 80S (Organellen 70S!).",
+[
+"70S",
+"80S"
+],
+""
+],
+[
+"Wer kann N₂ fixieren: Bacteria, Archaea, Eukarya?",
+"Bacteria und Archaea – Eukarya nicht.",
+[
+"Bacteria|Bakterien",
+"Archaea"
+],
+""
+],
+[
+"Klausurtyp (R/F): „Photosynthetisch aktive Bakterien besitzen Chloroplasten.“",
+"Falsch – Bakterien haben keine Organellen.",
+[
+"falsch",
+"~keine Organellen"
+],
+"klausur"
+],
+[
+"Klausurtyp (R/F): „In den Mitochondrien wird Glucose verbrannt.“",
+"Falsch – Glykolyse im Cytoplasma; Mitochondrien oxidieren schrittweise und sind Energiewandler.",
+[
+"falsch",
+"Cytoplasma|Glykolyse"
+],
+"klausur"
+],
+[
+"Bild: Beschrifte die Teile des Mitochondriums.",
+"Äußere Membran, innere Membran mit Cristae, Matrix, Intermembranraum.",
+[
+"äußere Membran",
+"innere Membran",
+"Cristae",
+"Matrix"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-loh/2ae77b924fba.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-alt",
+11
+],
+[
+"bio-alt",
+12
+],
+[
+"bio-alt",
+13
+]
 ]
 },
 {
@@ -1624,6 +2476,238 @@ const STOFF = {
 28,
 29,
 30
+],
+"mehr": [
+[
+"Was ist Metabolismus?",
+"Gesamtheit aller chemischen Reaktionen eines Organismus (nicht nur der Mitochondrien).",
+[
+"~alle chemischen Reaktionen|Gesamtheit"
+],
+"begriff"
+],
+[
+"Was sind gekoppelte Prozesse?",
+"Anabole (energieverbrauchende) Reaktionen laufen nur, wenn sie an katabole (energieliefernde) gekoppelt sind.",
+[
+"anabol",
+"katabol"
+],
+"begriff"
+],
+[
+"Was ist Enthalpie, was Entropie, was Gibbs-Energie?",
+"ΔH: Reaktionswärme · ΔS: Unordnung (nicht nutzbarer Anteil) · ΔG: der Teil der Energie, der Arbeit leisten kann.",
+[
+"Wärme",
+"Unordnung",
+"Arbeit"
+],
+"begriff"
+],
+[
+"Warum ist G immer kleiner als H?",
+"Wärme lässt sich nie vollständig in Arbeit umwandeln – ein Teil geht als Entropie (T·ΔS) verloren.",
+[
+"~nie vollständig|nicht komplett",
+"Entropie|Arbeit"
+],
+""
+],
+[
+"Was bedeutet ΔG = 0 für eine Zelle?",
+"Gleichgewicht: keine Arbeit mehr möglich → Tod des Organismus.",
+[
+"Gleichgewicht",
+"Tod|tot"
+],
+""
+],
+[
+"Was ist das metabolische Ungleichgewicht?",
+"In der offenen Zelle kommen Reaktionen nie ins Gleichgewicht, weil Produkte weiterverarbeitet werden → Zelle kann Arbeit leisten und Ordnung halten.",
+[
+"~Produkte weiterverarbeitet|weiterverarbeitet",
+"~nie Gleichgewicht|kein Gleichgewicht"
+],
+"begriff"
+],
+[
+"Was ist Phosphorylierung?",
+"Übertragung eines Phosphatrests (z. B. von ATP) auf ein anderes Molekül, das dadurch reaktiver wird.",
+[
+"Phosphat",
+"~übertragen|Übertragung"
+],
+"begriff"
+],
+[
+"Glutamin-Bildung: Wie macht ATP die Reaktion möglich (Zahlen)?",
+"Glutaminsäure + NH₃ → Glutamin: +14 kJ/mol (allein nicht freiwillig). Gekoppelt mit ATP-Hydrolyse (−31) → gesamt −17 kJ/mol → exergonisch.",
+[
+"+14|14",
+"-31|31",
+"-17|17"
+],
+""
+],
+[
+"Primär-, Sekundär-, Tertiär-, Quartärstruktur?",
+"Primär: AS-Sequenz · Sekundär: α-Helix, β-Faltblatt · Tertiär: räumliche Faltung · Quartär: mehrere Ketten zusammen.",
+[
+"Sequenz|Reihenfolge",
+"Helix|Faltblatt",
+"Faltung|räumlich",
+"~mehrere Ketten|Untereinheiten"
+],
+""
+],
+[
+"Was ist ein Ribozym?",
+"Katalytisch aktive RNA – Beweis, dass nicht alle Enzyme Proteine sind.",
+[
+"RNA"
+],
+"begriff"
+],
+[
+"Um wie viel beschleunigen Enzyme – und was ändern sie nicht?",
+"Um 10⁵ bis 10¹⁷. Sie ändern nicht ΔG, nicht die Richtung und nicht das Gleichgewicht; beschleunigen Hin- und Rückreaktion.",
+[
+"10^5|10^17|10 hoch",
+"~ΔG gleich|nicht ΔG|delta G",
+"Gleichgewicht|Richtung"
+],
+""
+],
+[
+"Was ist die Aktivierungsenergie?",
+"Energie, die zum Start einer Reaktion nötig ist (Übergangszustand); Enzyme senken sie.",
+[
+"~Start|starten|anstoßen",
+"Übergangszustand|Enzyme senken"
+],
+"begriff"
+],
+[
+"Warum ist das Schlüssel-Schloss-Prinzip veraltet?",
+"Induced fit: Das Enzym ändert bei Substratbindung seine Form; die Tasche ist auch komplementär zum Produkt → erklärt die Rückreaktion.",
+[
+"induced fit",
+"Rückreaktion|Form ändert"
+],
+""
+],
+[
+"Was ist die Wechselzahl – zwei Beispiele?",
+"Substratmoleküle pro Sekunde bei voller Sättigung: Carboanhydrase 600 000/s, Lysozym 0,5/s.",
+[
+"~pro Sekunde|Umsatz",
+"600 000|600000",
+"0,5"
+],
+"begriff"
+],
+[
+"Hexokinase: Glucose KM 0,05 mM, Fructose 1,5 mM – welches Substrat bevorzugt?",
+"Glucose – kleiner KM = höhere Affinität.",
+[
+"Glucose",
+"~kleiner KM|höhere Affinität"
+],
+""
+],
+[
+"Katalase: Was tut sie – und wie hoch ist Eakt ohne Katalysator, mit Platin, mit Katalase?",
+"Zersetzt H₂O₂ → H₂O + ½ O₂. Eakt: 75 / 49 / 23 kJ/mol; ΔG bleibt gleich.",
+[
+"H2O2",
+"75",
+"49",
+"23"
+],
+""
+],
+[
+"Was ist die RGT-Regel?",
+"Reaktionsgeschwindigkeit-Temperatur-Regel: 10 °C mehr → Reaktion ca. 2–3-mal schneller (bis zur Denaturierung).",
+[
+"~10 Grad|10 °C",
+"~2 bis 3|doppelt"
+],
+"begriff"
+],
+[
+"Was ist Denaturierung?",
+"Zerstörung der räumlichen Struktur eines Proteins (Hitze, pH, Schwermetalle wie HgCl₂) → Funktionsverlust.",
+[
+"~Struktur zerstört|Faltung",
+"Hitze|pH|HgCl2"
+],
+"begriff"
+],
+[
+"Klausurtyp (R/F): „Exergonische Prozesse laufen immer sofort ab.“",
+"Falsch – die Aktivierungsenergie verhindert den sofortigen Start.",
+[
+"falsch",
+"Aktivierungsenergie"
+],
+"klausur"
+],
+[
+"Klausurtyp (R/F): „Biokatalysatoren steuern die Richtung des Metabolismus.“",
+"Falsch – Enzyme ändern weder ΔG noch die Richtung.",
+[
+"falsch",
+"Richtung|ΔG|delta G"
+],
+"klausur"
+],
+[
+"Bild: Wo liest man KM ab?",
+"Bei der Substratkonzentration, bei der die Geschwindigkeit ½ Vmax erreicht.",
+[
+"Vmax",
+"~halb|1/2"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-loh/9f6939c0239b.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-alt",
+14
+],
+[
+"bio-alt",
+15
+],
+[
+"bio-alt",
+16
+],
+[
+"bio-alt",
+17
+],
+[
+"bio-alt",
+18
+],
+[
+"bio-alt",
+19
+],
+[
+"bio-alt",
+20
+],
+[
+"bio-klausur",
+23
+]
 ]
 },
 {
@@ -1636,6 +2720,215 @@ const STOFF = {
 33,
 34,
 35
+],
+"mehr": [
+[
+"Was sagte Linné über Arten – und was ist das binominale System?",
+"Arten sind unveränderlich. Binominal: Gattung + Art, z. B. Rosa canina. Ordnete den Menschen den Primaten zu.",
+[
+"unveränderlich",
+"Gattung",
+"Art"
+],
+""
+],
+[
+"Lamarcks Theorie – und warum ist sie widerlegt?",
+"Benutzte Organe werden gestärkt, erworbene Merkmale vererbt. Widerlegt: erworbene Eigenschaften gehen nicht in die Erbsubstanz.",
+[
+"~erworbene Merkmale vererbt|erworbene Eigenschaften"
+],
+""
+],
+[
+"Darwin: Reise, Buch, Mitentdecker?",
+"Beagle 1831–36; „Origin of Species“ 1858/59; parallel Alfred Wallace.",
+[
+"Beagle",
+"Origin of Species|Entstehung der Arten",
+"Wallace"
+],
+""
+],
+[
+"Was ist Neodarwinismus (synthetische Evolutionstheorie)?",
+"Darwin + Genetik: Mutationen als Ursache der Variation (Weismann, Mayr; Mendel schließt die Vererbungslücke).",
+[
+"Genetik",
+"Mutation"
+],
+"begriff"
+],
+[
+"Was bedeutet Fitness in der Evolution?",
+"Zahl der (fortpflanzungsfähigen) Nachkommen – nicht Kraft.",
+[
+"Nachkommen"
+],
+"begriff"
+],
+[
+"Wie viele aller Arten sind ausgestorben?",
+"99 %.",
+[
+"99"
+],
+""
+],
+[
+"Warum ist das DDT-Resistenz-Gen ohne DDT nicht im Vorteil?",
+"Ohne DDT sind Wildtyp und Mutanten gleich erfolgreich (oder Mutanten im Nachteil) – der Vorteil zeigt sich erst unter Selektionsdruck.",
+[
+"~gleich erfolgreich|kein Vorteil",
+"Selektion|DDT"
+],
+""
+],
+[
+"Was ist eine Population als Einheit der Evolution?",
+"Die Fortpflanzungsgemeinschaft – nicht das Individuum entwickelt sich, sondern die Allelhäufigkeit der Population ändert sich.",
+[
+"Fortpflanzungsgemeinschaft|Population",
+"~Allelhäufigkeit|nicht das Individuum"
+],
+""
+],
+[
+"Drei Homologiekriterien?",
+"Lage (gleiche Anzahl, relative Lage) · spezifische Qualität (auffallende Übereinstimmung) · Stetigkeit (Zwischenformen nachweisbar).",
+[
+"Lage",
+"Qualität",
+"Stetigkeit"
+],
+""
+],
+[
+"Was sind rudimentäre Organe – drei Beispiele?",
+"Zurückgebildete Strukturen ohne oder mit geringer Bedeutung: Blinddarm, Steißbein, Weisheitszähne (Becken beim Bartenwal).",
+[
+"~kaum Bedeutung|zurückgebildet",
+"Blinddarm|Steißbein|Weisheitszähne"
+],
+"begriff"
+],
+[
+"Tiktaalik: Was verbindet es und woran erkennt man das?",
+"Fisch → Vierbeiner: Flosse mit Ellenbogen und Gelenken, Hals, Gehör.",
+[
+"Fisch",
+"Vierbeiner|Landwirbeltier",
+"Ellenbogen|Gelenke|Hals"
+],
+""
+],
+[
+"Was braucht adaptive Radiation?",
+"Keine Konkurrenz bei Ankunft, Isolation der Populationen, Spezialisierung auf verschiedene Nahrung.",
+[
+"Konkurrenz",
+"Isolation",
+"Nahrung|Spezialisierung"
+],
+""
+],
+[
+"Molekulare Homologie Hämoglobin β: Wie viele AS weichen bei Rhesusaffe, Maus, Frosch ab?",
+"Rhesusaffe 8, Maus 27, Huhn 45, Frosch 67, Neunauge 125.",
+[
+"8",
+"27",
+"67"
+],
+""
+],
+[
+"Was ist stabilisierende Selektion – Beispiel?",
+"Mittlere Merkmalsausprägung ist am erfolgreichsten, z. B. mittleres Geburtsgewicht = geringste Säuglingssterblichkeit (heute durch Medizin aufgehoben).",
+[
+"mittlere|Mittelwert",
+"Geburtsgewicht"
+],
+"begriff"
+],
+[
+"Uniformitäts-, Spaltungs-, Neukombinationsregel – je ein Satz.",
+"1: F1 aus reinerbigen Eltern ist einheitlich. 2: In der F2 spalten die Merkmale wieder auf (3 : 1 dominant-rezessiv). 3: Mehrere Merkmale werden unabhängig neu kombiniert.",
+[
+"einheitlich|uniform",
+"3 : 1|3:1",
+"~neu kombiniert|Neukombination"
+],
+""
+],
+[
+"Klausurtyp (R/F): „Anatomische Homologien findet man bei Strukturen mit gleicher Aufgabe.“",
+"Falsch – entscheidend ist gemeinsame Abstammung, nicht die Funktion.",
+[
+"falsch",
+"Abstammung"
+],
+"klausur"
+],
+[
+"Klausurtyp (R/F): „Rudimentäre Organe sind sehr kleine Organe.“",
+"Falsch – sie haben kaum noch Bedeutung (Größe egal).",
+[
+"falsch",
+"Bedeutung"
+],
+"klausur"
+],
+[
+"Klausurtyp (R/F): „Archaeopteryx verbindet Säugetiere mit Vögeln.“",
+"Falsch – Reptilien mit Vögeln.",
+[
+"falsch",
+"Reptilien"
+],
+"klausur"
+],
+[
+"Klausurtyp (R/F): „Darwin beweist, dass erworbene Merkmale vererbt werden.“",
+"Falsch – das war Lamarck.",
+[
+"falsch",
+"Lamarck"
+],
+"klausur"
+],
+[
+"Bild: Was zeigen diese Knochen verschiedener Wirbeltiere?",
+"Homologe Vorderextremitäten: gleicher Grundbauplan (gemeinsamer Vorfahr), unterschiedliche Funktion.",
+[
+"homolog",
+"~gemeinsamer Vorfahr|gleicher Bauplan"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-loh/d4d40e08db90.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-alt",
+21
+],
+[
+"bio-alt",
+22
+],
+[
+"bio-alt",
+23
+],
+[
+"bio-alt",
+26
+],
+[
+"bio-klausur",
+24
+]
 ]
 },
 {
@@ -1648,6 +2941,184 @@ const STOFF = {
 38,
 39,
 40
+],
+"mehr": [
+[
+"Was ist ein genetischer Pool?",
+"Summe aller Gene (Allele) einer Population.",
+[
+"~alle Gene|Summe",
+"Population"
+],
+"begriff"
+],
+[
+"Homozygot vs. heterozygot?",
+"Homozygot: zwei gleiche Allele. Heterozygot: zwei verschiedene Allele (bei Diploiden).",
+[
+"~gleiche Allele",
+"~verschiedene Allele"
+],
+"begriff"
+],
+[
+"Was bedeuten p² , 2pq und q²?",
+"p² = homozygot dominant (AA), 2pq = heterozygot (Aa, Träger), q² = homozygot rezessiv (aa, erkrankt).",
+[
+"AA|homozygot dominant",
+"Aa|heterozygot|Träger",
+"aa|krank|rezessiv"
+],
+""
+],
+[
+"Wildblumen 320 RR, 160 Rr, 20 rr: p und q?",
+"p(R) = (2·320 + 160)/1000 = 0,8; q = 0,2 → F1: 64 % RR, 32 % Rr, 4 % rr.",
+[
+"0,8",
+"0,2"
+],
+""
+],
+[
+"Achromatopsie 1 : 40 000 – Anteil Träger?",
+"q² = 0,000025 → q = 0,005 → 2pq ≈ 1 %.",
+[
+"0,005",
+"1"
+],
+""
+],
+[
+"Was ist genetische Drift – wo wirkt sie am stärksten?",
+"Zufällige Änderung der Allelhäufigkeiten, v. a. in kleinen Populationen.",
+[
+"zufällig",
+"klein"
+],
+"begriff"
+],
+[
+"Was ist Industriemelanismus?",
+"Birkenspanner: dunkle Form (carbonaria) auf rußigen Stämmen getarnt → wird häufiger (Selektion).",
+[
+"Birkenspanner",
+"~dunkle Form|carbonaria|Ruß"
+],
+"begriff"
+],
+[
+"Beispiel Flaschenhals, Beispiel Gründereffekt?",
+"Flaschenhals: Gepard. Gründereffekt: Tristan da Cunha (Retinitis pigmentosa 1 : 60 statt 1 : 3500).",
+[
+"Gepard",
+"Tristan da Cunha"
+],
+""
+],
+[
+"Warum hat Migration so großen Einfluss?",
+"Zuwanderer bringen neue, schon „getestete“ Allele mit; Einfluss größer als Selektion.",
+[
+"~neue Allele|Allele mitbringen"
+],
+""
+],
+[
+"Sichelzellen: Anteile HbS/HbS und HbA/HbS in Malariagebieten?",
+"HbS/HbS ≈ 2 % (krank), HbA/HbS ≈ 26 % (malariaresistent), q ≈ 0,15.",
+[
+"2",
+"26",
+"0,15"
+],
+""
+],
+[
+"Was ist ausgeglichener Polymorphismus?",
+"Ein schädliches Allel bleibt erhalten, weil Heterozygote einen Vorteil haben (Sichelzellanämie + Malaria).",
+[
+"~Heterozygote Vorteil|Träger Vorteil",
+"Sichelzell|Malaria"
+],
+"begriff"
+],
+[
+"Was ist sexueller Dimorphismus?",
+"Männchen und Weibchen sehen verschieden aus (Verzierungen meist beim Männchen; Weibchen wählt).",
+[
+"~Männchen und Weibchen verschieden|unterschiedliches Aussehen"
+],
+"begriff"
+],
+[
+"Vor- und Nachteil von zwei Geschlechtern?",
+"Nachteil: nur die Hälfte der Nachkommen bekommt selbst Nachkommen. Vorteil: genetische Variabilität → Resistenz gegen Viren/Parasiten.",
+[
+"Hälfte",
+"Variabilität|Vielfalt"
+],
+""
+],
+[
+"Fünf Merkmale der Primaten?",
+"Greifhände/-füße, großes Gehirn, Augen nach vorn, flache Nägel, Fingerabdrücke (kurze Kiefer, Brutpflege, Sozialgefüge).",
+[
+"Greif",
+"Gehirn",
+"Augen",
+"Nägel|Fingerabdrücke"
+],
+""
+],
+[
+"Lucy, Homo erectus, Neandertaler, Homo sapiens – je eine Zahl.",
+"Lucy (Australopithecus) 3,2 Mio. J. · Homo erectus 1,8 Mio. J., verlässt als erster Afrika · Neandertaler bis ca. 30 000 J. · H. sapiens verlässt Afrika vor ca. 100 000 J., ca. 3 % Neandertaler-Gene.",
+[
+"3,2",
+"1,8",
+"30 000|30000",
+"100 000|100000"
+],
+""
+],
+[
+"Blutgruppen-Formel für drei Allele?",
+"(p + q + r)² = 1 (A und B co-dominant, 0 rezessiv).",
+[
+"p + q + r|(p+q+r)"
+],
+""
+],
+[
+"Klausurtyp (R/F): „Weicht eine Population von Hardy-Weinberg ab, ist das Evolution.“",
+"Richtig – die Allelhäufigkeiten ändern sich.",
+[
+"richtig",
+"Allelhäufigkeit"
+],
+"klausur"
+],
+[
+"Klausurtyp: PKU 1 : 10 000 (rezessiv) – rechne den Trägeranteil.",
+"q² = 0,0001 → q = 0,01 → p = 0,99 → 2pq ≈ 0,02 = 2 %.",
+[
+"0,01",
+"0,99",
+"2"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"bio-alt",
+24
+],
+[
+"bio-alt",
+25
+]
 ]
 },
 {
@@ -1699,6 +3170,26 @@ const STOFF = {
 "teilen|Teilung"
 ]
 ]
+],
+"mehr": [
+[
+"Wie bewegt sich das Wasser bei einem Erythrozyten in hypotoner Lösung – und warum?",
+"Hinein – außen sind weniger gelöste Teilchen; Wasser diffundiert durch die selektiv permeable Membran dorthin, wo mehr gelöste Teilchen sind (Osmose).",
+[
+"~hinein|in die Zelle",
+"Osmose|gelöste Teilchen"
+],
+"klausur"
+],
+[
+"Was wurde 2010 mit Bakterien gezeigt?",
+"Ein Bakterium kann mit einem vollständig synthetischen Genom leben – die Zelle unterscheidet nicht, woher die DNA stammt.",
+[
+"synthetisch|künstlich",
+"Genom|DNA"
+],
+""
+]
 ]
 }
 ]
@@ -1715,6 +3206,115 @@ const STOFF = {
 2,
 3,
 4
+],
+"mehr": [
+[
+"Was ist Homöostase?",
+"Fähigkeit des Organismus, Zustandsgrößen (z. B. Blutdruck, Blutzucker) in einem physiologischen Bereich konstant zu halten.",
+[
+"~konstant halten|gleich halten|aufrechterhalten",
+"~Zustandsgrößen|Werte|inneres Milieu"
+],
+"begriff"
+],
+[
+"Normwerte: Ruheblutdruck und Nüchtern-Blutglukose?",
+"Ruheblutdruck 120/80 mmHg; Nüchtern-Blutglukose 3,3–6,0 mmol/l.",
+[
+"120",
+"80",
+"3,3",
+"6,0|6"
+],
+""
+],
+[
+"Was ist ein Referenzbereich?",
+"Der klinisch festgelegte Normalbereich eines Messwerts (physiologischer Bereich).",
+[
+"~Normalbereich|normal|physiologischer Bereich"
+],
+"begriff"
+],
+[
+"Was ist der Unterschied zwischen Istwert und Sollwert?",
+"Istwert: aktuell gemessener Wert. Sollwert: vorgegebener Zielwert.",
+[
+"~gemessen|aktuell",
+"~vorgegeben|Ziel"
+],
+"begriff"
+],
+[
+"Was ist eine Störgröße – Beispiel Atmung?",
+"Äußerer oder innerer Einfluss, der die Regelgröße verändert – z. B. körperliche Arbeit (mehr CO₂).",
+[
+"~verändert die Regelgröße|Einfluss",
+"Arbeit|Sport|Belastung"
+],
+"begriff"
+],
+[
+"Was ist negative Rückkopplung?",
+"Die Korrektur wirkt der Abweichung entgegen und begrenzt die Aktivität der Stellglieder → Wert pendelt sich beim Sollwert ein.",
+[
+"~entgegen|gegen die Abweichung|begrenzt"
+],
+"begriff"
+],
+[
+"Wann entsteht laut Vorlesung Krankheit?",
+"Wenn die Kompensation äußerer oder innerer Veränderungen misslingt.",
+[
+"~Kompensation misslingt|nicht ausgeglichen"
+],
+""
+],
+[
+"Welche Organsysteme ziehen sich durch den ganzen Körper und verbinden die anderen?",
+"Kreislauf-, Nerven-, endokrines System und Immunsystem.",
+[
+"Kreislauf",
+"Nerven",
+"endokrin|Hormon",
+"Immun"
+],
+""
+],
+[
+"Welche Organsysteme dienen dem Stoffaustausch mit der Umwelt?",
+"Respirations-, Verdauungs-, Harn- und Reproduktionssystem.",
+[
+"Respiration|Atmung",
+"Verdauung",
+"Harn",
+"Reproduktion|Fortpflanzung"
+],
+""
+],
+[
+"Klausurtyp: Regelkreis Atmung – nenne Regelgröße, Fühler, Regler, Stellglied.",
+"Regelgröße: arterieller pCO₂ (auch pO₂, pH) · Fühler: Chemorezeptoren · Regler: Atemzentrum im Hirnstamm · Stellglied: Atemmuskulatur (Zwerchfell, Zwischenrippenmuskeln).",
+[
+"pCO2|CO2",
+"Chemorezeptoren",
+"Atemzentrum|Hirnstamm",
+"Atemmuskulatur|Zwerchfell"
+],
+"klausur"
+],
+[
+"Bild: Benenne die Elemente dieses Regelkreises.",
+"Regelgröße → Fühler (Rezeptor, Istwert) → Regler (Ist-Soll-Vergleich, Sollwert) → Stellgröße → Stellglied → zurück zur Regelgröße; Störgröße wirkt von außen.",
+[
+"Fühler|Rezeptor",
+"Regler",
+"Stellglied",
+"Störgröße"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/ed5531f10ae6.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
 ]
 },
 {
@@ -1731,6 +3331,227 @@ const STOFF = {
 11,
 12,
 13
+],
+"mehr": [
+[
+"Was ist interstitielle Flüssigkeit?",
+"Gewebeflüssigkeit zwischen den Zellen; zusammen mit dem Plasma = extrazelluläre Flüssigkeit.",
+[
+"Gewebeflüssigkeit|zwischen den Zellen"
+],
+"begriff"
+],
+[
+"Wie viel extrazelluläre Flüssigkeit und wie viel Plasma hat der Mensch?",
+"Extrazellulär ca. 14–17 l, davon Plasma ca. 2,5–3 l.",
+[
+"14",
+"17",
+"2,5",
+"3"
+],
+""
+],
+[
+"Anteile am Körpergewicht: Blutflüssigkeit, interstitielle, intrazelluläre Flüssigkeit?",
+"4,5 % · 19 % · 35 %.",
+[
+"4,5",
+"19",
+"35"
+],
+""
+],
+[
+"Sechs Aufgaben des Blutes?",
+"Transport von Stoffen, Transport von Wärme, Signalübermittlung (Hormone), Pufferung, Abwehr, Abdichtung (Gerinnung).",
+[
+"Stoffe|Transport",
+"Wärme",
+"Signal",
+"Puffer",
+"Abwehr",
+"Gerinnung|Abdichtung"
+],
+""
+],
+[
+"Wie viel Blut hat ein Mensch – und wie viel % der Blutzellen sind Erythrozyten?",
+"5–6 Liter; Erythrozyten > 99 % aller Blutzellen.",
+[
+"5",
+"6",
+"99"
+],
+""
+],
+[
+"Woraus besteht das Plasma (Prozent)?",
+"90 % Wasser, 8 % Proteine, 2 % Ionen, Glukose, Hormone, Kreatinin, Harnstoff …",
+[
+"90",
+"8",
+"2"
+],
+""
+],
+[
+"Welche Osmolalität hat Plasma – und was bestimmt sie?",
+"Ca. 290 mosmol/kg; v. a. die Elektrolyte (Ionen).",
+[
+"290",
+"Elektrolyte|Ionen"
+],
+""
+],
+[
+"Was ist der kolloidosmotische Druck?",
+"Osmotischer Druck, den die Plasmaproteine im Gefäßinneren aufbauen (hält Wasser in den Gefäßen).",
+[
+"Proteine|Plasmaproteine",
+"~in den Gefäßen|Gefäß"
+],
+"begriff"
+],
+[
+"Welche Plasmaproteine werden nicht in der Leber gebildet?",
+"γ-Globuline (Antikörper) – von Plasmazellen.",
+[
+"Globuline|Antikörper"
+],
+""
+],
+[
+"Vier Aufgaben der Plasmaproteine?",
+"Transport, Pufferung, Immunantwort, Blutgerinnung.",
+[
+"Transport",
+"Puffer",
+"Immun|Abwehr",
+"Gerinnung"
+],
+""
+],
+[
+"Was bedeutet bikonkav – und warum ist die Form gut?",
+"Beidseitig nach innen gewölbt (Scheibe mit Delle). Große Oberfläche für den Gasaustausch und stark verformbar (passt durch enge Kapillaren).",
+[
+"~nach innen gewölbt|Delle",
+"Oberfläche|verformbar"
+],
+"begriff"
+],
+[
+"Warum haben Erythrozyten keine Mitochondrien – Folge?",
+"Kern- und mitochondrienlos: mehr Platz für Hämoglobin; sie verbrauchen den transportierten O₂ nicht selbst.",
+[
+"Hämoglobin|Platz",
+"~verbrauchen keinen Sauerstoff|O2 nicht selbst"
+],
+""
+],
+[
+"Wer entdeckte das AB0-System?",
+"Karl Landsteiner.",
+[
+"Landsteiner"
+],
+""
+],
+[
+"Was sind Blutgruppenantigene chemisch?",
+"Glykoproteine und/oder Glykolipide: Protein bzw. Lipid + kovalent gebundene Zuckergruppen.",
+[
+"Glykoprotein|Glykolipid",
+"Zucker|Kohlenhydrat"
+],
+""
+],
+[
+"Welches Rhesus-Antigen ist am stärksten?",
+"Antigen D (Rh-positiv).",
+[
+"D"
+],
+""
+],
+[
+"Klausurtyp: Warum ist das 2. Rh-positive Kind einer rh-negativen Mutter gefährdet?",
+"Bei der 1. Geburt gelangen Rh⁺-Erythrozyten des Kindes ins Blut der Mutter → sie bildet Anti-D-Antikörper (Sensibilisierung). Beim 2. Rh⁺-Kind passieren diese die Plazenta und zerstören dessen Erythrozyten.",
+[
+"~Antikörper bei der ersten Geburt|Sensibilisierung",
+"~zweites Kind|zweiten",
+"~zerstören Erythrozyten|Plazenta"
+],
+"klausur"
+],
+[
+"Was ist Oxygenierung – ändert sich dabei die Wertigkeit des Eisens?",
+"Anlagerung von O₂ an Hämoglobin; das Eisen bleibt Fe²⁺ (keine Oxidation).",
+[
+"~Anlagerung von Sauerstoff|O2 binden",
+"Fe2+|zweiwertig|bleibt"
+],
+"begriff"
+],
+[
+"Was bedeutet „Blutmauserung“?",
+"Alte, funktionsuntüchtige Erythrozyten werden v. a. in der Milz aussortiert und abgebaut.",
+[
+"Milz",
+"~alte Erythrozyten|aussortiert|abgebaut"
+],
+"begriff"
+],
+[
+"Was wird aus Eisen, Globin und Häm beim Erythrozytenabbau?",
+"Eisen und Globin werden wiederverwertet; eisenfreies Häm → Bilirubin (Leber) → Galle; Urobilin/Urobilinogen → Urin.",
+[
+"wiederverwertet|recycelt",
+"Bilirubin",
+"Galle"
+],
+""
+],
+[
+"Bild: Was zeigt diese Elektrophorese – nenne die fünf Fraktionen.",
+"Plasmaproteine: Albumin, α1-, α2-, β-, γ-Globuline.",
+[
+"Albumin",
+"alpha1|α1",
+"alpha2|α2",
+"beta|β",
+"gamma|γ"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/919bd64eeddd.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild: Welche Blutgruppe hat welche Antigene und Antikörper?",
+"A: Antigen A, Anti-B · B: Antigen B, Anti-A · AB: beide Antigene, keine Antikörper · 0: keine Antigene, Anti-A und Anti-B.",
+[
+"~A Anti-B",
+"~B Anti-A",
+"~AB keine Antikörper",
+"~0 beide Antikörper|0 Anti-A und Anti-B"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/ec9ee108ee4f.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-klausur",
+2
+],
+[
+"bio-klausur",
+3
+],
+[
+"bio-klausur",
+4
+]
 ]
 },
 {
@@ -1751,6 +3572,255 @@ const STOFF = {
 24,
 25,
 26
+],
+"mehr": [
+[
+"Wie viele Leukozyten pro µl – und wie viele zirkulieren im Blut?",
+"4 000–9 000/µl (4–9/nl); nur 5–10 % zirkulieren im Blut, der Rest ist im Gewebe.",
+[
+"4",
+"9",
+"5",
+"10"
+],
+""
+],
+[
+"Wo kommen Leukozyten vor?",
+"Blut, Gewebe, Schleimhäute, Lymphknoten – sie können aus den Gefäßen ins Gewebe einwandern.",
+[
+"Gewebe",
+"Lymphknoten|Schleimhäute"
+],
+""
+],
+[
+"Was ist Eiter?",
+"Abgestorbene neutrophile Granulozyten mit phagozytierten Erregern und Zellresten.",
+[
+"Neutrophile|Granulozyten"
+],
+"begriff"
+],
+[
+"Was enthalten die Granula der Basophilen – und was bewirkt Histamin?",
+"Heparin und Histamin. Histamin: Juckreiz, allergische Reaktion (z. B. Heuschnupfen).",
+[
+"Heparin",
+"Histamin",
+"Juckreiz|Allergie"
+],
+""
+],
+[
+"Wann sind Eosinophile erhöht?",
+"Bei Allergien und Parasitenbefall (Würmer).",
+[
+"Allergie",
+"Parasiten|Würmer"
+],
+""
+],
+[
+"Was ist Phagozytose?",
+"Aufnahme und Verdauung von Partikeln/Erregern durch Fresszellen (Neutrophile, Makrophagen).",
+[
+"~aufnehmen|fressen|Aufnahme",
+"Erreger|Partikel"
+],
+"begriff"
+],
+[
+"Was ist Antigen-Präsentation?",
+"Makrophagen zeigen Bruchstücke aufgenommener Erreger auf ihrer Oberfläche den T-Zellen → spezifische Abwehr startet.",
+[
+"T-Zellen|T-Lymphozyten",
+"Makrophagen|Oberfläche"
+],
+"begriff"
+],
+[
+"B- vs. T-Lymphozyten?",
+"B-Lymphozyten → Plasmazellen → Antikörper. T-Lymphozyten: Effektor- und Regulatorfunktion (zelluläre Abwehr).",
+[
+"Plasmazellen|Antikörper",
+"~Effektor|Regulator|zellulär"
+],
+""
+],
+[
+"Was ist ein Megakaryozyt?",
+"Knochenmarkriesenzelle, deren Zytoplasma sich zu Thrombozyten abschnürt.",
+[
+"Knochenmark|Riesenzelle",
+"Thrombozyten"
+],
+"begriff"
+],
+[
+"Wright-Färbung: Welche Farbstoffe – und welche Farbe haben die Granula der Eosinophilen?",
+"Methylenblau + Eosin. Eosinophile Granula intensiv rot.",
+[
+"Methylenblau",
+"Eosin",
+"rot"
+],
+""
+],
+[
+"Wie stellt man einen Blutausstrich her?",
+"Tropfen Vollblut auf Objektträger, mit zweitem Objektträger ausstreichen, trocknen, mit speziellen Farbstoffen anfärben, mikroskopieren.",
+[
+"Objektträger",
+"ausstreichen",
+"färben|anfärben"
+],
+""
+],
+[
+"Was ist ein Thrombus – weißer vs. roter Thrombus?",
+"Gerinnsel, das die Wunde verschließt. Weiß: labiler Thrombozytenthrombus (primär). Rot: stabiler Fibrinthrombus mit Erythrozyten (sekundär).",
+[
+"Gerinnsel",
+"Thrombozyten",
+"Fibrin"
+],
+"begriff"
+],
+[
+"Was ist Vasokonstriktion?",
+"Zusammenziehen der Gefäße – erster schneller Schritt der Blutstillung.",
+[
+"~Gefäße ziehen sich zusammen|Verengung"
+],
+"begriff"
+],
+[
+"Was sind Zymogene?",
+"Inaktive Vorstufen von Enzymen (z. B. Gerinnungsfaktoren), die erst bei Bedarf aktiviert werden.",
+[
+"~inaktive Vorstufe|inaktiv"
+],
+"begriff"
+],
+[
+"Welche Gerinnungsfaktoren sind Vitamin-K-abhängig – und wo werden sie gebildet?",
+"Einige (II, VII, IX, X) – Bildung in der Leber.",
+[
+"Leber",
+"Vitamin K"
+],
+""
+],
+[
+"Was ist der von-Willebrand-Faktor?",
+"Kein Gerinnungsfaktor i. e. S.; verbindet Thrombozyten mit der verletzten Gefäßwand und aktiviert sie.",
+[
+"Thrombozyten",
+"Gefäßwand"
+],
+"begriff"
+],
+[
+"Was macht Faktor XIII?",
+"Fibrinstabilisierender Faktor – verhindert vorzeitige Auflösung des Thrombus.",
+[
+"~stabilisiert Fibrin|fibrinstabilisierend"
+],
+""
+],
+[
+"Was ist Plasmin – und wie wird es aktiviert?",
+"Proteolytisches Enzym der Fibrinolyse (spaltet Fibrin, Fibrinogen); aus Plasminogen durch t-PA (Gewebe) und u-PA (Urokinase, Niere).",
+[
+"Plasminogen",
+"t-PA|u-PA|Urokinase"
+],
+"begriff"
+],
+[
+"Was ist eine multipotente Stammzelle?",
+"Stammzelle im Knochenmark, aus der alle Blutzellen hervorgehen können.",
+[
+"~alle Blutzellen|verschiedene Zellen",
+"Knochenmark"
+],
+"begriff"
+],
+[
+"Wo genau liegt rotes Knochenmark beim Erwachsenen?",
+"V. a. platte Knochen (Brustbein, Becken) und Enden langer Röhrenknochen (Oberschenkel).",
+[
+"platte Knochen|Brustbein",
+"Röhrenknochen|Oberschenkel"
+],
+""
+],
+[
+"Welcher Wachstumsfaktor steuert welche Zellen?",
+"EPO → Erythrozyten · TPO → Thrombozyten · CSFs → Leukozyten · Interleukine (verschiedene).",
+[
+"EPO",
+"TPO",
+"CSF"
+],
+""
+],
+[
+"Bild (Blutausstrich 1): Welche Leukozytenart ist das?",
+"Neutrophiler Granulozyt (segmentierter Kern, feine schwach gefärbte Granula).",
+[
+"neutrophil"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/27d8a121d7a9.bin' data-mime='image/png' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild (Blutausstrich 2): Welche Leukozytenart ist das?",
+"Eosinophiler Granulozyt (große intensiv rote Granula).",
+[
+"eosinophil"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/7bcc46fb2bee.bin' data-mime='image/png' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild (Blutausstrich 3): Welche Leukozytenart ist das?",
+"Basophiler Granulozyt (dunkelviolett-schwarze Granula).",
+[
+"basophil"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/1942ea620636.bin' data-mime='image/png' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild (Blutausstrich 4): Welche Zelle ist das?",
+"Lymphozyt (klein, runder Kern, schmaler Zytoplasmasaum).",
+[
+"Lymphozyt"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/bef2e307c60f.bin' data-mime='image/png' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild (Blutausstrich 5): Welche Zelle ist das?",
+"Monozyt (größte Blutzelle, eingebuchteter Kern).",
+[
+"Monozyt"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/3b27cdd651d8.bin' data-mime='image/png' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-klausur",
+0
+],
+[
+"bio-klausur",
+1
+]
 ]
 },
 {
@@ -1768,6 +3838,202 @@ const STOFF = {
 34,
 35,
 36
+],
+"mehr": [
+[
+"Was bedeutet afferent, was efferent?",
+"Afferent: hinführend (zum ZNS). Efferent: wegführend (vom ZNS zur Peripherie).",
+[
+"~hinführend|zum ZNS",
+"~wegführend|vom ZNS"
+],
+"begriff"
+],
+[
+"Was ist die Blut-Hirn-Schranke?",
+"Barriere aus Gliazellen und Gefäßwänden, die das Gehirn vor vielen Stoffen im Blut schützt.",
+[
+"Gliazellen|Glia",
+"Gefäß"
+],
+"begriff"
+],
+[
+"Wie viele Neurone hat der Mensch?",
+"> 10¹¹.",
+[
+"10^11|10 hoch 11|1011"
+],
+""
+],
+[
+"Was sind Nissl-Schollen?",
+"Raues ER im Soma des Neurons (färbbar).",
+[
+"raues ER|rER"
+],
+"begriff"
+],
+[
+"Was ist der Axonhügel?",
+"Ursprung des Axons am Soma; hier wird das Aktionspotential ausgelöst (Summation).",
+[
+"~Ursprung des Axons|Abgang",
+"Aktionspotential|AP"
+],
+"begriff"
+],
+[
+"Was sind Ranvier-Schnürringe?",
+"Kurze, nicht myelinisierte Abschnitte zwischen den Schwann-Zellen – hier springt die Erregung bei saltatorischer Leitung.",
+[
+"~nicht umhüllt|ohne Myelin|Lücken",
+"saltatorisch|springt"
+],
+"begriff"
+],
+[
+"Wer bildet Myelin im PNS, wer im ZNS?",
+"PNS: Schwann-Zellen. ZNS: Oligodendrozyten.",
+[
+"Schwann",
+"Oligodendrozyten"
+],
+""
+],
+[
+"Was ist ein Gleichgewichtspotential?",
+"Spannung, bei der der Ionenstrom durch Konzentrationsgefälle und elektrische Kraft sich ausgleicht (K⁺-Ausstrom = K⁺-Einstrom).",
+[
+"~Ausstrom gleich Einstrom|gleich|ausgeglichen"
+],
+"begriff"
+],
+[
+"Wie viel höher ist in Ruhe die K⁺- als die Na⁺-Leitfähigkeit?",
+"Ca. 10-fach.",
+[
+"10"
+],
+""
+],
+[
+"Was ist der Schwellenwert – Zahl?",
+"Spannung, ab der ein AP ausgelöst wird, z. B. ca. −50 mV am Axonhügel.",
+[
+"50"
+],
+"begriff"
+],
+[
+"Was ist Hyperpolarisation?",
+"Membranpotential wird negativer als das Ruhepotential (z. B. kurz nach dem AP oder durch IPSP).",
+[
+"~negativer|unter Ruhepotential"
+],
+"begriff"
+],
+[
+"Na⁺/K⁺-Pumpe: Was pumpt sie wohin?",
+"3 Na⁺ nach außen, 2 K⁺ nach innen – unter ATP-Verbrauch.",
+[
+"3",
+"2",
+"ATP"
+],
+""
+],
+[
+"Warum läuft das AP nur in eine Richtung?",
+"Die Stelle dahinter ist noch refraktär (Na⁺-Kanäle inaktiviert).",
+[
+"refraktär|Refraktärperiode"
+],
+""
+],
+[
+"Wie breit ist der synaptische Spalt?",
+"Ca. 20 nm.",
+[
+"20"
+],
+""
+],
+[
+"Wie wird der Neurotransmitter beseitigt?",
+"Enzymatischer Abbau im Spalt oder Wiederaufnahme in die Zelle.",
+[
+"Abbau|enzymatisch",
+"Wiederaufnahme"
+],
+""
+],
+[
+"Wovon hängt ab, ob eine Synapse erregend oder hemmend ist?",
+"Vom Rezeptor an der postsynaptischen Membran.",
+[
+"Rezeptor",
+"postsynaptisch"
+],
+""
+],
+[
+"Was ist ein elektrotonisches Potential?",
+"Lokale, passive Potentialänderung (EPSP/IPSP), die sich abschwächend ausbreitet – kein AP.",
+[
+"~passiv|lokal",
+"~kein AP|kein Aktionspotential"
+],
+"begriff"
+],
+[
+"Klausurtyp: Was passiert an der chemischen Synapse? (Ablauf)",
+"AP erreicht Endknopf → Vesikel schütten Transmitter in den Spalt → Transmitter bindet an Rezeptoren der postsynaptischen Membran → Ionenkanäle öffnen → lokale Potentialänderung → Transmitter wird abgebaut/wieder aufgenommen.",
+[
+"Vesikel",
+"Transmitter|Neurotransmitter",
+"Rezeptor",
+"~Ionenkanäle|Ionen"
+],
+"klausur"
+],
+[
+"Bild: Beschrifte das Neuron.",
+"Dendriten (Eingang) – Soma mit Kern – Axonhügel – Axon (mit Myelinscheide) – Endknöpfe (Ausgang).",
+[
+"Dendriten",
+"Soma|Zellkörper",
+"Axon",
+"Endknöpfe|Synapse"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/b6afe02fc1c8.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild: Benenne die Phasen dieses Potentialverlaufs.",
+"Ruhepotential → Schwelle → Depolarisation (Na⁺ rein) → Overshoot → Repolarisation (K⁺ raus) → Hyperpolarisation → Ruhepotential.",
+[
+"Depolarisation",
+"Repolarisation",
+"Hyperpolarisation"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/314d1b6a969a.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-klausur",
+6
+],
+[
+"bio-klausur",
+7
+],
+[
+"bio-klausur",
+8
+]
 ]
 },
 {
@@ -1781,13 +4047,210 @@ const STOFF = {
 40,
 41,
 42
+],
+"mehr": [
+[
+"Was ist ein Faszikel?",
+"Faserbündel innerhalb eines Nervs.",
+[
+"Faserbündel|Bündel"
+],
+"begriff"
+],
+[
+"Was ist ein gemischter Nerv?",
+"Nerv mit motorischen und sensiblen Fasern (jede einzelne Faser ist aber nur eins von beiden).",
+[
+"motorisch",
+"sensibel|sensorisch"
+],
+"begriff"
+],
+[
+"Was ist ein Ganglion?",
+"Ansammlung von Nervenzellkörpern im PNS (im ZNS: Kern).",
+[
+"Zellkörper|Nervenzellkörper",
+"PNS"
+],
+"begriff"
+],
+[
+"Was sind die Meningen – und wozu dient der Liquor?",
+"Hirn- bzw. Rückenmarkshäute (3 Schichten). Liquor (Cerebrospinalflüssigkeit): mechanischer Schutz und konstantes Milieu für die Neurone.",
+[
+"Hirnhäute|Häute",
+"~Schutz|Milieu"
+],
+"begriff"
+],
+[
+"Wo sitzen Atem- und Kreislaufzentrum?",
+"In der Medulla oblongata (verlängertes Mark) im Hirnstamm.",
+[
+"Medulla oblongata|verlängertes Mark",
+"Hirnstamm"
+],
+""
+],
+[
+"Was ist der Hypothalamus?",
+"Teil des Zwischenhirns, Bindeglied zwischen Nerven- und Hormonsystem.",
+[
+"Zwischenhirn",
+"Hormon"
+],
+"begriff"
+],
+[
+"Wofür ist das Kleinhirn zuständig?",
+"Gleichgewicht, Bewegung und deren Koordination.",
+[
+"Gleichgewicht",
+"Koordination|Bewegung"
+],
+""
+],
+[
+"Wie viele Abschnitte hat das Rückenmark – und warum stimmen Segment und Wirbel nicht überein?",
+"Fünf Abschnitte (Hals-, Brust-, Lenden-, Kreuz-, Steißmark); das Rückenmark wächst langsamer als die Wirbelsäule.",
+[
+"5|fünf",
+"~wächst langsamer|langsamer"
+],
+""
+],
+[
+"Was ist ein pseudounipolares Neuron?",
+"Sensorneuron, dessen Zellkörper im Spinalganglion liegt: peripherer Ast nimmt Reize auf, zentraler Ast führt ins ZNS.",
+[
+"Spinalganglion",
+"sensibel|Sensorneuron"
+],
+"begriff"
+],
+[
+"Wo liegt das 1., wo das 2. Motoneuron?",
+"1. Motoneuron im Gehirn (motorischer Cortex), 2. Motoneuron im Vorderhorn des Rückenmarks.",
+[
+"Gehirn",
+"Vorderhorn"
+],
+""
+],
+[
+"Wo kreuzen aufsteigende Bahnen?",
+"Im verlängerten Mark oder im Eintrittssegment auf die Gegenseite.",
+[
+"~verlängertes Mark|Medulla",
+"Gegenseite"
+],
+""
+],
+[
+"Was ist ein Reflex?",
+"Angeborene oder erworbene, automatische, stereotype, schnelle Reaktion ohne Kontrolle durch das Gehirn.",
+[
+"automatisch",
+"schnell|stereotyp"
+],
+"begriff"
+],
+[
+"Kniesehnenreflex: Was passiert genau?",
+"Schlag auf die Sehne dehnt Muskelspindeln im Oberschenkelstrecker → monosynaptisch auf Motoneuron → Muskel kontrahiert → Unterschenkel schnellt vor.",
+[
+"Muskelspindel",
+"monosynaptisch",
+"~Streckmuskel|kontrahiert"
+],
+""
+],
+[
+"Was ist das enterische Nervensystem?",
+"Eigenes Nervensystem des Darms (Teil des vegetativen NS).",
+[
+"Darm"
+],
+"begriff"
+],
+[
+"Wo entspringen Sympathikus und Parasympathikus?",
+"Sympathikus: Brust- und oberes Lendenmark (unteres Halsmark). Parasympathikus: Hirnstamm und Sakralmark.",
+[
+"Brustmark|Brust",
+"Hirnstamm",
+"Sakral"
+],
+""
+],
+[
+"Wo liegen die Ganglien von Sympathikus und Parasympathikus?",
+"Sympathikus organfern (Grenzstrang); Parasympathikus organnah.",
+[
+"organfern|Grenzstrang",
+"organnah"
+],
+""
+],
+[
+"Wirkung von Sympathikus und Parasympathikus auf Harnblase und Gallenblase?",
+"Sympathikus: Harnblase füllt sich. Parasympathikus: Harnblase entleert sich, Gallenblase entleert sich.",
+[
+"~füllt sich|Füllung",
+"~entleert|Entleerung"
+],
+""
+],
+[
+"Klausurtyp: Was passiert, wenn die Hinterwurzel durchtrennt ist?",
+"Keine Sensibilität im zugehörigen Segment (keine Empfindung), Motorik bleibt erhalten.",
+[
+"~keine Empfindung|Sensibilität fällt aus|kein Gefühl",
+"~Motorik bleibt|Bewegung möglich"
+],
+"klausur"
+],
+[
+"Bild: Benenne Vorderhorn, Hinterhorn und Spinalganglion.",
+"Vorderhorn (vorn, motorische Neurone), Hinterhorn (hinten, sensible Endigungen), Spinalganglion (in der Hinterwurzel, Zellkörper der Sensorneurone).",
+[
+"Vorderhorn",
+"Hinterhorn",
+"Spinalganglion"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/d1e2b9ba5fe2.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild: Welche Teile des Gehirns sind gezeigt?",
+"Großhirn, Zwischenhirn, Hirnstamm (Mittelhirn, Brücke, Medulla oblongata), Kleinhirn.",
+[
+"Großhirn",
+"Zwischenhirn",
+"Hirnstamm",
+"Kleinhirn"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/d1b38018bd63.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-klausur",
+5
+],
+[
+"bio-klausur",
+9
+]
 ]
 },
 {
 "t": "Herz",
 "sub": "Aufbau · Klappen · Kranzgefäße · Herzzyklus · Erregung · Regulation (VL Markewicz, Herz.pdf)",
 "c": [],
-"h": "<div class='box'><b>Neu seit dem Lernzettel</b><br>Aus dem Skript „PhysiologieWS2026-2027Herz.pdf“. Die Wiederholungsaufgaben von der letzten Folie sind unten beantwortet – genau so etwas kann in der Klausur kommen.</div><h3>Aufbau des Herzens</h3><ul><li>Das Herz ist ein „ausgehöhlter Muskel“ im <b>Mittelfell (Mediastinum)</b>, ca. <b>250–300 g</b> schwer und etwa <b>faustgroß</b>. Man unterscheidet Herzbasis (oben, Gefäße) und Herzspitze (unten links).</li><li>Die <b>Herzscheidewand (Septum)</b> trennt rechtes und linkes Herz. Jede Hälfte hat einen <b>Vorhof</b> (Atrium) und eine <b>Kammer</b> (Ventrikel).</li><li>Die <b>Kammern</b> leisten die eigentliche Pumparbeit, die <b>Vorhöfe</b> sind vor allem Blut-Zwischenspeicher.</li></ul><figure class='pic'><img data-enc='img/bio-phys/e2fb1be25307.bin' data-mime='image/jpeg' alt='Innenansicht des Herzens: Vorhöfe, Kammern, Klappen, Hohlvenen, Aorta, Lungenarterie und Lungenvenen.'><figcaption>Innenansicht des Herzens: Vorhöfe, Kammern, Klappen, Hohlvenen, Aorta, Lungenarterie und Lungenvenen.</figcaption></figure><table><tr><th>Herzhälfte</th><th>bekommt Blut aus</th><th>pumpt Blut in</th></tr><tr><td><b>rechts</b> (sauerstoffarm)</td><td>obere und untere Hohlvene → rechter Vorhof</td><td>rechte Kammer → Lungenarterie → <b>Lungenkreislauf</b> (kleiner Kreislauf)</td></tr><tr><td><b>links</b> (sauerstoffreich)</td><td>Lungenvenen → linker Vorhof</td><td>linke Kammer → Aorta → <b>Körperkreislauf</b> (großer Kreislauf)</td></tr></table><ul><li>Die <b>linke Kammer</b> muss einen viel höheren Druck aufbauen als die rechte, weil der Strömungswiderstand im Körperkreislauf größer ist → ihre Wand ist dicker.</li><li>Durch den Lungenkreislauf fließt das <b>gesamte Herzzeitvolumen</b>. Im Körperkreislauf sind die Organe <b>parallel</b> geschaltet; das Blut wird nach Lebenswichtigkeit und momentanem Bedarf verteilt.</li></ul><h3>Herzklappen = Ventile</h3><ul><li>Bestehen aus <b>Bindegewebe</b>, das vom Herzskelett ausgeht, und sind wie die Herzhöhlen von glattem Epithel (Endothel) überzogen.</li><li>Sie sorgen dafür, dass das Blut nur in <b>eine Richtung</b> fließt. Alle vier liegen in einer Ebene, der <b>Ventilebene</b>.</li></ul><table><tr><th>Klappentyp</th><th>Lage</th><th>Namen</th></tr><tr><td><b>Segelklappen</b></td><td>zwischen Vorhof und Kammer</td><td>rechts Trikuspidalklappe (3 Segel), links Mitralklappe (2 Segel)</td></tr><tr><td><b>Taschenklappen</b></td><td>zwischen Kammer und großer Arterie</td><td>Pulmonalklappe (rechts), Aortenklappe (links)</td></tr></table><h3>Herzkranzgefäße (Koronararterien)</h3><ul><li>Versorgen den Herzmuskel selbst mit Blut. Die <b>linke und rechte Koronararterie</b> gehen direkt oberhalb der Aortenklappe von der <b>Aorta</b> ab.</li><li>Die <b>linke</b> Koronararterie bekommt ca. <b>80 %</b> des Blutes für das Herz.</li><li>Der Herzmuskel wird vor allem in der <b>Diastole</b> durchblutet – während der Systole drückt der angespannte Muskel die Gefäße zusammen.</li></ul><h3>Feinbau der Herzwand</h3><table><tr><th>Schicht</th><th>Aufbau</th></tr><tr><td><b>Endokard</b> (innen)</td><td>glatte Endothelschicht</td></tr><tr><td><b>Myokard</b> (Mitte)</td><td>Herzmuskel: besondere Form der quergestreiften Muskulatur; Zellen mechanisch und elektrisch über <b>Glanzstreifen</b> verbunden</td></tr><tr><td><b>Epikard</b> (außen)</td><td>Bindegewebe, inneres Blatt des Herzbeutels</td></tr></table><ul><li>Das ganze Herz steckt im <b>Herzbeutel (Perikard)</b>.</li></ul><h3>Mechanische Herzaktion: der Herzzyklus</h3><ul><li>Das Herz arbeitet als <b>Ventilpumpe</b> im „Viertakt“: zwei aktive Phasen = <b>Systole</b>, zwei passive Phasen = <b>Diastole</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/0420e3a71dfc.bin' data-mime='image/jpeg' alt='Herzzyklus: Füllung, Anspannung, Austreibung, Entspannung mit Druckkurven von Aorta, Kammer und Vorhof sowie EKG.'><figcaption>Herzzyklus: Füllung, Anspannung, Austreibung, Entspannung mit Druckkurven von Aorta, Kammer und Vorhof sowie EKG.</figcaption></figure><table><tr><th>Phase</th><th>Was passiert?</th><th>Klappen</th></tr><tr><td>1 <b>Anspannungsphase</b> (Systole)</td><td>Kammermuskel zieht sich zusammen, Volumen bleibt gleich, Druck steigt steil an</td><td>alle geschlossen</td></tr><tr><td>2 <b>Austreibungsphase</b> (Systole)</td><td>Kammerdruck > Druck in Aorta/Lungenarterie → Blut wird ausgeworfen (ca. 70 ml)</td><td>Taschenklappen offen, Segelklappen zu</td></tr><tr><td>3 <b>Entspannungsphase</b> (Diastole)</td><td>Muskel erschlafft, Kammerdruck fällt schnell</td><td>alle geschlossen</td></tr><tr><td>4 <b>Füllungsphase</b> (Diastole)</td><td>Kammerdruck < Vorhofdruck → Blut strömt in die Kammern, am Ende hilft die Vorhofkontraktion</td><td>Segelklappen offen, Taschenklappen zu</td></tr></table><ul><li>Merke: Klappen öffnen und schließen sich <b>passiv durch Druckunterschiede</b>.</li><li><b>Ventilebenenmechanismus</b>: In der Austreibungsphase wird die Ventilebene Richtung Herzspitze gezogen. Dadurch werden die Vorhöfe gedehnt und saugen Blut aus den Venen an. In der Diastole schiebt sich die Ventilebene wieder zurück über das Blut → die Kammern füllen sich schnell.</li></ul><h3>Elektrische Herzaktion</h3><ul><li>Im Myokard gibt es zwei Arten von Muskelzellen: spezialisierte Zellen des <b>Erregungsbildungs- und Erregungsleitungssystems</b> und das <b>Arbeitsmyokard</b>, das sich zusammenzieht.</li><li>Wichtig: Dieses System besteht <b>nicht aus Nervenzellen</b>, sondern aus spezialisierten Herzmuskelzellen.</li><li>Startpunkt ist der <b>Sinusknoten</b> im rechten Vorhof = primärer Schrittmacher, Eigenfrequenz <b>60–100 /min</b>.</li><li>Weg der Erregung: Sinusknoten → Vorhöfe → <b>AV-Knoten</b> (verzögert kurz, damit erst die Vorhöfe fertig sind) → <b>His-Bündel</b> → <b>Tawara-Schenkel</b> (links/rechts) → <b>Purkinje-Fasern</b> → Kammermuskulatur.</li><li>Fällt der Sinusknoten aus, können nachgeschaltete Zellen übernehmen – aber mit <b>deutlich niedrigerer Frequenz</b>.</li><li>Die Erregung entsteht <b>autonom</b>, weil das Ruhepotenzial der Schrittmacherzellen nicht stabil ist (es steigt langsam von selbst bis zur Schwelle). Das vegetative Nervensystem verändert nur das Tempo.</li><li>Die Aktionspotenziale springen über <b>elektrische Synapsen (Gap Junctions)</b> von Zelle zu Zelle und breiten sich im gesunden Herzen immer über das ganze Herz aus (<b>Alles-oder-Nichts-Prinzip</b>).</li></ul><figure class='pic'><img data-enc='img/bio-phys/76c13d8afa6f.bin' data-mime='image/jpeg' alt='Erregungsbildungs- und Erregungsleitungssystem: Sinusknoten, AV-Knoten, His-Bündel, Kammerschenkel, Purkinje-Fasern.'><figcaption>Erregungsbildungs- und Erregungsleitungssystem: Sinusknoten, AV-Knoten, His-Bündel, Kammerschenkel, Purkinje-Fasern.</figcaption></figure><h3>Regulation der Herzleistung</h3><ul><li>In Ruhe ca. <b>70 Schläge/min</b>, pro Schlag und Kammer ca. <b>70 ml</b> Schlagvolumen (etwa die Hälfte des Kammervolumens).</li></ul><div class='box'><b>Herzzeitvolumen HZV = Herzfrequenz × Schlagvolumen</b><br>Ruhe: 70 /min × 70 ml ≈ 4,9 L/min (rund 5 L/min)</div><ul><li>Angepasst werden v. a. <b>Schlagfrequenz</b> (Sinusknoten), <b>Schlagkraft</b> und <b>Erregungsleitungsgeschwindigkeit</b>.</li><li><b>Extrakardiale Einflüsse</b> (von außen): vegetatives Nervensystem – <b>Sympathikus</b> steigert, <b>Parasympathikus</b> senkt; Hormone, z. B. <b>ANP</b> (atriales natriuretisches Peptid) zur Volumenentlastung bei hohem Blutdruck.</li><li><b>Intrakardial</b> (im Herzen selbst): <b>Frank-Starling-Mechanismus</b>. Je mehr Blut am Ende der Diastole in der Kammer ist (Vorlast, enddiastolisches Füllungsvolumen), desto stärker wird der Muskel gedehnt und desto kräftiger schlägt er → größeres Schlagvolumen. So passt sich die Auswurfleistung automatisch dem venösen Angebot an.</li></ul><figure class='pic'><img data-enc='img/bio-phys/ef69647c0f88.bin' data-mime='image/jpeg' alt='Frank-Starling-Mechanismus: Schlagvolumen steigt mit dem enddiastolischen Druck (Füllung).'><figcaption>Frank-Starling-Mechanismus: Schlagvolumen steigt mit dem enddiastolischen Druck (Füllung).</figcaption></figure>",
+"h": "<div class='box'><b>Neu seit dem Lernzettel</b><br>Aus dem Skript „PhysiologieWS2026-2027Herz.pdf“. Die Wiederholungsaufgaben von der letzten Folie sind unten beantwortet – genau so etwas kann in der Klausur kommen.</div><h3>Aufbau des Herzens</h3><ul><li>Das Herz ist ein „ausgehöhlter Muskel“ im <b>Mittelfell (Mediastinum)</b>, ca. <b>250–300 g</b> schwer und etwa <b>faustgroß</b>. Man unterscheidet Herzbasis (oben, Gefäße) und Herzspitze (unten links).</li><li>Die <b>Herzscheidewand (Septum)</b> trennt rechtes und linkes Herz. Jede Hälfte hat einen <b>Vorhof</b> (Atrium) und eine <b>Kammer</b> (Ventrikel).</li><li>Die <b>Kammern</b> leisten die eigentliche Pumparbeit, die <b>Vorhöfe</b> sind vor allem Blut-Zwischenspeicher.</li></ul><figure class='pic'><img data-enc='img/bio-phys/e2fb1be25307.bin' data-mime='image/jpeg' alt='Innenansicht des Herzens: Vorhöfe, Kammern, Klappen, Hohlvenen, Aorta, Lungenarterie und Lungenvenen.'><figcaption>Innenansicht des Herzens: Vorhöfe, Kammern, Klappen, Hohlvenen, Aorta, Lungenarterie und Lungenvenen.</figcaption></figure><table><tr><th>Herzhälfte</th><th>bekommt Blut aus</th><th>pumpt Blut in</th></tr><tr><td><b>rechts</b> (sauerstoffarm)</td><td>obere und untere Hohlvene → rechter Vorhof</td><td>rechte Kammer → Lungenarterie → <b>Lungenkreislauf</b> (kleiner Kreislauf)</td></tr><tr><td><b>links</b> (sauerstoffreich)</td><td>Lungenvenen → linker Vorhof</td><td>linke Kammer → Aorta → <b>Körperkreislauf</b> (großer Kreislauf)</td></tr></table><ul><li>Die <b>linke Kammer</b> muss einen viel höheren Druck aufbauen als die rechte, weil der Strömungswiderstand im Körperkreislauf größer ist → ihre Wand ist dicker.</li><li>Durch den Lungenkreislauf fließt das <b>gesamte Herzzeitvolumen</b>. Im Körperkreislauf sind die Organe <b>parallel</b> geschaltet; das Blut wird nach Lebenswichtigkeit und momentanem Bedarf verteilt.</li></ul><h3>Herzklappen = Ventile</h3><ul><li>Bestehen aus <b>Bindegewebe</b>, das vom Herzskelett ausgeht, und sind wie die Herzhöhlen von glattem Epithel (Endothel) überzogen.</li><li>Sie sorgen dafür, dass das Blut nur in <b>eine Richtung</b> fließt. Alle vier liegen in einer Ebene, der <b>Ventilebene</b>.</li></ul><table><tr><th>Klappentyp</th><th>Lage</th><th>Namen</th></tr><tr><td><b>Segelklappen</b></td><td>zwischen Vorhof und Kammer</td><td>rechts Trikuspidalklappe (3 Segel), links Mitralklappe (2 Segel)</td></tr><tr><td><b>Taschenklappen</b></td><td>zwischen Kammer und großer Arterie</td><td>Pulmonalklappe (rechts), Aortenklappe (links)</td></tr></table><h3>Herzkranzgefäße (Koronararterien)</h3><ul><li>Versorgen den Herzmuskel selbst mit Blut. Die <b>linke und rechte Koronararterie</b> gehen direkt oberhalb der Aortenklappe von der <b>Aorta</b> ab.</li><li>Die <b>linke</b> Koronararterie bekommt ca. <b>80 %</b> des Blutes für das Herz.</li><li>Der Herzmuskel wird vor allem in der <b>Diastole</b> durchblutet – während der Systole drückt der angespannte Muskel die Gefäße zusammen.</li></ul><h3>Feinbau der Herzwand</h3><table><tr><th>Schicht</th><th>Aufbau</th></tr><tr><td><b>Endokard</b> (innen)</td><td>glatte Endothelschicht</td></tr><tr><td><b>Myokard</b> (Mitte)</td><td>Herzmuskel: besondere Form der quergestreiften Muskulatur; Zellen mechanisch und elektrisch über <b>Glanzstreifen</b> verbunden</td></tr><tr><td><b>Epikard</b> (außen)</td><td>Bindegewebe, inneres Blatt des Herzbeutels</td></tr></table><ul><li>Das ganze Herz steckt im <b>Herzbeutel (Perikard)</b>.</li></ul><h3>Mechanische Herzaktion: der Herzzyklus</h3><ul><li>Das Herz arbeitet als <b>Ventilpumpe</b> im „Viertakt“: zwei aktive Phasen = <b>Systole</b>, zwei passive Phasen = <b>Diastole</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/0420e3a71dfc.bin' data-mime='image/jpeg' alt='Herzzyklus: Füllung, Anspannung, Austreibung, Entspannung mit Druckkurven von Aorta, Kammer und Vorhof sowie EKG.'><figcaption>Herzzyklus: Füllung, Anspannung, Austreibung, Entspannung mit Druckkurven von Aorta, Kammer und Vorhof sowie EKG.</figcaption></figure><table><tr><th>Phase</th><th>Was passiert?</th><th>Klappen</th></tr><tr><td>1 <b>Anspannungsphase</b> (Systole)</td><td>Kammermuskel zieht sich zusammen, Volumen bleibt gleich, Druck steigt steil an</td><td>alle geschlossen</td></tr><tr><td>2 <b>Austreibungsphase</b> (Systole)</td><td>Kammerdruck > Druck in Aorta/Lungenarterie → Blut wird ausgeworfen (ca. 70 ml)</td><td>Taschenklappen offen, Segelklappen zu</td></tr><tr><td>3 <b>Entspannungsphase</b> (Diastole)</td><td>Muskel erschlafft, Kammerdruck fällt schnell</td><td>alle geschlossen</td></tr><tr><td>4 <b>Füllungsphase</b> (Diastole)</td><td>Kammerdruck &lt; Vorhofdruck → Blut strömt in die Kammern, am Ende hilft die Vorhofkontraktion</td><td>Segelklappen offen, Taschenklappen zu</td></tr></table><ul><li>Merke: Klappen öffnen und schließen sich <b>passiv durch Druckunterschiede</b>.</li><li><b>Ventilebenenmechanismus</b>: In der Austreibungsphase wird die Ventilebene Richtung Herzspitze gezogen. Dadurch werden die Vorhöfe gedehnt und saugen Blut aus den Venen an. In der Diastole schiebt sich die Ventilebene wieder zurück über das Blut → die Kammern füllen sich schnell.</li></ul><h3>Elektrische Herzaktion</h3><ul><li>Im Myokard gibt es zwei Arten von Muskelzellen: spezialisierte Zellen des <b>Erregungsbildungs- und Erregungsleitungssystems</b> und das <b>Arbeitsmyokard</b>, das sich zusammenzieht.</li><li>Wichtig: Dieses System besteht <b>nicht aus Nervenzellen</b>, sondern aus spezialisierten Herzmuskelzellen.</li><li>Startpunkt ist der <b>Sinusknoten</b> im rechten Vorhof = primärer Schrittmacher, Eigenfrequenz <b>60–100 /min</b>.</li><li>Weg der Erregung: Sinusknoten → Vorhöfe → <b>AV-Knoten</b> (verzögert kurz, damit erst die Vorhöfe fertig sind) → <b>His-Bündel</b> → <b>Tawara-Schenkel</b> (links/rechts) → <b>Purkinje-Fasern</b> → Kammermuskulatur.</li><li>Fällt der Sinusknoten aus, können nachgeschaltete Zellen übernehmen – aber mit <b>deutlich niedrigerer Frequenz</b>.</li><li>Die Erregung entsteht <b>autonom</b>, weil das Ruhepotenzial der Schrittmacherzellen nicht stabil ist (es steigt langsam von selbst bis zur Schwelle). Das vegetative Nervensystem verändert nur das Tempo.</li><li>Die Aktionspotenziale springen über <b>elektrische Synapsen (Gap Junctions)</b> von Zelle zu Zelle und breiten sich im gesunden Herzen immer über das ganze Herz aus (<b>Alles-oder-Nichts-Prinzip</b>).</li></ul><figure class='pic'><img data-enc='img/bio-phys/76c13d8afa6f.bin' data-mime='image/jpeg' alt='Erregungsbildungs- und Erregungsleitungssystem: Sinusknoten, AV-Knoten, His-Bündel, Kammerschenkel, Purkinje-Fasern.'><figcaption>Erregungsbildungs- und Erregungsleitungssystem: Sinusknoten, AV-Knoten, His-Bündel, Kammerschenkel, Purkinje-Fasern.</figcaption></figure><h3>Regulation der Herzleistung</h3><ul><li>In Ruhe ca. <b>70 Schläge/min</b>, pro Schlag und Kammer ca. <b>70 ml</b> Schlagvolumen (etwa die Hälfte des Kammervolumens).</li></ul><div class='box'><b>Herzzeitvolumen HZV = Herzfrequenz × Schlagvolumen</b><br>Ruhe: 70 /min × 70 ml ≈ 4,9 L/min (rund 5 L/min)</div><ul><li>Angepasst werden v. a. <b>Schlagfrequenz</b> (Sinusknoten), <b>Schlagkraft</b> und <b>Erregungsleitungsgeschwindigkeit</b>.</li><li><b>Extrakardiale Einflüsse</b> (von außen): vegetatives Nervensystem – <b>Sympathikus</b> steigert, <b>Parasympathikus</b> senkt; Hormone, z. B. <b>ANP</b> (atriales natriuretisches Peptid) zur Volumenentlastung bei hohem Blutdruck.</li><li><b>Intrakardial</b> (im Herzen selbst): <b>Frank-Starling-Mechanismus</b>. Je mehr Blut am Ende der Diastole in der Kammer ist (Vorlast, enddiastolisches Füllungsvolumen), desto stärker wird der Muskel gedehnt und desto kräftiger schlägt er → größeres Schlagvolumen. So passt sich die Auswurfleistung automatisch dem venösen Angebot an.</li></ul><figure class='pic'><img data-enc='img/bio-phys/ef69647c0f88.bin' data-mime='image/jpeg' alt='Frank-Starling-Mechanismus: Schlagvolumen steigt mit dem enddiastolischen Druck (Füllung).'><figcaption>Frank-Starling-Mechanismus: Schlagvolumen steigt mit dem enddiastolischen Druck (Füllung).</figcaption></figure>",
 "neu": [
 [
 "Herz: Lage, Gewicht, Größe?",
@@ -1945,6 +4408,247 @@ const STOFF = {
 "Dehnung",
 "Schlagvolumen"
 ]
+]
+],
+"mehr": [
+[
+"Was ist das Mediastinum?",
+"Mittelfell – Raum zwischen den Lungen, in dem das Herz liegt.",
+[
+"Mittelfell",
+"~zwischen den Lungen|Lungen"
+],
+"begriff"
+],
+[
+"Was ist das Septum?",
+"Herzscheidewand – trennt rechtes und linkes Herz.",
+[
+"Scheidewand",
+"~trennt rechts und links|rechts links"
+],
+"begriff"
+],
+[
+"Atrium und Ventrikel – deutsch?",
+"Atrium = Vorhof, Ventrikel = Kammer.",
+[
+"Vorhof",
+"Kammer"
+],
+"begriff"
+],
+[
+"Was ist der kleine, was der große Kreislauf?",
+"Klein: Lungenkreislauf (rechte Kammer → Lunge → linker Vorhof). Groß: Körperkreislauf (linke Kammer → Aorta → Körper → rechter Vorhof).",
+[
+"Lunge",
+"Körper|Aorta"
+],
+"begriff"
+],
+[
+"Wohin fließt sauerstoffarmes Blut aus dem Körper zuerst?",
+"Über obere und untere Hohlvene in den rechten Vorhof.",
+[
+"Hohlvene",
+"rechten Vorhof|rechter Vorhof"
+],
+""
+],
+[
+"Warum ist die Wand der linken Kammer dicker?",
+"Sie muss gegen den höheren Strömungswiderstand des Körperkreislaufs einen viel höheren Druck aufbauen.",
+[
+"~höherer Druck|mehr Druck",
+"Widerstand|Körperkreislauf"
+],
+""
+],
+[
+"Wie sind die Organe im Körperkreislauf geschaltet – Folge?",
+"Parallel; das Blut wird nach Lebenswichtigkeit und momentanem Bedarf verteilt.",
+[
+"parallel",
+"Bedarf"
+],
+""
+],
+[
+"Wie viele Segel haben Trikuspidal- und Mitralklappe?",
+"Trikuspidal (rechts) 3, Mitral (links) 2.",
+[
+"3",
+"2"
+],
+""
+],
+[
+"Was ist das Herzskelett?",
+"Bindegewebsplatte in der Ventilebene, von der die Klappen ausgehen; trennt Vorhöfe und Kammern elektrisch (nur das His-Bündel tritt durch).",
+[
+"Bindegewebe",
+"~elektrisch trennt|Isolation|His"
+],
+"begriff"
+],
+[
+"Wann wird der Herzmuskel durchblutet – und warum?",
+"Vor allem in der Diastole – in der Systole drückt der angespannte Muskel die Koronargefäße zu.",
+[
+"Diastole",
+"~zusammengedrückt|zugedrückt"
+],
+""
+],
+[
+"Was sind Glanzstreifen?",
+"Verbindungen der Herzmuskelzellen – mechanisch und elektrisch (mit Gap Junctions).",
+[
+"~Verbindung|verbunden",
+"elektrisch|Gap Junctions"
+],
+"begriff"
+],
+[
+"Endokard, Myokard, Epikard – was ist das Perikard?",
+"Endokard innen, Myokard Muskel, Epikard außen; Perikard = Herzbeutel, in dem das ganze Herz steckt.",
+[
+"Herzbeutel"
+],
+"begriff"
+],
+[
+"Was ist Systole, was Diastole?",
+"Systole: aktive Phasen (Anspannung + Austreibung). Diastole: passive Phasen (Entspannung + Füllung).",
+[
+"~Anspannung und Austreibung|aktiv|Kontraktion",
+"~Entspannung und Füllung|passiv"
+],
+"begriff"
+],
+[
+"Wie viel Blut wird pro Schlag ausgeworfen – welcher Anteil des Kammervolumens?",
+"Ca. 70 ml, etwa die Hälfte.",
+[
+"70",
+"Hälfte"
+],
+""
+],
+[
+"Was ist der Sinusknoten – wo liegt er, welche Frequenz?",
+"Primärer Schrittmacher im rechten Vorhof, Eigenfrequenz 60–100/min.",
+[
+"Schrittmacher",
+"rechten Vorhof|rechter Vorhof",
+"60"
+],
+"begriff"
+],
+[
+"Warum verzögert der AV-Knoten die Erregung?",
+"Damit sich zuerst die Vorhöfe vollständig zusammenziehen und die Kammern füllen.",
+[
+"Vorhöfe",
+"~füllen|Füllung|zuerst"
+],
+""
+],
+[
+"Was sind Gap Junctions?",
+"Elektrische Synapsen: Kanäle zwischen Herzmuskelzellen, über die das AP direkt von Zelle zu Zelle springt.",
+[
+"~elektrische Synapse|Kanäle",
+"~von Zelle zu Zelle|Zellen verbunden"
+],
+"begriff"
+],
+[
+"Was ist ANP?",
+"Atriales natriuretisches Peptid – Hormon aus den Vorhöfen; entlastet das Volumen bei hohem Blutdruck.",
+[
+"atrial|Vorhof",
+"~Volumen|Blutdruck"
+],
+"begriff"
+],
+[
+"Was ist die Vorlast?",
+"Enddiastolisches Füllungsvolumen der Kammer (Blut am Ende der Diastole).",
+[
+"~Füllung am Ende der Diastole|enddiastolisch|Füllungsvolumen"
+],
+"begriff"
+],
+[
+"Rechne: Herzfrequenz 120/min, Schlagvolumen 100 ml – Herzzeitvolumen?",
+"HZV = 120 · 100 ml = 12 000 ml = 12 L/min.",
+[
+"12"
+],
+""
+],
+[
+"Klausurtyp: Erkläre, warum die Erregung im Herzen autonom entsteht.",
+"Das Ruhepotential der Schrittmacherzellen ist instabil – es steigt von selbst langsam bis zur Schwelle → AP. Das vegetative NS ändert nur das Tempo.",
+[
+"~instabiles Ruhepotential|steigt von selbst",
+"Schwelle",
+"~vegetativ ändert nur Tempo|Frequenz"
+],
+"klausur"
+],
+[
+"Bild: Benenne Vorhöfe, Kammern und Klappen.",
+"Rechter/linker Vorhof, rechte/linke Kammer; Trikuspidal- und Mitralklappe (Segelklappen), Pulmonal- und Aortenklappe (Taschenklappen).",
+[
+"Vorhof",
+"Kammer",
+"Trikuspidal|Mitral",
+"Pulmonal|Aorten"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/e2fb1be25307.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild: Benenne die Stationen des Erregungsleitungssystems.",
+"Sinusknoten → AV-Knoten → His-Bündel → Tawara-Schenkel → Purkinje-Fasern.",
+[
+"Sinusknoten",
+"AV-Knoten",
+"His",
+"Tawara",
+"Purkinje"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/bio-phys/76c13d8afa6f.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
+],
+"alt": [
+[
+"bio-klausur",
+10
+],
+[
+"bio-klausur",
+11
+],
+[
+"bio-klausur",
+12
+],
+[
+"bio-klausur",
+13
+],
+[
+"bio-klausur",
+14
+],
+[
+"bio-klausur",
+15
 ]
 ]
 }
@@ -2762,7 +5466,7 @@ const STOFF = {
 "t": "Gleichungen Schritt für Schritt (Test 1 + 2)",
 "sub": "Musterlösungen: quadratisch · Wurzelgleichungen · Substitution · Ungleichungen · Betrag · LGS · Zinseszins",
 "c": [],
-"h": "<div class='box'><b>Wozu dieses Kapitel?</b><br>Kapitel 2 ist eine Formelsammlung. Hier steht dasselbe als <b>vorgerechnete Beispiele</b> – genau die Aufgabentypen aus dem Vorlesungs-Aufschrieb (Pickhardt, Stand 28.10.) und dem Übungsblatt Wurzelgleichungen. Für die Online-Tests gilt: Open Book, Taschenrechner erlaubt, ca. 1 h vor Ende starten.</div><h3>1 Quadratische Gleichungen</h3><h4>Mit der p-q-Formel</h4><p>x² − 6x + 5 = 0 → p = −6, q = 5<br>x = 3 ± √(9 − 5) = 3 ± 2 → <b>x₁ = 5, x₂ = 1</b></p><h4>Erst durch den Faktor vor x² teilen</h4><p>2x² + 8x − 10 = 0 | : 2 → x² + 4x − 5 = 0<br>x = −2 ± √(4 + 5) = −2 ± 3 → <b>x₁ = 1, x₂ = −5</b></p><h4>Scheitelpunktform durch quadratische Ergänzung</h4><p>y = x² − 4x + 1 = (x² − 4x <b>+ 4</b>) <b>− 4</b> + 1 = (x − 2)² − 3 → Scheitel <b>S(2 | −3)</b><br>Trick: Die Hälfte der Zahl vor x quadrieren, addieren und gleich wieder abziehen.</p><h3>2 Wurzelgleichungen</h3><div class='box'><b>Fahrplan</b><br>1. Definitionsbereich (Radikand ≥ 0) · 2. Wurzel allein auf eine Seite · 3. Quadrieren · 4. Lösen · 5. <b>Probe mit der Ausgangsgleichung – Pflicht!</b><br>Quadrieren ist keine Äquivalenzumformung: aus 3 ≠ −3 wird 9 = 9. Dadurch entstehen <b>Scheinlösungen</b>.</div><h4>Beispiel A</h4><p>√(x + 2) = x, D: x ≥ −2<br>Quadrieren: x + 2 = x² → x² − x − 2 = 0 → x = 2 oder x = −1<br>Probe: x = 2: √4 = 2 ✓ · x = −1: √1 = 1 ≠ −1 ✗ → <b>L = {2}</b></p><h4>Beispiel B: erst isolieren</h4><p>√(x + 5) + 1 = x → √(x + 5) = x − 1<br>Quadrieren: x + 5 = x² − 2x + 1 → x² − 3x − 4 = 0 → x = 4 oder x = −1<br>Probe: 4: √9 + 1 = 4 ✓ · −1: √4 + 1 = 3 ≠ −1 ✗ → <b>L = {4}</b><br>Achtung: (x − 1)² = x² − 2x + 1 (binomische Formel!), nicht x² + 1.</p><h4>Beispiel C: zwei Wurzeln</h4><p>√(x + 7) − √x = 1 → √(x + 7) = 1 + √x<br>Quadrieren: x + 7 = 1 + 2√x + x → 6 = 2√x → √x = 3 → x = 9<br>Probe: √16 − √9 = 4 − 3 = 1 ✓ → <b>L = {9}</b></p><h4>Beispiel D: Substitution</h4><p>x − 5√x + 6 = 0. Setze u = √x (also x = u²): u² − 5u + 6 = 0 → u = 2 oder u = 3<br>Zurück: √x = 2 → x = 4; √x = 3 → x = 9. Probe: 4 − 10 + 6 = 0 ✓, 9 − 15 + 6 = 0 ✓ → <b>L = {4; 9}</b><br>Wäre ein u negativ, gäbe es dafür keine Lösung (√x ist nie negativ).</p><h3>3 Ungleichungen</h3><ul><li>Wie Gleichungen lösen, aber: <b>Mal oder geteilt durch eine negative Zahl dreht das Zeichen</b>.</li><li>Lösung als Intervall: x ≤ b ⇔ x ∈ (−∞, b]; runde Klammer = Grenze gehört nicht dazu, eckige = gehört dazu.</li></ul><p>2x + 2 > x − 4 → x > −6 → <b>L = (−6, ∞)</b><br>(Die Gleichung 2x + 2 = x − 4 hätte nur x = −6.)</p><p>−3x + 6 ≤ 12 → −3x ≤ 6 | : (−3), Zeichen dreht! → x ≥ −2 → <b>L = [−2, ∞)</b></p><h4>Betrag</h4><p>|x − 3| < 2 bedeutet: Abstand von x zu 3 ist kleiner als 2 → −2 < x − 3 < 2 → <b>1 < x < 5</b>, L = (1, 5)<br>|x − 3| ≥ 2 → x − 3 ≥ 2 oder x − 3 ≤ −2 → <b>x ≥ 5 oder x ≤ 1</b></p><h4>x im Nenner: Fallunterscheidung</h4><p>(x + 1)/(x − 2) > 0: Bruch positiv, wenn Zähler und Nenner dasselbe Vorzeichen haben.<br>Beide positiv: x > −1 und x > 2 → x > 2. Beide negativ: x < −1 und x < 2 → x < −1.<br><b>L = (−∞, −1) ∪ (2, ∞)</b></p><h3>4 Lineare Gleichungssysteme</h3><h4>2×2 mit dem Additionsverfahren</h4><p>x + y = 5 und 2x − y = 4. Addieren: 3x = 9 → x = 3, einsetzen: y = 2 → <b>(3 | 2)</b></p><h4>3×3 mit Gauß</h4><p>x + y + z = 6 · 2x − y + z = 3 · x + 2y − z = 2<br>II − 2·I: −3y − z = −9 · III − I: y − 2z = −4<br>Aus der neuen III: y = 2z − 4 → in die neue II: −3(2z − 4) − z = −9 → −7z + 12 = −9 → z = 3<br>y = 2 · 3 − 4 = 2, x = 6 − 2 − 3 = 1 → <b>(1 | 2 | 3)</b></p><ul><li>Stufenform: unten links nur Nullen, dann von unten nach oben einsetzen.</li><li>Zeile 0 = 0 → unendlich viele Lösungen; Zeile 0 = 5 → keine Lösung.</li></ul><h3>5 Potenzen, Wurzeln, Zinseszins</h3><ul><li>ⁿ√a = a^(1/n), ⁿ√(aᵐ) = a^(m/n); a⁻ⁿ = 1/aⁿ; aᵐ · aⁿ = aᵐ⁺ⁿ; (aᵐ)ⁿ = aᵐ·ⁿ.</li><li>Beispiel: x^(m−4) · x^(5−m) · x^(2m−2) · x^(−m−5) = x^((m−4)+(5−m)+(2m−2)+(−m−5)) = <b>x⁻⁶</b> = 1/x⁶.</li><li>Umkehrungen: aus 3 Schritten zu 27 Punkten → Faktor ³√27 = <b>3</b> (Wurzel); wann sind es 64 Punkte bei Faktor 2 → 2ⁿ = 64 → n = log₂ 64 = <b>6</b> (Logarithmus).</li></ul><div class='box'><b>Zinseszins: K<sub>n</sub> = K · (1 + i/100)ⁿ</b><br>Jedes Jahr kommen die Zinsen auf den schon verzinsten Betrag.<br>Beispiel: 1000 € zu 3 % für 5 Jahre → 1000 · 1,03⁵ = <b>1159,27 €</b></div>",
+"h": "<div class='box'><b>Wozu dieses Kapitel?</b><br>Kapitel 2 ist eine Formelsammlung. Hier steht dasselbe als <b>vorgerechnete Beispiele</b> – genau die Aufgabentypen aus dem Vorlesungs-Aufschrieb (Pickhardt, Stand 28.10.) und dem Übungsblatt Wurzelgleichungen. Für die Online-Tests gilt: Open Book, Taschenrechner erlaubt, ca. 1 h vor Ende starten.</div><h3>1 Quadratische Gleichungen</h3><h4>Mit der p-q-Formel</h4><p>x² − 6x + 5 = 0 → p = −6, q = 5<br>x = 3 ± √(9 − 5) = 3 ± 2 → <b>x₁ = 5, x₂ = 1</b></p><h4>Erst durch den Faktor vor x² teilen</h4><p>2x² + 8x − 10 = 0 | : 2 → x² + 4x − 5 = 0<br>x = −2 ± √(4 + 5) = −2 ± 3 → <b>x₁ = 1, x₂ = −5</b></p><h4>Scheitelpunktform durch quadratische Ergänzung</h4><p>y = x² − 4x + 1 = (x² − 4x <b>+ 4</b>) <b>− 4</b> + 1 = (x − 2)² − 3 → Scheitel <b>S(2 | −3)</b><br>Trick: Die Hälfte der Zahl vor x quadrieren, addieren und gleich wieder abziehen.</p><h3>2 Wurzelgleichungen</h3><div class='box'><b>Fahrplan</b><br>1. Definitionsbereich (Radikand ≥ 0) · 2. Wurzel allein auf eine Seite · 3. Quadrieren · 4. Lösen · 5. <b>Probe mit der Ausgangsgleichung – Pflicht!</b><br>Quadrieren ist keine Äquivalenzumformung: aus 3 ≠ −3 wird 9 = 9. Dadurch entstehen <b>Scheinlösungen</b>.</div><h4>Beispiel A</h4><p>√(x + 2) = x, D: x ≥ −2<br>Quadrieren: x + 2 = x² → x² − x − 2 = 0 → x = 2 oder x = −1<br>Probe: x = 2: √4 = 2 ✓ · x = −1: √1 = 1 ≠ −1 ✗ → <b>L = {2}</b></p><h4>Beispiel B: erst isolieren</h4><p>√(x + 5) + 1 = x → √(x + 5) = x − 1<br>Quadrieren: x + 5 = x² − 2x + 1 → x² − 3x − 4 = 0 → x = 4 oder x = −1<br>Probe: 4: √9 + 1 = 4 ✓ · −1: √4 + 1 = 3 ≠ −1 ✗ → <b>L = {4}</b><br>Achtung: (x − 1)² = x² − 2x + 1 (binomische Formel!), nicht x² + 1.</p><h4>Beispiel C: zwei Wurzeln</h4><p>√(x + 7) − √x = 1 → √(x + 7) = 1 + √x<br>Quadrieren: x + 7 = 1 + 2√x + x → 6 = 2√x → √x = 3 → x = 9<br>Probe: √16 − √9 = 4 − 3 = 1 ✓ → <b>L = {9}</b></p><h4>Beispiel D: Substitution</h4><p>x − 5√x + 6 = 0. Setze u = √x (also x = u²): u² − 5u + 6 = 0 → u = 2 oder u = 3<br>Zurück: √x = 2 → x = 4; √x = 3 → x = 9. Probe: 4 − 10 + 6 = 0 ✓, 9 − 15 + 6 = 0 ✓ → <b>L = {4; 9}</b><br>Wäre ein u negativ, gäbe es dafür keine Lösung (√x ist nie negativ).</p><h3>3 Ungleichungen</h3><ul><li>Wie Gleichungen lösen, aber: <b>Mal oder geteilt durch eine negative Zahl dreht das Zeichen</b>.</li><li>Lösung als Intervall: x ≤ b ⇔ x ∈ (−∞, b]; runde Klammer = Grenze gehört nicht dazu, eckige = gehört dazu.</li></ul><p>2x + 2 > x − 4 → x > −6 → <b>L = (−6, ∞)</b><br>(Die Gleichung 2x + 2 = x − 4 hätte nur x = −6.)</p><p>−3x + 6 ≤ 12 → −3x ≤ 6 | : (−3), Zeichen dreht! → x ≥ −2 → <b>L = [−2, ∞)</b></p><h4>Betrag</h4><p>|x − 3| &lt; 2 bedeutet: Abstand von x zu 3 ist kleiner als 2 → −2 &lt; x − 3 &lt; 2 → <b>1 &lt; x &lt; 5</b>, L = (1, 5)<br>|x − 3| ≥ 2 → x − 3 ≥ 2 oder x − 3 ≤ −2 → <b>x ≥ 5 oder x ≤ 1</b></p><h4>x im Nenner: Fallunterscheidung</h4><p>(x + 1)/(x − 2) > 0: Bruch positiv, wenn Zähler und Nenner dasselbe Vorzeichen haben.<br>Beide positiv: x > −1 und x > 2 → x > 2. Beide negativ: x &lt; −1 und x &lt; 2 → x &lt; −1.<br><b>L = (−∞, −1) ∪ (2, ∞)</b></p><h3>4 Lineare Gleichungssysteme</h3><h4>2×2 mit dem Additionsverfahren</h4><p>x + y = 5 und 2x − y = 4. Addieren: 3x = 9 → x = 3, einsetzen: y = 2 → <b>(3 | 2)</b></p><h4>3×3 mit Gauß</h4><p>x + y + z = 6 · 2x − y + z = 3 · x + 2y − z = 2<br>II − 2·I: −3y − z = −9 · III − I: y − 2z = −4<br>Aus der neuen III: y = 2z − 4 → in die neue II: −3(2z − 4) − z = −9 → −7z + 12 = −9 → z = 3<br>y = 2 · 3 − 4 = 2, x = 6 − 2 − 3 = 1 → <b>(1 | 2 | 3)</b></p><ul><li>Stufenform: unten links nur Nullen, dann von unten nach oben einsetzen.</li><li>Zeile 0 = 0 → unendlich viele Lösungen; Zeile 0 = 5 → keine Lösung.</li></ul><h3>5 Potenzen, Wurzeln, Zinseszins</h3><ul><li>ⁿ√a = a^(1/n), ⁿ√(aᵐ) = a^(m/n); a⁻ⁿ = 1/aⁿ; aᵐ · aⁿ = aᵐ⁺ⁿ; (aᵐ)ⁿ = aᵐ·ⁿ.</li><li>Beispiel: x^(m−4) · x^(5−m) · x^(2m−2) · x^(−m−5) = x^((m−4)+(5−m)+(2m−2)+(−m−5)) = <b>x⁻⁶</b> = 1/x⁶.</li><li>Umkehrungen: aus 3 Schritten zu 27 Punkten → Faktor ³√27 = <b>3</b> (Wurzel); wann sind es 64 Punkte bei Faktor 2 → 2ⁿ = 64 → n = log₂ 64 = <b>6</b> (Logarithmus).</li></ul><div class='box'><b>Zinseszins: K<sub>n</sub> = K · (1 + i/100)ⁿ</b><br>Jedes Jahr kommen die Zinsen auf den schon verzinsten Betrag.<br>Beispiel: 1000 € zu 3 % für 5 Jahre → 1000 · 1,03⁵ = <b>1159,27 €</b></div>",
 "neu": [
 [
 "Löse x² − 6x + 5 = 0.",
@@ -2836,8 +5540,8 @@ const STOFF = {
 ]
 ],
 [
-"Löse |x − 3| < 2.",
-"−2 < x − 3 < 2 → 1 < x < 5 → L = (1, 5).",
+"Löse |x − 3| &lt; 2.",
+"−2 &lt; x − 3 &lt; 2 → 1 &lt; x &lt; 5 → L = (1, 5).",
 [
 "1",
 "5"
@@ -2845,7 +5549,7 @@ const STOFF = {
 ],
 [
 "Löse (x + 1)/(x − 2) > 0.",
-"Zähler und Nenner gleiches Vorzeichen: beide > 0 → x > 2; beide < 0 → x < −1. L = (−∞, −1) ∪ (2, ∞).",
+"Zähler und Nenner gleiches Vorzeichen: beide > 0 → x > 2; beide &lt; 0 → x &lt; −1. L = (−∞, −1) ∪ (2, ∞).",
 [
 "-1",
 "2"
