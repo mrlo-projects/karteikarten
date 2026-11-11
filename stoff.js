@@ -198,7 +198,7 @@ const STOFF = {
 {
 "t": "Biomoleküle",
 "sub": "Nukleotide  ·  Aminosäuren  ·  Zucker  ·  Fettsäuren & Lipide  ·  Makromoleküle",
-"h": "<h3>2.1 Vier Grundtypen kleiner organischer Moleküle</h3><p class='link'>↩ baut auf Kap. 1.1 (chemische Evolution)</p><ul><li>Die Zelle enthält vereinfacht <b>vier Grundtypen</b> kleiner organischer Moleküle; sie sind die <b>monomeren Bausteine</b> für z. T. riesige <b>Makromoleküle</b>.</li></ul><table><tr><th><b>Baustein (Monomer)</b></th><th><b>Makromolekül</b></th><th><b>Verknüpfung</b></th></tr><tr><td><b>Nukleotide</b></td><td><b>Nukleinsäuren</b> (DNA, RNA)</td><td>Phosphodiesterbindung</td></tr><tr><td><b>Aminosäuren</b></td><td><b>Proteine</b></td><td>Peptidbindung</td></tr><tr><td><b>Zucker</b> (Monosaccharide)</td><td><b>Polysaccharide</b></td><td>glykosidische Bindung</td></tr><tr><td><b>Fettsäuren</b></td><td><b>Fette / Lipide / Membranen</b></td><td>Fettsäuren über die Carboxygruppe mit anderen Molekülen verknüpft</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/b9b4fa33603b.bin' data-mime='image/jpeg' alt='Bausteine der Zelle → Makromoleküle der Zelle (Vielfalt des Lebens, S. 29)'><figcaption>Bausteine der Zelle → Makromoleküle der Zelle (Vielfalt des Lebens, S. 29)</figcaption></figure><h3>2.2 Nukleotide</h3><ul><li>Monomere Untereinheiten von <b>DNA und RNA</b>. Aufbau: <b>Base</b> (Purin oder Pyrimidin) + <b>Zucker</b> aus 5 C-Atomen (<b>Pentose</b>) + <b>Mono-, Di- oder Triphosphat</b>.</li></ul><table><tr><th></th><th><b>Ribonukleotide → RNA</b></th><th><b>Desoxyribonukleotide → DNA</b></th></tr><tr><td>Zucker</td><td><b>Ribose</b> (am 2’-C: <b>OH</b>)</td><td><b>Desoxyribose</b> (am 2’-C: nur <b>H</b>)</td></tr><tr><td>Basen</td><td>A, G, C, <b>Uracil</b></td><td>A, G, C, <b>Thymin</b></td></tr></table><ul><li>Fünf Basen in zwei Gruppen: <b>Purine</b> mit <b>Doppelring</b> (<b>A</b>denin, <b>G</b>uanin) und <b>Pyrimidine</b> mit <b>Einfachring</b> (<b>T</b>hymin, <b>C</b>ytosin, <b>U</b>racil).</li><li>C-Atome im Zucker werden mit <b>Hochstrich</b> nummeriert (1’ bis 5’, „5-Strich-Kohlenstoffatom“).</li><li>Nukleotide tragen <b>1, 2 oder 3 Phosphate</b> (AMP, ADP, ATP), verknüpft über sehr <b>energiereiche Phosphoanhydridbindungen</b>.</li></ul><figure class='pic'><img data-enc='img/bio-berg/274f0227236d.bin' data-mime='image/png' alt='Nukleotid: Phosphat – Zucker – Base'><figcaption>Nukleotid: Phosphat – Zucker – Base</figcaption></figure><table><tr><td>Nukleotid: Phosphat – Zucker – Base</td><td>Pyrimidine (C, U, T) und Purine (A, G)</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/ab44edf1fe91.bin' data-mime='image/jpeg' alt='AMP, ADP, ATP'><figcaption>AMP, ADP, ATP</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/21b48987c9bc.bin' data-mime='image/png' alt='Ribose und 2-Desoxyribose'><figcaption>Ribose und 2-Desoxyribose</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/aa39f76ed836.bin' data-mime='image/jpeg' alt='Pyrimidine (C, U, T) und Purine (A, G)'><figcaption>Pyrimidine (C, U, T) und Purine (A, G)</figcaption></figure><table><tr><td>Ribose und 2-Desoxyribose</td><td>AMP, ADP, ATP</td></tr></table><h3>2.3 Von Nukleotiden zu Nukleinsäuren</h3><p class='link'>↩ baut auf Kap. 2.2 (Nukleotide)</p><ul><li>Nukleotide werden <b>kovalent</b> über eine <b>Phosphodiesterbindung</b> verknüpft: Zucker des einen mit dem Phosphat des nächsten Nukleotids.</li><li>Neue Nukleotide werden <b>immer an das „Zuckerende“ (3’-OH-Ende)</b> angefügt.</li><li><b>Polynukleotid:</b> Molekülkette aus Nukleotiden über Phosphodiesterbindungen = RNA oder DNA.</li><li>Energie stammt aus der <b>Spaltung der Phosphatverknüpfungen</b>: freie Nukleotide als <b>Triphosphat</b> → im Polynukleotid als <b>Monophosphat</b>.</li><li><b>ATP</b> ist nicht nur ein Nukleotid, sondern auch <b>Energielieferant</b> der Zelle.</li><li>Immer gleiche Verknüpfung → <b>lineare, unverzweigte</b> Abfolge = <b>Nukleinsäure</b>; Abfolge = <b>Nukleotid- bzw. DNA-Sequenz</b> im Ein-Buchstaben-Code (AGTTCCAG …).</li><li><b>RNA:</b> aus Ribonukleotiden, <b>einzelsträngig</b>. <b>DNA:</b> aus Desoxyribonukleotiden, <b>doppelsträngig</b>.</li><li><b>Die lineare Abfolge der Nukleotide ist die genetische Information der Zelle.</b></li></ul><figure class='pic'><img data-enc='img/bio-berg/2f0db340a515.bin' data-mime='image/jpeg' alt='Phosphodiesterbindung, 5’- und 3’-Ende (Vielfalt des Lebens, S. 20)'><figcaption>Phosphodiesterbindung, 5’- und 3’-Ende (Vielfalt des Lebens, S. 20)</figcaption></figure><h3>2.4 Aminosäuren</h3><ul><li>Zentrales <b>α-Kohlenstoffatom</b> mit <b>Aminogruppe</b> (–NH<sub>2</sub>) und <b>Carboxygruppe</b> (–COOH) und einer <b>Seitenkette R</b> (z. B. Alanin: R = CH<sub>3</sub>).</li><li><b>Bausteine der Proteine</b>.</li><li><b>Zwitterion:</b> bei neutralem pH ist die Aminogruppe <b>protoniert (–NH<sub>3</sub><sup>+</sup>)</b> und die Carboxygruppe <b>dissoziiert (–COO<sup>−</sup>)</b>.</li></ul><p class='link'>↩ baut auf Lohrer Kap. 2.3 (Säuren, Basen, Ampholyte)</p><ul><li>In Proteinen: <b>20 verschiedene Aminosäuren</b> = das „Alphabet der Proteine“; insgesamt gibt es ca. 400 (z. T. weitere in Proteinen, z. B. N-Formylmethionin).</li><li>Einteilung nach den Eigenschaften der <b>Seitenketten</b>, z. B. <b>saure</b> (Glutamat), <b>schwefelhaltige</b> (Methionin), <b>basische</b> (Arginin).</li></ul><figure class='pic'><img data-enc='img/bio-berg/70fc33d1421e.bin' data-mime='image/jpeg' alt='Aminosäure: nicht ionisierte und ionisierte Form, Beispiel Alanin (Vielfalt des Lebens, S. 13)'><figcaption>Aminosäure: nicht ionisierte und ionisierte Form, Beispiel Alanin (Vielfalt des Lebens, S. 13)</figcaption></figure><h3>2.5 Von Aminosäuren zu Proteinen</h3><p class='link'>↩ baut auf Kap. 2.4 (Aminosäuren)</p><ul><li>Verknüpfung über die <b>Peptidbindung</b>; neue Aminosäuren werden <b>immer an das Carboxyende</b> angefügt → lineare Aminosäuresequenz.</li><li>Proteine werden vom <b>N-Terminus</b> (links) zum <b>C-Terminus</b> notiert.</li><li>Die Sequenz faltet sich zu einer charakteristischen <b>dreidimensionalen Struktur = Konformation</b>; praktisch alle Proteine wirken über ihre Konformation.</li><li>Beispiele: <b>Insulin</b> (u. a. senkt den Blutzucker – Körperzellen nehmen Glukose auf) · <b>Lysozym</b> (spaltet Strukturen der Bakterienzellwand → Lyse).</li></ul><figure class='pic'><img data-enc='img/bio-berg/0501bfcef7b7.bin' data-mime='image/png' alt='Lysozym bindet und spaltet sein Substrat'><figcaption>Lysozym bindet und spaltet sein Substrat</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/55c86053fdeb.bin' data-mime='image/jpeg' alt='Peptidbindung'><figcaption>Peptidbindung</figcaption></figure><table><tr><td>Peptidbindung</td><td>Lysozym bindet und spaltet sein Substrat</td></tr></table><h3>2.6 Kohlenhydrate</h3><ul><li>Einfachzucker (<b>Monosaccharide</b>): allgemeine Formel <b>(CH<sub>2</sub>O)<sub>n</sub></b> → „Kohlen-hydrate“; <b>Glukose C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></b>.</li><li>In wässriger Lösung bilden sie eine <b>Ringstruktur</b>: Aldehyd- oder Ketogruppe reagiert mit einer Hydroxylgruppe im selben Molekül.</li><li>Nummerierung der C-Atome <b>im Uhrzeigersinn</b>, beginnend am C-Atom der Aldehyd- bzw. Ketogruppe.</li><li>Einteilung: <b>Aldosen</b> / <b>Ketosen</b>; <b>Triosen</b> (3 C), <b>Pentosen</b> (5 C, z. B. Ribose), <b>Hexosen</b> (6 C, z. B. Glukose, Fruktose).</li></ul><figure class='pic'><img data-enc='img/bio-berg/30dca8cee3ee.bin' data-mime='image/png' alt='Glukose und Ribose: Kette und Ring'><figcaption>Glukose und Ribose: Kette und Ring</figcaption></figure><table><tr><td>Glukose und Ribose: Kette und Ring</td><td>Aldosen und Ketosen</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/97b977e3e894.bin' data-mime='image/jpeg' alt='Aldosen und Ketosen'><figcaption>Aldosen und Ketosen</figcaption></figure><ul><li><b>Disaccharide</b> (z. B. Lactose) · <b>Oligosaccharide</b> (3–10 Monosaccharide; wichtig in der Zellmembran zur <b>Zellerkennung</b>) · <b>Polysaccharide</b> (z. B. Cellulose).</li><li><b>Glykosidische Bindung:</b> zwischen der OH-Gruppe eines Saccharids und einer <b>OH-Gruppe</b> (<b>O-glykosidisch</b>) oder <b>NH<sub>2</sub>-Gruppe</b> (<b>N-glykosidisch</b>) eines anderen Moleküls.</li><li>Neu gegenüber DNA/Proteinen: mehrere OH-Gruppen stehen zur Verfügung → <b>Verzweigungen</b> möglich, nahezu unendlich viele Strukturen.</li><li><b>Glykoproteine</b> auf der Zellmembran: <b>Zell-Zell-Erkennung</b>, <b>Blutgruppen (AB0-Antigene)</b>.</li></ul><figure class='pic'><img data-enc='img/bio-berg/ee90facd0b72.bin' data-mime='image/jpeg' alt='Zuckerreste der Blutgruppen 0, A, B, AB'><figcaption>Zuckerreste der Blutgruppen 0, A, B, AB</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/b58ebcacd12a.bin' data-mime='image/png' alt='Kondensation / Hydrolyse'><figcaption>Kondensation / Hydrolyse</figcaption></figure><table><tr><td>Kondensation / Hydrolyse</td><td>Zuckerreste der Blutgruppen 0, A, B, AB</td></tr></table><h3>2.7 Fettsäuren und Lipide</h3><ul><li><b>Fettsäure:</b> lange <b>hydrophobe Kohlenwasserstoffkette</b> (wenig reaktiv) + <b>hydrophile Carboxygruppe</b> (sehr reaktiv) → <b>amphipathisch</b>.</li><li>Fast alle Fettsäuren sind in der Zelle über die Carboxygruppe <b>kovalent</b> mit anderen Molekülen verknüpft.</li><li><b>Gesättigt</b> (z. B. Palmitinsäure): keine Doppelbindungen. <b>Doppelbindungen</b> erzeugen <b>Knicke</b> und stören die Zusammenlagerung (Margarine).</li><li><b>Lipide</b> (lípos = Fett): Sammelbezeichnung für <b>wasserunlösliche</b> (hydrophobe) Stoffe; Fettsäuren bilden in Wasser einen <b>Oberflächenfilm</b> oder <b>Mizellen</b>.</li><li>Lipide sind Bestandteil der <b>Zellmembranen</b>, dienen der <b>Energiegewinnung</b> und der <b>zellulären Kommunikation</b>.</li><li>Sieben Gruppen: Fettsäuren · Triacylglyceride (Fette, Öle) · Wachse · <b>Phospholipide</b> · Sphingolipide · Lipopolysaccharide · Isoprenoide (Steroide, Carotinoide).</li><li><b>Phospholipide:</b> Glycerin mit <b>2 Fettsäuren</b> + <b>Phosphat</b> mit kleiner polarer Gruppe → hydrophiler <b>Kopf</b>, hydrophober <b>Schwanz</b>.</li><li>Hydrophobe Ketten lagern sich zusammen und verdrängen Wasser → <b>selbstschließende Lipid-Doppelschichten</b>, Köpfe zum Wasser = Grundlage <b>aller Zellmembranen</b>.</li></ul><p class='link'>↩ baut auf Lohrer Kap. 2.4 (hydrophil / hydrophob)</p><table><tr><td>Palmitinsäure: Kopf und Schwanz</td><td>Oberflächenfilm und Mizelle</td><td>Phospholipid-Doppelschicht</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/df146ea239c8.bin' data-mime='image/png' alt='Phospholipid-Doppelschicht'><figcaption>Phospholipid-Doppelschicht</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/f138c3a83080.bin' data-mime='image/jpeg' alt='Oberflächenfilm und Mizelle'><figcaption>Oberflächenfilm und Mizelle</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/574f34a7c5a7.bin' data-mime='image/png' alt='Palmitinsäure: Kopf und Schwanz'><figcaption>Palmitinsäure: Kopf und Schwanz</figcaption></figure><h3>2.8 Makromoleküle</h3><ul><li><b>Polymere</b> aus kovalent verknüpften kleinen Molekülen.</li><li>Gemeinsamkeiten: Polymer wächst durch <b>Zugabe eines Monomers</b> · dabei wird durch <b>Kondensation</b> ein <b>H<sub>2</sub>O</b> abgespalten · Einbau durch bestimmte <b>Enzyme</b>.</li><li>Untereinheiten werden in einer <b>ganz bestimmten Reihenfolge</b> eingebaut – zentrales Thema der Molekularbiologie.</li><li>Beispiel: Protein aus 200 AS → <b>20<sup>200</sup></b> Möglichkeiten.</li></ul><figure class='pic'><img data-enc='img/bio-berg/7f70f529cec9.bin' data-mime='image/png' alt='Untereinheit → Makromolekül'><figcaption>Untereinheit → Makromolekül</figcaption></figure><table><tr><td>Untereinheit → Makromolekül</td><td>Kondensation: Abspaltung von H<sub>2</sub>O</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/7b68fd03c6e7.bin' data-mime='image/png' alt='Kondensation: Abspaltung von H2O'><figcaption>Kondensation: Abspaltung von H2O</figcaption></figure>",
+"h": "<h3>2.1 Vier Grundtypen kleiner organischer Moleküle</h3><p class='link'>↩ baut auf Kap. 1.1 (chemische Evolution)</p><ul><li>Die Zelle enthält vereinfacht <b>vier Grundtypen</b> kleiner organischer Moleküle; sie sind die <b>monomeren Bausteine</b> für z. T. riesige <b>Makromoleküle</b>.</li></ul><table><tr><th><b>Baustein (Monomer)</b></th><th><b>Makromolekül</b></th><th><b>Verknüpfung</b></th></tr><tr><td><b>Nukleotide</b></td><td><b>Nukleinsäuren</b> (DNA, RNA)</td><td>Phosphodiesterbindung</td></tr><tr><td><b>Aminosäuren</b></td><td><b>Proteine</b></td><td>Peptidbindung</td></tr><tr><td><b>Zucker</b> (Monosaccharide)</td><td><b>Polysaccharide</b></td><td>glykosidische Bindung</td></tr><tr><td><b>Fettsäuren</b></td><td><b>Fette / Lipide / Membranen</b></td><td>Fettsäuren über die Carboxygruppe mit anderen Molekülen verknüpft</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/b9b4fa33603b.bin' data-mime='image/jpeg' alt='Bausteine der Zelle → Makromoleküle der Zelle (Vielfalt des Lebens, S. 29)'><figcaption>Bausteine der Zelle → Makromoleküle der Zelle (Vielfalt des Lebens, S. 29)</figcaption></figure><h3>2.2 Nukleotide</h3><ul><li>Monomere Untereinheiten von <b>DNA und RNA</b>. Aufbau: <b>Base</b> (Purin oder Pyrimidin) + <b>Zucker</b> aus 5 C-Atomen (<b>Pentose</b>) + <b>Mono-, Di- oder Triphosphat</b>.</li></ul><table><tr><th></th><th><b>Ribonukleotide → RNA</b></th><th><b>Desoxyribonukleotide → DNA</b></th></tr><tr><td>Zucker</td><td><b>Ribose</b> (am 2’-C: <b>OH</b>)</td><td><b>Desoxyribose</b> (am 2’-C: nur <b>H</b>)</td></tr><tr><td>Basen</td><td>A, G, C, <b>Uracil</b></td><td>A, G, C, <b>Thymin</b></td></tr></table><ul><li>Fünf Basen in zwei Gruppen: <b>Purine</b> mit <b>Doppelring</b> (<b>A</b>denin, <b>G</b>uanin) und <b>Pyrimidine</b> mit <b>Einfachring</b> (<b>T</b>hymin, <b>C</b>ytosin, <b>U</b>racil).</li><li>C-Atome im Zucker werden mit <b>Hochstrich</b> nummeriert (1’ bis 5’, „5-Strich-Kohlenstoffatom“).</li><li>Nukleotide tragen <b>1, 2 oder 3 Phosphate</b> (AMP, ADP, ATP), verknüpft über sehr <b>energiereiche Phosphoanhydridbindungen</b>.</li></ul><figure class='pic'><img data-enc='img/bio-berg/274f0227236d.bin' data-mime='image/png' alt='Nukleotid: Phosphat – Zucker – Base'><figcaption>Nukleotid: Phosphat – Zucker – Base</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/ab44edf1fe91.bin' data-mime='image/jpeg' alt='AMP, ADP, ATP'><figcaption>AMP, ADP, ATP</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/21b48987c9bc.bin' data-mime='image/png' alt='Ribose und 2-Desoxyribose'><figcaption>Ribose und 2-Desoxyribose</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/aa39f76ed836.bin' data-mime='image/jpeg' alt='Pyrimidine (C, U, T) und Purine (A, G)'><figcaption>Pyrimidine (C, U, T) und Purine (A, G)</figcaption></figure><h3>2.3 Von Nukleotiden zu Nukleinsäuren</h3><p class='link'>↩ baut auf Kap. 2.2 (Nukleotide)</p><ul><li>Nukleotide werden <b>kovalent</b> über eine <b>Phosphodiesterbindung</b> verknüpft: Zucker des einen mit dem Phosphat des nächsten Nukleotids.</li><li>Neue Nukleotide werden <b>immer an das „Zuckerende“ (3’-OH-Ende)</b> angefügt.</li><li><b>Polynukleotid:</b> Molekülkette aus Nukleotiden über Phosphodiesterbindungen = RNA oder DNA.</li><li>Energie stammt aus der <b>Spaltung der Phosphatverknüpfungen</b>: freie Nukleotide als <b>Triphosphat</b> → im Polynukleotid als <b>Monophosphat</b>.</li><li><b>ATP</b> ist nicht nur ein Nukleotid, sondern auch <b>Energielieferant</b> der Zelle.</li><li>Immer gleiche Verknüpfung → <b>lineare, unverzweigte</b> Abfolge = <b>Nukleinsäure</b>; Abfolge = <b>Nukleotid- bzw. DNA-Sequenz</b> im Ein-Buchstaben-Code (AGTTCCAG …).</li><li><b>RNA:</b> aus Ribonukleotiden, <b>einzelsträngig</b>. <b>DNA:</b> aus Desoxyribonukleotiden, <b>doppelsträngig</b>.</li><li><b>Die lineare Abfolge der Nukleotide ist die genetische Information der Zelle.</b></li></ul><figure class='pic'><img data-enc='img/bio-berg/2f0db340a515.bin' data-mime='image/jpeg' alt='Phosphodiesterbindung, 5’- und 3’-Ende (Vielfalt des Lebens, S. 20)'><figcaption>Phosphodiesterbindung, 5’- und 3’-Ende (Vielfalt des Lebens, S. 20)</figcaption></figure><h3>2.4 Aminosäuren</h3><ul><li>Zentrales <b>α-Kohlenstoffatom</b> mit <b>Aminogruppe</b> (–NH<sub>2</sub>) und <b>Carboxygruppe</b> (–COOH) und einer <b>Seitenkette R</b> (z. B. Alanin: R = CH<sub>3</sub>).</li><li><b>Bausteine der Proteine</b>.</li><li><b>Zwitterion:</b> bei neutralem pH ist die Aminogruppe <b>protoniert (–NH<sub>3</sub><sup>+</sup>)</b> und die Carboxygruppe <b>dissoziiert (–COO<sup>−</sup>)</b>.</li></ul><p class='link'>↩ baut auf Lohrer Kap. 2.3 (Säuren, Basen, Ampholyte)</p><ul><li>In Proteinen: <b>20 verschiedene Aminosäuren</b> = das „Alphabet der Proteine“; insgesamt gibt es ca. 400 (z. T. weitere in Proteinen, z. B. N-Formylmethionin).</li><li>Einteilung nach den Eigenschaften der <b>Seitenketten</b>, z. B. <b>saure</b> (Glutamat), <b>schwefelhaltige</b> (Methionin), <b>basische</b> (Arginin).</li></ul><figure class='pic'><img data-enc='img/bio-berg/70fc33d1421e.bin' data-mime='image/jpeg' alt='Aminosäure: nicht ionisierte und ionisierte Form, Beispiel Alanin (Vielfalt des Lebens, S. 13)'><figcaption>Aminosäure: nicht ionisierte und ionisierte Form, Beispiel Alanin (Vielfalt des Lebens, S. 13)</figcaption></figure><h3>2.5 Von Aminosäuren zu Proteinen</h3><p class='link'>↩ baut auf Kap. 2.4 (Aminosäuren)</p><ul><li>Verknüpfung über die <b>Peptidbindung</b>; neue Aminosäuren werden <b>immer an das Carboxyende</b> angefügt → lineare Aminosäuresequenz.</li><li>Proteine werden vom <b>N-Terminus</b> (links) zum <b>C-Terminus</b> notiert.</li><li>Die Sequenz faltet sich zu einer charakteristischen <b>dreidimensionalen Struktur = Konformation</b>; praktisch alle Proteine wirken über ihre Konformation.</li><li>Beispiele: <b>Insulin</b> (u. a. senkt den Blutzucker – Körperzellen nehmen Glukose auf) · <b>Lysozym</b> (spaltet Strukturen der Bakterienzellwand → Lyse).</li></ul><figure class='pic'><img data-enc='img/bio-berg/0501bfcef7b7.bin' data-mime='image/png' alt='Lysozym bindet und spaltet sein Substrat'><figcaption>Lysozym bindet und spaltet sein Substrat</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/55c86053fdeb.bin' data-mime='image/jpeg' alt='Peptidbindung'><figcaption>Peptidbindung</figcaption></figure><h3>2.6 Kohlenhydrate</h3><ul><li>Einfachzucker (<b>Monosaccharide</b>): allgemeine Formel <b>(CH<sub>2</sub>O)<sub>n</sub></b> → „Kohlen-hydrate“; <b>Glukose C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></b>.</li><li>In wässriger Lösung bilden sie eine <b>Ringstruktur</b>: Aldehyd- oder Ketogruppe reagiert mit einer Hydroxylgruppe im selben Molekül.</li><li>Nummerierung der C-Atome <b>im Uhrzeigersinn</b>, beginnend am C-Atom der Aldehyd- bzw. Ketogruppe.</li><li>Einteilung: <b>Aldosen</b> / <b>Ketosen</b>; <b>Triosen</b> (3 C), <b>Pentosen</b> (5 C, z. B. Ribose), <b>Hexosen</b> (6 C, z. B. Glukose, Fruktose).</li></ul><figure class='pic'><img data-enc='img/bio-berg/30dca8cee3ee.bin' data-mime='image/png' alt='Glukose und Ribose: Kette und Ring'><figcaption>Glukose und Ribose: Kette und Ring</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/97b977e3e894.bin' data-mime='image/jpeg' alt='Aldosen und Ketosen'><figcaption>Aldosen und Ketosen</figcaption></figure><ul><li><b>Disaccharide</b> (z. B. Lactose) · <b>Oligosaccharide</b> (3–10 Monosaccharide; wichtig in der Zellmembran zur <b>Zellerkennung</b>) · <b>Polysaccharide</b> (z. B. Cellulose).</li><li><b>Glykosidische Bindung:</b> zwischen der OH-Gruppe eines Saccharids und einer <b>OH-Gruppe</b> (<b>O-glykosidisch</b>) oder <b>NH<sub>2</sub>-Gruppe</b> (<b>N-glykosidisch</b>) eines anderen Moleküls.</li><li>Neu gegenüber DNA/Proteinen: mehrere OH-Gruppen stehen zur Verfügung → <b>Verzweigungen</b> möglich, nahezu unendlich viele Strukturen.</li><li><b>Glykoproteine</b> auf der Zellmembran: <b>Zell-Zell-Erkennung</b>, <b>Blutgruppen (AB0-Antigene)</b>.</li></ul><figure class='pic'><img data-enc='img/bio-berg/ee90facd0b72.bin' data-mime='image/jpeg' alt='Zuckerreste der Blutgruppen 0, A, B, AB'><figcaption>Zuckerreste der Blutgruppen 0, A, B, AB</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/b58ebcacd12a.bin' data-mime='image/png' alt='Kondensation / Hydrolyse'><figcaption>Kondensation / Hydrolyse</figcaption></figure><h3>2.7 Fettsäuren und Lipide</h3><ul><li><b>Fettsäure:</b> lange <b>hydrophobe Kohlenwasserstoffkette</b> (wenig reaktiv) + <b>hydrophile Carboxygruppe</b> (sehr reaktiv) → <b>amphipathisch</b>.</li><li>Fast alle Fettsäuren sind in der Zelle über die Carboxygruppe <b>kovalent</b> mit anderen Molekülen verknüpft.</li><li><b>Gesättigt</b> (z. B. Palmitinsäure): keine Doppelbindungen. <b>Doppelbindungen</b> erzeugen <b>Knicke</b> und stören die Zusammenlagerung (Margarine).</li><li><b>Lipide</b> (lípos = Fett): Sammelbezeichnung für <b>wasserunlösliche</b> (hydrophobe) Stoffe; Fettsäuren bilden in Wasser einen <b>Oberflächenfilm</b> oder <b>Mizellen</b>.</li><li>Lipide sind Bestandteil der <b>Zellmembranen</b>, dienen der <b>Energiegewinnung</b> und der <b>zellulären Kommunikation</b>.</li><li>Sieben Gruppen: Fettsäuren · Triacylglyceride (Fette, Öle) · Wachse · <b>Phospholipide</b> · Sphingolipide · Lipopolysaccharide · Isoprenoide (Steroide, Carotinoide).</li><li><b>Phospholipide:</b> Glycerin mit <b>2 Fettsäuren</b> + <b>Phosphat</b> mit kleiner polarer Gruppe → hydrophiler <b>Kopf</b>, hydrophober <b>Schwanz</b>.</li><li>Hydrophobe Ketten lagern sich zusammen und verdrängen Wasser → <b>selbstschließende Lipid-Doppelschichten</b>, Köpfe zum Wasser = Grundlage <b>aller Zellmembranen</b>.</li></ul><p class='link'>↩ baut auf Lohrer Kap. 2.4 (hydrophil / hydrophob)</p><figure class='pic'><img data-enc='img/bio-berg/df146ea239c8.bin' data-mime='image/png' alt='Phospholipid-Doppelschicht'><figcaption>Phospholipid-Doppelschicht</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/f138c3a83080.bin' data-mime='image/jpeg' alt='Oberflächenfilm und Mizelle'><figcaption>Oberflächenfilm und Mizelle</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/574f34a7c5a7.bin' data-mime='image/png' alt='Palmitinsäure: Kopf und Schwanz'><figcaption>Palmitinsäure: Kopf und Schwanz</figcaption></figure><h3>2.8 Makromoleküle</h3><ul><li><b>Polymere</b> aus kovalent verknüpften kleinen Molekülen.</li><li>Gemeinsamkeiten: Polymer wächst durch <b>Zugabe eines Monomers</b> · dabei wird durch <b>Kondensation</b> ein <b>H<sub>2</sub>O</b> abgespalten · Einbau durch bestimmte <b>Enzyme</b>.</li><li>Untereinheiten werden in einer <b>ganz bestimmten Reihenfolge</b> eingebaut – zentrales Thema der Molekularbiologie.</li><li>Beispiel: Protein aus 200 AS → <b>20<sup>200</sup></b> Möglichkeiten.</li></ul><figure class='pic'><img data-enc='img/bio-berg/7f70f529cec9.bin' data-mime='image/png' alt='Untereinheit → Makromolekül'><figcaption>Untereinheit → Makromolekül</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/7b68fd03c6e7.bin' data-mime='image/png' alt='Kondensation: Abspaltung von H2O'><figcaption>Kondensation: Abspaltung von H2O</figcaption></figure>",
 "c": [
 5,
 6,
@@ -534,7 +534,7 @@ const STOFF = {
 {
 "t": "Vom Einzeller zum Vielzeller",
 "sub": "Pro- & Eukaryonten  ·  Endosymbiose  ·  Volvox  ·  Evolution  ·  Taxonomie  ·  Größen  ·  Mensch",
-"h": "<h3>3.1 Prokaryonten und Eukaryonten</h3><p class='link'>↩ baut auf Kap. 1.6 (Cenancestor)</p><ul><li>Vorhandensein oder Fehlen eines <b>Zellkerns</b> = einfache, aber fundamentale Klassifizierung aller Lebewesen.</li><li>Leben entstand sehr zeitnah, als die Bedingungen es erlaubten (Prokaryonten).</li></ul><table><tr><th></th><th><b>Prokaryont (pro = vor)</b></th><th><b>Eukaryont (eu = gut, karyon = Kern)</b></th></tr><tr><td>Zellkern</td><td><b>fehlt</b> – DNA frei in der Zelle</td><td><b>ausgeprägter Zellkern</b> – DNA im Kern</td></tr><tr><td>Organellen</td><td>–</td><td>viele: Mitochondrien, Chloroplasten, Golgi, ER, Cytoskelett …</td></tr><tr><td>Organisation</td><td>meist <b>einzellig</b>; z. T. Ketten, Cluster</td><td>ein- oder mehrzellig</td></tr><tr><td>Beispiele</td><td>Bakterien (und Archaea)</td><td>Pflanzen, Tiere, Pilze, Protozoen</td></tr></table><ul><li>Molekularbiologische Prozesse sind grundsätzlich <b>vergleichbar</b>, im Detail aber sehr verschieden.</li></ul><figure class='pic'><img data-enc='img/bio-berg/bc62f70ff9ed.bin' data-mime='image/jpeg' alt='Eukaryontische (tierische) Zelle'><figcaption>Eukaryontische (tierische) Zelle</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/5fbccd48b806.bin' data-mime='image/jpeg' alt='Prokaryontische Zelle'><figcaption>Prokaryontische Zelle</figcaption></figure><table><tr><td>Prokaryontische Zelle</td><td>Eukaryontische (tierische) Zelle</td></tr></table><div class='box'><b>Beispielfrage aus der Einführung</b><br>In der Liste B-Zelle, Pflanzenzelle, Lymphozyt, Stammzelle, Drüsenzelle, Eizelle, Virion, Keratinozyt, Pilzzelle, Melanozyt, Fibroblast, Kugelalge, Granulozyt, Epithelzelle ist ein Fehler: das Virion (Viruspartikel) ist keine eukaryontische Zelle.</div><h3>3.2 Endosymbionten-Hypothese</h3><ul><li>Eukaryontische Einzeller sind viel komplexer als Prokaryonten (Kern, Mitochondrien, Chloroplasten, Membransystem, Golgi, ER, Cytoskelett, Geißeln, Meiose, lineare Chromosomen …).</li><li><b>Bildung innerer Membranen</b> → <b>Kompartimentierung</b> (Raumaufteilung) erlaubt größere Komplexität; Einstülpungen der Plasmamembran führten evtl. zu Kernmembran und Organellen.</li><li><b>Mitochondrien und Plastiden</b> stammen von ursprünglich <b>frei lebenden Prokaryonten</b>, die als <b>Endosymbionten</b> aufgenommen wurden und sich zu Organellen entwickelten.</li></ul><p class='link'>↩ baut auf Lohrer Kap. 1.2 (Endosymbiose vor 2,5 bzw. 1,5 Mrd. Jahren)</p><figure class='pic'><img data-enc='img/bio-berg/83197cb55236.bin' data-mime='image/jpeg' alt='Vom Prokaryonten zum Eukaryonten (Vielfalt des Lebens, S. 36)'><figcaption>Vom Prokaryonten zum Eukaryonten (Vielfalt des Lebens, S. 36)</figcaption></figure><h3>3.3 Vom Ein- zum Vielzeller</h3><ul><li><b>Einzeller</b> (Bakterien, Protozoen): äußerst erfolgreich, über die Hälfte der Biomasse der Erde.</li><li><b>Vielzeller:</b> verschiedene Zellformen in einem Organismus → bessere Nutzung von Ressourcen; hochspezialisierte Zellen, die sich selbst nicht mehr ernähren können (Neurone).</li><li>Wesentlich für die Entwicklung: <b>Zusammenlagerung von Einzellern zu Kolonien</b>.</li></ul><table><tr><th><b>Organismus</b></th><th><b>Organisation</b></th><th><b>Merkmale</b></th></tr><tr><td>Chlamydomonas</td><td><b>Einzeller</b> (Grünalge, 20 µm)</td><td>2 Geißeln; lichtempfindliches Organell; becherförmiger Chloroplast</td></tr><tr><td>Gonium</td><td><b>Kolonie</b> aus 16 gleichartigen Zellen</td><td>Gallerthülle; bewegen sich gemeinsam; getrennt <b>einzeln lebensfähig</b></td></tr><tr><td>Volvox aureus (Kugelalge)</td><td><b>echter Vielzeller</b> (ca. 3000 Zellen)</td><td>Hohlkugel (0,5 mm); <b>Zelldifferenzierung und Arbeitsteilung</b>; Plasmaverbindungen; Tochterkugeln, geschlechtliche Vermehrung; Mutterkugel stirbt (<b>begrenzte Lebensdauer</b> = Merkmal echter Vielzeller)</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/7efb5d1c64fd.bin' data-mime='image/jpeg' alt='Volvox, Mikroskopie (Vielfalt des Lebens, S. 3)'><figcaption>Volvox, Mikroskopie (Vielfalt des Lebens, S. 3)</figcaption></figure><table><tr><td>Volvox, Mikroskopie (Vielfalt des Lebens, S. 3)</td><td>Chlamydomonas, Gonium, Volvox (Vielfalt des Lebens, S. 39)</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/2c25d0d7f425.bin' data-mime='image/jpeg' alt='Chlamydomonas, Gonium, Volvox (Vielfalt des Lebens, S. 39)'><figcaption>Chlamydomonas, Gonium, Volvox (Vielfalt des Lebens, S. 39)</figcaption></figure><h3>3.4 Entstehung der Vielfalt: Mutation und Selektion</h3><ul><li>Zellen vermehren sich durch <b>DNA-Verdopplung</b> und Zweiteilung; das Kopieren ist nicht fehlerfrei.</li><li><b>Mutation:</b> vererbbare Veränderung der Nukleotidsequenz eines Chromosoms. Nachteil → eliminiert; Vorteil → favorisiert; neutral → toleriert.</li><li><b>Selektion:</b> Organismen mit „besseren“ Fähigkeiten überleben und pflanzen sich bevorzugt fort.</li><li>Veränderung + Selektion über Millionen Generationen = Grundlage der <b>Evolution</b> (Darwin); <b>sexuelle Fortpflanzung</b> (Neukombination) → rasche Artenvielfalt.</li></ul><h3>3.5 Ordnung in der Vielfalt: Taxonomie</h3><table><tr><th><b>Reich (System der fünf Reiche)</b></th><th><b>Merkmale</b></th></tr><tr><td><b>Prokaryonten</b> (Monera)</td><td>ohne Zellkern</td></tr><tr><td><b>Protista</b></td><td>Einzeller – Abgrenzung schwierig (bewegt → „Tier“, Fotosynthese → „Pflanze“)</td></tr><tr><td><b>Plantae</b></td><td><b>autotroph</b> (Fotosynthese, „sich selbst ernährend“); <b>sessil</b> (festsitzend)</td></tr><tr><td><b>Fungi</b></td><td>ortsgebunden, <b>keine Fotosynthese</b>; <b>heterotroph</b>; scheiden Verdauungsenzyme ab und absorbieren die Abbauprodukte</td></tr><tr><td><b>Animalia</b></td><td>nehmen organische Stoffe auf und verdauen sie in speziellen Körperräumen; <b>hohe Beweglichkeit</b>; heterotroph</td></tr></table><ul><li><b>Heterotroph:</b> Kohlenstoff für die Körperbausteine stammt aus bereits vorhandenen organischen Verbindungen.</li><li><b>Taxonomie</b> beschreibt die Mannigfaltigkeit der Organismen, grenzt sie ab und ordnet sie <b>hierarchisch</b>.</li><li><b>Binäre Nomenklatur:</b> latinisierter Doppelname = <b>Gattung + Art</b>, z. B. Drosophila melanogaster („Dunkelbäuchige Taufreundin“).</li><li><b>Art (Spezies):</b> Mitglieder paaren sich und haben <b>fruchtbare Nachkommen</b>. <b>Rasse:</b> unterscheidet sich nur in wenigen, aber gleichen Merkmalen.</li></ul><figure class='pic'><img data-enc='img/bio-berg/efae9b4f48bc.bin' data-mime='image/png' alt='Eigenes Schema: Größenskala (Werte aus Vielfalt des Lebens, S. 44)'><figcaption>Eigenes Schema: Größenskala (Werte aus Vielfalt des Lebens, S. 44)</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/08bdbd924c09.bin' data-mime='image/png' alt='Eigenes Schema: Hierarchie mit Merksatz aus dem Skript (Vielfalt des Lebens, S. 49)'><figcaption>Eigenes Schema: Hierarchie mit Merksatz aus dem Skript (Vielfalt des Lebens, S. 49)</figcaption></figure><h3>3.6 Größenverhältnisse</h3><table><tr><th><b>Objekt</b></th><th><b>Größe</b></th><th><b>Objekt</b></th><th><b>Größe</b></th></tr><tr><td>Amöbe</td><td>0,5 mm</td><td>Bakterien</td><td>grob 1 µm</td></tr><tr><td>Eizelle</td><td>0,1 mm</td><td>Mitochondrien</td><td>grob 1 µm</td></tr><tr><td>Spermium (Kopf)</td><td>5 µm</td><td>Viren (Influenza)</td><td>grob 0,1 µm</td></tr><tr><td><b>menschliche Zelle</b></td><td><b>grob 10 µm</b></td><td>Proteine</td><td>grob 10 nm</td></tr><tr><td>Erythrozyt</td><td>ca. 7 µm</td><td>DNA-Doppelhelix (Ø)</td><td>2 nm</td></tr><tr><td>Blauwal</td><td>bis 30 m</td><td>Wasserstoffatom</td><td>1 Ångström</td></tr></table><ul><li>Einheiten: m (10<sup>0</sup>) · dm (10<sup>−1</sup>) · cm (10<sup>−2</sup>) · mm (10<sup>−3</sup>) · <b>µm (10<sup>−6</sup>)</b> · <b>nm (10<sup>−9</sup>)</b> · Å (10<sup>−10</sup>) · pm (10<sup>−12</sup>); Kilo 10<sup>3</sup> · Mega 10<sup>6</sup> · Giga 10<sup>9</sup>.</li><li>Auf der Folie steht beim Erythrozyten „ca. 7 mm“ – gemeint sind <b>7 µm</b> (vgl. Blut_1, S. 7: Durchmesser ca. 7,5 µm).</li></ul><figure class='pic'><img data-enc='img/bio-berg/7613504993ec.bin' data-mime='image/jpeg' alt='Vergrößerungsreihe vom Daumen bis zum Atom (Vielfalt des Lebens, S. 42)'><figcaption>Vergrößerungsreihe vom Daumen bis zum Atom (Vielfalt des Lebens, S. 42)</figcaption></figure><h3>3.7 Uhr des Lebens und der moderne Mensch</h3><ul><li><b>Homo sapiens</b> ist rund <b>200 000 Jahre</b> alt; Dinosaurier lebten vor ca. 235 bis 66 Mio. Jahren.</li><li>Vor <b>100 000 Jahren</b> drang der aus <b>Afrika</b> stammende Homo sapiens nach Eurasien vor und traf auf den <b>Neandertaler</b> (moderne Eurasier haben einen kleinen Teil seiner Erbsubstanz).</li><li>Andere Sichtweisen: Religionen, Hypothese vom <b>multiregionalen</b> Ursprung.</li><li>Europa vor 35 000 Jahren: Neandertaler und Homo sapiens lebten über <b>10 000 Jahre</b> in gleichen Gebieten.</li><li>Funde der Schwäbischen Alb: <b>Venus vom Hohle Fels</b> (30 000–40 000 Jahre, gefunden 2008), älteste <b>Flöte</b> (Geißenklösterle bei Blaubeuren), <b>Löwenmensch</b> (Mammut-Elfenbein, 30 cm).</li></ul><figure class='pic'><img data-enc='img/bio-berg/a6930ac44701.bin' data-mime='image/png' alt='Ausbreitung von Homo sapiens'><figcaption>Ausbreitung von Homo sapiens</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/1d5eee9f84ad.bin' data-mime='image/png' alt='Uhr des Lebens'><figcaption>Uhr des Lebens</figcaption></figure><table><tr><td>Uhr des Lebens</td><td>Ausbreitung von Homo sapiens</td><td>Venus vom Hohle Fels</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/9b2308663927.bin' data-mime='image/jpeg' alt='Venus vom Hohle Fels'><figcaption>Venus vom Hohle Fels</figcaption></figure>",
+"h": "<h3>3.1 Prokaryonten und Eukaryonten</h3><p class='link'>↩ baut auf Kap. 1.6 (Cenancestor)</p><ul><li>Vorhandensein oder Fehlen eines <b>Zellkerns</b> = einfache, aber fundamentale Klassifizierung aller Lebewesen.</li><li>Leben entstand sehr zeitnah, als die Bedingungen es erlaubten (Prokaryonten).</li></ul><table><tr><th></th><th><b>Prokaryont (pro = vor)</b></th><th><b>Eukaryont (eu = gut, karyon = Kern)</b></th></tr><tr><td>Zellkern</td><td><b>fehlt</b> – DNA frei in der Zelle</td><td><b>ausgeprägter Zellkern</b> – DNA im Kern</td></tr><tr><td>Organellen</td><td>–</td><td>viele: Mitochondrien, Chloroplasten, Golgi, ER, Cytoskelett …</td></tr><tr><td>Organisation</td><td>meist <b>einzellig</b>; z. T. Ketten, Cluster</td><td>ein- oder mehrzellig</td></tr><tr><td>Beispiele</td><td>Bakterien (und Archaea)</td><td>Pflanzen, Tiere, Pilze, Protozoen</td></tr></table><ul><li>Molekularbiologische Prozesse sind grundsätzlich <b>vergleichbar</b>, im Detail aber sehr verschieden.</li></ul><figure class='pic'><img data-enc='img/bio-berg/bc62f70ff9ed.bin' data-mime='image/jpeg' alt='Eukaryontische (tierische) Zelle'><figcaption>Eukaryontische (tierische) Zelle</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/5fbccd48b806.bin' data-mime='image/jpeg' alt='Prokaryontische Zelle'><figcaption>Prokaryontische Zelle</figcaption></figure><div class='box'><b>Beispielfrage aus der Einführung</b><br>In der Liste B-Zelle, Pflanzenzelle, Lymphozyt, Stammzelle, Drüsenzelle, Eizelle, Virion, Keratinozyt, Pilzzelle, Melanozyt, Fibroblast, Kugelalge, Granulozyt, Epithelzelle ist ein Fehler: das Virion (Viruspartikel) ist keine eukaryontische Zelle.</div><h3>3.2 Endosymbionten-Hypothese</h3><ul><li>Eukaryontische Einzeller sind viel komplexer als Prokaryonten (Kern, Mitochondrien, Chloroplasten, Membransystem, Golgi, ER, Cytoskelett, Geißeln, Meiose, lineare Chromosomen …).</li><li><b>Bildung innerer Membranen</b> → <b>Kompartimentierung</b> (Raumaufteilung) erlaubt größere Komplexität; Einstülpungen der Plasmamembran führten evtl. zu Kernmembran und Organellen.</li><li><b>Mitochondrien und Plastiden</b> stammen von ursprünglich <b>frei lebenden Prokaryonten</b>, die als <b>Endosymbionten</b> aufgenommen wurden und sich zu Organellen entwickelten.</li></ul><p class='link'>↩ baut auf Lohrer Kap. 1.2 (Endosymbiose vor 2,5 bzw. 1,5 Mrd. Jahren)</p><figure class='pic'><img data-enc='img/bio-berg/83197cb55236.bin' data-mime='image/jpeg' alt='Vom Prokaryonten zum Eukaryonten (Vielfalt des Lebens, S. 36)'><figcaption>Vom Prokaryonten zum Eukaryonten (Vielfalt des Lebens, S. 36)</figcaption></figure><h3>3.3 Vom Ein- zum Vielzeller</h3><ul><li><b>Einzeller</b> (Bakterien, Protozoen): äußerst erfolgreich, über die Hälfte der Biomasse der Erde.</li><li><b>Vielzeller:</b> verschiedene Zellformen in einem Organismus → bessere Nutzung von Ressourcen; hochspezialisierte Zellen, die sich selbst nicht mehr ernähren können (Neurone).</li><li>Wesentlich für die Entwicklung: <b>Zusammenlagerung von Einzellern zu Kolonien</b>.</li></ul><table><tr><th><b>Organismus</b></th><th><b>Organisation</b></th><th><b>Merkmale</b></th></tr><tr><td>Chlamydomonas</td><td><b>Einzeller</b> (Grünalge, 20 µm)</td><td>2 Geißeln; lichtempfindliches Organell; becherförmiger Chloroplast</td></tr><tr><td>Gonium</td><td><b>Kolonie</b> aus 16 gleichartigen Zellen</td><td>Gallerthülle; bewegen sich gemeinsam; getrennt <b>einzeln lebensfähig</b></td></tr><tr><td>Volvox aureus (Kugelalge)</td><td><b>echter Vielzeller</b> (ca. 3000 Zellen)</td><td>Hohlkugel (0,5 mm); <b>Zelldifferenzierung und Arbeitsteilung</b>; Plasmaverbindungen; Tochterkugeln, geschlechtliche Vermehrung; Mutterkugel stirbt (<b>begrenzte Lebensdauer</b> = Merkmal echter Vielzeller)</td></tr></table><figure class='pic'><img data-enc='img/bio-berg/7efb5d1c64fd.bin' data-mime='image/jpeg' alt='Volvox, Mikroskopie (Vielfalt des Lebens, S. 3)'><figcaption>Volvox, Mikroskopie (Vielfalt des Lebens, S. 3)</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/2c25d0d7f425.bin' data-mime='image/jpeg' alt='Chlamydomonas, Gonium, Volvox (Vielfalt des Lebens, S. 39)'><figcaption>Chlamydomonas, Gonium, Volvox (Vielfalt des Lebens, S. 39)</figcaption></figure><h3>3.4 Entstehung der Vielfalt: Mutation und Selektion</h3><ul><li>Zellen vermehren sich durch <b>DNA-Verdopplung</b> und Zweiteilung; das Kopieren ist nicht fehlerfrei.</li><li><b>Mutation:</b> vererbbare Veränderung der Nukleotidsequenz eines Chromosoms. Nachteil → eliminiert; Vorteil → favorisiert; neutral → toleriert.</li><li><b>Selektion:</b> Organismen mit „besseren“ Fähigkeiten überleben und pflanzen sich bevorzugt fort.</li><li>Veränderung + Selektion über Millionen Generationen = Grundlage der <b>Evolution</b> (Darwin); <b>sexuelle Fortpflanzung</b> (Neukombination) → rasche Artenvielfalt.</li></ul><h3>3.5 Ordnung in der Vielfalt: Taxonomie</h3><table><tr><th><b>Reich (System der fünf Reiche)</b></th><th><b>Merkmale</b></th></tr><tr><td><b>Prokaryonten</b> (Monera)</td><td>ohne Zellkern</td></tr><tr><td><b>Protista</b></td><td>Einzeller – Abgrenzung schwierig (bewegt → „Tier“, Fotosynthese → „Pflanze“)</td></tr><tr><td><b>Plantae</b></td><td><b>autotroph</b> (Fotosynthese, „sich selbst ernährend“); <b>sessil</b> (festsitzend)</td></tr><tr><td><b>Fungi</b></td><td>ortsgebunden, <b>keine Fotosynthese</b>; <b>heterotroph</b>; scheiden Verdauungsenzyme ab und absorbieren die Abbauprodukte</td></tr><tr><td><b>Animalia</b></td><td>nehmen organische Stoffe auf und verdauen sie in speziellen Körperräumen; <b>hohe Beweglichkeit</b>; heterotroph</td></tr></table><ul><li><b>Heterotroph:</b> Kohlenstoff für die Körperbausteine stammt aus bereits vorhandenen organischen Verbindungen.</li><li><b>Taxonomie</b> beschreibt die Mannigfaltigkeit der Organismen, grenzt sie ab und ordnet sie <b>hierarchisch</b>.</li><li><b>Binäre Nomenklatur:</b> latinisierter Doppelname = <b>Gattung + Art</b>, z. B. Drosophila melanogaster („Dunkelbäuchige Taufreundin“).</li><li><b>Art (Spezies):</b> Mitglieder paaren sich und haben <b>fruchtbare Nachkommen</b>. <b>Rasse:</b> unterscheidet sich nur in wenigen, aber gleichen Merkmalen.</li></ul><figure class='pic'><img data-enc='img/bio-berg/efae9b4f48bc.bin' data-mime='image/png' alt='Eigenes Schema: Größenskala (Werte aus Vielfalt des Lebens, S. 44)'><figcaption>Eigenes Schema: Größenskala (Werte aus Vielfalt des Lebens, S. 44)</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/08bdbd924c09.bin' data-mime='image/png' alt='Eigenes Schema: Hierarchie mit Merksatz aus dem Skript (Vielfalt des Lebens, S. 49)'><figcaption>Eigenes Schema: Hierarchie mit Merksatz aus dem Skript (Vielfalt des Lebens, S. 49)</figcaption></figure><h3>3.6 Größenverhältnisse</h3><table><tr><th><b>Objekt</b></th><th><b>Größe</b></th><th><b>Objekt</b></th><th><b>Größe</b></th></tr><tr><td>Amöbe</td><td>0,5 mm</td><td>Bakterien</td><td>grob 1 µm</td></tr><tr><td>Eizelle</td><td>0,1 mm</td><td>Mitochondrien</td><td>grob 1 µm</td></tr><tr><td>Spermium (Kopf)</td><td>5 µm</td><td>Viren (Influenza)</td><td>grob 0,1 µm</td></tr><tr><td><b>menschliche Zelle</b></td><td><b>grob 10 µm</b></td><td>Proteine</td><td>grob 10 nm</td></tr><tr><td>Erythrozyt</td><td>ca. 7 µm</td><td>DNA-Doppelhelix (Ø)</td><td>2 nm</td></tr><tr><td>Blauwal</td><td>bis 30 m</td><td>Wasserstoffatom</td><td>1 Ångström</td></tr></table><ul><li>Einheiten: m (10<sup>0</sup>) · dm (10<sup>−1</sup>) · cm (10<sup>−2</sup>) · mm (10<sup>−3</sup>) · <b>µm (10<sup>−6</sup>)</b> · <b>nm (10<sup>−9</sup>)</b> · Å (10<sup>−10</sup>) · pm (10<sup>−12</sup>); Kilo 10<sup>3</sup> · Mega 10<sup>6</sup> · Giga 10<sup>9</sup>.</li><li>Auf der Folie steht beim Erythrozyten „ca. 7 mm“ – gemeint sind <b>7 µm</b> (vgl. Blut_1, S. 7: Durchmesser ca. 7,5 µm).</li></ul><figure class='pic'><img data-enc='img/bio-berg/7613504993ec.bin' data-mime='image/jpeg' alt='Vergrößerungsreihe vom Daumen bis zum Atom (Vielfalt des Lebens, S. 42)'><figcaption>Vergrößerungsreihe vom Daumen bis zum Atom (Vielfalt des Lebens, S. 42)</figcaption></figure><h3>3.7 Uhr des Lebens und der moderne Mensch</h3><ul><li><b>Homo sapiens</b> ist rund <b>200 000 Jahre</b> alt; Dinosaurier lebten vor ca. 235 bis 66 Mio. Jahren.</li><li>Vor <b>100 000 Jahren</b> drang der aus <b>Afrika</b> stammende Homo sapiens nach Eurasien vor und traf auf den <b>Neandertaler</b> (moderne Eurasier haben einen kleinen Teil seiner Erbsubstanz).</li><li>Andere Sichtweisen: Religionen, Hypothese vom <b>multiregionalen</b> Ursprung.</li><li>Europa vor 35 000 Jahren: Neandertaler und Homo sapiens lebten über <b>10 000 Jahre</b> in gleichen Gebieten.</li><li>Funde der Schwäbischen Alb: <b>Venus vom Hohle Fels</b> (30 000–40 000 Jahre, gefunden 2008), älteste <b>Flöte</b> (Geißenklösterle bei Blaubeuren), <b>Löwenmensch</b> (Mammut-Elfenbein, 30 cm).</li></ul><figure class='pic'><img data-enc='img/bio-berg/a6930ac44701.bin' data-mime='image/png' alt='Ausbreitung von Homo sapiens'><figcaption>Ausbreitung von Homo sapiens</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/1d5eee9f84ad.bin' data-mime='image/png' alt='Uhr des Lebens'><figcaption>Uhr des Lebens</figcaption></figure><figure class='pic'><img data-enc='img/bio-berg/9b2308663927.bin' data-mime='image/jpeg' alt='Venus vom Hohle Fels'><figcaption>Venus vom Hohle Fels</figcaption></figure>",
 "c": [
 18,
 19,
@@ -1686,7 +1686,7 @@ const STOFF = {
 {
 "t": "Chemie des Lebens: Wasser & pH",
 "sub": "Wassermolekül  ·  Wasserstoffbrücken  ·  pH-Wert  ·  Säuren & Basen  ·  hydrophil & hydrophob",
-"h": "<h3>2.1 Das Wassermolekül</h3><p class='link'>↩ baut auf Chemie Heindl (polare Bindung, Dipol)</p><ul><li>Wasser entsteht aus Wasserstoff und Sauerstoff (<b>Knallgasreaktion</b>: 2 H<sub>2</sub> + O<sub>2</sub> → 2 H<sub>2</sub>O), die Reaktion ist <b>exotherm</b>.</li><li>H<sub>2</sub>O ist <b>gewinkelt</b>, nicht linear: die zwei <b>freien Elektronenpaare</b> des O und die zwei H bilden einen <b>Tetraeder</b> mit O im Zentrum.</li><li>O ist <b>partiell negativ</b>, die H-Atome sind <b>positiv polarisiert</b> → Wasser ist ein <b>Dipol</b>.</li><li>Freie Elektronenpaare ermöglichen kurzzeitige Bindungen zu H-Atomen benachbarter Moleküle = <b>Wasserstoffbrücken</b>; jedes Molekül hat bis zu <b>vier</b> H-Brücken.</li></ul><figure class='pic'><img data-enc='img/bio-loh/f68f406a8d16.bin' data-mime='image/png' alt='Knallgasreaktion, exotherm'><figcaption>Knallgasreaktion, exotherm</figcaption></figure><table><tr><td>Knallgasreaktion, exotherm</td><td>Tetraeder mit freien Elektronenpaaren</td><td>4 Wasserstoffbrücken pro Molekül</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/45f23750ac35.bin' data-mime='image/png' alt='4 Wasserstoffbrücken pro Molekül'><figcaption>4 Wasserstoffbrücken pro Molekül</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/4ff5c203fe4b.bin' data-mime='image/png' alt='Tetraeder mit freien Elektronenpaaren'><figcaption>Tetraeder mit freien Elektronenpaaren</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>H-Brücken haben ca. 1/20 der Stärke einer Atombindung, bestehen nur ca. 10-12 s und bilden sich ständig neu; durch ihre große Zahl sind sie trotzdem die wichtigste Wechselwirkung zwischen Molekülen.<br>Van-der-Waals-Wechselwirkungen: kurzzeitig ungleiche Elektronenverteilung induziert Teilladungen im Nachbarmolekül; sehr schwach, nur bei unmittelbarer Nähe.<br>Kohäsion: Zusammenhalt der Wassermoleküle über H-Brücken (Wassersäule bricht erst nach ca. 80 m ab; Oberflächenspannung trägt den Wasserläufer).<br>Adhäsion: Wechselwirkung mit anderen Materialien – Wasser steigt in dünnen Kapillaren mehrere Meter hoch.</div><figure class='pic'><img data-enc='img/bio-loh/f52f2e1ca321.bin' data-mime='image/png' alt='Kohäsion und Adhäsion in Kapillaren (Moleküle, S. 7)'><figcaption>Kohäsion und Adhäsion in Kapillaren (Moleküle, S. 7)</figcaption></figure><h3>2.2 Dissoziation und pH-Wert</h3><ul><li>Gelegentlich wird eine polare H–O-Bindung getrennt: die Bindungselektronen bleiben beim O → <b>OH⁻</b>; das H verliert sein Elektron → <b>H⁺</b>.</li><li>H⁺ verbindet sich sofort mit H<sub>2</sub>O zum <b>Hydronium-Ion H<sub>3</sub>O<sup>+</sup></b> (entspricht der Realität eher als H⁺).</li><li>Ionen in Lösung → <b>elektrische Leitfähigkeit</b>; darüber lässt sich die Teilchenkonzentration bestimmen.</li></ul><div class='box'><b>Formeln</b><br>Ionenprodukt des Wassers:   [H+] · [OH−] = 10−14 mol/l<br>Neutrale Lösung:   [H+] = [OH−] = 10−7 mol/l<br>pH = −log [H+]   (negativer dekadischer Logarithmus der H⁺-Konzentration)</div><table><tr><th><b>[H⁺]</b></th><th><b>Rechnung</b></th><th><b>pH</b></th></tr><tr><td>10<sup>−7</sup> mol/l</td><td>−log 10<sup>−7</sup></td><td><b>7</b> (neutral)</td></tr><tr><td>10<sup>−10</sup> mol/l</td><td>−log 10<sup>−10</sup></td><td><b>10</b> (basisch)</td></tr><tr><td>10<sup>−2</sup> mol/l</td><td>−log 10<sup>−2</sup></td><td><b>2</b> (sauer)</td></tr></table><table><tr><td>Dissoziation, Hydronium-Ion</td><td>H⁺/OH⁻ bei pH 2, 7, 13 (halblogarithmisch)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/e2a96959132c.bin' data-mime='image/jpeg' alt='H⁺/OH⁻ bei pH 2, 7, 13 (halblogarithmisch)'><figcaption>H⁺/OH⁻ bei pH 2, 7, 13 (halblogarithmisch)</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Bildung von H3O+ ist eine Gleichgewichtsreaktion (dynamisches Gleichgewicht: Hin- und Rückreaktion gleich schnell).<br>Steigt [H⁺], muss [OH⁻] sinken – das Produkt bleibt 10−14; auch in starken Säuren gibt es noch OH⁻ und in Basen noch H⁺.<br>pH des Cytoplasmas 7,2; in Lysosomen bis pH 4 (= 1000-fach höhere H⁺-Konzentration).</div><h3>2.3 Säuren, Basen, Ampholyte und Puffer</h3><ul><li><b>Säuren</b> = Protonen<b>donatoren</b>; <b>Basen</b> = Protonen<b>akzeptoren</b>.</li><li><b>Ampholyte</b> können als Säure <b>und</b> als Base wirken.</li></ul><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Organische Säure:  R–COOH ⇌ R–COO− + H+     Organische Base:  R–NH2 + H+ ⇌ R–NH3+<br>Beispiel Ampholyt: freie Aminosäuren liegen bei pH 7 als Zwitterion vor (–NH3+ reagiert als Säure, –COO− als Base).<br>Puffer minimieren Schwankungen von H3O+/OH−: nehmen H3O+ auf, wenn es steigt, und geben es ab, wenn es fällt. Blut-pH 7,0 oder 7,8 ist nur wenige Minuten überlebbar.<br>Puffersysteme im Blut: Kohlensäure/Bicarbonat (H2CO3 ⇌ HCO3− + H+) und Phosphat (H2PO4− ⇌ HPO42− + H+; bei pH 7,2 je 50 %).</div><p class='link'>↩ baut auf Bergemann Kap. 2 (Aminosäuren als Zwitterionen)</p><h3>2.4 Hydrophil und hydrophob</h3><ul><li><b>Hydrophile</b> Substanzen lösen sich leicht in Wasser.</li><li><b>Hydrophobe</b> Moleküle können mit Wasser keine Wechselwirkungen eingehen und werden zu <b>Aggregationen / Assoziationen</b> gezwungen.</li><li>Wasser macht ca. <b>60 %</b> unseres Körpergewichtes aus = <b>Hauptkomponente</b> des Organismus.</li></ul><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Hydrophile Teilchen werden von Wasser-Dipolen umschlossen (Hydrathülle, z. B. beim Lösen von NaCl) → zugänglich für Reaktionen, Transport und Diffusion.<br>Hydrophobe Bereiche lagern sich zusammen (Van-der-Waals), z. B. im Inneren globulärer Proteine; Lipide bauen so Diffusionsbarrieren (Membranen) auf.</div><table><tr><td>NaCl löst sich in Wasser (Hydrathülle)</td><td>hydrophober Effekt: unpolare Moleküle lagern sich zusammen</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/c1508402628a.bin' data-mime='image/jpeg' alt='hydrophober Effekt: unpolare Moleküle lagern sich zusammen'><figcaption>hydrophober Effekt: unpolare Moleküle lagern sich zusammen</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/716a5e595d53.bin' data-mime='image/png' alt='Eigenes Schema: Diffusionsdauer im Vergleich (Werte aus Einführung_Lohrer, S. 14 und Moleküle, S. 67)'><figcaption>Eigenes Schema: Diffusionsdauer im Vergleich (Werte aus Einführung_Lohrer, S. 14 und Moleküle, S. 67)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/0bc5f8962eba.bin' data-mime='image/jpeg' alt='NaCl löst sich in Wasser (Hydrathülle)'><figcaption>NaCl löst sich in Wasser (Hydrathülle)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/b0fd58884276.bin' data-mime='image/png' alt='Dissoziation, Hydronium-Ion'><figcaption>Dissoziation, Hydronium-Ion</figcaption></figure>",
+"h": "<h3>2.1 Das Wassermolekül</h3><p class='link'>↩ baut auf Chemie Heindl (polare Bindung, Dipol)</p><ul><li>Wasser entsteht aus Wasserstoff und Sauerstoff (<b>Knallgasreaktion</b>: 2 H<sub>2</sub> + O<sub>2</sub> → 2 H<sub>2</sub>O), die Reaktion ist <b>exotherm</b>.</li><li>H<sub>2</sub>O ist <b>gewinkelt</b>, nicht linear: die zwei <b>freien Elektronenpaare</b> des O und die zwei H bilden einen <b>Tetraeder</b> mit O im Zentrum.</li><li>O ist <b>partiell negativ</b>, die H-Atome sind <b>positiv polarisiert</b> → Wasser ist ein <b>Dipol</b>.</li><li>Freie Elektronenpaare ermöglichen kurzzeitige Bindungen zu H-Atomen benachbarter Moleküle = <b>Wasserstoffbrücken</b>; jedes Molekül hat bis zu <b>vier</b> H-Brücken.</li></ul><figure class='pic'><img data-enc='img/bio-loh/f68f406a8d16.bin' data-mime='image/png' alt='Knallgasreaktion, exotherm'><figcaption>Knallgasreaktion, exotherm</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/45f23750ac35.bin' data-mime='image/png' alt='4 Wasserstoffbrücken pro Molekül'><figcaption>4 Wasserstoffbrücken pro Molekül</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/4ff5c203fe4b.bin' data-mime='image/png' alt='Tetraeder mit freien Elektronenpaaren'><figcaption>Tetraeder mit freien Elektronenpaaren</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>H-Brücken haben ca. 1/20 der Stärke einer Atombindung, bestehen nur ca. 10-12 s und bilden sich ständig neu; durch ihre große Zahl sind sie trotzdem die wichtigste Wechselwirkung zwischen Molekülen.<br>Van-der-Waals-Wechselwirkungen: kurzzeitig ungleiche Elektronenverteilung induziert Teilladungen im Nachbarmolekül; sehr schwach, nur bei unmittelbarer Nähe.<br>Kohäsion: Zusammenhalt der Wassermoleküle über H-Brücken (Wassersäule bricht erst nach ca. 80 m ab; Oberflächenspannung trägt den Wasserläufer).<br>Adhäsion: Wechselwirkung mit anderen Materialien – Wasser steigt in dünnen Kapillaren mehrere Meter hoch.</div><figure class='pic'><img data-enc='img/bio-loh/f52f2e1ca321.bin' data-mime='image/png' alt='Kohäsion und Adhäsion in Kapillaren (Moleküle, S. 7)'><figcaption>Kohäsion und Adhäsion in Kapillaren (Moleküle, S. 7)</figcaption></figure><h3>2.2 Dissoziation und pH-Wert</h3><ul><li>Gelegentlich wird eine polare H–O-Bindung getrennt: die Bindungselektronen bleiben beim O → <b>OH⁻</b>; das H verliert sein Elektron → <b>H⁺</b>.</li><li>H⁺ verbindet sich sofort mit H<sub>2</sub>O zum <b>Hydronium-Ion H<sub>3</sub>O<sup>+</sup></b> (entspricht der Realität eher als H⁺).</li><li>Ionen in Lösung → <b>elektrische Leitfähigkeit</b>; darüber lässt sich die Teilchenkonzentration bestimmen.</li></ul><div class='box'><b>Formeln</b><br>Ionenprodukt des Wassers:   [H+] · [OH−] = 10−14 mol/l<br>Neutrale Lösung:   [H+] = [OH−] = 10−7 mol/l<br>pH = −log [H+]   (negativer dekadischer Logarithmus der H⁺-Konzentration)</div><table><tr><th><b>[H⁺]</b></th><th><b>Rechnung</b></th><th><b>pH</b></th></tr><tr><td>10<sup>−7</sup> mol/l</td><td>−log 10<sup>−7</sup></td><td><b>7</b> (neutral)</td></tr><tr><td>10<sup>−10</sup> mol/l</td><td>−log 10<sup>−10</sup></td><td><b>10</b> (basisch)</td></tr><tr><td>10<sup>−2</sup> mol/l</td><td>−log 10<sup>−2</sup></td><td><b>2</b> (sauer)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/e2a96959132c.bin' data-mime='image/jpeg' alt='H⁺/OH⁻ bei pH 2, 7, 13 (halblogarithmisch)'><figcaption>H⁺/OH⁻ bei pH 2, 7, 13 (halblogarithmisch)</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Bildung von H3O+ ist eine Gleichgewichtsreaktion (dynamisches Gleichgewicht: Hin- und Rückreaktion gleich schnell).<br>Steigt [H⁺], muss [OH⁻] sinken – das Produkt bleibt 10−14; auch in starken Säuren gibt es noch OH⁻ und in Basen noch H⁺.<br>pH des Cytoplasmas 7,2; in Lysosomen bis pH 4 (= 1000-fach höhere H⁺-Konzentration).</div><h3>2.3 Säuren, Basen, Ampholyte und Puffer</h3><ul><li><b>Säuren</b> = Protonen<b>donatoren</b>; <b>Basen</b> = Protonen<b>akzeptoren</b>.</li><li><b>Ampholyte</b> können als Säure <b>und</b> als Base wirken.</li></ul><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Organische Säure:  R–COOH ⇌ R–COO− + H+     Organische Base:  R–NH2 + H+ ⇌ R–NH3+<br>Beispiel Ampholyt: freie Aminosäuren liegen bei pH 7 als Zwitterion vor (–NH3+ reagiert als Säure, –COO− als Base).<br>Puffer minimieren Schwankungen von H3O+/OH−: nehmen H3O+ auf, wenn es steigt, und geben es ab, wenn es fällt. Blut-pH 7,0 oder 7,8 ist nur wenige Minuten überlebbar.<br>Puffersysteme im Blut: Kohlensäure/Bicarbonat (H2CO3 ⇌ HCO3− + H+) und Phosphat (H2PO4− ⇌ HPO42− + H+; bei pH 7,2 je 50 %).</div><p class='link'>↩ baut auf Bergemann Kap. 2 (Aminosäuren als Zwitterionen)</p><h3>2.4 Hydrophil und hydrophob</h3><ul><li><b>Hydrophile</b> Substanzen lösen sich leicht in Wasser.</li><li><b>Hydrophobe</b> Moleküle können mit Wasser keine Wechselwirkungen eingehen und werden zu <b>Aggregationen / Assoziationen</b> gezwungen.</li><li>Wasser macht ca. <b>60 %</b> unseres Körpergewichtes aus = <b>Hauptkomponente</b> des Organismus.</li></ul><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Hydrophile Teilchen werden von Wasser-Dipolen umschlossen (Hydrathülle, z. B. beim Lösen von NaCl) → zugänglich für Reaktionen, Transport und Diffusion.<br>Hydrophobe Bereiche lagern sich zusammen (Van-der-Waals), z. B. im Inneren globulärer Proteine; Lipide bauen so Diffusionsbarrieren (Membranen) auf.</div><figure class='pic'><img data-enc='img/bio-loh/c1508402628a.bin' data-mime='image/jpeg' alt='hydrophober Effekt: unpolare Moleküle lagern sich zusammen'><figcaption>hydrophober Effekt: unpolare Moleküle lagern sich zusammen</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/716a5e595d53.bin' data-mime='image/png' alt='Eigenes Schema: Diffusionsdauer im Vergleich (Werte aus Einführung_Lohrer, S. 14 und Moleküle, S. 67)'><figcaption>Eigenes Schema: Diffusionsdauer im Vergleich (Werte aus Einführung_Lohrer, S. 14 und Moleküle, S. 67)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/0bc5f8962eba.bin' data-mime='image/jpeg' alt='NaCl löst sich in Wasser (Hydrathülle)'><figcaption>NaCl löst sich in Wasser (Hydrathülle)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/b0fd58884276.bin' data-mime='image/png' alt='Dissoziation, Hydronium-Ion'><figcaption>Dissoziation, Hydronium-Ion</figcaption></figure>",
 "c": [
 2,
 3,
@@ -1841,7 +1841,7 @@ const STOFF = {
 {
 "t": "Diffusion & Osmose",
 "sub": "Random walk  ·  Fick’sche Gesetze  ·  Grenzen der Diffusion  ·  Osmose  ·  osmotischer Druck",
-"h": "<h3>3.1 Diffusion und Brown’sche Molekularbewegung</h3><p class='link'>↩ baut auf Kap. 2 (Wasser)</p><ul><li><b>Random walk</b> (Brown’sche Molekularbewegung): <b>zufällige Bewegung</b> der Teilchen im Raum.</li><li>Der tatsächlich zurückgelegte Weg ist viel länger als die gemessene Entfernung (vermeintlich zurückgelegter Weg).</li><li><b>Diffusion = Konzentrationsausgleich durch zufällige Bewegung der Teilchen</b>; Teilchen wandern von <b>hoher zu niedriger</b> Konzentration.</li></ul><figure class='pic'><img data-enc='img/bio-loh/756d25d5134d.bin' data-mime='image/jpeg' alt='Farbstoff verteilt sich im Wasser (a → d)'><figcaption>Farbstoff verteilt sich im Wasser (a → d)</figcaption></figure><table><tr><td>Farbstoff verteilt sich im Wasser (a → d)</td><td>Random walk</td><td>Teilchen-Modell</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/e91d243c964e.bin' data-mime='image/png' alt='Teilchen-Modell'><figcaption>Teilchen-Modell</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/cb7c1b9325c3.bin' data-mime='image/png' alt='Random walk'><figcaption>Random walk</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Warum Netto-Transport trotz Zufall? In jeder Ebene können sich Teilchen gleich wahrscheinlich nach oben oder unten bewegen – weiter oben sind aber weniger Teilchen, also wandern auch weniger zurück. Insgesamt: von hoher zu niedriger Konzentration.<br>Bewegung hängt von Teilchengröße und Temperatur ab; nur bei 0 K stehen Teilchen still.</div><h3>3.2 Fick’sche Gesetze</h3><ul><li>Zylinder mit Querschnitt <b>q</b> und Konzentrationsgefälle (c<sub>1</sub> − c<sub>2</sub>)/(x<sub>1</sub> − x<sub>2</sub>). Die Zahl n der durchtretenden Teilchen ist proportional</li><li>dem <b>Querschnitt q</b></li><li>der <b>Zeit t</b></li><li>dem <b>Konzentrationsgefälle</b> (c<sub>1</sub> − c<sub>2</sub>)</li></ul><div class='box'><b>Formeln</b><br>n ~ q · t · (c1 − c2) / (x1 − x2)      →      dn ~ q · dt · dc/dx<br>1. Fick’sches Gesetz:   dn/dt = − D · q · dc/dx<br>2. Fick’sches Gesetz (nicht-differentiell):   x² = 2 · D · t<br>x = zurückgelegte Strecke · t = benötigte Zeit · D = Diffusionskoeffizient (stoffspezifisch, abhängig von Molekulargewicht und absoluter Temperatur)</div><ul><li><b>1. Fick’sches Gesetz:</b> Der Teilchenfluss zwischen zwei benachbarten Lösungen ist der <b>Kontaktfläche</b> und dem <b>Konzentrationsgradienten</b> proportional.</li></ul><figure class='pic'><img data-enc='img/bio-loh/b3740831d3de.bin' data-mime='image/png' alt='Modell: Zylinder mit Konzentrationsgradient (Einführung_Lohrer, S. 13)'><figcaption>Modell: Zylinder mit Konzentrationsgradient (Einführung_Lohrer, S. 13)</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Das Minuszeichen: Teilchen verlassen die konzentriertere Schicht. Einheit von D: m²/s.<br>In Gasen ist Diffusion ca. 104-mal schneller als in Flüssigkeiten – deshalb rührt man den Zucker im Kaffee um.</div><h3>3.3 Grenzen der Diffusion</h3><table><tr><th><b>Beispiel (2. Fick’sches Gesetz)</b></th><th><b>Dauer</b></th></tr><tr><td>mittelgroßes Protein von einer Seite eines <b>Bakteriums</b> zur anderen</td><td><b>≈ 1 ms</b></td></tr><tr><td>mittelgroßes Protein <b>1 m im Axon</b> einer Nervenzelle (z. B. Ischias-Nerv)</td><td><b>≈ 200 Jahre</b></td></tr><tr><td>ein Molekül <b>Saccharose</b> von den Blättern eines <b>30 m</b> hohen Baumes in die Wurzeln</td><td><b>≈ 31 000 Jahre</b></td></tr></table><div class='box'><b>Folgerung</b><br>Für kleine Distanzen genügt Diffusion zur Verteilung von Substanzen. Größere Entfernungen müssen durch Transportsysteme überbrückt werden.</div><figure class='pic'><img data-enc='img/bio-loh/abc7c8c3d9da.bin' data-mime='image/jpeg' alt='Single-particle tracking eines Proteins in Bacillus subtilis (PALM-Mikroskopie) (Einführung_Lohrer, S. 14)'><figcaption>Single-particle tracking eines Proteins in Bacillus subtilis (PALM-Mikroskopie) (Einführung_Lohrer, S. 14)</figcaption></figure><h3>3.4 Osmose</h3><p class='link'>↩ baut auf Kap. 3.1 (Diffusion)</p><div class='box'><b>Merke</b><br>Osmose = Diffusion durch eine selektiv-permeable Membran – führt zu einem hydrostatischen Druck.</div><ul><li>Die Membran lässt nur das <b>Lösungsmittel</b> durch; das Lösungsmittel ist in beiden Kammern unterschiedlich konzentriert.</li><li>Konzentrationsausgleich → <b>Einstrom des Lösungsmittels</b> in die Kammer mit dem gelösten Stoff (Farbstoff) → Druck steigt, Flüssigkeit steigt an.</li><li>Netto-Einstrom kommt zum Stillstand, wenn der Druck <b>P = Π</b> ist → <b>dynamisches Gleichgewicht</b> (Einstrom = Ausstrom).</li><li>Osmotischer Druck <b>Π</b> ist proportional zur <b>Konzentration</b> des gelösten Stoffes (c) und zur <b>Temperatur</b> (T).</li><li>Definition: osmotischer Druck = Druck, der aufgewandt werden muss, um bei einer selektiv-permeablen Membran das <b>Eindringen von Wasser zu verhindern</b>.</li></ul><figure class='pic'><img data-enc='img/bio-loh/5401134c0330.bin' data-mime='image/jpeg' alt='Beginn der Osmose und dynamisches Gleichgewicht (Einführung_Lohrer, S. 15)'><figcaption>Beginn der Osmose und dynamisches Gleichgewicht (Einführung_Lohrer, S. 15)</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Aus Π ~ c und Π ~ T folgt mit der Gaskonstante R:   Π = c · R · T   (R = 0,082 atm·l·mol−1·K−1 bzw. 0,0083 MPa·l·mol−1·K−1)<br>Beispiel: Saccharose 0,533 mol/l bei 20 °C (293 K):  Π = 0,533 · 0,082 · 293 ≈ 12,8 atm.<br>Umgestellt lässt sich aus dem gemessenen Π das Molekulargewicht bestimmen:  MG = (R · T / Π) · (m / V).</div><h3>3.5 Erythrozyten in unterschiedlichem Milieu</h3><table><tr><th><b>Milieu</b></th><th><b>Beispiel</b></th><th><b>Wasserbewegung</b></th><th><b>Folge für den Erythrozyten</b></th></tr><tr><td><b>hyperton</b></td><td>1 mol/l NaCl</td><td>Wasser strömt <b>aus</b> der Zelle</td><td>schrumpft</td></tr><tr><td><b>isoton</b></td><td>0,15 mol/l NaCl</td><td>kein Netto-Strom</td><td>normale bikonkave Form</td></tr><tr><td><b>hypoton</b></td><td>reines Wasser</td><td>Wasser strömt <b>in</b> die Zelle</td><td>schwillt an und platzt</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/772630883425.bin' data-mime='image/jpeg' alt='Erythrozyten in hypertonem, isotonem und hypotonem Milieu (Einführung_Lohrer, S. 17)'><figcaption>Erythrozyten in hypertonem, isotonem und hypotonem Milieu (Einführung_Lohrer, S. 17)</figcaption></figure><h4>Zum Nacharbeiten (aus dem Skript)</h4><ul><li>Definieren Sie „Diffusion“ und „Osmose“. Von welchen physikalischen Größen hängt die Diffusion ab?</li><li>Wie verteilt sich ein Farbstoff durch random walk über die ganze wässrige Phase (Folie 12)?</li><li>Überlebt ein Bakterium ohne eigene DNA, wenn man ihm eine identische künstliche DNA überträgt? Begründen.</li><li>Effekt von hypertonem, isotonem und hypotonem Milieu auf Erythrozyten erklären.</li></ul>",
+"h": "<h3>3.1 Diffusion und Brown’sche Molekularbewegung</h3><p class='link'>↩ baut auf Kap. 2 (Wasser)</p><ul><li><b>Random walk</b> (Brown’sche Molekularbewegung): <b>zufällige Bewegung</b> der Teilchen im Raum.</li><li>Der tatsächlich zurückgelegte Weg ist viel länger als die gemessene Entfernung (vermeintlich zurückgelegter Weg).</li><li><b>Diffusion = Konzentrationsausgleich durch zufällige Bewegung der Teilchen</b>; Teilchen wandern von <b>hoher zu niedriger</b> Konzentration.</li></ul><figure class='pic'><img data-enc='img/bio-loh/756d25d5134d.bin' data-mime='image/jpeg' alt='Farbstoff verteilt sich im Wasser (a → d)'><figcaption>Farbstoff verteilt sich im Wasser (a → d)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/e91d243c964e.bin' data-mime='image/png' alt='Teilchen-Modell'><figcaption>Teilchen-Modell</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/cb7c1b9325c3.bin' data-mime='image/png' alt='Random walk'><figcaption>Random walk</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Warum Netto-Transport trotz Zufall? In jeder Ebene können sich Teilchen gleich wahrscheinlich nach oben oder unten bewegen – weiter oben sind aber weniger Teilchen, also wandern auch weniger zurück. Insgesamt: von hoher zu niedriger Konzentration.<br>Bewegung hängt von Teilchengröße und Temperatur ab; nur bei 0 K stehen Teilchen still.</div><h3>3.2 Fick’sche Gesetze</h3><ul><li>Zylinder mit Querschnitt <b>q</b> und Konzentrationsgefälle (c<sub>1</sub> − c<sub>2</sub>)/(x<sub>1</sub> − x<sub>2</sub>). Die Zahl n der durchtretenden Teilchen ist proportional</li><li>dem <b>Querschnitt q</b></li><li>der <b>Zeit t</b></li><li>dem <b>Konzentrationsgefälle</b> (c<sub>1</sub> − c<sub>2</sub>)</li></ul><div class='box'><b>Formeln</b><br>n ~ q · t · (c1 − c2) / (x1 − x2)      →      dn ~ q · dt · dc/dx<br>1. Fick’sches Gesetz:   dn/dt = − D · q · dc/dx<br>2. Fick’sches Gesetz (nicht-differentiell):   x² = 2 · D · t<br>x = zurückgelegte Strecke · t = benötigte Zeit · D = Diffusionskoeffizient (stoffspezifisch, abhängig von Molekulargewicht und absoluter Temperatur)</div><ul><li><b>1. Fick’sches Gesetz:</b> Der Teilchenfluss zwischen zwei benachbarten Lösungen ist der <b>Kontaktfläche</b> und dem <b>Konzentrationsgradienten</b> proportional.</li></ul><figure class='pic'><img data-enc='img/bio-loh/b3740831d3de.bin' data-mime='image/png' alt='Modell: Zylinder mit Konzentrationsgradient (Einführung_Lohrer, S. 13)'><figcaption>Modell: Zylinder mit Konzentrationsgradient (Einführung_Lohrer, S. 13)</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Das Minuszeichen: Teilchen verlassen die konzentriertere Schicht. Einheit von D: m²/s.<br>In Gasen ist Diffusion ca. 104-mal schneller als in Flüssigkeiten – deshalb rührt man den Zucker im Kaffee um.</div><h3>3.3 Grenzen der Diffusion</h3><table><tr><th><b>Beispiel (2. Fick’sches Gesetz)</b></th><th><b>Dauer</b></th></tr><tr><td>mittelgroßes Protein von einer Seite eines <b>Bakteriums</b> zur anderen</td><td><b>≈ 1 ms</b></td></tr><tr><td>mittelgroßes Protein <b>1 m im Axon</b> einer Nervenzelle (z. B. Ischias-Nerv)</td><td><b>≈ 200 Jahre</b></td></tr><tr><td>ein Molekül <b>Saccharose</b> von den Blättern eines <b>30 m</b> hohen Baumes in die Wurzeln</td><td><b>≈ 31 000 Jahre</b></td></tr></table><div class='box'><b>Folgerung</b><br>Für kleine Distanzen genügt Diffusion zur Verteilung von Substanzen. Größere Entfernungen müssen durch Transportsysteme überbrückt werden.</div><figure class='pic'><img data-enc='img/bio-loh/abc7c8c3d9da.bin' data-mime='image/jpeg' alt='Single-particle tracking eines Proteins in Bacillus subtilis (PALM-Mikroskopie) (Einführung_Lohrer, S. 14)'><figcaption>Single-particle tracking eines Proteins in Bacillus subtilis (PALM-Mikroskopie) (Einführung_Lohrer, S. 14)</figcaption></figure><h3>3.4 Osmose</h3><p class='link'>↩ baut auf Kap. 3.1 (Diffusion)</p><div class='box'><b>Merke</b><br>Osmose = Diffusion durch eine selektiv-permeable Membran – führt zu einem hydrostatischen Druck.</div><ul><li>Die Membran lässt nur das <b>Lösungsmittel</b> durch; das Lösungsmittel ist in beiden Kammern unterschiedlich konzentriert.</li><li>Konzentrationsausgleich → <b>Einstrom des Lösungsmittels</b> in die Kammer mit dem gelösten Stoff (Farbstoff) → Druck steigt, Flüssigkeit steigt an.</li><li>Netto-Einstrom kommt zum Stillstand, wenn der Druck <b>P = Π</b> ist → <b>dynamisches Gleichgewicht</b> (Einstrom = Ausstrom).</li><li>Osmotischer Druck <b>Π</b> ist proportional zur <b>Konzentration</b> des gelösten Stoffes (c) und zur <b>Temperatur</b> (T).</li><li>Definition: osmotischer Druck = Druck, der aufgewandt werden muss, um bei einer selektiv-permeablen Membran das <b>Eindringen von Wasser zu verhindern</b>.</li></ul><figure class='pic'><img data-enc='img/bio-loh/5401134c0330.bin' data-mime='image/jpeg' alt='Beginn der Osmose und dynamisches Gleichgewicht (Einführung_Lohrer, S. 15)'><figcaption>Beginn der Osmose und dynamisches Gleichgewicht (Einführung_Lohrer, S. 15)</figcaption></figure><div class='box'><b>Vertiefung aus dem Begleittext (Moleküle.pdf) – nicht auf den Folien</b><br>Aus Π ~ c und Π ~ T folgt mit der Gaskonstante R:   Π = c · R · T   (R = 0,082 atm·l·mol−1·K−1 bzw. 0,0083 MPa·l·mol−1·K−1)<br>Beispiel: Saccharose 0,533 mol/l bei 20 °C (293 K):  Π = 0,533 · 0,082 · 293 ≈ 12,8 atm.<br>Umgestellt lässt sich aus dem gemessenen Π das Molekulargewicht bestimmen:  MG = (R · T / Π) · (m / V).</div><h3>3.5 Erythrozyten in unterschiedlichem Milieu</h3><table><tr><th><b>Milieu</b></th><th><b>Beispiel</b></th><th><b>Wasserbewegung</b></th><th><b>Folge für den Erythrozyten</b></th></tr><tr><td><b>hyperton</b></td><td>1 mol/l NaCl</td><td>Wasser strömt <b>aus</b> der Zelle</td><td>schrumpft</td></tr><tr><td><b>isoton</b></td><td>0,15 mol/l NaCl</td><td>kein Netto-Strom</td><td>normale bikonkave Form</td></tr><tr><td><b>hypoton</b></td><td>reines Wasser</td><td>Wasser strömt <b>in</b> die Zelle</td><td>schwillt an und platzt</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/772630883425.bin' data-mime='image/jpeg' alt='Erythrozyten in hypertonem, isotonem und hypotonem Milieu (Einführung_Lohrer, S. 17)'><figcaption>Erythrozyten in hypertonem, isotonem und hypotonem Milieu (Einführung_Lohrer, S. 17)</figcaption></figure><h4>Zum Nacharbeiten (aus dem Skript)</h4><ul><li>Definieren Sie „Diffusion“ und „Osmose“. Von welchen physikalischen Größen hängt die Diffusion ab?</li><li>Wie verteilt sich ein Farbstoff durch random walk über die ganze wässrige Phase (Folie 12)?</li><li>Überlebt ein Bakterium ohne eigene DNA, wenn man ihm eine identische künstliche DNA überträgt? Begründen.</li><li>Effekt von hypertonem, isotonem und hypotonem Milieu auf Erythrozyten erklären.</li></ul>",
 "c": [
 5,
 6,
@@ -1999,7 +1999,7 @@ const STOFF = {
 {
 "t": "Kompartimente der Zelle",
 "sub": "Zellkern  ·  ER  ·  Golgi  ·  Lysosomen  ·  Vakuole  ·  Zellskelett  ·  Insulin",
-"h": "<h3>4.1 Kompartimente – was ist das?</h3><p class='link'>↩ baut auf Kap. 1.3 (essentielle Strukturen) und Kap. 3.4 (Membranen)</p><div class='box'><b>Definitionen (Klausur!)</b><br>Kompartimente = von einer Membran umschlossene Räume im Cytoplasma mit spezifischen biochemischen Prozessen; entstanden in der Evolution der Eukaryotenzelle (Kernhülle, ER, Golgi, Lysosomen, Vakuole).<br>Organellen = Strukturen mit eigener DNA, eigenen Ribosomen und zwei unterschiedlichen Membranen; ehemals eigenständige Organismen = Endosymbionten (Mitochondrien, Chloroplasten) → Kap. 5.</div><ul><li>Im Elektronenmikroskop (Gefrierätztechnik) bricht die Zelle entlang lipophiler Grenzflächen → man sieht membranumschlossene Räume.</li><li>Eukaryotische Zellen sind <b>kompartimentiert</b> = in Reaktionsräume unterteilt; jeder Raum erfüllt eigene biochemische Aufgaben.</li><li><b>ER, Golgi, Lysosom und Cytoplasmamembran</b> bilden ein durch <b>Vesikeltransport</b> verbundenes Kontinuum.</li></ul><h3>4.2 Zellkern (Nucleus)</h3><ul><li>Umgeben von <b>zwei Membranen</b> (Kernhülle), dazwischen der <b>perinukleäre Raum</b>; die Hülle ist von <b>Kernporen</b> durchbrochen.</li><li>Die <b>äußere Kernmembran</b> ist Bildungsstelle des <b>ER</b> und mit <b>Ribosomen</b> besetzt.</li><li>Enthält <b>Chromatin</b> (DNA + Protein) und den <b>Nucleolus</b> (Zusammenbau der Ribosomen-Untereinheiten).</li><li>Ort von <b>Transkription</b> und <b>Reifung der mRNA</b>; Import/Export von Proteinen erfolgt signalvermittelt über die Kernporen.</li><li><b>Funktion: Sicherung der Erbinformation.</b></li></ul><figure class='pic'><img data-enc='img/bio-loh/ad53ae7985f4.bin' data-mime='image/jpeg' alt='Zellkern: 1 Doppelmembran, 2 perinukleärer Raum, 3 ER, 4 Ribosomen, 5 Kernporen, 6 Nucleolus (LOH-02, S. 6)'><figcaption>Zellkern: 1 Doppelmembran, 2 perinukleärer Raum, 3 ER, 4 Ribosomen, 5 Kernporen, 6 Nucleolus (LOH-02, S. 6)</figcaption></figure><h3>4.3 Endoplasmatisches Retikulum (ER)</h3><ul><li><b>Größtes Membransystem</b> der Zelle; hängt mit der äußeren Kernmembran zusammen; Röhren (Tubuli) und Zisternen.</li></ul><table><tr><th></th><th><b>Raues ER (rER)</b></th><th><b>Glattes ER (sER)</b></th></tr><tr><td><b>Aufbau</b></td><td>mit <b>Ribosomen</b> besetzt</td><td>ohne Ribosomen</td></tr><tr><td><b>Funktion</b></td><td><b>Prozessieren (sekretorischer) Proteine</b>: Peptid wird an Ribosomen gebildet, ins rER aufgenommen, <b>Leader-Sequenz abgetrennt</b>, <b>Faltung</b> (Disulfidbrücken) und Modifizierung</td><td><b>Membranproduktion</b>, <b>Entgiftung</b> (Leber), <b>Steroidhormone</b></td></tr><tr><td><b>Beispiel</b></td><td>Pankreaszellen → Verdauungsenzyme</td><td>Testosteron-produzierende Zellen des Hodens</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/565155816b3b.bin' data-mime='image/jpeg' alt='Raues und glattes ER (LOH-02, S. 7)'><figcaption>Raues und glattes ER (LOH-02, S. 7)</figcaption></figure><h3>4.4 Golgi-Apparat (Dictyosom)</h3><ul><li>Stapel flacher Zisternen mit <b>Polarität: cis-Seite</b> (zum ER) und <b>trans-Seite</b> (Versand).</li><li>Arbeitet mit dem ER zusammen: Peptidketten werden <b>spezifisch geschnitten</b>, Aminosäuren <b>modifiziert</b>.</li><li><b>Funktion: Fertigstellung, Sortierung und Verschiffung</b> der Zellprodukte aus dem ER.</li></ul><figure class='pic'><img data-enc='img/bio-loh/0f26cd8b3769.bin' data-mime='image/jpeg' alt='Golgi-Apparat im EM (LOH-02, S. 9)'><figcaption>Golgi-Apparat im EM (LOH-02, S. 9)</figcaption></figure><h3>4.5 Lysosomen und Vakuole</h3><table><tr><th></th><th><b>Lysosom</b></th><th><b>Vakuole (Tonoplast)</b></th></tr><tr><td><b>Entstehung / Ort</b></td><td>entstehen aus <b>ER und Golgi</b></td><td>im Cytoplasma, besonders groß in ausgereiften <b>Pflanzenzellen</b></td></tr><tr><td><b>Inhalt</b></td><td><b>Verdauungsenzyme</b></td><td>Ionen, organische Produkte, Gifte, Blütenpigmente, „Müll“</td></tr><tr><td><b>Funktion</b></td><td><b>Zellverdauung</b>: Fusion mit Nahrungsvakuole (Endocytose) → <b>Verdauungsvakuole</b> → Produkte diffundieren ins Cytoplasma → Rest per <b>Exocytose</b> raus; <b>Autophagie</b></td><td><b>Speicher</b>, „Müllplatz“, <b>Stabilität</b> der Pflanze (Turgor über den Tonoplast)</td></tr><tr><td><b>Beispiel</b></td><td>Makrophagen, Amöben (Phagozytose)</td><td>Zwiebelhaut im Lichtmikroskop</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/91cab4d25aee.bin' data-mime='image/jpeg' alt='Lysosom: Entstehung und Fusion (S. 11)'><figcaption>Lysosom: Entstehung und Fusion (S. 11)</figcaption></figure><table><tr><td>Lysosom: Entstehung und Fusion (S. 11)</td><td>Pflanzenzelle mit zentraler Vakuole (S. 12)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/e48ae02f9405.bin' data-mime='image/jpeg' alt='Pflanzenzelle mit zentraler Vakuole (S. 12)'><figcaption>Pflanzenzelle mit zentraler Vakuole (S. 12)</figcaption></figure><h3>4.6 Zellskelett</h3><table><tr><th></th><th><b>Mikrotubuli</b></th><th><b>Actinfasern</b></th><th><b>Intermediäre Fasern</b></th></tr><tr><td><b>Baustein</b></td><td>Tubulin-Dimere</td><td>Actin-Einheiten</td><td>Protein-Einheiten</td></tr><tr><td><b>Aufgabe</b></td><td><b>Transport</b>, Zellbeweglichkeit; Spindel bei der Zellteilung</td><td><b>Zellskelett, Zellform</b></td><td><b>Fixierung von Kompartimenten</b>, Kernstruktur</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/685bec10ce9f.bin' data-mime='image/jpeg' alt='Die drei Fasertypen des Zellskeletts (LOH-02, S. 13)'><figcaption>Die drei Fasertypen des Zellskeletts (LOH-02, S. 13)</figcaption></figure><h3>4.7 Weg eines Proteins: Insulin</h3><p class='link'>↩ baut auf Kap. 4.2 – 4.4 (Kern → ER → Golgi)</p><p>Diese Abfolge ist der rote Faden der Vorlesung und kommt im Tutorium mehrfach als Aufgabe (radioaktiv markiertes Leucin, Insulin-Schema 1–7):</p><table><tr><th><b>Schritt</b></th><th><b>Ort</b></th><th><b>Was passiert?</b></th></tr><tr><td><b>1</b></td><td>Kern → Cytoplasma</td><td>Transkription im Kern, mRNA ins Cytoplasma, <b>Translation an Ribosomen</b> → <b>Präproinsulin</b> (Leader – B-Kette – C-Peptid – A-Kette)</td></tr><tr><td><b>2</b></td><td>Eintritt ins ER</td><td><b>Leader-Sequenz wird abgetrennt</b> → <b>Proinsulin</b></td></tr><tr><td><b>3</b></td><td>im ER</td><td><b>Faltung</b>, A- und B-Kette über <b>Disulfidbrücken</b> verbunden</td></tr><tr><td><b>4</b></td><td>ER-Vesikel</td><td>Transport zum Golgi-Apparat</td></tr><tr><td><b>5</b></td><td>Golgi</td><td><b>C-Peptid wird entfernt</b> → aktives Insulin (A + B)</td></tr><tr><td><b>6</b></td><td>Golgi-Vesikel</td><td>Abschnürung</td></tr><tr><td><b>7</b></td><td>Zellmembran</td><td><b>Exocytose</b> ins Blut</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/2809f1e08af9.bin' data-mime='image/jpeg' alt='Prozessierung von Insulin, Schritte 1–7 (LOH-02, S. 16)'><figcaption>Prozessierung von Insulin, Schritte 1–7 (LOH-02, S. 16)</figcaption></figure><h4>Zum Nacharbeiten (aus Folien und Tutorium)</h4><ul><li>Welcher Weg ist richtig für ein sekretorisches Protein? → <b>ER → Golgi → Vesikel → Exocytose</b> (nicht über den Kern, nicht über Lysosomen).</li><li>Welchen Zelltyp nimmt man, um Lysosomen zu untersuchen? → <b>phagozytierende weiße Blutzellen</b> (Makrophagen).</li><li>Falsche Paare erkennen: Mikrotubuli ≠ Muskelkontraktion; Nucleus ≠ Translation (Translation findet an Ribosomen im Cytoplasma statt).</li></ul><figure class='pic'><img data-enc='img/bio-loh/34f03410c568.bin' data-mime='image/png' alt='Eigenes Schema: pH-Skala (Werte für Cytoplasma und Lysosom aus Moleküle, S. 9)'><figcaption>Eigenes Schema: pH-Skala (Werte für Cytoplasma und Lysosom aus Moleküle, S. 9)</figcaption></figure>",
+"h": "<h3>4.1 Kompartimente – was ist das?</h3><p class='link'>↩ baut auf Kap. 1.3 (essentielle Strukturen) und Kap. 3.4 (Membranen)</p><div class='box'><b>Definitionen (Klausur!)</b><br>Kompartimente = von einer Membran umschlossene Räume im Cytoplasma mit spezifischen biochemischen Prozessen; entstanden in der Evolution der Eukaryotenzelle (Kernhülle, ER, Golgi, Lysosomen, Vakuole).<br>Organellen = Strukturen mit eigener DNA, eigenen Ribosomen und zwei unterschiedlichen Membranen; ehemals eigenständige Organismen = Endosymbionten (Mitochondrien, Chloroplasten) → Kap. 5.</div><ul><li>Im Elektronenmikroskop (Gefrierätztechnik) bricht die Zelle entlang lipophiler Grenzflächen → man sieht membranumschlossene Räume.</li><li>Eukaryotische Zellen sind <b>kompartimentiert</b> = in Reaktionsräume unterteilt; jeder Raum erfüllt eigene biochemische Aufgaben.</li><li><b>ER, Golgi, Lysosom und Cytoplasmamembran</b> bilden ein durch <b>Vesikeltransport</b> verbundenes Kontinuum.</li></ul><h3>4.2 Zellkern (Nucleus)</h3><ul><li>Umgeben von <b>zwei Membranen</b> (Kernhülle), dazwischen der <b>perinukleäre Raum</b>; die Hülle ist von <b>Kernporen</b> durchbrochen.</li><li>Die <b>äußere Kernmembran</b> ist Bildungsstelle des <b>ER</b> und mit <b>Ribosomen</b> besetzt.</li><li>Enthält <b>Chromatin</b> (DNA + Protein) und den <b>Nucleolus</b> (Zusammenbau der Ribosomen-Untereinheiten).</li><li>Ort von <b>Transkription</b> und <b>Reifung der mRNA</b>; Import/Export von Proteinen erfolgt signalvermittelt über die Kernporen.</li><li><b>Funktion: Sicherung der Erbinformation.</b></li></ul><figure class='pic'><img data-enc='img/bio-loh/ad53ae7985f4.bin' data-mime='image/jpeg' alt='Zellkern: 1 Doppelmembran, 2 perinukleärer Raum, 3 ER, 4 Ribosomen, 5 Kernporen, 6 Nucleolus (LOH-02, S. 6)'><figcaption>Zellkern: 1 Doppelmembran, 2 perinukleärer Raum, 3 ER, 4 Ribosomen, 5 Kernporen, 6 Nucleolus (LOH-02, S. 6)</figcaption></figure><h3>4.3 Endoplasmatisches Retikulum (ER)</h3><ul><li><b>Größtes Membransystem</b> der Zelle; hängt mit der äußeren Kernmembran zusammen; Röhren (Tubuli) und Zisternen.</li></ul><table><tr><th></th><th><b>Raues ER (rER)</b></th><th><b>Glattes ER (sER)</b></th></tr><tr><td><b>Aufbau</b></td><td>mit <b>Ribosomen</b> besetzt</td><td>ohne Ribosomen</td></tr><tr><td><b>Funktion</b></td><td><b>Prozessieren (sekretorischer) Proteine</b>: Peptid wird an Ribosomen gebildet, ins rER aufgenommen, <b>Leader-Sequenz abgetrennt</b>, <b>Faltung</b> (Disulfidbrücken) und Modifizierung</td><td><b>Membranproduktion</b>, <b>Entgiftung</b> (Leber), <b>Steroidhormone</b></td></tr><tr><td><b>Beispiel</b></td><td>Pankreaszellen → Verdauungsenzyme</td><td>Testosteron-produzierende Zellen des Hodens</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/565155816b3b.bin' data-mime='image/jpeg' alt='Raues und glattes ER (LOH-02, S. 7)'><figcaption>Raues und glattes ER (LOH-02, S. 7)</figcaption></figure><h3>4.4 Golgi-Apparat (Dictyosom)</h3><ul><li>Stapel flacher Zisternen mit <b>Polarität: cis-Seite</b> (zum ER) und <b>trans-Seite</b> (Versand).</li><li>Arbeitet mit dem ER zusammen: Peptidketten werden <b>spezifisch geschnitten</b>, Aminosäuren <b>modifiziert</b>.</li><li><b>Funktion: Fertigstellung, Sortierung und Verschiffung</b> der Zellprodukte aus dem ER.</li></ul><figure class='pic'><img data-enc='img/bio-loh/0f26cd8b3769.bin' data-mime='image/jpeg' alt='Golgi-Apparat im EM (LOH-02, S. 9)'><figcaption>Golgi-Apparat im EM (LOH-02, S. 9)</figcaption></figure><h3>4.5 Lysosomen und Vakuole</h3><table><tr><th></th><th><b>Lysosom</b></th><th><b>Vakuole (Tonoplast)</b></th></tr><tr><td><b>Entstehung / Ort</b></td><td>entstehen aus <b>ER und Golgi</b></td><td>im Cytoplasma, besonders groß in ausgereiften <b>Pflanzenzellen</b></td></tr><tr><td><b>Inhalt</b></td><td><b>Verdauungsenzyme</b></td><td>Ionen, organische Produkte, Gifte, Blütenpigmente, „Müll“</td></tr><tr><td><b>Funktion</b></td><td><b>Zellverdauung</b>: Fusion mit Nahrungsvakuole (Endocytose) → <b>Verdauungsvakuole</b> → Produkte diffundieren ins Cytoplasma → Rest per <b>Exocytose</b> raus; <b>Autophagie</b></td><td><b>Speicher</b>, „Müllplatz“, <b>Stabilität</b> der Pflanze (Turgor über den Tonoplast)</td></tr><tr><td><b>Beispiel</b></td><td>Makrophagen, Amöben (Phagozytose)</td><td>Zwiebelhaut im Lichtmikroskop</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/91cab4d25aee.bin' data-mime='image/jpeg' alt='Lysosom: Entstehung und Fusion (S. 11)'><figcaption>Lysosom: Entstehung und Fusion (S. 11)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/e48ae02f9405.bin' data-mime='image/jpeg' alt='Pflanzenzelle mit zentraler Vakuole (S. 12)'><figcaption>Pflanzenzelle mit zentraler Vakuole (S. 12)</figcaption></figure><h3>4.6 Zellskelett</h3><table><tr><th></th><th><b>Mikrotubuli</b></th><th><b>Actinfasern</b></th><th><b>Intermediäre Fasern</b></th></tr><tr><td><b>Baustein</b></td><td>Tubulin-Dimere</td><td>Actin-Einheiten</td><td>Protein-Einheiten</td></tr><tr><td><b>Aufgabe</b></td><td><b>Transport</b>, Zellbeweglichkeit; Spindel bei der Zellteilung</td><td><b>Zellskelett, Zellform</b></td><td><b>Fixierung von Kompartimenten</b>, Kernstruktur</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/685bec10ce9f.bin' data-mime='image/jpeg' alt='Die drei Fasertypen des Zellskeletts (LOH-02, S. 13)'><figcaption>Die drei Fasertypen des Zellskeletts (LOH-02, S. 13)</figcaption></figure><h3>4.7 Weg eines Proteins: Insulin</h3><p class='link'>↩ baut auf Kap. 4.2 – 4.4 (Kern → ER → Golgi)</p><p>Diese Abfolge ist der rote Faden der Vorlesung und kommt im Tutorium mehrfach als Aufgabe (radioaktiv markiertes Leucin, Insulin-Schema 1–7):</p><table><tr><th><b>Schritt</b></th><th><b>Ort</b></th><th><b>Was passiert?</b></th></tr><tr><td><b>1</b></td><td>Kern → Cytoplasma</td><td>Transkription im Kern, mRNA ins Cytoplasma, <b>Translation an Ribosomen</b> → <b>Präproinsulin</b> (Leader – B-Kette – C-Peptid – A-Kette)</td></tr><tr><td><b>2</b></td><td>Eintritt ins ER</td><td><b>Leader-Sequenz wird abgetrennt</b> → <b>Proinsulin</b></td></tr><tr><td><b>3</b></td><td>im ER</td><td><b>Faltung</b>, A- und B-Kette über <b>Disulfidbrücken</b> verbunden</td></tr><tr><td><b>4</b></td><td>ER-Vesikel</td><td>Transport zum Golgi-Apparat</td></tr><tr><td><b>5</b></td><td>Golgi</td><td><b>C-Peptid wird entfernt</b> → aktives Insulin (A + B)</td></tr><tr><td><b>6</b></td><td>Golgi-Vesikel</td><td>Abschnürung</td></tr><tr><td><b>7</b></td><td>Zellmembran</td><td><b>Exocytose</b> ins Blut</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/2809f1e08af9.bin' data-mime='image/jpeg' alt='Prozessierung von Insulin, Schritte 1–7 (LOH-02, S. 16)'><figcaption>Prozessierung von Insulin, Schritte 1–7 (LOH-02, S. 16)</figcaption></figure><h4>Zum Nacharbeiten (aus Folien und Tutorium)</h4><ul><li>Welcher Weg ist richtig für ein sekretorisches Protein? → <b>ER → Golgi → Vesikel → Exocytose</b> (nicht über den Kern, nicht über Lysosomen).</li><li>Welchen Zelltyp nimmt man, um Lysosomen zu untersuchen? → <b>phagozytierende weiße Blutzellen</b> (Makrophagen).</li><li>Falsche Paare erkennen: Mikrotubuli ≠ Muskelkontraktion; Nucleus ≠ Translation (Translation findet an Ribosomen im Cytoplasma statt).</li></ul><figure class='pic'><img data-enc='img/bio-loh/34f03410c568.bin' data-mime='image/png' alt='Eigenes Schema: pH-Skala (Werte für Cytoplasma und Lysosom aus Moleküle, S. 9)'><figcaption>Eigenes Schema: pH-Skala (Werte für Cytoplasma und Lysosom aus Moleküle, S. 9)</figcaption></figure>",
 "c": [
 12,
 13,
@@ -2258,7 +2258,7 @@ const STOFF = {
 {
 "t": "Organellen: Mitochondrien & Chloroplasten",
 "sub": "Endosymbionten  ·  Zellatmung  ·  ATP-Synthase  ·  Fotosynthese  ·  Protocyte vs. Eucyte",
-"h": "<h3>5.1 Übersicht: Hüllmembranen und Funktion</h3><p class='link'>↩ baut auf Kap. 4.1 (Kompartiment vs. Organell)</p><table><tr><th><b>Struktur</b></th><th><b>Hüllmembranen</b></th><th><b>Funktion</b></th></tr><tr><td><b>Zellkern</b></td><td>2</td><td>Schutz der Erbsubstanz, Transkription</td></tr><tr><td><b>ER</b></td><td>1</td><td>Fertigstellung von Proteinen</td></tr><tr><td><b>Golgi-Apparat</b></td><td>1</td><td>Fertigstellung, Versendung von Proteinen</td></tr><tr><td><b>Lysosom</b></td><td>1</td><td>Zellverdauung</td></tr><tr><td><b>Vakuole</b></td><td>1</td><td>Tonoplast in Pflanzen</td></tr><tr><td><b>Ribosom</b></td><td>0</td><td>Proteinbiosynthese (Translation) im Cytoplasma</td></tr><tr><td><b>Actinfasern / Mikrotubuli</b></td><td>0</td><td>Zellskelett (+ Transport bei Mikrotubuli)</td></tr><tr><td><b>Mitochondrium</b></td><td>2</td><td>Zellatmung (Tiere <b>und</b> Pflanzen)</td></tr><tr><td><b>Chloroplast</b></td><td>2</td><td>Fotosynthese (Pflanzen)</td></tr></table><ul><li>Organismen brauchen ständig Energie: <b>chemische Energie</b> (energiereiche Stoffe → Mitochondrien → <b>ATP</b>) oder <b>Lichtenergie</b> (Chloroplasten → <b>Glucose</b>).</li></ul><h3>5.2 Mitochondrien: Aufbau und Endosymbionten-Theorie</h3><ul><li><b>Anzahl</b> hängt vom Energieverbrauch der Zelle ab.</li><li><b>Äußere</b> und <b>innere Membran</b>; <b>Cristae</b> = Einstülpungen der inneren Membran; <b>Matrix</b> = innerer Reaktionsraum mit Enzymkomplexen; <b>Intermembranraum</b> dazwischen.</li></ul><figure class='pic'><img data-enc='img/bio-loh/2ae77b924fba.bin' data-mime='image/jpeg' alt='Mitochondrium: äußere/innere Membran, Cristae, Matrix (LOH-03, S. 5)'><figcaption>Mitochondrium: äußere/innere Membran, Cristae, Matrix (LOH-03, S. 5)</figcaption></figure><div class='box'><b>Merke: Mitochondrien sind Endosymbionten</b><br>Symbiose von Purpurbakterien mit einer eukaryotischen Zelle vor 2,5 Mrd. Jahren; Gene wurden in den Wirtskern übertragen → Mitochondrien sind semiautonom.<br>Belege (Tutorium: „vier Fakten nennen“): eigene zirkuläre DNA, eigene 70S-Ribosomen, eigene Elektronentransportkette, bauen eigene Membranen, teilen sich unabhängig von der Zelle.<br>Mitochondrien können Apoptose (programmierten Zelltod) auslösen.</div><h3>5.3 Mitochondriales Genom und maternale Vererbung</h3><ul><li>mtDNA: <b>zirkulär</b>, <b>16.569 bp</b>, <b>37 Gene</b>, <b>keine Introns</b>, <b>hohe Mutationsrate</b>.</li><li><b>Maternale Vererbung:</b> nur die Mitochondrien der <b>Eizelle</b> gelangen in die Zygote; die Mitochondrien der Spermien nicht → mtDNA zeigt die <b>mütterliche Linie</b> (Y-Chromosom dagegen nur die väterliche).</li><li><b>Mitochondriale Erbkrankheiten</b> treffen Organe mit hohem ATP-Verbrauch: <b>KSS</b> (Kearns-Sayre: Retina, Taubheit), <b>LHON</b> (Sehnerv, neurologisch), <b>MMC</b> (Muskel- und Herzmuskelschwäche).</li></ul><figure class='pic'><img data-enc='img/bio-loh/87b8a06deb84.bin' data-mime='image/jpeg' alt='Stammbaum einer mitochondrialen Erkrankung: nur kranke Mütter geben sie weiter (LOH-03, S. 7)'><figcaption>Stammbaum einer mitochondrialen Erkrankung: nur kranke Mütter geben sie weiter (LOH-03, S. 7)</figcaption></figure><h3>5.4 Zellatmung: vom NADH zum ATP</h3><p class='link'>↩ baut auf Kap. 2 (Knallgasreaktion, H⁺)</p><table><tr><th><b>Schritt</b></th><th><b>Was passiert?</b></th></tr><tr><td><b>1  Oxidation</b></td><td>Fette/Kohlenhydrate werden oxidiert, <b>CO₂</b> abgespalten; der Wasserstoff wird auf <b>NAD → NADH</b> übertragen (Glykolyse im Cytoplasma, Zitronensäurezyklus in der Matrix)</td></tr><tr><td><b>2  Elektronentransportkette</b></td><td>NADH gibt H⁻ ab → H⁻ → H⁺ + <b>2 e⁻</b>; die Elektronen durchlaufen <b>drei Proteinkomplexe</b> der inneren Membran und <b>verlieren dabei Energie</b></td></tr><tr><td><b>3  Protonengradient</b></td><td>mit dieser Energie werden <b>H⁺ in den Intermembranraum gepumpt</b></td></tr><tr><td><b>4  Endoxidation</b></td><td>energiearme Elektronen: <b>2 e⁻ + ½ O₂ + 2 H⁺ → H₂O</b> (gezähmte Knallgasreaktion)</td></tr><tr><td><b>5  ATP-Synthase</b></td><td>H⁺ strömen zurück in die Matrix, die ATP-Synthase <b>dreht sich</b> → <b>ADP + Pᵢ → ATP</b></td></tr></table><figure class='pic'><img data-enc='img/bio-loh/a3d9af8dbac1.bin' data-mime='image/jpeg' alt='Überblick Zellatmung (S. 9)'><figcaption>Überblick Zellatmung (S. 9)</figcaption></figure><table><tr><td>Überblick Zellatmung (S. 9)</td><td>ATP-Synthase: Zustände O – L – T (S. 15)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/e21c14bd4d26.bin' data-mime='image/jpeg' alt='ATP-Synthase: Zustände O – L – T (S. 15)'><figcaption>ATP-Synthase: Zustände O – L – T (S. 15)</figcaption></figure><div class='box'><b>Zahlen, die man kennen sollte</b><br>ATP-Synthase: Zustände O (open, leer) → L (loose, ADP + Pᵢ locker) → T (tight, fest gebunden, ATP entsteht) → O (ATP wird entlassen).<br>4 H⁺ pro ATP; ca. 100 ATP pro Sekunde pro Synthase.<br>Gesamtgleichung: C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O, ΔG = −2870 kJ/mol → daraus ca. 35 mol ATP.</div><h3>5.5 Chloroplasten und Fotosynthese</h3><ul><li>Endosymbionten: ehemals frei lebende <b>Cyanobakterien</b>.</li><li>Aufbau: <b>zwei Membranen</b>, innerer Raum = <b>Stroma</b>, Membranstapel = <b>Thylakoide</b> (Ort der Lichtreaktion); <b>eigene zirkuläre DNA</b> (&lt; 190 kbp, ca. 120 Gene, hunderte Kopien) und <b>70S-Ribosomen</b>.</li><li><b>Lichtreaktion</b> (Thylakoide): Licht regt 2 e⁻ im Chlorophyll von <b>Photosystem II</b> an → ETK → <b>ATP</b>; in <b>PS I</b> erneute Anregung → zweite ETK → <b>NADPH</b> (reaktiver Wasserstoff).</li><li><b>Dunkelreaktion</b>: ATP + NADPH werden zur Synthese von <b>Glucose</b> aus CO₂ genutzt.</li><li>Fotosynthese: <b>6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂</b>, <b>ΔG = +2870 kJ/mol</b> (genau die Umkehrung der Zellatmung).</li><li>Energieübertragung in den Lichtsammelkomplexen fast <b>100 %</b> effizient (Photovoltaik: 5–15 %).</li></ul><figure class='pic'><img data-enc='img/bio-loh/549427a75fb3.bin' data-mime='image/jpeg' alt='Chloroplast: Thylakoide im EM und Schema (S. 18)'><figcaption>Chloroplast: Thylakoide im EM und Schema (S. 18)</figcaption></figure><table><tr><td>Chloroplast: Thylakoide im EM und Schema (S. 18)</td><td>Licht- und Dunkelreaktion (S. 20)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/6c1b07914e43.bin' data-mime='image/jpeg' alt='Licht- und Dunkelreaktion (S. 20)'><figcaption>Licht- und Dunkelreaktion (S. 20)</figcaption></figure><h3>5.6 Gemeinsamkeiten und Protocyte vs. Eucyte</h3><div class='box'><b>Gemeinsamkeiten von Mitochondrien und Chloroplasten</b><br>zuständig für den Energiehaushalt · stellen ihre Membranen selbst her · eigene 70S-Ribosomen · eigene zirkuläre DNA · eigene Elektronentransportketten · semiautonom · Endosymbionten.<br>Achtung Falle: Mitochondrien und Chloroplasten sind Energiewandler, keine Energieproduzenten; eine Zellwand haben sie nicht.</div><table><tr><th><b>Merkmal</b></th><th><b>Bacteria</b></th><th><b>Archaea</b></th><th><b>Eukarya</b></th></tr><tr><td><b>Membran, Cytoplasma, Ribosomen, DNA</b></td><td>+</td><td>+</td><td>+</td></tr><tr><td><b>Zellkern</b></td><td>−</td><td>−</td><td>+</td></tr><tr><td><b>Genom</b></td><td>zirkuläre DNA</td><td>zirkuläre DNA</td><td>Chromosomen</td></tr><tr><td><b>Ribosomentyp</b></td><td>70S</td><td>70S</td><td>80S</td></tr><tr><td><b>Kompartimente, Cytoskelett</b></td><td>−</td><td>−</td><td>+</td></tr><tr><td><b>Organellen</b></td><td>−</td><td>−</td><td>+ (Mitoch., Chloropl.)</td></tr><tr><td><b>Fotosynthese</b></td><td>+</td><td>−</td><td>+ (Chloroplasten)</td></tr><tr><td><b>e⁻-Transportketten</b></td><td>+</td><td>+</td><td>+ (Mitoch., Chloropl.)</td></tr><tr><td><b>N₂-Fixierung</b></td><td>+</td><td>+</td><td>−</td></tr></table><h4>Zum Nacharbeiten</h4><ul><li>Tabelle aller Organellen/Kompartimente mit Aufbau, Aufgabe, Zahl der Hüllmembranen und Besonderheiten anlegen (Folie 25) – die Tabelle in 5.1 ist genau das.</li><li>Charlie Gard (mtDNA-Depletionssyndrom, FBXL4-Gen defekt): Das <b>Gen</b> liegt im <b>Zellkern</b> (wird nach den Mendel-Regeln vererbt, homozygot), das <b>Protein</b> wirkt im <b>Mitochondrium</b> – nicht jedes „Mitochondrien-Leiden“ ist maternal vererbt.</li><li>Schema der oxidativen Phosphorylierung erkennen: Komplexe I–IV + CoQ + Cytochrom c in der <b>inneren Membran</b>, Endoxidation an Komplex IV, ATP-Synthase lässt H⁺ zurück in die Matrix.</li></ul>",
+"h": "<h3>5.1 Übersicht: Hüllmembranen und Funktion</h3><p class='link'>↩ baut auf Kap. 4.1 (Kompartiment vs. Organell)</p><table><tr><th><b>Struktur</b></th><th><b>Hüllmembranen</b></th><th><b>Funktion</b></th></tr><tr><td><b>Zellkern</b></td><td>2</td><td>Schutz der Erbsubstanz, Transkription</td></tr><tr><td><b>ER</b></td><td>1</td><td>Fertigstellung von Proteinen</td></tr><tr><td><b>Golgi-Apparat</b></td><td>1</td><td>Fertigstellung, Versendung von Proteinen</td></tr><tr><td><b>Lysosom</b></td><td>1</td><td>Zellverdauung</td></tr><tr><td><b>Vakuole</b></td><td>1</td><td>Tonoplast in Pflanzen</td></tr><tr><td><b>Ribosom</b></td><td>0</td><td>Proteinbiosynthese (Translation) im Cytoplasma</td></tr><tr><td><b>Actinfasern / Mikrotubuli</b></td><td>0</td><td>Zellskelett (+ Transport bei Mikrotubuli)</td></tr><tr><td><b>Mitochondrium</b></td><td>2</td><td>Zellatmung (Tiere <b>und</b> Pflanzen)</td></tr><tr><td><b>Chloroplast</b></td><td>2</td><td>Fotosynthese (Pflanzen)</td></tr></table><ul><li>Organismen brauchen ständig Energie: <b>chemische Energie</b> (energiereiche Stoffe → Mitochondrien → <b>ATP</b>) oder <b>Lichtenergie</b> (Chloroplasten → <b>Glucose</b>).</li></ul><h3>5.2 Mitochondrien: Aufbau und Endosymbionten-Theorie</h3><ul><li><b>Anzahl</b> hängt vom Energieverbrauch der Zelle ab.</li><li><b>Äußere</b> und <b>innere Membran</b>; <b>Cristae</b> = Einstülpungen der inneren Membran; <b>Matrix</b> = innerer Reaktionsraum mit Enzymkomplexen; <b>Intermembranraum</b> dazwischen.</li></ul><figure class='pic'><img data-enc='img/bio-loh/2ae77b924fba.bin' data-mime='image/jpeg' alt='Mitochondrium: äußere/innere Membran, Cristae, Matrix (LOH-03, S. 5)'><figcaption>Mitochondrium: äußere/innere Membran, Cristae, Matrix (LOH-03, S. 5)</figcaption></figure><div class='box'><b>Merke: Mitochondrien sind Endosymbionten</b><br>Symbiose von Purpurbakterien mit einer eukaryotischen Zelle vor 2,5 Mrd. Jahren; Gene wurden in den Wirtskern übertragen → Mitochondrien sind semiautonom.<br>Belege (Tutorium: „vier Fakten nennen“): eigene zirkuläre DNA, eigene 70S-Ribosomen, eigene Elektronentransportkette, bauen eigene Membranen, teilen sich unabhängig von der Zelle.<br>Mitochondrien können Apoptose (programmierten Zelltod) auslösen.</div><h3>5.3 Mitochondriales Genom und maternale Vererbung</h3><ul><li>mtDNA: <b>zirkulär</b>, <b>16.569 bp</b>, <b>37 Gene</b>, <b>keine Introns</b>, <b>hohe Mutationsrate</b>.</li><li><b>Maternale Vererbung:</b> nur die Mitochondrien der <b>Eizelle</b> gelangen in die Zygote; die Mitochondrien der Spermien nicht → mtDNA zeigt die <b>mütterliche Linie</b> (Y-Chromosom dagegen nur die väterliche).</li><li><b>Mitochondriale Erbkrankheiten</b> treffen Organe mit hohem ATP-Verbrauch: <b>KSS</b> (Kearns-Sayre: Retina, Taubheit), <b>LHON</b> (Sehnerv, neurologisch), <b>MMC</b> (Muskel- und Herzmuskelschwäche).</li></ul><figure class='pic'><img data-enc='img/bio-loh/87b8a06deb84.bin' data-mime='image/jpeg' alt='Stammbaum einer mitochondrialen Erkrankung: nur kranke Mütter geben sie weiter (LOH-03, S. 7)'><figcaption>Stammbaum einer mitochondrialen Erkrankung: nur kranke Mütter geben sie weiter (LOH-03, S. 7)</figcaption></figure><h3>5.4 Zellatmung: vom NADH zum ATP</h3><p class='link'>↩ baut auf Kap. 2 (Knallgasreaktion, H⁺)</p><table><tr><th><b>Schritt</b></th><th><b>Was passiert?</b></th></tr><tr><td><b>1  Oxidation</b></td><td>Fette/Kohlenhydrate werden oxidiert, <b>CO₂</b> abgespalten; der Wasserstoff wird auf <b>NAD → NADH</b> übertragen (Glykolyse im Cytoplasma, Zitronensäurezyklus in der Matrix)</td></tr><tr><td><b>2  Elektronentransportkette</b></td><td>NADH gibt H⁻ ab → H⁻ → H⁺ + <b>2 e⁻</b>; die Elektronen durchlaufen <b>drei Proteinkomplexe</b> der inneren Membran und <b>verlieren dabei Energie</b></td></tr><tr><td><b>3  Protonengradient</b></td><td>mit dieser Energie werden <b>H⁺ in den Intermembranraum gepumpt</b></td></tr><tr><td><b>4  Endoxidation</b></td><td>energiearme Elektronen: <b>2 e⁻ + ½ O₂ + 2 H⁺ → H₂O</b> (gezähmte Knallgasreaktion)</td></tr><tr><td><b>5  ATP-Synthase</b></td><td>H⁺ strömen zurück in die Matrix, die ATP-Synthase <b>dreht sich</b> → <b>ADP + Pᵢ → ATP</b></td></tr></table><figure class='pic'><img data-enc='img/bio-loh/a3d9af8dbac1.bin' data-mime='image/jpeg' alt='Überblick Zellatmung (S. 9)'><figcaption>Überblick Zellatmung (S. 9)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/e21c14bd4d26.bin' data-mime='image/jpeg' alt='ATP-Synthase: Zustände O – L – T (S. 15)'><figcaption>ATP-Synthase: Zustände O – L – T (S. 15)</figcaption></figure><div class='box'><b>Zahlen, die man kennen sollte</b><br>ATP-Synthase: Zustände O (open, leer) → L (loose, ADP + Pᵢ locker) → T (tight, fest gebunden, ATP entsteht) → O (ATP wird entlassen).<br>4 H⁺ pro ATP; ca. 100 ATP pro Sekunde pro Synthase.<br>Gesamtgleichung: C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O, ΔG = −2870 kJ/mol → daraus ca. 35 mol ATP.</div><h3>5.5 Chloroplasten und Fotosynthese</h3><ul><li>Endosymbionten: ehemals frei lebende <b>Cyanobakterien</b>.</li><li>Aufbau: <b>zwei Membranen</b>, innerer Raum = <b>Stroma</b>, Membranstapel = <b>Thylakoide</b> (Ort der Lichtreaktion); <b>eigene zirkuläre DNA</b> (&lt; 190 kbp, ca. 120 Gene, hunderte Kopien) und <b>70S-Ribosomen</b>.</li><li><b>Lichtreaktion</b> (Thylakoide): Licht regt 2 e⁻ im Chlorophyll von <b>Photosystem II</b> an → ETK → <b>ATP</b>; in <b>PS I</b> erneute Anregung → zweite ETK → <b>NADPH</b> (reaktiver Wasserstoff).</li><li><b>Dunkelreaktion</b>: ATP + NADPH werden zur Synthese von <b>Glucose</b> aus CO₂ genutzt.</li><li>Fotosynthese: <b>6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂</b>, <b>ΔG = +2870 kJ/mol</b> (genau die Umkehrung der Zellatmung).</li><li>Energieübertragung in den Lichtsammelkomplexen fast <b>100 %</b> effizient (Photovoltaik: 5–15 %).</li></ul><figure class='pic'><img data-enc='img/bio-loh/549427a75fb3.bin' data-mime='image/jpeg' alt='Chloroplast: Thylakoide im EM und Schema (S. 18)'><figcaption>Chloroplast: Thylakoide im EM und Schema (S. 18)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/6c1b07914e43.bin' data-mime='image/jpeg' alt='Licht- und Dunkelreaktion (S. 20)'><figcaption>Licht- und Dunkelreaktion (S. 20)</figcaption></figure><h3>5.6 Gemeinsamkeiten und Protocyte vs. Eucyte</h3><div class='box'><b>Gemeinsamkeiten von Mitochondrien und Chloroplasten</b><br>zuständig für den Energiehaushalt · stellen ihre Membranen selbst her · eigene 70S-Ribosomen · eigene zirkuläre DNA · eigene Elektronentransportketten · semiautonom · Endosymbionten.<br>Achtung Falle: Mitochondrien und Chloroplasten sind Energiewandler, keine Energieproduzenten; eine Zellwand haben sie nicht.</div><table><tr><th><b>Merkmal</b></th><th><b>Bacteria</b></th><th><b>Archaea</b></th><th><b>Eukarya</b></th></tr><tr><td><b>Membran, Cytoplasma, Ribosomen, DNA</b></td><td>+</td><td>+</td><td>+</td></tr><tr><td><b>Zellkern</b></td><td>−</td><td>−</td><td>+</td></tr><tr><td><b>Genom</b></td><td>zirkuläre DNA</td><td>zirkuläre DNA</td><td>Chromosomen</td></tr><tr><td><b>Ribosomentyp</b></td><td>70S</td><td>70S</td><td>80S</td></tr><tr><td><b>Kompartimente, Cytoskelett</b></td><td>−</td><td>−</td><td>+</td></tr><tr><td><b>Organellen</b></td><td>−</td><td>−</td><td>+ (Mitoch., Chloropl.)</td></tr><tr><td><b>Fotosynthese</b></td><td>+</td><td>−</td><td>+ (Chloroplasten)</td></tr><tr><td><b>e⁻-Transportketten</b></td><td>+</td><td>+</td><td>+ (Mitoch., Chloropl.)</td></tr><tr><td><b>N₂-Fixierung</b></td><td>+</td><td>+</td><td>−</td></tr></table><h4>Zum Nacharbeiten</h4><ul><li>Tabelle aller Organellen/Kompartimente mit Aufbau, Aufgabe, Zahl der Hüllmembranen und Besonderheiten anlegen (Folie 25) – die Tabelle in 5.1 ist genau das.</li><li>Charlie Gard (mtDNA-Depletionssyndrom, FBXL4-Gen defekt): Das <b>Gen</b> liegt im <b>Zellkern</b> (wird nach den Mendel-Regeln vererbt, homozygot), das <b>Protein</b> wirkt im <b>Mitochondrium</b> – nicht jedes „Mitochondrien-Leiden“ ist maternal vererbt.</li><li>Schema der oxidativen Phosphorylierung erkennen: Komplexe I–IV + CoQ + Cytochrom c in der <b>inneren Membran</b>, Endoxidation an Komplex IV, ATP-Synthase lässt H⁺ zurück in die Matrix.</li></ul>",
 "c": [
 17,
 18,
@@ -2466,7 +2466,7 @@ const STOFF = {
 {
 "t": "Energetik & Enzyme",
 "sub": "Metabolismus  ·  Gibbs-Energie  ·  ATP  ·  Enzyme  ·  Enzymkinetik",
-"h": "<h3>6.1 Metabolismus</h3><p class='link'>↩ baut auf Kap. 5 (Zellatmung, Fotosynthese)</p><ul><li><b>Metabolismus</b> = Gesamtheit aller chemischen Reaktionen eines <b>Organismus</b> (nicht nur der Mitochondrien!).</li><li><b>Katabolismus</b> = Abbau von Stoffen, <b>setzt Energie frei</b> (Zellatmung).</li><li><b>Anabolismus</b> = <b>Aufbau</b> komplexer, energiereicher Stoffe (Proteine, DNA), <b>verbraucht Energie</b>.</li><li><b>Gekoppelte Prozesse:</b> anabole Reaktionen laufen nur, wenn sie an katabole gekoppelt sind.</li><li>Pflanzen nutzen Lichtenergie, Tiere chemische Energie; dafür braucht jeder Organismus Stoffwechsel, Energiehaushalt und <b>Enzyme</b>.</li></ul><h3>6.2 Thermodynamik: H, G und S</h3><p class='link'>↩ baut auf Chemie Herzog (Enthalpie, Entropie, Gibbs-Energie)</p><div class='box'><b>Formel</b><br>ΔG = ΔH − T·ΔS<br>ΔH = Enthalpie = Reaktionswärme (Bombenkalorimeter) · ΔG = Gibbs-freie Enthalpie = der Teil, der Arbeit leisten kann · ΔS = Entropie = Unordnung (Verlust) · T in Kelvin.<br>Δ = Endzustand − Anfangszustand (= Energiebilanz).  Es gilt immer G &lt; H: Wärme lässt sich nie vollständig in Arbeit umwandeln.</div><table><tr><th><b>ΔG</b></th><th><b>Bezeichnung</b></th><th><b>Bedeutung</b></th><th><b>Beispiel</b></th></tr><tr><td><b>&lt; 0</b></td><td><b>exergonisch</b></td><td>Energie wird frei, <b>freiwillig/spontan</b> (aber nicht automatisch sofort – Aktivierungsenergie!)</td><td>Zellatmung, −2870 kJ/mol</td></tr><tr><td><b>&gt; 0</b></td><td><b>endergonisch</b></td><td>ständige Energiezufuhr nötig, stoppt ohne Zufuhr</td><td>Fotosynthese, +2870 kJ/mol</td></tr><tr><td><b>= 0</b></td><td>Gleichgewicht</td><td>Hin- und Rückreaktion gleich schnell, <b>keine Arbeit</b> möglich → <b>Tod</b> des Organismus</td><td>–</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/e593cc08843b.bin' data-mime='image/jpeg' alt='exergonisch: ΔG &lt; 0 (S. 9)'><figcaption>exergonisch: ΔG &lt; 0 (S. 9)</figcaption></figure><table><tr><td>exergonisch: ΔG &lt; 0 (S. 9)</td><td>endergonisch: ΔG &gt; 0 (S. 11)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/170747a7c7b2.bin' data-mime='image/jpeg' alt='endergonisch: ΔG &gt; 0 (S. 11)'><figcaption>endergonisch: ΔG &gt; 0 (S. 11)</figcaption></figure><div class='box'><b>Zahlenbeispiel Glucose-Oxidation (rechnen können!)</b><br>ΔH = −3816 kJ/mol (Verbrennungswärme) · ΔG = −2870 kJ/mol (mögliche Arbeit) → T·ΔS = ΔH − ΔG = +946 kJ/mol (nicht nutzbar).<br>Metabolisches Ungleichgewicht: in der offenen Zelle kommen Reaktionen nie ins Gleichgewicht, weil die Produkte weiterverarbeitet werden → die Zelle kann Arbeit leisten und ihre Ordnung halten.</div><h3>6.3 ATP – der Energiebaustein</h3><ul><li>ATP = <b>Adenin + Ribose + 3 Phosphate</b>; universell, transportierbar.</li><li><b>Instabil</b>, weil sich in Wasser die negativen Ladungen der Phosphatreste anhäufen (4-fach geladenes Ion).</li><li>Hydrolyse: <b>ATP + H₂O → ADP + Pᵢ</b>, <b>ΔG = −31 kJ/mol</b> (ΔH = −53 kJ/mol).</li><li><b>Reaktionsmechanismus = Phosphorylierung:</b> ATP überträgt seinen instabilen Charakter durch Übertragung des Phosphatrests auf das Empfänger-Molekül.</li></ul><figure class='pic'><img data-enc='img/bio-loh/e05b1fb479ee.bin' data-mime='image/jpeg' alt='ATP: Adenin + Ribose-5′-Triphosphat (LOH-04, S. 16)'><figcaption>ATP: Adenin + Ribose-5′-Triphosphat (LOH-04, S. 16)</figcaption></figure><table><tr><th><b>Reaktion</b></th><th><b>ΔG</b></th></tr><tr><td><b>Glutaminsäure + NH₃ → Glutamin</b></td><td>+14 kJ/mol (allein nicht freiwillig)</td></tr><tr><td><b>ATP → ADP + Pᵢ</b></td><td>−31 kJ/mol</td></tr><tr><td><b>gekoppelt: ① Glutaminsäure + ATP → Glutaminsäure-Phosphat + ADP; ② + NH₃ → Glutamin + Pᵢ</b></td><td><b>−17 kJ/mol → exergonisch</b></td></tr></table><h3>6.4 Enzyme</h3><p class='link'>↩ baut auf Bergemann Kap. 2 (Proteinstruktur)</p><ul><li>Enzyme sind (meist) <b>Proteine</b>: Primär- (AS-Sequenz), Sekundär- (α-Helix, β-Faltblatt), Tertiär- (Faltung im Raum), Quartärstruktur (mehrere Ketten). Gehalten durch Ionenbindung, Disulfidbrücken, H-Brücken, Van-der-Waals.</li><li>Ausnahme: <b>Ribozyme</b> (RNA) → „Alle Enzyme sind Proteine“ ist <b>falsch</b>.</li><li>Chemische Verbrennung und enzymatische Oxidation liefern <b>dieselbe Reaktionswärme ΔH</b>; der enzymatische Weg erzeugt aber nutzbare Zwischenprodukte.</li><li>Enzyme <b>senken die Aktivierungsenergie</b> → Beschleunigung um 10⁵ bis 10¹⁷; <b>ΔG bleibt gleich</b>; Hin- <b>und</b> Rückreaktion werden beschleunigt.</li><li><b>Induced fit:</b> Bei Substratbindung ändert sich die Konformation des Enzyms → mehr Wechselwirkungen → niedrigere Aktivierungsenergie. Die Tasche bleibt komplementär zum Produkt → erklärt die Rückreaktion (darum ist das Schlüssel-Schloss-Prinzip veraltet).</li><li><b>Übergangszustand:</b> Enzym dehnt Bindungen (z. B. Saccharase: glykosidische Bindung + H–OH), sodass sie neu geknüpft werden können.</li></ul><figure class='pic'><img data-enc='img/bio-loh/ddede0fcde39.bin' data-mime='image/jpeg' alt='Aktivierungsenergie mit/ohne Katalysator (S. 22)'><figcaption>Aktivierungsenergie mit/ohne Katalysator (S. 22)</figcaption></figure><table><tr><td>Aktivierungsenergie mit/ohne Katalysator (S. 22)</td><td>Induced fit und Absenkung von Eakt (S. 24)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/cdee3de39a1b.bin' data-mime='image/jpeg' alt='Induced fit und Absenkung von Eakt (S. 24)'><figcaption>Induced fit und Absenkung von Eakt (S. 24)</figcaption></figure><div class='box'><b>Merke: Enzyme …</b><br>E + S ⇌ [ES] ⇌ E + P · senken Eakt · erleichtern den Übergangszustand · induced fit · charakterisiert durch KM · ermöglichen mildere Bedingungen · beschleunigen Hin- und Rückreaktion · substrat- und reaktionsspezifisch · verändern nicht ΔG · beeinflussen nicht die Richtung/das Gleichgewicht · pH- und Temperatur-Optimum.</div><h3>6.5 Enzymkinetik: Vmax, KM, Wechselzahl</h3><ul><li>Reaktionsgeschwindigkeit steigt mit der Substratkonzentration <b>nicht linear, sondern asymptotisch</b> bis <b>Vmax</b> (alle Enzyme gesättigt).</li><li><b>KM</b> (Michaelis-Menten-Konstante) = Substratkonzentration bei <b>½ Vmax</b> = Hälfte der aktiven Zentren besetzt; hängt von <b>Substrat, pH, Temperatur</b> ab; Maß für die Reinheit.</li><li>Kleiner KM = hohe Affinität (Hexokinase: Glucose 0,05 mM &lt; Fructose 1,5 mM).</li><li><b>Wechselzahl</b> = Substratmoleküle pro Sekunde bei voller Sättigung (Carboanhydrase 600 000/s, Lysozym 0,5/s).</li><li>Ist Vmax erreicht, steigert nur <b>mehr Enzym</b> die Umsatzrate (nicht mehr Substrat).</li></ul><figure class='pic'><img data-enc='img/bio-loh/9f6939c0239b.bin' data-mime='image/jpeg' alt='KM bei ½ Vmax ablesen (LOH-04, S. 26)'><figcaption>KM bei ½ Vmax ablesen (LOH-04, S. 26)</figcaption></figure><div class='box'><b>Beispiel Katalase (Nachbereitung)</b><br>Katalase zersetzt giftiges H₂O₂ zu H₂O + ½ O₂ (Leber, Blut, Kartoffel). O₂-Volumen alle 2 s messen → asymptotische Kurve; aus den Anfangsgeschwindigkeiten bei verschiedenen H₂O₂-Konzentrationen Vmax und KM grafisch bestimmen.<br>Aktivierungsenergie H₂O₂-Zersetzung: ohne Katalysator 75, Platin 49, Katalase 23 kJ/mol – ΔG bleibt bei allen gleich.</div><h4>Zum Nacharbeiten (Tutorium)</h4><ul><li>Pepsin-Versuch: schnellster Abbau bei <b>saurem pH + 37 °C</b>; kein Abbau ohne Enzym, bei basischem pH, nach Kochen oder HgCl₂ (<b>Denaturierung</b>); langsam bei falschem pH oder Kälte (<b>RGT-Regel</b>).</li><li>Vitamin C: Blanchieren <b>denaturiert die Ascorbinoxidase</b>; beim Einfrieren ohne Blanchieren zerstören Eiskristalle die Kompartimente → Vitamin C (Vakuole) und Enzym mischen sich.</li><li>Thermophile Bakterien: ihre Enzyme sind auf hohe Temperaturen <b>optimiert</b>.</li></ul>",
+"h": "<h3>6.1 Metabolismus</h3><p class='link'>↩ baut auf Kap. 5 (Zellatmung, Fotosynthese)</p><ul><li><b>Metabolismus</b> = Gesamtheit aller chemischen Reaktionen eines <b>Organismus</b> (nicht nur der Mitochondrien!).</li><li><b>Katabolismus</b> = Abbau von Stoffen, <b>setzt Energie frei</b> (Zellatmung).</li><li><b>Anabolismus</b> = <b>Aufbau</b> komplexer, energiereicher Stoffe (Proteine, DNA), <b>verbraucht Energie</b>.</li><li><b>Gekoppelte Prozesse:</b> anabole Reaktionen laufen nur, wenn sie an katabole gekoppelt sind.</li><li>Pflanzen nutzen Lichtenergie, Tiere chemische Energie; dafür braucht jeder Organismus Stoffwechsel, Energiehaushalt und <b>Enzyme</b>.</li></ul><h3>6.2 Thermodynamik: H, G und S</h3><p class='link'>↩ baut auf Chemie Herzog (Enthalpie, Entropie, Gibbs-Energie)</p><div class='box'><b>Formel</b><br>ΔG = ΔH − T·ΔS<br>ΔH = Enthalpie = Reaktionswärme (Bombenkalorimeter) · ΔG = Gibbs-freie Enthalpie = der Teil, der Arbeit leisten kann · ΔS = Entropie = Unordnung (Verlust) · T in Kelvin.<br>Δ = Endzustand − Anfangszustand (= Energiebilanz).  Es gilt immer G &lt; H: Wärme lässt sich nie vollständig in Arbeit umwandeln.</div><table><tr><th><b>ΔG</b></th><th><b>Bezeichnung</b></th><th><b>Bedeutung</b></th><th><b>Beispiel</b></th></tr><tr><td><b>&lt; 0</b></td><td><b>exergonisch</b></td><td>Energie wird frei, <b>freiwillig/spontan</b> (aber nicht automatisch sofort – Aktivierungsenergie!)</td><td>Zellatmung, −2870 kJ/mol</td></tr><tr><td><b>&gt; 0</b></td><td><b>endergonisch</b></td><td>ständige Energiezufuhr nötig, stoppt ohne Zufuhr</td><td>Fotosynthese, +2870 kJ/mol</td></tr><tr><td><b>= 0</b></td><td>Gleichgewicht</td><td>Hin- und Rückreaktion gleich schnell, <b>keine Arbeit</b> möglich → <b>Tod</b> des Organismus</td><td>–</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/e593cc08843b.bin' data-mime='image/jpeg' alt='exergonisch: ΔG &lt; 0 (S. 9)'><figcaption>exergonisch: ΔG &lt; 0 (S. 9)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/170747a7c7b2.bin' data-mime='image/jpeg' alt='endergonisch: ΔG &gt; 0 (S. 11)'><figcaption>endergonisch: ΔG &gt; 0 (S. 11)</figcaption></figure><div class='box'><b>Zahlenbeispiel Glucose-Oxidation (rechnen können!)</b><br>ΔH = −3816 kJ/mol (Verbrennungswärme) · ΔG = −2870 kJ/mol (mögliche Arbeit) → T·ΔS = ΔH − ΔG = +946 kJ/mol (nicht nutzbar).<br>Metabolisches Ungleichgewicht: in der offenen Zelle kommen Reaktionen nie ins Gleichgewicht, weil die Produkte weiterverarbeitet werden → die Zelle kann Arbeit leisten und ihre Ordnung halten.</div><h3>6.3 ATP – der Energiebaustein</h3><ul><li>ATP = <b>Adenin + Ribose + 3 Phosphate</b>; universell, transportierbar.</li><li><b>Instabil</b>, weil sich in Wasser die negativen Ladungen der Phosphatreste anhäufen (4-fach geladenes Ion).</li><li>Hydrolyse: <b>ATP + H₂O → ADP + Pᵢ</b>, <b>ΔG = −31 kJ/mol</b> (ΔH = −53 kJ/mol).</li><li><b>Reaktionsmechanismus = Phosphorylierung:</b> ATP überträgt seinen instabilen Charakter durch Übertragung des Phosphatrests auf das Empfänger-Molekül.</li></ul><figure class='pic'><img data-enc='img/bio-loh/e05b1fb479ee.bin' data-mime='image/jpeg' alt='ATP: Adenin + Ribose-5′-Triphosphat (LOH-04, S. 16)'><figcaption>ATP: Adenin + Ribose-5′-Triphosphat (LOH-04, S. 16)</figcaption></figure><table><tr><th><b>Reaktion</b></th><th><b>ΔG</b></th></tr><tr><td><b>Glutaminsäure + NH₃ → Glutamin</b></td><td>+14 kJ/mol (allein nicht freiwillig)</td></tr><tr><td><b>ATP → ADP + Pᵢ</b></td><td>−31 kJ/mol</td></tr><tr><td><b>gekoppelt: ① Glutaminsäure + ATP → Glutaminsäure-Phosphat + ADP; ② + NH₃ → Glutamin + Pᵢ</b></td><td><b>−17 kJ/mol → exergonisch</b></td></tr></table><h3>6.4 Enzyme</h3><p class='link'>↩ baut auf Bergemann Kap. 2 (Proteinstruktur)</p><ul><li>Enzyme sind (meist) <b>Proteine</b>: Primär- (AS-Sequenz), Sekundär- (α-Helix, β-Faltblatt), Tertiär- (Faltung im Raum), Quartärstruktur (mehrere Ketten). Gehalten durch Ionenbindung, Disulfidbrücken, H-Brücken, Van-der-Waals.</li><li>Ausnahme: <b>Ribozyme</b> (RNA) → „Alle Enzyme sind Proteine“ ist <b>falsch</b>.</li><li>Chemische Verbrennung und enzymatische Oxidation liefern <b>dieselbe Reaktionswärme ΔH</b>; der enzymatische Weg erzeugt aber nutzbare Zwischenprodukte.</li><li>Enzyme <b>senken die Aktivierungsenergie</b> → Beschleunigung um 10⁵ bis 10¹⁷; <b>ΔG bleibt gleich</b>; Hin- <b>und</b> Rückreaktion werden beschleunigt.</li><li><b>Induced fit:</b> Bei Substratbindung ändert sich die Konformation des Enzyms → mehr Wechselwirkungen → niedrigere Aktivierungsenergie. Die Tasche bleibt komplementär zum Produkt → erklärt die Rückreaktion (darum ist das Schlüssel-Schloss-Prinzip veraltet).</li><li><b>Übergangszustand:</b> Enzym dehnt Bindungen (z. B. Saccharase: glykosidische Bindung + H–OH), sodass sie neu geknüpft werden können.</li></ul><figure class='pic'><img data-enc='img/bio-loh/ddede0fcde39.bin' data-mime='image/jpeg' alt='Aktivierungsenergie mit/ohne Katalysator (S. 22)'><figcaption>Aktivierungsenergie mit/ohne Katalysator (S. 22)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/cdee3de39a1b.bin' data-mime='image/jpeg' alt='Induced fit und Absenkung von Eakt (S. 24)'><figcaption>Induced fit und Absenkung von Eakt (S. 24)</figcaption></figure><div class='box'><b>Merke: Enzyme …</b><br>E + S ⇌ [ES] ⇌ E + P · senken Eakt · erleichtern den Übergangszustand · induced fit · charakterisiert durch KM · ermöglichen mildere Bedingungen · beschleunigen Hin- und Rückreaktion · substrat- und reaktionsspezifisch · verändern nicht ΔG · beeinflussen nicht die Richtung/das Gleichgewicht · pH- und Temperatur-Optimum.</div><h3>6.5 Enzymkinetik: Vmax, KM, Wechselzahl</h3><ul><li>Reaktionsgeschwindigkeit steigt mit der Substratkonzentration <b>nicht linear, sondern asymptotisch</b> bis <b>Vmax</b> (alle Enzyme gesättigt).</li><li><b>KM</b> (Michaelis-Menten-Konstante) = Substratkonzentration bei <b>½ Vmax</b> = Hälfte der aktiven Zentren besetzt; hängt von <b>Substrat, pH, Temperatur</b> ab; Maß für die Reinheit.</li><li>Kleiner KM = hohe Affinität (Hexokinase: Glucose 0,05 mM &lt; Fructose 1,5 mM).</li><li><b>Wechselzahl</b> = Substratmoleküle pro Sekunde bei voller Sättigung (Carboanhydrase 600 000/s, Lysozym 0,5/s).</li><li>Ist Vmax erreicht, steigert nur <b>mehr Enzym</b> die Umsatzrate (nicht mehr Substrat).</li></ul><figure class='pic'><img data-enc='img/bio-loh/9f6939c0239b.bin' data-mime='image/jpeg' alt='KM bei ½ Vmax ablesen (LOH-04, S. 26)'><figcaption>KM bei ½ Vmax ablesen (LOH-04, S. 26)</figcaption></figure><div class='box'><b>Beispiel Katalase (Nachbereitung)</b><br>Katalase zersetzt giftiges H₂O₂ zu H₂O + ½ O₂ (Leber, Blut, Kartoffel). O₂-Volumen alle 2 s messen → asymptotische Kurve; aus den Anfangsgeschwindigkeiten bei verschiedenen H₂O₂-Konzentrationen Vmax und KM grafisch bestimmen.<br>Aktivierungsenergie H₂O₂-Zersetzung: ohne Katalysator 75, Platin 49, Katalase 23 kJ/mol – ΔG bleibt bei allen gleich.</div><h4>Zum Nacharbeiten (Tutorium)</h4><ul><li>Pepsin-Versuch: schnellster Abbau bei <b>saurem pH + 37 °C</b>; kein Abbau ohne Enzym, bei basischem pH, nach Kochen oder HgCl₂ (<b>Denaturierung</b>); langsam bei falschem pH oder Kälte (<b>RGT-Regel</b>).</li><li>Vitamin C: Blanchieren <b>denaturiert die Ascorbinoxidase</b>; beim Einfrieren ohne Blanchieren zerstören Eiskristalle die Kompartimente → Vitamin C (Vakuole) und Enzym mischen sich.</li><li>Thermophile Bakterien: ihre Enzyme sind auf hohe Temperaturen <b>optimiert</b>.</li></ul>",
 "c": [
 23,
 24,
@@ -2713,7 +2713,7 @@ const STOFF = {
 {
 "t": "Evolution I: Darwin",
 "sub": "Vordenker  ·  Meilensteine  ·  Homologie  ·  Brückentiere  ·  adaptive Radiation  ·  Mendel",
-"h": "<h3>7.1 Von Linné über Lamarck zu Darwin</h3><table><tr><th><b>Person</b></th><th><b>Kernaussage</b></th></tr><tr><td><b>Carl Linné (1707–1778)</b></td><td><b>Binominales System</b> (Gattung + Art, z. B. Rosa canina); Taxonomie; Mensch gehört zu den Primaten; <b>Arten sind unveränderlich</b></td></tr><tr><td><b>Lamarck (1744–1829)</b></td><td>Arten verändern sich; <b>benutzte Organe werden gestärkt</b> und <b>erworbene Merkmale vererbt</b> (heute widerlegt); Umwelt als Faktor</td></tr><tr><td><b>Darwin (1809–1882)</b></td><td>Reise auf der Beagle 1831–36; Origin of Species 1858 (parallel Wallace); <b>natürliche Selektion</b></td></tr><tr><td><b>Neodarwinismus (Weismann, Mayr)</b></td><td>Darwin + Genetik (Mutation als Ursache der Variation)</td></tr></table><div class='box'><b>Darwins Evolutionstheorie in 7 Punkten</b><br>① Abstammung mit Modifikationen (spontane Mutationen) · ② Kampf ums Überleben (begrenzte Ressourcen, Individuen sind verschieden) · ③ Survival of the fittest – Fitness = Zahl der Nachkommen · ④ Natürliche Selektion und Anpassung der Population · ⑤ alle Lebewesen einer Population sind verwandt · ⑥ isolierte Populationen → neue Arten · ⑦ Zeit seit dem letzten gemeinsamen Vorfahren = Maß der Verwandtschaft.<br>99 % aller Arten sind ausgestorben.</div><h3>7.2 Meilensteine der Evolution am Beispiel DDT-Resistenz</h3><p>Dieses Schema wird in der Klausur auf ein neues Beispiel übertragen (Tutorium: Warfarin-Resistenz bei Ratten, Dickhornschafe):</p><table><tr><th><b>Meilenstein</b></th><th><b>DDT-Resistenz der Anopheles-Mücke</b></th></tr><tr><td><b>I  Abstammung mit Veränderung</b></td><td>zufällige Mutation im Gen für spannungsabhängige Na⁺-Kanäle, zunächst ohne Folge</td></tr><tr><td><b>II  Kampf ums Überleben</b></td><td>ohne DDT sind Wildtyp (wt/wt) und Mutanten (R/R, R/wt) gleich erfolgreich</td></tr><tr><td><b>III  Survival of the fittest</b></td><td>mit DDT haben Mutanten <b>mehr Nachkommen</b> (höhere Fitness)</td></tr><tr><td><b>IV  Natürliche Selektion &amp; Anpassung</b></td><td>in den Folgegenerationen vermehren sich die resistenten Mücken (R/R)</td></tr><tr><td><b>V  Einheit ist die Population</b></td><td>Resistenz breitet sich in der Fortpflanzungsgemeinschaft aus; die ganze Population ist angepasst</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/01321e0c91d5.bin' data-mime='image/jpeg' alt='Anteil resistenter Mücken nach Beginn der DDT-Behandlung (LOH-05, S. 9)'><figcaption>Anteil resistenter Mücken nach Beginn der DDT-Behandlung (LOH-05, S. 9)</figcaption></figure><div class='box'><b>Übertrag Warfarin (Tutorium)</b><br>Mutation im VKOR-Gen → wenige resistente Ratten · ohne Gift sind sie im Nachteil (brauchen mehr Vitamin K) · mit Warfarin höhere Fitness → Population wird resistent · fällt das Gift weg, wird das Allel wieder seltener.</div><h3>7.3 Beweise für die Evolution</h3><table><tr><th><b>Beweis</b></th><th><b>Definition</b></th><th><b>Beispiel</b></th></tr><tr><td><b>Anatomische Homologie</b></td><td>Ähnlichkeit im Bau, die auf einen <b>gemeinsamen Urahn</b> zurückgeht (nicht: gleiche Aufgabe!)</td><td>Vorderextremitäten der Wirbeltiere</td></tr><tr><td><b>Molekulare Homologie</b></td><td>Ähnlichkeit von DNA/Proteinen, die auf <b>ein Gen eines gemeinsamen Vorfahren</b> zurückgeht; je mehr Abweichungen, desto weiter liegt der Vorfahre zurück</td><td>Hämoglobin β: Rhesusaffe 8, Maus 27, Huhn 45, Frosch 67, Neunauge 125 abweichende AS</td></tr><tr><td><b>Rudimentäre Organe</b></td><td>Strukturen ohne/mit geringer Bedeutung, die über lange Zeit zurückgebildet werden</td><td>Blinddarm, Steißbein, Weisheitszähne; Becken-Rudimente beim Bartenwal</td></tr><tr><td><b>Brückentiere</b></td><td>Fossilien, die heute getrennte Klassen verbinden</td><td>Tiktaalik (Fisch → Vierbeiner): Flosse mit Ellenbogen und Gelenken, Hals, Gehör</td></tr><tr><td><b>Adaptive Radiation</b></td><td>Aufspaltung einer Gründerart in viele Arten durch Anpassung an neue Lebensräume</td><td>Darwinfinken auf Galapagos</td></tr></table><div class='box'><b>Homologiekriterien (anatomisch)</b><br>Lage: gleiche Anzahl und relativ gleiche Lage · spezifische Qualität: Merkmale stimmen auffallend überein · Stetigkeit: Zwischenstrukturen nachweisbar (z. B. Entwicklung der Gehörknöchelchen).<br>Adaptive Radiation braucht: keine Konkurrenz bei Ankunft · Isolation der Populationen · Spezialisierung auf verschiedene Nahrung (weniger Konkurrenz).</div><table><tr><td>Homologe Vorderextremitäten (S. 11)</td><td>Darwinfinken: adaptive Radiation (S. 17)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/58d6c31d46a6.bin' data-mime='image/jpeg' alt='Darwinfinken: adaptive Radiation (S. 17)'><figcaption>Darwinfinken: adaptive Radiation (S. 17)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/cd7295e74822.bin' data-mime='image/jpeg' alt='Brückentier Tiktaalik: von der Flosse zur Extremität (LOH-05, S. 15)'><figcaption>Brückentier Tiktaalik: von der Flosse zur Extremität (LOH-05, S. 15)</figcaption></figure><h3>7.4 Mendelsche Regeln</h3><ul><li>Lücke bei Darwin: <b>wie</b> werden Veränderungen vererbt? → Mendel (1865) + Genetik = <b>Synthetische Evolutionstheorie</b>.</li><li><b>1. Uniformitätsregel:</b> Kreuzt man reinerbige Eltern (P), die sich in einem Merkmal unterscheiden, ist die <b>F1 einheitlich</b>.</li><li><b>2. Spaltungsregel:</b> Kreuzt man F1 untereinander, treten in der <b>F2</b> die Elternmerkmale in <b>festem Zahlenverhältnis</b> wieder auf (dominant-rezessiv 3 : 1).</li><li><b>3. Neukombinationsregel:</b> Bei mehreren Merkmalen können diese <b>neu kombiniert</b> werden (z. B. SSee × ssEE).</li></ul><figure class='pic'><img data-enc='img/bio-loh/49f9a743c106.bin' data-mime='image/jpeg' alt='Erbgang dominant–rezessiv: P → F1 → F2 (LOH-05, S. 20)'><figcaption>Erbgang dominant–rezessiv: P → F1 → F2 (LOH-05, S. 20)</figcaption></figure><h4>Zum Nacharbeiten</h4><ul><li>Geburtsgewicht vs. Säuglingssterblichkeit = <b>stabilisierende Selektion</b> (mittleres Gewicht am erfolgreichsten); heute nicht mehr gültig, weil die Medizin die Selektion aufhebt.</li><li>Molekulare Homologie (Cytochrom c): Mensch–Rhesusaffe am nächsten, Frosch am weitesten; Mensch–Schwein (Säugetiere) näher als Mensch–Känguru (Beuteltier).</li></ul><figure class='pic'><img data-enc='img/bio-loh/d4d40e08db90.bin' data-mime='image/jpeg' alt='Homologe Vorderextremitäten (S. 11)'><figcaption>Homologe Vorderextremitäten (S. 11)</figcaption></figure>",
+"h": "<h3>7.1 Von Linné über Lamarck zu Darwin</h3><table><tr><th><b>Person</b></th><th><b>Kernaussage</b></th></tr><tr><td><b>Carl Linné (1707–1778)</b></td><td><b>Binominales System</b> (Gattung + Art, z. B. Rosa canina); Taxonomie; Mensch gehört zu den Primaten; <b>Arten sind unveränderlich</b></td></tr><tr><td><b>Lamarck (1744–1829)</b></td><td>Arten verändern sich; <b>benutzte Organe werden gestärkt</b> und <b>erworbene Merkmale vererbt</b> (heute widerlegt); Umwelt als Faktor</td></tr><tr><td><b>Darwin (1809–1882)</b></td><td>Reise auf der Beagle 1831–36; Origin of Species 1858 (parallel Wallace); <b>natürliche Selektion</b></td></tr><tr><td><b>Neodarwinismus (Weismann, Mayr)</b></td><td>Darwin + Genetik (Mutation als Ursache der Variation)</td></tr></table><div class='box'><b>Darwins Evolutionstheorie in 7 Punkten</b><br>① Abstammung mit Modifikationen (spontane Mutationen) · ② Kampf ums Überleben (begrenzte Ressourcen, Individuen sind verschieden) · ③ Survival of the fittest – Fitness = Zahl der Nachkommen · ④ Natürliche Selektion und Anpassung der Population · ⑤ alle Lebewesen einer Population sind verwandt · ⑥ isolierte Populationen → neue Arten · ⑦ Zeit seit dem letzten gemeinsamen Vorfahren = Maß der Verwandtschaft.<br>99 % aller Arten sind ausgestorben.</div><h3>7.2 Meilensteine der Evolution am Beispiel DDT-Resistenz</h3><p>Dieses Schema wird in der Klausur auf ein neues Beispiel übertragen (Tutorium: Warfarin-Resistenz bei Ratten, Dickhornschafe):</p><table><tr><th><b>Meilenstein</b></th><th><b>DDT-Resistenz der Anopheles-Mücke</b></th></tr><tr><td><b>I  Abstammung mit Veränderung</b></td><td>zufällige Mutation im Gen für spannungsabhängige Na⁺-Kanäle, zunächst ohne Folge</td></tr><tr><td><b>II  Kampf ums Überleben</b></td><td>ohne DDT sind Wildtyp (wt/wt) und Mutanten (R/R, R/wt) gleich erfolgreich</td></tr><tr><td><b>III  Survival of the fittest</b></td><td>mit DDT haben Mutanten <b>mehr Nachkommen</b> (höhere Fitness)</td></tr><tr><td><b>IV  Natürliche Selektion &amp; Anpassung</b></td><td>in den Folgegenerationen vermehren sich die resistenten Mücken (R/R)</td></tr><tr><td><b>V  Einheit ist die Population</b></td><td>Resistenz breitet sich in der Fortpflanzungsgemeinschaft aus; die ganze Population ist angepasst</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/01321e0c91d5.bin' data-mime='image/jpeg' alt='Anteil resistenter Mücken nach Beginn der DDT-Behandlung (LOH-05, S. 9)'><figcaption>Anteil resistenter Mücken nach Beginn der DDT-Behandlung (LOH-05, S. 9)</figcaption></figure><div class='box'><b>Übertrag Warfarin (Tutorium)</b><br>Mutation im VKOR-Gen → wenige resistente Ratten · ohne Gift sind sie im Nachteil (brauchen mehr Vitamin K) · mit Warfarin höhere Fitness → Population wird resistent · fällt das Gift weg, wird das Allel wieder seltener.</div><h3>7.3 Beweise für die Evolution</h3><table><tr><th><b>Beweis</b></th><th><b>Definition</b></th><th><b>Beispiel</b></th></tr><tr><td><b>Anatomische Homologie</b></td><td>Ähnlichkeit im Bau, die auf einen <b>gemeinsamen Urahn</b> zurückgeht (nicht: gleiche Aufgabe!)</td><td>Vorderextremitäten der Wirbeltiere</td></tr><tr><td><b>Molekulare Homologie</b></td><td>Ähnlichkeit von DNA/Proteinen, die auf <b>ein Gen eines gemeinsamen Vorfahren</b> zurückgeht; je mehr Abweichungen, desto weiter liegt der Vorfahre zurück</td><td>Hämoglobin β: Rhesusaffe 8, Maus 27, Huhn 45, Frosch 67, Neunauge 125 abweichende AS</td></tr><tr><td><b>Rudimentäre Organe</b></td><td>Strukturen ohne/mit geringer Bedeutung, die über lange Zeit zurückgebildet werden</td><td>Blinddarm, Steißbein, Weisheitszähne; Becken-Rudimente beim Bartenwal</td></tr><tr><td><b>Brückentiere</b></td><td>Fossilien, die heute getrennte Klassen verbinden</td><td>Tiktaalik (Fisch → Vierbeiner): Flosse mit Ellenbogen und Gelenken, Hals, Gehör</td></tr><tr><td><b>Adaptive Radiation</b></td><td>Aufspaltung einer Gründerart in viele Arten durch Anpassung an neue Lebensräume</td><td>Darwinfinken auf Galapagos</td></tr></table><div class='box'><b>Homologiekriterien (anatomisch)</b><br>Lage: gleiche Anzahl und relativ gleiche Lage · spezifische Qualität: Merkmale stimmen auffallend überein · Stetigkeit: Zwischenstrukturen nachweisbar (z. B. Entwicklung der Gehörknöchelchen).<br>Adaptive Radiation braucht: keine Konkurrenz bei Ankunft · Isolation der Populationen · Spezialisierung auf verschiedene Nahrung (weniger Konkurrenz).</div><figure class='pic'><img data-enc='img/bio-loh/58d6c31d46a6.bin' data-mime='image/jpeg' alt='Darwinfinken: adaptive Radiation (S. 17)'><figcaption>Darwinfinken: adaptive Radiation (S. 17)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/cd7295e74822.bin' data-mime='image/jpeg' alt='Brückentier Tiktaalik: von der Flosse zur Extremität (LOH-05, S. 15)'><figcaption>Brückentier Tiktaalik: von der Flosse zur Extremität (LOH-05, S. 15)</figcaption></figure><h3>7.4 Mendelsche Regeln</h3><ul><li>Lücke bei Darwin: <b>wie</b> werden Veränderungen vererbt? → Mendel (1865) + Genetik = <b>Synthetische Evolutionstheorie</b>.</li><li><b>1. Uniformitätsregel:</b> Kreuzt man reinerbige Eltern (P), die sich in einem Merkmal unterscheiden, ist die <b>F1 einheitlich</b>.</li><li><b>2. Spaltungsregel:</b> Kreuzt man F1 untereinander, treten in der <b>F2</b> die Elternmerkmale in <b>festem Zahlenverhältnis</b> wieder auf (dominant-rezessiv 3 : 1).</li><li><b>3. Neukombinationsregel:</b> Bei mehreren Merkmalen können diese <b>neu kombiniert</b> werden (z. B. SSee × ssEE).</li></ul><figure class='pic'><img data-enc='img/bio-loh/49f9a743c106.bin' data-mime='image/jpeg' alt='Erbgang dominant–rezessiv: P → F1 → F2 (LOH-05, S. 20)'><figcaption>Erbgang dominant–rezessiv: P → F1 → F2 (LOH-05, S. 20)</figcaption></figure><h4>Zum Nacharbeiten</h4><ul><li>Geburtsgewicht vs. Säuglingssterblichkeit = <b>stabilisierende Selektion</b> (mittleres Gewicht am erfolgreichsten); heute nicht mehr gültig, weil die Medizin die Selektion aufhebt.</li><li>Molekulare Homologie (Cytochrom c): Mensch–Rhesusaffe am nächsten, Frosch am weitesten; Mensch–Schwein (Säugetiere) näher als Mensch–Känguru (Beuteltier).</li></ul><figure class='pic'><img data-enc='img/bio-loh/d4d40e08db90.bin' data-mime='image/jpeg' alt='Homologe Vorderextremitäten (S. 11)'><figcaption>Homologe Vorderextremitäten (S. 11)</figcaption></figure>",
 "c": [
 31,
 32,
@@ -2934,7 +2934,7 @@ const STOFF = {
 {
 "t": "Evolution II & III",
 "sub": "Populationsgenetik  ·  Hardy-Weinberg  ·  Drift  ·  Polymorphismus  ·  Hominiden",
-"h": "<h3>8.1 Population und genetischer Pool</h3><p class='link'>↩ baut auf Kap. 7.2 (Einheit der Evolution ist die Population)</p><ul><li><b>Population</b> = lokalisierte Gruppe verwandter Individuen einer Art in einem Areal; Individuen einer <b>Art</b> zeugen <b>fertile</b> Nachkommen.</li><li><b>Genetischer Pool</b> = Summe aller Gene einer Population.</li><li>Diploid: zwei Allele pro Merkmal; <b>homozygot</b> = gleiche Allele, <b>heterozygot</b> = verschiedene Allele (Achtung: nicht die Geschlechtschromosomen!).</li><li>Träger vorteilhafter Allele haben mehr Nachkommen → das Allel reichert sich an.</li></ul><h3>8.2 Hardy-Weinberg-Gesetz</h3><div class='box'><b>Formeln</b><br>Allelhäufigkeiten: p + q = 1  (p = dominantes, q = rezessives Allel)<br>Genotypen der nächsten Generation: p² + 2pq + q² = 1  (p² = AA, 2pq = Aa, q² = aa)<br>Rechenweg fast immer: q² = Anteil der Kranken (rezessiv) → q = √q² → p = 1 − q → Träger = 2pq.</div><table><tr><th><b>Beispiel</b></th><th><b>Rechnung</b></th><th><b>Ergebnis</b></th></tr><tr><td><b>Wildblumen: 320 RR, 160 Rr, 20 rr</b></td><td>p(R) = (2·320 + 160)/1000 = 0,8 · q = 0,2</td><td>F1: 64 % RR · 32 % Rr · 4 % rr</td></tr><tr><td><b>PKU 1 : 10 000 (rezessiv)</b></td><td>q² = 0,0001 → q = 0,01 → p = 0,99</td><td>Träger 2pq ≈ <b>2 %</b></td></tr><tr><td><b>Pingelap: 150 von 3000 farbenblind</b></td><td>q² = 0,05 → q = 0,224 → p = 0,78</td><td>2pq = 0,35 → von 20 Überlebenden ca. <b>7 Träger</b></td></tr><tr><td><b>Achromatopsie weltweit 1 : 40 000</b></td><td>q² = 0,000025 → q = 0,005</td><td>2pq ≈ <b>1 %</b></td></tr></table><figure class='pic'><img data-enc='img/bio-loh/608c901772a1.bin' data-mime='image/jpeg' alt='Kreuzungsquadrat mit p = 0,8 und q = 0,2 (LOH-06, S. 5)'><figcaption>Kreuzungsquadrat mit p = 0,8 und q = 0,2 (LOH-06, S. 5)</figcaption></figure><div class='box'><b>Gilt nur, wenn …</b><br>Population sehr groß · keine Migration · keine Mutationen · keine bevorzugte Partnerwahl · keine natürliche Selektion → dann keine Evolution.<br>Umkehrschluss: Ändern sich die Allelhäufigkeiten, beobachten wir Evolution.</div><h3>8.3 Was die Allelhäufigkeiten verändert</h3><table><tr><th><b>Faktor</b></th><th><b>Definition</b></th><th><b>Beispiel</b></th></tr><tr><td><b>Selektion</b></td><td>Umwelt begünstigt einen Phänotyp</td><td><b>Birkenspanner</b>: dunkle Form carbonaria auf rußigen Stämmen getarnt (Industriemelanismus)</td></tr><tr><td><b>Genetische Drift</b></td><td><b>zufällige</b> Änderung der Allelhäufigkeiten (wirkt v. a. in kleinen Populationen)</td><td>zufällig weniger Nachkommen bestimmter Pflanzen</td></tr><tr><td><b>Drift: Flaschenhals</b></td><td>Katastrophe dezimiert die Population, bestimmte Allele gehen verloren</td><td><b>Gepard</b></td></tr><tr><td><b>Drift: Gründereffekt</b></td><td>kleine Gruppe besiedelt neues Habitat mit ihrer zufälligen Allelverteilung</td><td><b>Tristan da Cunha</b>: Retinitis pigmentosa 1 : 60 (Welt 1 : 3500)</td></tr><tr><td><b>Migration</b></td><td>Zuwanderer bringen neue („getestete“) Allele; Einfluss größer als Selektion</td><td>menschliche Nachbarpopulationen statistisch nicht unterscheidbar</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/390f8a423635.bin' data-mime='image/jpeg' alt='Birkenspanner typica/carbonaria (S. 10)'><figcaption>Birkenspanner typica/carbonaria (S. 10)</figcaption></figure><table><tr><td>Birkenspanner typica/carbonaria (S. 10)</td><td>Flaschenhals-Effekt (S. 12)</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/d47de251d5b4.bin' data-mime='image/jpeg' alt='Flaschenhals-Effekt (S. 12)'><figcaption>Flaschenhals-Effekt (S. 12)</figcaption></figure><h3>8.4 Ausgeglichener Polymorphismus: Sichelzellenanämie</h3><ul><li>Mutation im <b>β-Globin-Gen</b> → sichelförmige Erythrozyten.</li><li><b>HbS/HbS</b> (q² ≈ 2 %): schlechter O₂-Transport, Blutarmut, Tod im Jugendalter.</li><li><b>HbA/HbS</b> (2pq ≈ 26 %): <b>resistent gegen Malaria</b> → Vorteil in Malariagebieten; darum bleibt das schädliche Allel erhalten (q ≈ 0,15).</li><li>Fällt Malaria weg (Impfstoff), haben Träger nur noch einen Nachteil → q sinkt langsam (z. B. 0,15 → 0,02 in 100 Generationen), verschwindet aber in großen Populationen <b>nie ganz</b>.</li></ul><figure class='pic'><img data-enc='img/bio-loh/c1c2b471debc.bin' data-mime='image/jpeg' alt='Verbreitung von Malaria und Sichelzellanämie überlappen (LOH-06, S. 16)'><figcaption>Verbreitung von Malaria und Sichelzellanämie überlappen (LOH-06, S. 16)</figcaption></figure><h3>8.5 Sexuelle Selektion und Hominiden</h3><ul><li><b>Sexueller Dimorphismus</b>: Verzierungen meist bei Männchen; das Weibchen wählt – prächtiges Gefieder = gesunder Träger.</li><li>Zwei Geschlechter: <b>Nachteil</b> – nur die Hälfte der Nachkommen bekommt selbst Nachkommen; <b>Vorteil</b> – <b>genetische Variabilität</b> → Resistenz gegen Viren/Parasiten.</li><li><b>Primaten</b>: Greifhände/-füße, großes Gehirn, kurze Kiefer, Augen nach vorn, flache Nägel, Fingerabdrücke, Brutpflege, komplexes Sozialgefüge.</li><li>Australopithecus (Lucy, 3,2 Mio. J.): <b>aufrechter Gang</b> seit ca. 3,5 Mio. J. · Homo erectus (1,8 Mio. J.) verlässt als erster Afrika · Neandertaler in Europa bis ca. 30 000 J. · Homo sapiens verlässt Afrika vor ca. 100 000 J., trägt ca. <b>3 % Neandertaler-Gene</b>.</li></ul><h4>Zum Nacharbeiten</h4><ul><li>Blutgruppen Frankreich (f(0) = 0,66, f(A) = 0,29, f(B) = 0,05; A und B co-dominant zueinander, 0 rezessiv): allgemeine Formel <b>(p + q + r)² = 1</b>. A = 0,29² + 2·0,29·0,66 ≈ <b>0,467 (häufigste)</b> · 0 = 0,66² ≈ 0,436 · B = 0,05² + 2·0,05·0,66 ≈ 0,069 · AB = 2·0,29·0,05 ≈ <b>0,029 (seltenste)</b>.</li></ul><div class='box'><b>ANHANG</b><br>Tutorium: Klausur-Training<br>Aufgabentypen  ·  Lösungswege  ·  Richtig/Falsch-Fallen</div><h4>A.1  Was Dr. Lohrer prüft</h4><ul><li>Prüfungsstoff = Inhalt der <b>Präsentationen</b> (nicht die Begleittexte).</li><li>Häufige Aufgabentypen: <b>Definitionen</b> (Kompartiment/Organell, Diffusion/Osmose, Homologie), <b>Schema beschriften</b> (Zelle, Insulin 1–7, Atmungskette), <b>Prozess erklären</b> (Osmometer, Zellatmung, Enzymwirkung mit Energieschema), <b>Übertragung</b> der Evolutions-Meilensteine auf ein neues Beispiel, <b>Hardy-Weinberg rechnen</b>, <b>Multiple Choice</b> und <b>Richtig/Falsch</b>.</li></ul><h4>A.2  Osmose-Aufgabe (künstliche Zelle)</h4><ul><li>Membran durchlässig für Wasser, Glucose, Fructose – <b>nicht für Saccharose</b>. Zelle: 0,03 Saccharose + 0,02 Glucose; außen: je 0,01 Saccharose, Glucose, Fructose.</li><li>Netto hinein: <b>Fructose</b> · netto heraus: <b>Glucose</b> · hyperton ist <b>die Zelle</b> (0,05 mol/l gelöste Teilchen) · Wasser strömt <b>in die Zelle</b> → Zelle wird <b>praller</b>.</li><li>Stillstand im Osmometer <b>≠ Konzentrationsausgleich</b>: gleich viele Wassermoleküle strömen ein und aus (dynamisches Gleichgewicht), weil der hydrostatische Druck den Ausstrom fördert (P = Π).</li></ul><h4>A.3  Richtig/Falsch-Fallen</h4><table><tr><th><b>Aussage</b></th><th><b>R/F</b></th><th><b>Warum</b></th></tr><tr><td><b>Diffusion führt zu einem Konzentrationsausgleich.</b></td><td>R</td><td>aber Osmose nicht</td></tr><tr><td><b>Photosynthetisch aktive Bakterien besitzen Chloroplasten.</b></td><td>F</td><td>Bakterien haben keine Organellen</td></tr><tr><td><b>Im Zellkern werden Proteine gebildet.</b></td><td>F</td><td>Translation an Ribosomen im Cytoplasma</td></tr><tr><td><b>Die Kernporen öffnen sich in das ER.</b></td><td>F</td><td>ins Cytoplasma; die äußere Kernmembran geht ins ER über</td></tr><tr><td><b>Der Golgi-Apparat hat cis- und contra-Polarität.</b></td><td>F</td><td>cis und <b>trans</b></td></tr><tr><td><b>Lysosomen geben Verdauungsenzyme ins Cytoplasma ab.</b></td><td>F</td><td>Enzyme bleiben in der Verdauungsvakuole</td></tr><tr><td><b>Mitochondrien und Chloroplasten haben Ribosomen, DNA und eine Zellwand.</b></td><td>F</td><td>keine Zellwand</td></tr><tr><td><b>In den Mitochondrien wird Glucose verbrannt.</b></td><td>F</td><td>Glykolyse im Cytoplasma; Mitochondrien oxidieren schrittweise (Energiewandler)</td></tr><tr><td><b>Exergonische Prozesse laufen immer sofort ab.</b></td><td>F</td><td>Aktivierungsenergie verhindert den sofortigen Start</td></tr><tr><td><b>Biokatalysatoren steuern die Richtung des Metabolismus.</b></td><td>F</td><td>Enzyme ändern weder ΔG noch die Richtung</td></tr><tr><td><b>Darwin beweist, dass erworbene Merkmale vererbt werden.</b></td><td>F</td><td>das war Lamarck</td></tr><tr><td><b>Anatomische Homologien findet man bei Strukturen mit gleicher Aufgabe.</b></td><td>F</td><td>entscheidend ist gemeinsame Abstammung, nicht die Funktion</td></tr><tr><td><b>Rudimentäre Organe sind sehr kleine Organe.</b></td><td>F</td><td>sie haben kaum noch Bedeutung</td></tr><tr><td><b>Archaeopteryx verbindet Säugetiere mit Vögeln.</b></td><td>F</td><td>Reptilien mit Vögeln</td></tr><tr><td><b>Weicht eine Population von Hardy-Weinberg ab, ist das Evolution.</b></td><td>R</td><td>Allelhäufigkeiten ändern sich</td></tr></table>",
+"h": "<h3>8.1 Population und genetischer Pool</h3><p class='link'>↩ baut auf Kap. 7.2 (Einheit der Evolution ist die Population)</p><ul><li><b>Population</b> = lokalisierte Gruppe verwandter Individuen einer Art in einem Areal; Individuen einer <b>Art</b> zeugen <b>fertile</b> Nachkommen.</li><li><b>Genetischer Pool</b> = Summe aller Gene einer Population.</li><li>Diploid: zwei Allele pro Merkmal; <b>homozygot</b> = gleiche Allele, <b>heterozygot</b> = verschiedene Allele (Achtung: nicht die Geschlechtschromosomen!).</li><li>Träger vorteilhafter Allele haben mehr Nachkommen → das Allel reichert sich an.</li></ul><h3>8.2 Hardy-Weinberg-Gesetz</h3><div class='box'><b>Formeln</b><br>Allelhäufigkeiten: p + q = 1  (p = dominantes, q = rezessives Allel)<br>Genotypen der nächsten Generation: p² + 2pq + q² = 1  (p² = AA, 2pq = Aa, q² = aa)<br>Rechenweg fast immer: q² = Anteil der Kranken (rezessiv) → q = √q² → p = 1 − q → Träger = 2pq.</div><table><tr><th><b>Beispiel</b></th><th><b>Rechnung</b></th><th><b>Ergebnis</b></th></tr><tr><td><b>Wildblumen: 320 RR, 160 Rr, 20 rr</b></td><td>p(R) = (2·320 + 160)/1000 = 0,8 · q = 0,2</td><td>F1: 64 % RR · 32 % Rr · 4 % rr</td></tr><tr><td><b>PKU 1 : 10 000 (rezessiv)</b></td><td>q² = 0,0001 → q = 0,01 → p = 0,99</td><td>Träger 2pq ≈ <b>2 %</b></td></tr><tr><td><b>Pingelap: 150 von 3000 farbenblind</b></td><td>q² = 0,05 → q = 0,224 → p = 0,78</td><td>2pq = 0,35 → von 20 Überlebenden ca. <b>7 Träger</b></td></tr><tr><td><b>Achromatopsie weltweit 1 : 40 000</b></td><td>q² = 0,000025 → q = 0,005</td><td>2pq ≈ <b>1 %</b></td></tr></table><figure class='pic'><img data-enc='img/bio-loh/608c901772a1.bin' data-mime='image/jpeg' alt='Kreuzungsquadrat mit p = 0,8 und q = 0,2 (LOH-06, S. 5)'><figcaption>Kreuzungsquadrat mit p = 0,8 und q = 0,2 (LOH-06, S. 5)</figcaption></figure><div class='box'><b>Gilt nur, wenn …</b><br>Population sehr groß · keine Migration · keine Mutationen · keine bevorzugte Partnerwahl · keine natürliche Selektion → dann keine Evolution.<br>Umkehrschluss: Ändern sich die Allelhäufigkeiten, beobachten wir Evolution.</div><h3>8.3 Was die Allelhäufigkeiten verändert</h3><table><tr><th><b>Faktor</b></th><th><b>Definition</b></th><th><b>Beispiel</b></th></tr><tr><td><b>Selektion</b></td><td>Umwelt begünstigt einen Phänotyp</td><td><b>Birkenspanner</b>: dunkle Form carbonaria auf rußigen Stämmen getarnt (Industriemelanismus)</td></tr><tr><td><b>Genetische Drift</b></td><td><b>zufällige</b> Änderung der Allelhäufigkeiten (wirkt v. a. in kleinen Populationen)</td><td>zufällig weniger Nachkommen bestimmter Pflanzen</td></tr><tr><td><b>Drift: Flaschenhals</b></td><td>Katastrophe dezimiert die Population, bestimmte Allele gehen verloren</td><td><b>Gepard</b></td></tr><tr><td><b>Drift: Gründereffekt</b></td><td>kleine Gruppe besiedelt neues Habitat mit ihrer zufälligen Allelverteilung</td><td><b>Tristan da Cunha</b>: Retinitis pigmentosa 1 : 60 (Welt 1 : 3500)</td></tr><tr><td><b>Migration</b></td><td>Zuwanderer bringen neue („getestete“) Allele; Einfluss größer als Selektion</td><td>menschliche Nachbarpopulationen statistisch nicht unterscheidbar</td></tr></table><figure class='pic'><img data-enc='img/bio-loh/390f8a423635.bin' data-mime='image/jpeg' alt='Birkenspanner typica/carbonaria (S. 10)'><figcaption>Birkenspanner typica/carbonaria (S. 10)</figcaption></figure><figure class='pic'><img data-enc='img/bio-loh/d47de251d5b4.bin' data-mime='image/jpeg' alt='Flaschenhals-Effekt (S. 12)'><figcaption>Flaschenhals-Effekt (S. 12)</figcaption></figure><h3>8.4 Ausgeglichener Polymorphismus: Sichelzellenanämie</h3><ul><li>Mutation im <b>β-Globin-Gen</b> → sichelförmige Erythrozyten.</li><li><b>HbS/HbS</b> (q² ≈ 2 %): schlechter O₂-Transport, Blutarmut, Tod im Jugendalter.</li><li><b>HbA/HbS</b> (2pq ≈ 26 %): <b>resistent gegen Malaria</b> → Vorteil in Malariagebieten; darum bleibt das schädliche Allel erhalten (q ≈ 0,15).</li><li>Fällt Malaria weg (Impfstoff), haben Träger nur noch einen Nachteil → q sinkt langsam (z. B. 0,15 → 0,02 in 100 Generationen), verschwindet aber in großen Populationen <b>nie ganz</b>.</li></ul><figure class='pic'><img data-enc='img/bio-loh/c1c2b471debc.bin' data-mime='image/jpeg' alt='Verbreitung von Malaria und Sichelzellanämie überlappen (LOH-06, S. 16)'><figcaption>Verbreitung von Malaria und Sichelzellanämie überlappen (LOH-06, S. 16)</figcaption></figure><h3>8.5 Sexuelle Selektion und Hominiden</h3><ul><li><b>Sexueller Dimorphismus</b>: Verzierungen meist bei Männchen; das Weibchen wählt – prächtiges Gefieder = gesunder Träger.</li><li>Zwei Geschlechter: <b>Nachteil</b> – nur die Hälfte der Nachkommen bekommt selbst Nachkommen; <b>Vorteil</b> – <b>genetische Variabilität</b> → Resistenz gegen Viren/Parasiten.</li><li><b>Primaten</b>: Greifhände/-füße, großes Gehirn, kurze Kiefer, Augen nach vorn, flache Nägel, Fingerabdrücke, Brutpflege, komplexes Sozialgefüge.</li><li>Australopithecus (Lucy, 3,2 Mio. J.): <b>aufrechter Gang</b> seit ca. 3,5 Mio. J. · Homo erectus (1,8 Mio. J.) verlässt als erster Afrika · Neandertaler in Europa bis ca. 30 000 J. · Homo sapiens verlässt Afrika vor ca. 100 000 J., trägt ca. <b>3 % Neandertaler-Gene</b>.</li></ul><h4>Zum Nacharbeiten</h4><ul><li>Blutgruppen Frankreich (f(0) = 0,66, f(A) = 0,29, f(B) = 0,05; A und B co-dominant zueinander, 0 rezessiv): allgemeine Formel <b>(p + q + r)² = 1</b>. A = 0,29² + 2·0,29·0,66 ≈ <b>0,467 (häufigste)</b> · 0 = 0,66² ≈ 0,436 · B = 0,05² + 2·0,05·0,66 ≈ 0,069 · AB = 2·0,29·0,05 ≈ <b>0,029 (seltenste)</b>.</li></ul><div class='box'><b>ANHANG</b><br>Tutorium: Klausur-Training<br>Aufgabentypen  ·  Lösungswege  ·  Richtig/Falsch-Fallen</div><h4>A.1  Was Dr. Lohrer prüft</h4><ul><li>Prüfungsstoff = Inhalt der <b>Präsentationen</b> (nicht die Begleittexte).</li><li>Häufige Aufgabentypen: <b>Definitionen</b> (Kompartiment/Organell, Diffusion/Osmose, Homologie), <b>Schema beschriften</b> (Zelle, Insulin 1–7, Atmungskette), <b>Prozess erklären</b> (Osmometer, Zellatmung, Enzymwirkung mit Energieschema), <b>Übertragung</b> der Evolutions-Meilensteine auf ein neues Beispiel, <b>Hardy-Weinberg rechnen</b>, <b>Multiple Choice</b> und <b>Richtig/Falsch</b>.</li></ul><h4>A.2  Osmose-Aufgabe (künstliche Zelle)</h4><ul><li>Membran durchlässig für Wasser, Glucose, Fructose – <b>nicht für Saccharose</b>. Zelle: 0,03 Saccharose + 0,02 Glucose; außen: je 0,01 Saccharose, Glucose, Fructose.</li><li>Netto hinein: <b>Fructose</b> · netto heraus: <b>Glucose</b> · hyperton ist <b>die Zelle</b> (0,05 mol/l gelöste Teilchen) · Wasser strömt <b>in die Zelle</b> → Zelle wird <b>praller</b>.</li><li>Stillstand im Osmometer <b>≠ Konzentrationsausgleich</b>: gleich viele Wassermoleküle strömen ein und aus (dynamisches Gleichgewicht), weil der hydrostatische Druck den Ausstrom fördert (P = Π).</li></ul><h4>A.3  Richtig/Falsch-Fallen</h4><table><tr><th><b>Aussage</b></th><th><b>R/F</b></th><th><b>Warum</b></th></tr><tr><td><b>Diffusion führt zu einem Konzentrationsausgleich.</b></td><td>R</td><td>aber Osmose nicht</td></tr><tr><td><b>Photosynthetisch aktive Bakterien besitzen Chloroplasten.</b></td><td>F</td><td>Bakterien haben keine Organellen</td></tr><tr><td><b>Im Zellkern werden Proteine gebildet.</b></td><td>F</td><td>Translation an Ribosomen im Cytoplasma</td></tr><tr><td><b>Die Kernporen öffnen sich in das ER.</b></td><td>F</td><td>ins Cytoplasma; die äußere Kernmembran geht ins ER über</td></tr><tr><td><b>Der Golgi-Apparat hat cis- und contra-Polarität.</b></td><td>F</td><td>cis und <b>trans</b></td></tr><tr><td><b>Lysosomen geben Verdauungsenzyme ins Cytoplasma ab.</b></td><td>F</td><td>Enzyme bleiben in der Verdauungsvakuole</td></tr><tr><td><b>Mitochondrien und Chloroplasten haben Ribosomen, DNA und eine Zellwand.</b></td><td>F</td><td>keine Zellwand</td></tr><tr><td><b>In den Mitochondrien wird Glucose verbrannt.</b></td><td>F</td><td>Glykolyse im Cytoplasma; Mitochondrien oxidieren schrittweise (Energiewandler)</td></tr><tr><td><b>Exergonische Prozesse laufen immer sofort ab.</b></td><td>F</td><td>Aktivierungsenergie verhindert den sofortigen Start</td></tr><tr><td><b>Biokatalysatoren steuern die Richtung des Metabolismus.</b></td><td>F</td><td>Enzyme ändern weder ΔG noch die Richtung</td></tr><tr><td><b>Darwin beweist, dass erworbene Merkmale vererbt werden.</b></td><td>F</td><td>das war Lamarck</td></tr><tr><td><b>Anatomische Homologien findet man bei Strukturen mit gleicher Aufgabe.</b></td><td>F</td><td>entscheidend ist gemeinsame Abstammung, nicht die Funktion</td></tr><tr><td><b>Rudimentäre Organe sind sehr kleine Organe.</b></td><td>F</td><td>sie haben kaum noch Bedeutung</td></tr><tr><td><b>Archaeopteryx verbindet Säugetiere mit Vögeln.</b></td><td>F</td><td>Reptilien mit Vögeln</td></tr><tr><td><b>Weicht eine Population von Hardy-Weinberg ab, ist das Evolution.</b></td><td>R</td><td>Allelhäufigkeiten ändern sich</td></tr></table>",
 "c": [
 36,
 37,
@@ -3320,7 +3320,7 @@ const STOFF = {
 {
 "t": "Blut (1)",
 "sub": "Aufgaben  ·  Zusammensetzung  ·  Plasma  ·  Erythrozyten  ·  Blutgruppen  ·  Hämoglobin  ·  Abbau",
-"h": "<h3>1.1 Flüssigkeitsräume und Aufgaben des Blutes</h3><ul><li>Zwei Flüssigkeitsräume im Körper: <b>extrazelluläre</b> und <b>intrazelluläre</b> Flüssigkeit.</li><li>Extrazelluläre Flüssigkeit = <b>Blutplasma</b> + <b>interstitielle Flüssigkeit</b> (Gewebeflüssigkeit); beide stehen im Gleichgewicht.</li><li>Extrazellulär ca. <b>14–17 l</b>, davon Plasma (ohne Blutzellen) ca. <b>2,5–3 l</b>.</li><li>Anteile am Körpergewicht: Blutflüssigkeit 4,5 % · interstitielle Flüssigkeit 19 % · intrazelluläre Flüssigkeit 35 %.</li></ul><figure class='pic'><img data-enc='img/bio-phys/343771925b79.bin' data-mime='image/jpeg' alt='Wasseranteile am Körpergewicht (Blut_1, S. 3)'><figcaption>Wasseranteile am Körpergewicht (Blut_1, S. 3)</figcaption></figure><ul><li>Aufgaben: <b>Transport</b> von Stoffen · Transport von <b>Wärme</b> · <b>Signalübermittlung</b> · <b>Pufferung</b> · <b>Abwehr</b> · <b>Abdichtung</b> (Blutgerinnung).</li></ul><h3>1.2 Zusammensetzung</h3><div class='box'><b>Merke</b><br>Blut = Blutzellen + Blutplasma<br>Blutserum = Blutplasma – Gerinnungsfaktoren<br>Hämatokrit = Volumenanteil der Blutzellen am gesamten Blutvolumen (≈ 42 %)</div><ul><li>Blutmenge 5–6 l; Erythrozyten machen <b>mehr als 99 %</b> aller Blutzellen aus.</li><li>Plasma (≈ 58 %): 90 % Wasser · 8 % Proteine · 2 % Ionen, Glukose, Hormone, Kreatinin, Harnstoff …</li><li>Zellzahlen: Erythrozyten ≈ 5 000 000/µl · Leukozyten ≈ 5 000/µl · Thrombozyten ≈ 200 000/µl</li></ul><figure class='pic'><img data-enc='img/bio-phys/d93fdedd926c.bin' data-mime='image/jpeg' alt='Zusammensetzung des Blutes (Blut_1, S. 5)'><figcaption>Zusammensetzung des Blutes (Blut_1, S. 5)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/e85309c64205.bin' data-mime='image/jpeg' alt='Eigene Übersicht: Einteilung der Blutzellen (Inhalt aus Blut_1, S. 5 und Blut_2, S. 3–6)'><figcaption>Eigene Übersicht: Einteilung der Blutzellen (Inhalt aus Blut_1, S. 5 und Blut_2, S. 3–6)</figcaption></figure><h3>1.3 Blutplasma</h3><ul><li>Extrazellulärer Anteil des Blutes: enthält neben H<sub>2</sub>O <b>Elektrolyte</b> (Ionen), <b>Proteine</b> und niedermolekulare organische Stoffe.</li><li>Elektrolytzusammensetzung von Plasma und interstitieller Flüssigkeit ist <b>etwa gleich</b>.</li><li>Elektrolyte bestimmen wesentlich den <b>osmotischen Druck</b> (Osmolalität ca. <b>290 mosmol/kg</b> Plasma).</li><li><b>Plasmaproteine</b> werden fast alle in der <b>Leber</b> gebildet (Ausnahme: <b>γ-Globuline = Antikörper</b>). Aufgaben: Transport, Pufferung, Immunantwort, Blutgerinnung.</li><li>Proteine bauen im Gefäßinneren den <b>kolloidosmotischen Druck</b> auf.</li><li><b>Elektrophorese</b> trennt die Plasmaproteine in <b>5 Fraktionen</b>: Albumin · α<sub>1</sub> · α<sub>2</sub> · β · γ.</li></ul><p class='link'>↩ baut auf Lohrer Kap. 3 (Osmose)    osmotischer Druck hängt von der Teilchenkonzentration ab</p><figure class='pic'><img data-enc='img/bio-phys/919bd64eeddd.bin' data-mime='image/jpeg' alt='Eiweißelektrophorese: fünf Plasmafraktionen (Blut_1, S. 6)'><figcaption>Eiweißelektrophorese: fünf Plasmafraktionen (Blut_1, S. 6)</figcaption></figure><h3>1.4 Erythrozyten</h3><table><tr><th><b>Merkmal</b></th><th><b>Erythrozyten</b></th></tr><tr><td>Form</td><td>kleine, runde, <b>bikonkave „Scheiben“</b>, stark verformbar</td></tr><tr><td>Größe</td><td>Durchmesser ca. <b>7,5 µm</b></td></tr><tr><td>Besonderheit</td><td><b>kern- und mitochondrienlos</b></td></tr><tr><td>Hauptfunktion</td><td><b>O<sub>2</sub>-Transport</b> – Hämoglobin im Zellinneren ist der wichtigste Funktionsbestandteil</td></tr><tr><td>Oberfläche</td><td>trägt die <b>Blutgruppenantigene</b> (Landsteiner, AB0-System)</td></tr><tr><td>Lebensdauer</td><td>ca. <b>120 Tage</b></td></tr></table><figure class='pic'><img data-enc='img/bio-phys/31ee36b64b51.bin' data-mime='image/png' alt='Mikroskopie: Erythrozyten'><figcaption>Mikroskopie: Erythrozyten</figcaption></figure><table><tr><td>Mikroskopie: Erythrozyten</td><td>bikonkave Form (Aufsicht / Schnitt)</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/ec9ee108ee4f.bin' data-mime='image/jpeg' alt='AB0-System: Antigene und Antikörper (Blut_1, S. 7)'><figcaption>AB0-System: Antigene und Antikörper (Blut_1, S. 7)</figcaption></figure><h3>1.5 Blutgruppen: AB0-System</h3><ul><li>Blutgruppenantigene sind <b>Glykoproteine und/oder Glykolipide</b> auf der Zelloberfläche.</li><li>Aufbau: Protein bzw. Lipid + eine oder mehrere <b>kovalent gebundene Kohlenhydratgruppen</b> (Zuckergruppen).</li></ul><p class='link'>↩ baut auf Bergemann Kap. 2 (Kohlenhydrate, Glykoproteine)</p><table><tr><th><b>Blutgruppe</b></th><th><b>Antigene auf Erythrozyten</b></th><th><b>Antikörper im Plasma</b></th></tr><tr><td><b>A</b></td><td>Antigen A</td><td>gegen B</td></tr><tr><td><b>B</b></td><td>Antigen B</td><td>gegen A</td></tr><tr><td><b>AB</b></td><td>Antigen A und B</td><td>keine</td></tr><tr><td><b>0</b></td><td>kein Antigen</td><td>gegen A und B</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/ec9ee108ee4f.bin' data-mime='image/jpeg' alt='AB0-System: Antigene und Antikörper (Blut_1, S. 7)'><figcaption>AB0-System: Antigene und Antikörper (Blut_1, S. 7)</figcaption></figure><h3>1.6 Rhesus-System</h3><ul><li>Rhesus-Eigenschaft durch <b>mehrere Antigene</b> auf der Erythrozytenoberfläche; <b>Antigen D</b> wirkt am stärksten (= Rh-positiv).</li><li><b>Rh⁺:</b> Rhesus-Antigene auf der Oberfläche, keine Antikörper im Plasma. <b>rh⁻:</b> keine Antigene, keine Antikörper.</li><li>Unterschied zum AB0-System: Antikörper werden <b>erst gebildet</b>, wenn Rh-positive Erythrozyten in das Blut einer <b>Rh-negativen</b> Person gelangen.</li><li>Gefahr bei <b>Bluttransfusionen</b> sowie bei <b>Schwangerschaft und Geburt</b> eines Rh-positiven Kindes durch eine rh-negative Mutter.</li></ul><figure class='pic'><img data-enc='img/bio-phys/eb78ab8febae.bin' data-mime='image/jpeg' alt='Rh-Unverträglichkeit: Sensibilisierung bei der 1. Geburt, Schädigung beim 2. Rh⁺-Kind (Blut_1, S. 8)'><figcaption>Rh-Unverträglichkeit: Sensibilisierung bei der 1. Geburt, Schädigung beim 2. Rh⁺-Kind (Blut_1, S. 8)</figcaption></figure><h3>1.7 Hämoglobin</h3><ul><li>Transportiert das im Plasma schlecht lösliche <b>O<sub>2</sub></b> zu den Organen.</li><li><b>4 Untereinheiten</b>; jede = <b>Häm-Gruppe</b> (Farbstoff mit zentralem <b>Eisen-Atom</b>) + <b>Globin</b> (Eiweiß).</li><li><b>Oxygenierung</b> (O<sub>2</sub>-Anlagerung) und <b>Desoxygenierung</b> (O<sub>2</sub>-Abgabe): Wertigkeit des Eisens bleibt gleich (<b>Fe<sup>2+</sup></b>).</li><li>Gelegentlich Oxidation Fe<sup>2+</sup> → <b>Fe<sup>3+</sup></b> = <b>Methämoglobin</b>, kann O<sub>2</sub> nicht mehr reversibel binden.</li></ul><figure class='pic'><img data-enc='img/bio-phys/547804fde2f2.bin' data-mime='image/jpeg' alt='Hämoglobin: 4 Globine mit je einem Häm'><figcaption>Hämoglobin: 4 Globine mit je einem Häm</figcaption></figure><table><tr><td>Hämoglobin: 4 Globine mit je einem Häm</td><td>Häm-Gruppe mit Fe<sup>2+</sup> (oxygeniert, desoxygeniert, CO, Met-Hb)</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/d474254a6547.bin' data-mime='image/jpeg' alt='Häm-Gruppe mit Fe2+ (oxygeniert, desoxygeniert, CO, Met-Hb)'><figcaption>Häm-Gruppe mit Fe2+ (oxygeniert, desoxygeniert, CO, Met-Hb)</figcaption></figure><h3>1.8 Abbau der Erythrozyten</h3><ul><li>Abbau v. a. in der <b>Milz</b> („<b>Blutmauserung</b>“: alte, funktionsuntüchtige Erythrozyten werden entfernt).</li><li>Freies Hämoglobin → <b>Häm</b> + <b>Globin</b>; Eisen und Globin werden wiederverwertet.</li><li>Eisenfreies Häm → in der <b>Leber</b> zu <b>Bilirubin</b> → Ausscheidung über die <b>Galle</b>.</li><li>Abbauprodukte <b>Urobilin</b> und <b>Urobilinogen</b> (wasserlöslich) → Ausscheidung mit dem <b>Urin</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/45cb5f4c292c.bin' data-mime='image/jpeg' alt='Bildung (Knochenmark), Prüfung in der Milz und Abbau durch Makrophagen (Blut_1, S. 10)'><figcaption>Bildung (Knochenmark), Prüfung in der Milz und Abbau durch Makrophagen (Blut_1, S. 10)</figcaption></figure>",
+"h": "<h3>1.1 Flüssigkeitsräume und Aufgaben des Blutes</h3><ul><li>Zwei Flüssigkeitsräume im Körper: <b>extrazelluläre</b> und <b>intrazelluläre</b> Flüssigkeit.</li><li>Extrazelluläre Flüssigkeit = <b>Blutplasma</b> + <b>interstitielle Flüssigkeit</b> (Gewebeflüssigkeit); beide stehen im Gleichgewicht.</li><li>Extrazellulär ca. <b>14–17 l</b>, davon Plasma (ohne Blutzellen) ca. <b>2,5–3 l</b>.</li><li>Anteile am Körpergewicht: Blutflüssigkeit 4,5 % · interstitielle Flüssigkeit 19 % · intrazelluläre Flüssigkeit 35 %.</li></ul><figure class='pic'><img data-enc='img/bio-phys/343771925b79.bin' data-mime='image/jpeg' alt='Wasseranteile am Körpergewicht (Blut_1, S. 3)'><figcaption>Wasseranteile am Körpergewicht (Blut_1, S. 3)</figcaption></figure><ul><li>Aufgaben: <b>Transport</b> von Stoffen · Transport von <b>Wärme</b> · <b>Signalübermittlung</b> · <b>Pufferung</b> · <b>Abwehr</b> · <b>Abdichtung</b> (Blutgerinnung).</li></ul><h3>1.2 Zusammensetzung</h3><div class='box'><b>Merke</b><br>Blut = Blutzellen + Blutplasma<br>Blutserum = Blutplasma – Gerinnungsfaktoren<br>Hämatokrit = Volumenanteil der Blutzellen am gesamten Blutvolumen (≈ 42 %)</div><ul><li>Blutmenge 5–6 l; Erythrozyten machen <b>mehr als 99 %</b> aller Blutzellen aus.</li><li>Plasma (≈ 58 %): 90 % Wasser · 8 % Proteine · 2 % Ionen, Glukose, Hormone, Kreatinin, Harnstoff …</li><li>Zellzahlen: Erythrozyten ≈ 5 000 000/µl · Leukozyten ≈ 5 000/µl · Thrombozyten ≈ 200 000/µl</li></ul><figure class='pic'><img data-enc='img/bio-phys/d93fdedd926c.bin' data-mime='image/jpeg' alt='Zusammensetzung des Blutes (Blut_1, S. 5)'><figcaption>Zusammensetzung des Blutes (Blut_1, S. 5)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/e85309c64205.bin' data-mime='image/jpeg' alt='Eigene Übersicht: Einteilung der Blutzellen (Inhalt aus Blut_1, S. 5 und Blut_2, S. 3–6)'><figcaption>Eigene Übersicht: Einteilung der Blutzellen (Inhalt aus Blut_1, S. 5 und Blut_2, S. 3–6)</figcaption></figure><h3>1.3 Blutplasma</h3><ul><li>Extrazellulärer Anteil des Blutes: enthält neben H<sub>2</sub>O <b>Elektrolyte</b> (Ionen), <b>Proteine</b> und niedermolekulare organische Stoffe.</li><li>Elektrolytzusammensetzung von Plasma und interstitieller Flüssigkeit ist <b>etwa gleich</b>.</li><li>Elektrolyte bestimmen wesentlich den <b>osmotischen Druck</b> (Osmolalität ca. <b>290 mosmol/kg</b> Plasma).</li><li><b>Plasmaproteine</b> werden fast alle in der <b>Leber</b> gebildet (Ausnahme: <b>γ-Globuline = Antikörper</b>). Aufgaben: Transport, Pufferung, Immunantwort, Blutgerinnung.</li><li>Proteine bauen im Gefäßinneren den <b>kolloidosmotischen Druck</b> auf.</li><li><b>Elektrophorese</b> trennt die Plasmaproteine in <b>5 Fraktionen</b>: Albumin · α<sub>1</sub> · α<sub>2</sub> · β · γ.</li></ul><p class='link'>↩ baut auf Lohrer Kap. 3 (Osmose)    osmotischer Druck hängt von der Teilchenkonzentration ab</p><figure class='pic'><img data-enc='img/bio-phys/919bd64eeddd.bin' data-mime='image/jpeg' alt='Eiweißelektrophorese: fünf Plasmafraktionen (Blut_1, S. 6)'><figcaption>Eiweißelektrophorese: fünf Plasmafraktionen (Blut_1, S. 6)</figcaption></figure><h3>1.4 Erythrozyten</h3><table><tr><th><b>Merkmal</b></th><th><b>Erythrozyten</b></th></tr><tr><td>Form</td><td>kleine, runde, <b>bikonkave „Scheiben“</b>, stark verformbar</td></tr><tr><td>Größe</td><td>Durchmesser ca. <b>7,5 µm</b></td></tr><tr><td>Besonderheit</td><td><b>kern- und mitochondrienlos</b></td></tr><tr><td>Hauptfunktion</td><td><b>O<sub>2</sub>-Transport</b> – Hämoglobin im Zellinneren ist der wichtigste Funktionsbestandteil</td></tr><tr><td>Oberfläche</td><td>trägt die <b>Blutgruppenantigene</b> (Landsteiner, AB0-System)</td></tr><tr><td>Lebensdauer</td><td>ca. <b>120 Tage</b></td></tr></table><figure class='pic'><img data-enc='img/bio-phys/31ee36b64b51.bin' data-mime='image/png' alt='Mikroskopie: Erythrozyten'><figcaption>Mikroskopie: Erythrozyten</figcaption></figure><table><tr><td>Mikroskopie: Erythrozyten</td><td>bikonkave Form (Aufsicht / Schnitt)</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/ec9ee108ee4f.bin' data-mime='image/jpeg' alt='AB0-System: Antigene und Antikörper (Blut_1, S. 7)'><figcaption>AB0-System: Antigene und Antikörper (Blut_1, S. 7)</figcaption></figure><h3>1.5 Blutgruppen: AB0-System</h3><ul><li>Blutgruppenantigene sind <b>Glykoproteine und/oder Glykolipide</b> auf der Zelloberfläche.</li><li>Aufbau: Protein bzw. Lipid + eine oder mehrere <b>kovalent gebundene Kohlenhydratgruppen</b> (Zuckergruppen).</li></ul><p class='link'>↩ baut auf Bergemann Kap. 2 (Kohlenhydrate, Glykoproteine)</p><table><tr><th><b>Blutgruppe</b></th><th><b>Antigene auf Erythrozyten</b></th><th><b>Antikörper im Plasma</b></th></tr><tr><td><b>A</b></td><td>Antigen A</td><td>gegen B</td></tr><tr><td><b>B</b></td><td>Antigen B</td><td>gegen A</td></tr><tr><td><b>AB</b></td><td>Antigen A und B</td><td>keine</td></tr><tr><td><b>0</b></td><td>kein Antigen</td><td>gegen A und B</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/ec9ee108ee4f.bin' data-mime='image/jpeg' alt='AB0-System: Antigene und Antikörper (Blut_1, S. 7)'><figcaption>AB0-System: Antigene und Antikörper (Blut_1, S. 7)</figcaption></figure><h3>1.6 Rhesus-System</h3><ul><li>Rhesus-Eigenschaft durch <b>mehrere Antigene</b> auf der Erythrozytenoberfläche; <b>Antigen D</b> wirkt am stärksten (= Rh-positiv).</li><li><b>Rh⁺:</b> Rhesus-Antigene auf der Oberfläche, keine Antikörper im Plasma. <b>rh⁻:</b> keine Antigene, keine Antikörper.</li><li>Unterschied zum AB0-System: Antikörper werden <b>erst gebildet</b>, wenn Rh-positive Erythrozyten in das Blut einer <b>Rh-negativen</b> Person gelangen.</li><li>Gefahr bei <b>Bluttransfusionen</b> sowie bei <b>Schwangerschaft und Geburt</b> eines Rh-positiven Kindes durch eine rh-negative Mutter.</li></ul><figure class='pic'><img data-enc='img/bio-phys/eb78ab8febae.bin' data-mime='image/jpeg' alt='Rh-Unverträglichkeit: Sensibilisierung bei der 1. Geburt, Schädigung beim 2. Rh⁺-Kind (Blut_1, S. 8)'><figcaption>Rh-Unverträglichkeit: Sensibilisierung bei der 1. Geburt, Schädigung beim 2. Rh⁺-Kind (Blut_1, S. 8)</figcaption></figure><h3>1.7 Hämoglobin</h3><ul><li>Transportiert das im Plasma schlecht lösliche <b>O<sub>2</sub></b> zu den Organen.</li><li><b>4 Untereinheiten</b>; jede = <b>Häm-Gruppe</b> (Farbstoff mit zentralem <b>Eisen-Atom</b>) + <b>Globin</b> (Eiweiß).</li><li><b>Oxygenierung</b> (O<sub>2</sub>-Anlagerung) und <b>Desoxygenierung</b> (O<sub>2</sub>-Abgabe): Wertigkeit des Eisens bleibt gleich (<b>Fe<sup>2+</sup></b>).</li><li>Gelegentlich Oxidation Fe<sup>2+</sup> → <b>Fe<sup>3+</sup></b> = <b>Methämoglobin</b>, kann O<sub>2</sub> nicht mehr reversibel binden.</li></ul><figure class='pic'><img data-enc='img/bio-phys/547804fde2f2.bin' data-mime='image/jpeg' alt='Hämoglobin: 4 Globine mit je einem Häm'><figcaption>Hämoglobin: 4 Globine mit je einem Häm</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/d474254a6547.bin' data-mime='image/jpeg' alt='Häm-Gruppe mit Fe2+ (oxygeniert, desoxygeniert, CO, Met-Hb)'><figcaption>Häm-Gruppe mit Fe2+ (oxygeniert, desoxygeniert, CO, Met-Hb)</figcaption></figure><h3>1.8 Abbau der Erythrozyten</h3><ul><li>Abbau v. a. in der <b>Milz</b> („<b>Blutmauserung</b>“: alte, funktionsuntüchtige Erythrozyten werden entfernt).</li><li>Freies Hämoglobin → <b>Häm</b> + <b>Globin</b>; Eisen und Globin werden wiederverwertet.</li><li>Eisenfreies Häm → in der <b>Leber</b> zu <b>Bilirubin</b> → Ausscheidung über die <b>Galle</b>.</li><li>Abbauprodukte <b>Urobilin</b> und <b>Urobilinogen</b> (wasserlöslich) → Ausscheidung mit dem <b>Urin</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/45cb5f4c292c.bin' data-mime='image/jpeg' alt='Bildung (Knochenmark), Prüfung in der Milz und Abbau durch Makrophagen (Blut_1, S. 10)'><figcaption>Bildung (Knochenmark), Prüfung in der Milz und Abbau durch Makrophagen (Blut_1, S. 10)</figcaption></figure>",
 "c": [
 5,
 6,
@@ -3557,7 +3557,7 @@ const STOFF = {
 {
 "t": "Blut (2)",
 "sub": "Leukozyten  ·  Thrombozyten  ·  Blutbild  ·  Hämostase & Gerinnung  ·  Fibrinolyse  ·  Hämatopoese",
-"h": "<h3>2.1 Leukozyten – allgemein</h3><p class='link'>↩ baut auf Kap. 1.2 (Zusammensetzung)</p><ul><li>Einteilung: <b>Granulozyten</b>, <b>Lymphozyten</b>, <b>Monozyten</b>.</li><li>Charakteristika: <b>kernhaltig und beweglich</b>; Funktion: <b>Abwehr</b> und Beteiligung an <b>Entzündungen</b>.</li><li>Lebensdauer: einige Tage bis einige Jahre; Gesamtzahl <b>4–9/nl</b> (= 4 000–9 000/µl).</li><li>Vorkommen in Blut, Gewebe, Schleimhäuten, Lymphknoten; können aus den Gefäßen ins Gewebe einwandern – nur <b>5–10 %</b> zirkulieren im Blut.</li></ul><figure class='pic'><img data-enc='img/bio-phys/e281f13edcf7.bin' data-mime='image/jpeg' alt='Leukozytenarten mit Anzahl und Anteil (Blut_2, S. 3)'><figcaption>Leukozytenarten mit Anzahl und Anteil (Blut_2, S. 3)</figcaption></figure><h3>2.2 Granulozyten, Monozyten, Lymphozyten</h3><table><tr><th><b>Zelltyp</b></th><th><b>Aussehen</b></th><th><b>Hauptfunktion</b></th><th><b>Praxis</b></th></tr><tr><td><b>Neutrophile</b> Granulozyten</td><td>kleine, schwach anfärbbare Granula</td><td>Phagozytose von Mikroorganismen/Fremdpartikeln (unspezifische Erstabwehr) und geschädigten Zellen (Eiter)</td><td>erhöht zu Beginn bakterieller Infektionen</td></tr><tr><td><b>Eosinophile</b> Granulozyten</td><td>große, intensiv <b>rot</b> (Eosin) anfärbbare Granula mit zytotoxischen Stoffen</td><td>Bekämpfung von <b>Parasiten</b> (v. a. Würmer); Steuerung allergischer Reaktionen</td><td>erhöht bei Allergie, Parasitenbefall</td></tr><tr><td><b>Basophile</b> Granulozyten</td><td>große, <b>schwarz-blau</b> anfärbbare Granula (Heparin, Histamin)</td><td>Schlüsselrolle bei <b>allergischen Reaktionen</b>; Parasitenabwehr mit Eosinophilen</td><td>Histamin verursacht Juckreiz (z. B. Heuschnupfen)</td></tr><tr><td><b>Monozyten</b></td><td><b>größte</b> Blutzellen, eingebuchteter/gelappter Kern</td><td>werden im Gewebe zu <b>Makrophagen</b>; Phagozytose; <b>Antigen-Präsentation</b> für T-Zellen</td><td>–</td></tr><tr><td><b>Lymphozyten</b></td><td><b>kleinste</b> Leukozyten, runder Kern, schmaler Zytoplasmasaum</td><td><b>spezifische Abwehr</b>: B-Lymphozyten → Plasmazellen (Antikörper); T-Lymphozyten: Effektor-/Regulatorfunktion</td><td>–</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/7bcc46fb2bee.bin' data-mime='image/png' alt='eosinophil'><figcaption>eosinophil</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/27d8a121d7a9.bin' data-mime='image/png' alt='neutrophil'><figcaption>neutrophil</figcaption></figure><table><tr><td>neutrophil</td><td>eosinophil</td><td>basophil</td><td>Monozyt</td><td>Lymphozyt</td><td>Thrombozyten</td></tr></table><h3>2.3 Thrombozyten</h3><ul><li>Linsenförmige, <b>kernlose „Scheiben“</b>, kleiner als Erythrozyten (<b>1–4 µm</b>).</li><li>Entstehen als <b>Abschnürungen</b> des Zytoplasmas von <b>Megakaryozyten</b> (Knochenmarkriesenzellen).</li><li>Funktion: <b>Blutstillung</b> und <b>Blutgerinnung</b>; Lebensdauer <b>1–2 Wochen</b>, Abbau v. a. in Milz und Leber.</li></ul><figure class='pic'><img data-enc='img/bio-phys/9dc7f8af63c0.bin' data-mime='image/png' alt='Megakaryozyt schnürt Thrombozyten (Platelets) ab (Blut_2, S. 6)'><figcaption>Megakaryozyt schnürt Thrombozyten (Platelets) ab (Blut_2, S. 6)</figcaption></figure><h3>2.4 Blutbild und Färbung</h3><ul><li>Blutbild <b>automatisiert</b> (Routine) oder <b>mikroskopisch</b> (Besonderheiten in Gestalt/Aussehen).</li><li><b>Kleines Blutbild:</b> Anzahl von Erythrozyten, Leukozyten und Thrombozyten.</li><li><b>Differenzialblutbild:</b> Mengenverhältnis der verschiedenen Leukozyten.</li><li>Mikroskopie: Vollblut auf Objektträger <b>ausstreichen</b>, dann mit speziellen Farbstoffen <b>anfärben</b>.</li></ul><table><tr><th><b>Wright-Färbung (Methylenblau + Eosin)</b></th><th><b>Farbe</b></th></tr><tr><td>Erythrozyten</td><td>rötlich bis bräunlich</td></tr><tr><td>Leukozyten – Zellkern</td><td>blau bis blau/violett</td></tr><tr><td>Leukozyten – Zytoplasma</td><td>graublau (Monozyt) · blau (Lymphozyt)</td></tr><tr><td>Granula</td><td>rötlich/hellviolett (Neutrophile) · intensiv rot (Eosinophile) · dunkelviolett, blau/schwarz (Basophile)</td></tr><tr><td>Thrombozyten</td><td>blau/violett</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/eebd2ff0d5fd.bin' data-mime='image/png' alt='Blutausstrich herstellen'><figcaption>Blutausstrich herstellen</figcaption></figure><table><tr><td>Blutausstrich herstellen</td><td>Blutausstrich, Mikroskopie</td><td>Blutausstrich, Mikroskopie</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/b7fcbc16ef6f.bin' data-mime='image/jpeg' alt='Blutausstrich, Mikroskopie'><figcaption>Blutausstrich, Mikroskopie</figcaption></figure><h3>2.5 Hämostase (Blutstillung)</h3><ul><li>Prozess, der über mehrere Schritte <b>Blutungen stoppt</b>: Wunde wird durch einen <b>Thrombus</b> (Gerinnsel) verschlossen und heilt danach ab.</li><li>Man unterscheidet <b>primäre</b> und <b>sekundäre</b> Hämostase.</li></ul><figure class='pic'><img data-enc='img/bio-phys/6344ac7b8d2c.bin' data-mime='image/jpeg' alt='Eigenes Schema: Ablauf der Hämostase'><figcaption>Eigenes Schema: Ablauf der Hämostase</figcaption></figure><table><tr><th><b>Phase</b></th><th><b>Tempo</b></th><th><b>Was passiert</b></th><th><b>Ergebnis</b></th></tr><tr><td>Vasokonstriktion</td><td>schnell</td><td>Gefäßränder ziehen sich zusammen</td><td>–</td></tr><tr><td>Primäre Hämostase</td><td>schnell</td><td><b>Thrombozytenaggregation</b>: labiler Thrombozytenthrombus am geschädigten Gewebe</td><td><b>weißer Thrombus</b></td></tr><tr><td>Sekundäre Hämostase</td><td>verzögert</td><td><b>Blutgerinnung</b>, Fibrinpolymerisation, Stabilisierung bis zur Wundheilung</td><td><b>roter Thrombus</b></td></tr><tr><td>Abschluss</td><td>–</td><td>Wundränder ziehen sich zusammen, Bindegewebszellen bilden neues Gewebe</td><td>–</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/5ad694d520e6.bin' data-mime='image/jpeg' alt='Primäre und sekundäre Hämostase (Blut_2, S. 10)'><figcaption>Primäre und sekundäre Hämostase (Blut_2, S. 10)</figcaption></figure><h3>2.6 Gerinnungsfaktoren</h3><ul><li>Bestandteile des Blutes, die der <b>Blutgerinnung</b> dienen; benannt mit <b>römischen Ziffern I–XIII</b>.</li><li>Alle sind <b>Proteine</b> – <b>Ausnahme: Faktor IV (Calciumionen)</b>. Bildung in der <b>Leber</b>, einige <b>Vitamin-K-abhängig</b>.</li><li>Liegen normalerweise <b>inaktiv</b> vor (<b>Zymogene</b>) und werden erst bei Bedarf (Blutung) aktiviert – als <b>Kettenreaktion</b> (Gerinnungskaskade).</li><li>Gerinnungsfaktoren können auch <b>Komplexe mit enzymatischer Wirkung</b> bilden.</li></ul><table><tr><th><b>Faktor</b></th><th><b>Name</b></th><th><b>Besonderheit</b></th></tr><tr><td>I</td><td><b>Fibrinogen</b></td><td></td></tr><tr><td>II</td><td><b>Prothrombin</b></td><td></td></tr><tr><td>III</td><td>Gewebsthromboplastin (Gewebsfaktor)</td><td></td></tr><tr><td>IV</td><td><b>Calciumionen</b></td><td>einziger Faktor, der kein Protein ist</td></tr><tr><td>V</td><td>Proakzelerin</td><td></td></tr><tr><td>VI</td><td>Akzelerin</td><td>= aktivierter Faktor V (Va)</td></tr><tr><td>VII</td><td>Prokonvertin</td><td></td></tr><tr><td>VIII</td><td>Hämophiliefaktor A</td><td>Mangel → klassische Bluterkrankheit (<b>Hämophilie A</b>)</td></tr><tr><td>IX</td><td>Hämophiliefaktor B (Christmas-Faktor)</td><td>Mangel → seltene <b>Hämophilie B</b></td></tr><tr><td>X</td><td>Stuart-Prower-Faktor</td><td></td></tr><tr><td>XI</td><td>Hämophiliefaktor C (Rosenthal-Faktor)</td><td>Mangel → hämophilieähnliche Blutungen</td></tr><tr><td>XII</td><td>Hagemann-Faktor</td><td></td></tr><tr><td>XIII</td><td>Fibrinstabilisierender Faktor</td><td>verhindert vorzeitige Auflösung des Thrombus</td></tr><tr><td>vWF</td><td>von-Willebrand-Faktor</td><td>i. e. S. kein Gerinnungsfaktor; verbindet Thrombozyten mit der verletzten Gefäßwand und aktiviert sie</td></tr></table><h3>2.7 Gerinnungskaskade und Fibrinolyse</h3><ul><li>Gewebeverletzung → Aktivierung von Gerinnungsfaktoren → <b>Faktor X → aktivierter Faktor X</b>.</li><li>Faktor Xa wandelt <b>Prothrombin (II) → Thrombin (IIa)</b> um; Thrombin wandelt <b>Fibrinogen (I) → Fibrin (Ia)</b> um.</li><li><b>Fibrinolyse</b> durch das proteolytische Enzym <b>Plasmin</b>; gespalten werden <b>Fibrin und Fibrinogen</b>.</li><li>Aktivierung von Plasmin aus dem Proenzym <b>Plasminogen</b> durch Plasminogenaktivatoren: <b>t-PA</b> (aus dem Gewebe, tissue) und <b>u-PA</b> (Urokinase, aus der Niere).</li></ul><figure class='pic'><img data-enc='img/bio-phys/057d4d883164.bin' data-mime='image/png' alt='Die letzten 3 Schritte bis zur Fibrinbildung (Blut_2, S. 12)'><figcaption>Die letzten 3 Schritte bis zur Fibrinbildung (Blut_2, S. 12)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/688db6fb70bc.bin' data-mime='image/jpeg' alt='Eigenes Schema: letzte Schritte der Gerinnung und Fibrinolyse'><figcaption>Eigenes Schema: letzte Schritte der Gerinnung und Fibrinolyse</figcaption></figure><table><tr><td>Die letzten 3 Schritte bis zur Fibrinbildung (Blut_2, S. 12)</td><td>Fibrinolyse (Blut_2, S. 13)</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/298ea07fb859.bin' data-mime='image/png' alt='Fibrinolyse (Blut_2, S. 13)'><figcaption>Fibrinolyse (Blut_2, S. 13)</figcaption></figure><h3>2.8 Hämatopoese (Blutbildung)</h3><ul><li>Beim Erwachsenen im <b>roten Knochenmark</b> – Ausnahme: <b>Lymphozyten</b> können sich auch in lymphatischen Organen vermehren.</li><li>Orte: v. a. <b>platte Knochen</b> (z. B. Brustbein) und <b>Enden langer Röhrenknochen</b> (z. B. Oberschenkel).</li><li>Alle Blutzellen stammen von einer gemeinsamen <b>multipotenten Stammzelle</b> ab.</li><li>Teilung und Differenzierung werden durch <b>Wachstumsfaktoren</b> gesteuert: Interleukine, <b>EPO</b> (Erythropoetin → Erythrozyten), <b>TPO</b> (Thrombopoetin → Thrombozyten), <b>CSFs</b> (koloniestimulierende Faktoren → Leukozyten).</li><li>Normalerweise verlassen <b>nur reife Zellen</b> das Knochenmark.</li></ul><figure class='pic'><img data-enc='img/bio-phys/02149f1ba3c0.bin' data-mime='image/jpeg' alt='Blutbildendes rotes Knochenmark (rot)'><figcaption>Blutbildendes rotes Knochenmark (rot)</figcaption></figure><table><tr><td>Blutbildendes rotes Knochenmark (rot)</td><td>Stammbaum der Blutzellen mit Wachstumsfaktoren</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/c471e4dd2f9a.bin' data-mime='image/jpeg' alt='Stammbaum der Blutzellen mit Wachstumsfaktoren'><figcaption>Stammbaum der Blutzellen mit Wachstumsfaktoren</figcaption></figure><h4>Wiederholungsfragen aus dem Skript</h4><ul><li>Welche Aufgaben erfüllt das Blut? Aus welchen Bestandteilen setzt es sich zusammen, welche Funktionen haben diese?</li><li>Was ist Hämoglobin, wozu dient es? · Prinzip der Hämostase? · Was ist Fibrinolyse?</li><li>Wo erfolgt die Hämatopoese beim Erwachsenen? Welche Besonderheit gibt es bei der Erythropoese?</li></ul><figure class='pic'><img data-enc='img/bio-phys/99cf98b168fe.bin' data-mime='image/jpeg' alt='Blutausstrich, Mikroskopie'><figcaption>Blutausstrich, Mikroskopie</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/74490bbf3aea.bin' data-mime='image/png' alt='Thrombozyten'><figcaption>Thrombozyten</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/bef2e307c60f.bin' data-mime='image/png' alt='Lymphozyt'><figcaption>Lymphozyt</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/3b27cdd651d8.bin' data-mime='image/png' alt='Monozyt'><figcaption>Monozyt</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/1942ea620636.bin' data-mime='image/png' alt='basophil'><figcaption>basophil</figcaption></figure>",
+"h": "<h3>2.1 Leukozyten – allgemein</h3><p class='link'>↩ baut auf Kap. 1.2 (Zusammensetzung)</p><ul><li>Einteilung: <b>Granulozyten</b>, <b>Lymphozyten</b>, <b>Monozyten</b>.</li><li>Charakteristika: <b>kernhaltig und beweglich</b>; Funktion: <b>Abwehr</b> und Beteiligung an <b>Entzündungen</b>.</li><li>Lebensdauer: einige Tage bis einige Jahre; Gesamtzahl <b>4–9/nl</b> (= 4 000–9 000/µl).</li><li>Vorkommen in Blut, Gewebe, Schleimhäuten, Lymphknoten; können aus den Gefäßen ins Gewebe einwandern – nur <b>5–10 %</b> zirkulieren im Blut.</li></ul><figure class='pic'><img data-enc='img/bio-phys/e281f13edcf7.bin' data-mime='image/jpeg' alt='Leukozytenarten mit Anzahl und Anteil (Blut_2, S. 3)'><figcaption>Leukozytenarten mit Anzahl und Anteil (Blut_2, S. 3)</figcaption></figure><h3>2.2 Granulozyten, Monozyten, Lymphozyten</h3><table><tr><th><b>Zelltyp</b></th><th><b>Aussehen</b></th><th><b>Hauptfunktion</b></th><th><b>Praxis</b></th></tr><tr><td><b>Neutrophile</b> Granulozyten</td><td>kleine, schwach anfärbbare Granula</td><td>Phagozytose von Mikroorganismen/Fremdpartikeln (unspezifische Erstabwehr) und geschädigten Zellen (Eiter)</td><td>erhöht zu Beginn bakterieller Infektionen</td></tr><tr><td><b>Eosinophile</b> Granulozyten</td><td>große, intensiv <b>rot</b> (Eosin) anfärbbare Granula mit zytotoxischen Stoffen</td><td>Bekämpfung von <b>Parasiten</b> (v. a. Würmer); Steuerung allergischer Reaktionen</td><td>erhöht bei Allergie, Parasitenbefall</td></tr><tr><td><b>Basophile</b> Granulozyten</td><td>große, <b>schwarz-blau</b> anfärbbare Granula (Heparin, Histamin)</td><td>Schlüsselrolle bei <b>allergischen Reaktionen</b>; Parasitenabwehr mit Eosinophilen</td><td>Histamin verursacht Juckreiz (z. B. Heuschnupfen)</td></tr><tr><td><b>Monozyten</b></td><td><b>größte</b> Blutzellen, eingebuchteter/gelappter Kern</td><td>werden im Gewebe zu <b>Makrophagen</b>; Phagozytose; <b>Antigen-Präsentation</b> für T-Zellen</td><td>–</td></tr><tr><td><b>Lymphozyten</b></td><td><b>kleinste</b> Leukozyten, runder Kern, schmaler Zytoplasmasaum</td><td><b>spezifische Abwehr</b>: B-Lymphozyten → Plasmazellen (Antikörper); T-Lymphozyten: Effektor-/Regulatorfunktion</td><td>–</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/7bcc46fb2bee.bin' data-mime='image/png' alt='eosinophil'><figcaption>eosinophil</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/27d8a121d7a9.bin' data-mime='image/png' alt='neutrophil'><figcaption>neutrophil</figcaption></figure><h3>2.3 Thrombozyten</h3><ul><li>Linsenförmige, <b>kernlose „Scheiben“</b>, kleiner als Erythrozyten (<b>1–4 µm</b>).</li><li>Entstehen als <b>Abschnürungen</b> des Zytoplasmas von <b>Megakaryozyten</b> (Knochenmarkriesenzellen).</li><li>Funktion: <b>Blutstillung</b> und <b>Blutgerinnung</b>; Lebensdauer <b>1–2 Wochen</b>, Abbau v. a. in Milz und Leber.</li></ul><figure class='pic'><img data-enc='img/bio-phys/9dc7f8af63c0.bin' data-mime='image/png' alt='Megakaryozyt schnürt Thrombozyten (Platelets) ab (Blut_2, S. 6)'><figcaption>Megakaryozyt schnürt Thrombozyten (Platelets) ab (Blut_2, S. 6)</figcaption></figure><h3>2.4 Blutbild und Färbung</h3><ul><li>Blutbild <b>automatisiert</b> (Routine) oder <b>mikroskopisch</b> (Besonderheiten in Gestalt/Aussehen).</li><li><b>Kleines Blutbild:</b> Anzahl von Erythrozyten, Leukozyten und Thrombozyten.</li><li><b>Differenzialblutbild:</b> Mengenverhältnis der verschiedenen Leukozyten.</li><li>Mikroskopie: Vollblut auf Objektträger <b>ausstreichen</b>, dann mit speziellen Farbstoffen <b>anfärben</b>.</li></ul><table><tr><th><b>Wright-Färbung (Methylenblau + Eosin)</b></th><th><b>Farbe</b></th></tr><tr><td>Erythrozyten</td><td>rötlich bis bräunlich</td></tr><tr><td>Leukozyten – Zellkern</td><td>blau bis blau/violett</td></tr><tr><td>Leukozyten – Zytoplasma</td><td>graublau (Monozyt) · blau (Lymphozyt)</td></tr><tr><td>Granula</td><td>rötlich/hellviolett (Neutrophile) · intensiv rot (Eosinophile) · dunkelviolett, blau/schwarz (Basophile)</td></tr><tr><td>Thrombozyten</td><td>blau/violett</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/eebd2ff0d5fd.bin' data-mime='image/png' alt='Blutausstrich herstellen'><figcaption>Blutausstrich herstellen</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/b7fcbc16ef6f.bin' data-mime='image/jpeg' alt='Blutausstrich, Mikroskopie'><figcaption>Blutausstrich, Mikroskopie</figcaption></figure><h3>2.5 Hämostase (Blutstillung)</h3><ul><li>Prozess, der über mehrere Schritte <b>Blutungen stoppt</b>: Wunde wird durch einen <b>Thrombus</b> (Gerinnsel) verschlossen und heilt danach ab.</li><li>Man unterscheidet <b>primäre</b> und <b>sekundäre</b> Hämostase.</li></ul><figure class='pic'><img data-enc='img/bio-phys/6344ac7b8d2c.bin' data-mime='image/jpeg' alt='Eigenes Schema: Ablauf der Hämostase'><figcaption>Eigenes Schema: Ablauf der Hämostase</figcaption></figure><table><tr><th><b>Phase</b></th><th><b>Tempo</b></th><th><b>Was passiert</b></th><th><b>Ergebnis</b></th></tr><tr><td>Vasokonstriktion</td><td>schnell</td><td>Gefäßränder ziehen sich zusammen</td><td>–</td></tr><tr><td>Primäre Hämostase</td><td>schnell</td><td><b>Thrombozytenaggregation</b>: labiler Thrombozytenthrombus am geschädigten Gewebe</td><td><b>weißer Thrombus</b></td></tr><tr><td>Sekundäre Hämostase</td><td>verzögert</td><td><b>Blutgerinnung</b>, Fibrinpolymerisation, Stabilisierung bis zur Wundheilung</td><td><b>roter Thrombus</b></td></tr><tr><td>Abschluss</td><td>–</td><td>Wundränder ziehen sich zusammen, Bindegewebszellen bilden neues Gewebe</td><td>–</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/5ad694d520e6.bin' data-mime='image/jpeg' alt='Primäre und sekundäre Hämostase (Blut_2, S. 10)'><figcaption>Primäre und sekundäre Hämostase (Blut_2, S. 10)</figcaption></figure><h3>2.6 Gerinnungsfaktoren</h3><ul><li>Bestandteile des Blutes, die der <b>Blutgerinnung</b> dienen; benannt mit <b>römischen Ziffern I–XIII</b>.</li><li>Alle sind <b>Proteine</b> – <b>Ausnahme: Faktor IV (Calciumionen)</b>. Bildung in der <b>Leber</b>, einige <b>Vitamin-K-abhängig</b>.</li><li>Liegen normalerweise <b>inaktiv</b> vor (<b>Zymogene</b>) und werden erst bei Bedarf (Blutung) aktiviert – als <b>Kettenreaktion</b> (Gerinnungskaskade).</li><li>Gerinnungsfaktoren können auch <b>Komplexe mit enzymatischer Wirkung</b> bilden.</li></ul><table><tr><th><b>Faktor</b></th><th><b>Name</b></th><th><b>Besonderheit</b></th></tr><tr><td>I</td><td><b>Fibrinogen</b></td><td></td></tr><tr><td>II</td><td><b>Prothrombin</b></td><td></td></tr><tr><td>III</td><td>Gewebsthromboplastin (Gewebsfaktor)</td><td></td></tr><tr><td>IV</td><td><b>Calciumionen</b></td><td>einziger Faktor, der kein Protein ist</td></tr><tr><td>V</td><td>Proakzelerin</td><td></td></tr><tr><td>VI</td><td>Akzelerin</td><td>= aktivierter Faktor V (Va)</td></tr><tr><td>VII</td><td>Prokonvertin</td><td></td></tr><tr><td>VIII</td><td>Hämophiliefaktor A</td><td>Mangel → klassische Bluterkrankheit (<b>Hämophilie A</b>)</td></tr><tr><td>IX</td><td>Hämophiliefaktor B (Christmas-Faktor)</td><td>Mangel → seltene <b>Hämophilie B</b></td></tr><tr><td>X</td><td>Stuart-Prower-Faktor</td><td></td></tr><tr><td>XI</td><td>Hämophiliefaktor C (Rosenthal-Faktor)</td><td>Mangel → hämophilieähnliche Blutungen</td></tr><tr><td>XII</td><td>Hagemann-Faktor</td><td></td></tr><tr><td>XIII</td><td>Fibrinstabilisierender Faktor</td><td>verhindert vorzeitige Auflösung des Thrombus</td></tr><tr><td>vWF</td><td>von-Willebrand-Faktor</td><td>i. e. S. kein Gerinnungsfaktor; verbindet Thrombozyten mit der verletzten Gefäßwand und aktiviert sie</td></tr></table><h3>2.7 Gerinnungskaskade und Fibrinolyse</h3><ul><li>Gewebeverletzung → Aktivierung von Gerinnungsfaktoren → <b>Faktor X → aktivierter Faktor X</b>.</li><li>Faktor Xa wandelt <b>Prothrombin (II) → Thrombin (IIa)</b> um; Thrombin wandelt <b>Fibrinogen (I) → Fibrin (Ia)</b> um.</li><li><b>Fibrinolyse</b> durch das proteolytische Enzym <b>Plasmin</b>; gespalten werden <b>Fibrin und Fibrinogen</b>.</li><li>Aktivierung von Plasmin aus dem Proenzym <b>Plasminogen</b> durch Plasminogenaktivatoren: <b>t-PA</b> (aus dem Gewebe, tissue) und <b>u-PA</b> (Urokinase, aus der Niere).</li></ul><figure class='pic'><img data-enc='img/bio-phys/057d4d883164.bin' data-mime='image/png' alt='Die letzten 3 Schritte bis zur Fibrinbildung (Blut_2, S. 12)'><figcaption>Die letzten 3 Schritte bis zur Fibrinbildung (Blut_2, S. 12)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/688db6fb70bc.bin' data-mime='image/jpeg' alt='Eigenes Schema: letzte Schritte der Gerinnung und Fibrinolyse'><figcaption>Eigenes Schema: letzte Schritte der Gerinnung und Fibrinolyse</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/298ea07fb859.bin' data-mime='image/png' alt='Fibrinolyse (Blut_2, S. 13)'><figcaption>Fibrinolyse (Blut_2, S. 13)</figcaption></figure><h3>2.8 Hämatopoese (Blutbildung)</h3><ul><li>Beim Erwachsenen im <b>roten Knochenmark</b> – Ausnahme: <b>Lymphozyten</b> können sich auch in lymphatischen Organen vermehren.</li><li>Orte: v. a. <b>platte Knochen</b> (z. B. Brustbein) und <b>Enden langer Röhrenknochen</b> (z. B. Oberschenkel).</li><li>Alle Blutzellen stammen von einer gemeinsamen <b>multipotenten Stammzelle</b> ab.</li><li>Teilung und Differenzierung werden durch <b>Wachstumsfaktoren</b> gesteuert: Interleukine, <b>EPO</b> (Erythropoetin → Erythrozyten), <b>TPO</b> (Thrombopoetin → Thrombozyten), <b>CSFs</b> (koloniestimulierende Faktoren → Leukozyten).</li><li>Normalerweise verlassen <b>nur reife Zellen</b> das Knochenmark.</li></ul><figure class='pic'><img data-enc='img/bio-phys/02149f1ba3c0.bin' data-mime='image/jpeg' alt='Blutbildendes rotes Knochenmark (rot)'><figcaption>Blutbildendes rotes Knochenmark (rot)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/c471e4dd2f9a.bin' data-mime='image/jpeg' alt='Stammbaum der Blutzellen mit Wachstumsfaktoren'><figcaption>Stammbaum der Blutzellen mit Wachstumsfaktoren</figcaption></figure><h4>Wiederholungsfragen aus dem Skript</h4><ul><li>Welche Aufgaben erfüllt das Blut? Aus welchen Bestandteilen setzt es sich zusammen, welche Funktionen haben diese?</li><li>Was ist Hämoglobin, wozu dient es? · Prinzip der Hämostase? · Was ist Fibrinolyse?</li><li>Wo erfolgt die Hämatopoese beim Erwachsenen? Welche Besonderheit gibt es bei der Erythropoese?</li></ul><figure class='pic'><img data-enc='img/bio-phys/99cf98b168fe.bin' data-mime='image/jpeg' alt='Blutausstrich, Mikroskopie'><figcaption>Blutausstrich, Mikroskopie</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/74490bbf3aea.bin' data-mime='image/png' alt='Thrombozyten'><figcaption>Thrombozyten</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/bef2e307c60f.bin' data-mime='image/png' alt='Lymphozyt'><figcaption>Lymphozyt</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/3b27cdd651d8.bin' data-mime='image/png' alt='Monozyt'><figcaption>Monozyt</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/1942ea620636.bin' data-mime='image/png' alt='basophil'><figcaption>basophil</figcaption></figure>",
 "c": [
 14,
 15,
@@ -3826,7 +3826,7 @@ const STOFF = {
 {
 "t": "Nervengewebe",
 "sub": "Aufgaben  ·  Neuron & Gliazellen  ·  Ruhe- und Aktionspotential  ·  Erregungsleitung  ·  Synapse",
-"h": "<h3>3.1 Was ist das Nervensystem?</h3><ul><li>Gesamtheit der Nervengewebe = <b>Steuer- und Koordinationssystem</b> der Körperfunktionen: Erfassung, Auswertung, Speicherung und Aussendung von Informationen.</li><li>Regelt zusammen mit dem <b>Hormonsystem</b> alle Organsysteme und passt den Organismus an die Außenwelt an.</li><li>Voraussetzungen: <b>Sensoren/Rezeptoren</b> (Messfühler) → <b>afferente</b> (hinführende) Nervenfasern → <b>übergeordnete Zentren</b> (verarbeiten, speichern) → <b>efferente</b> (wegführende) Nervenfasern → Reaktion.</li></ul><h3>3.2 Nervengewebe: Neurone und Gliazellen</h3><table><tr><th></th><th><b>Neurone (Nervenzellen)</b></th><th><b>Gliazellen (Stützzellen)</b></th></tr><tr><td>Aufgabe</td><td>Erregungsbildung und -leitung; hoch spezialisiert</td><td>übernehmen die den Neuronen fehlenden Funktionen</td></tr><tr><td>Besonderheit</td><td>können sich <b>nicht selbst stützen, schützen oder ausreichend ernähren</b></td><td>isolieren Neuronenverbände elektrisch; bilden mit Gefäßwänden die <b>Blut-Hirn-Schranke</b></td></tr></table><figure class='pic'><img data-enc='img/bio-phys/21cf55cedeab.bin' data-mime='image/jpeg' alt='Neuron und Gliazellen (Nervensystem, S. 5)'><figcaption>Neuron und Gliazellen (Nervensystem, S. 5)</figcaption></figure><h3>3.3 Aufbau des Neurons</h3><ul><li>Funktionelle und strukturelle <b>Einheit</b> des Nervensystems; Mensch: <b>&gt; 10<sup>11</sup> Neurone</b>.</li><li>Membran kann elektrische Signale <b>erzeugen</b> und mit Botenstoffen/Rezeptoren Signale <b>empfangen</b>.</li><li>Drei Bereiche: <b>Dendriten · Zellkörper (Soma) · Axon</b> (Modell: multipolares Neuron).</li></ul><table><tr><th><b>Bereich</b></th><th><b>Eigenschaften</b></th></tr><tr><td><b>Dendriten</b> (dendron = Baum)</td><td>kurze, verzweigte Ausstülpungen; <b>afferent</b> – nehmen Reize von vielen Nachbarzellen auf und leiten sie zum Soma</td></tr><tr><td><b>Soma</b> (Zellkörper)</td><td>Zellkern + Neuroplasma mit Organellen; <b>Hauptort des Stoffwechsels</b>; reich an rauem ER (<b>Nissl-Schollen</b>); leitet Information zum <b>Axonhügel</b></td></tr><tr><td><b>Axon</b></td><td>entspringt am <b>Axonhügel</b>; teilt sich am Ende in <b>Endknöpfe</b>; <b>efferente</b> Erregungsleitung; Länge sehr unterschiedlich</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/b6afe02fc1c8.bin' data-mime='image/jpeg' alt='Multipolares Neuron: Eingangsseite und Ausgangsseite (Nervensystem, S. 6)'><figcaption>Multipolares Neuron: Eingangsseite und Ausgangsseite (Nervensystem, S. 6)</figcaption></figure><h3>3.4 Myelinscheide</h3><ul><li>Viele Axone sind von Gliazellen umhüllt: <b>Schwann-Zellen im PNS</b>, <b>Oligodendrozyten im ZNS</b>.</li><li>Im PNS: Axon + umgebende Schwann-Zelle = <b>Nervenfaser</b>.</li><li>Schwann-Zelle wickelt sich mehrfach um das Axon → Hülle aus Fett-Eiweiß-Gemisch = <b>Myelin</b>; die Hülle heißt <b>Markscheide (Myelinscheide)</b>.</li><li><b>Markhaltige</b> Fasern: dicke Myelinschicht → gute Isolation → <b>hohe Leitungsgeschwindigkeit</b>.</li><li>Kurze, nicht umhüllte Abschnitte = <b>Ranvier-Schnürringe</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/9fec84dce93e.bin' data-mime='image/jpeg' alt='Schwann-Zelle wickelt sich um das Axon (Nervensystem, S. 10)'><figcaption>Schwann-Zelle wickelt sich um das Axon (Nervensystem, S. 10)</figcaption></figure><h3>3.5 Ruhepotential</h3><p class='link'>↩ baut auf Lohrer Kap. 3 (Diffusion)    Ionen diffundieren entlang ihres Konzentrationsgefälles</p><ul><li>Neuron braucht zwei Zustände: <b>Ruhezustand (Aus)</b> und <b>Aktionszustand (Ein)</b>.</li><li>Ruhepotential: Spannung an der Membran von ca. <b>–70 mV</b>.</li><li>Ursachen: <b>unterschiedliche Ionenverteilung</b> innen/außen und <b>unterschiedliche Durchlässigkeit</b> der Membran (geöffnete Ionenkanäle).</li><li>In Ruhe ist die Leitfähigkeit für <b>K⁺ ≈ 10-fach höher</b> als für Na⁺; für Anionen vernachlässigbar.</li><li>K⁺ strömt nach <b>außen</b> → außen positive Ladungen, innen Mangel an positiven Teilchen.</li><li>Der negative Ladungsüberschuss innen bremst weiteren K⁺-Ausstrom → <b>Gleichgewichtspotential</b> (K⁺-Ausstrom = K⁺-Einstrom).</li></ul><figure class='pic'><img data-enc='img/bio-phys/7ec63817b15d.bin' data-mime='image/png' alt='Eigenes Schema: Ionenverteilung und Ruhepotential (Werte aus Nervensystem, S. 11–13)'><figcaption>Eigenes Schema: Ionenverteilung und Ruhepotential (Werte aus Nervensystem, S. 11–13)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/425a5caade81.bin' data-mime='image/jpeg' alt='Messung des Ruhepotentials (Nervensystem, S. 12)'><figcaption>Messung des Ruhepotentials (Nervensystem, S. 12)</figcaption></figure><h3>3.6 Aktionspotential</h3><table><tr><th><b>Phase</b></th><th><b>Was passiert</b></th></tr><tr><td>Auslösung</td><td>Reiz erreicht einen <b>Schwellenwert</b> (z. B. <b>–50 mV am Axonhügel</b>) → spannungsabhängige <b>Na⁺-Kanäle</b> öffnen kurz</td></tr><tr><td><b>Depolarisation</b></td><td>starker <b>Na⁺-Einstrom</b> (wenig Na⁺ innen + negative Ladung innen) → Potential wird abgebaut und kehrt sich ggf. um</td></tr><tr><td><b>Repolarisation</b></td><td>Na⁺-Leitfähigkeit sinkt rasch, <b>K⁺-Leitfähigkeit</b> steigt kurz stark an → nach ca. <b>1 ms</b> innen wieder negativ</td></tr><tr><td>Nachher</td><td>kurze <b>Hyperpolarisation</b>; <b>Na⁺/K⁺-Pumpe</b> stellt unter <b>ATP</b>-Verbrauch die Ionenverteilung wieder her (<b>3 Na⁺ raus, 2 K⁺ rein</b>)</td></tr></table><ul><li>Verläuft <b>immer gleich</b>; entsteht am <b>Axonhügel</b> nach lokaler Depolarisation.</li><li><b>Alles-oder-Nichts-Prinzip:</b> Schwelle erreicht → AP wird unwiderruflich und sofort ausgelöst.</li><li><b>Refraktärperiode:</b> während und kurz nach dem AP kein bzw. nur bedingt ein neues AP an derselben Stelle (Ionenkanäle regenerieren).</li></ul><figure class='pic'><img data-enc='img/bio-phys/314d1b6a969a.bin' data-mime='image/jpeg' alt='Verlauf des Aktionspotentials'><figcaption>Verlauf des Aktionspotentials</figcaption></figure><table><tr><td>Verlauf des Aktionspotentials</td><td>Ionenströme bei AP und Repolarisation</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/feb6f0e2ac65.bin' data-mime='image/jpeg' alt='Ionenströme bei AP und Repolarisation'><figcaption>Ionenströme bei AP und Repolarisation</figcaption></figure><h3>3.7 Erregungsleitung</h3><ul><li>AP pflanzt sich <b>nur in eine Richtung</b> fort (wegen der Refraktärperiode).</li><li>Geschwindigkeit hängt von der <b>Markscheide</b> ab:</li><li><b>marklose</b> Fasern (nur locker umhüllt): AP pflanzt sich über lokale Ströme fort, jede Stelle bildet ein eigenes AP → <b>langsam (kontinuierlich)</b>; z. B. Fasern für Temperaturempfinden</li><li><b>markhaltige</b> Fasern: Erregung „springt“ von Schnürring zu Schnürring (<b>saltatorisch</b>) → <b>schnell</b>; die meisten Fasern beim Menschen</li></ul><figure class='pic'><img data-enc='img/bio-phys/b41ff99899bf.bin' data-mime='image/jpeg' alt='kontinuierliche vs. saltatorische Erregungsleitung'><figcaption>kontinuierliche vs. saltatorische Erregungsleitung</figcaption></figure><table><tr><td>kontinuierliche vs. saltatorische Erregungsleitung</td><td>refraktär – erregt – noch unerregt</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/aa5b9f9d5bf3.bin' data-mime='image/png' alt='refraktär – erregt – noch unerregt'><figcaption>refraktär – erregt – noch unerregt</figcaption></figure><h3>3.8 Synapse</h3><ul><li>Kontaktstelle, an der das AP auf die <b>Zielzelle</b> (Nerven-, Muskelzelle …) übertragen wird.</li><li>Prä- und postsynaptische Membran sind durch den <b>synaptischen Spalt</b> (ca. <b>20 nm</b>) getrennt.</li><li>Elektrisches Signal kann den Spalt nicht überwinden → Umwandlung in ein <b>chemisches</b> Signal (<b>Neurotransmitter</b>).</li><li>Neurotransmitter liegen in <b>präsynaptischen Vesikeln</b> und werden durch das ankommende AP ausgeschüttet.</li><li>Transmitter bindet an <b>Rezeptoren</b> der postsynaptischen Membran → Ionenleitfähigkeit ändert sich → <b>lokale Potentialänderung</b> (chemisch → elektrisch).</li><li>Danach rasche <b>Eliminierung</b>: enzymatischer Abbau im Spalt oder <b>Wiederaufnahme</b> in die Zelle.</li></ul><figure class='pic'><img data-enc='img/bio-phys/6a8be0f1e126.bin' data-mime='image/jpeg' alt='Transmitter bindet am Rezeptor → Ionenstrom'><figcaption>Transmitter bindet am Rezeptor → Ionenstrom</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/1e822120f47b.bin' data-mime='image/jpeg' alt='Aufbau der Synapse'><figcaption>Aufbau der Synapse</figcaption></figure><table><tr><td>Aufbau der Synapse</td><td>Transmitter bindet am Rezeptor → Ionenstrom</td></tr></table><table><tr><th></th><th><b>EPSP (erregend)</b></th><th><b>IPSP (hemmend)</b></th></tr><tr><td>Entstehung</td><td>Öffnen von <b>Kationen-Kanälen</b> (z. B. Na⁺)</td><td>Öffnen von <b>Anionen-Kanälen</b> (z. B. Cl⁻)</td></tr><tr><td>Wirkung</td><td>Depolarisation – AP wahrscheinlicher</td><td>Hyperpolarisation – AP unwahrscheinlicher</td></tr></table><ul><li>Ob eine Synapse erregend oder hemmend ist, hängt vom <b>Rezeptor</b> der postsynaptischen Membran ab.</li><li>Die lokalen Potentiale sind <b>keine APs</b>, sondern <b>elektrotonische Potentiale</b> (passive Ausbreitung).</li></ul><figure class='pic'><img data-enc='img/bio-phys/41c5a06392be.bin' data-mime='image/png' alt='EPSP und IPSP an der postsynaptischen Membran (Nervensystem, S. 19)'><figcaption>EPSP und IPSP an der postsynaptischen Membran (Nervensystem, S. 19)</figcaption></figure><ul><li><b>Summation:</b> Verrechnung erregender und hemmender Impulse am <b>Axonhügel</b>.</li><li><b>Räumliche Summation:</b> Impulse <b>mehrerer Synapsen</b> werden addiert.</li><li><b>Zeitliche Summation:</b> <b>eine Synapse</b> feuert mehrmals kurz hintereinander.</li><li>Wird am Axonhügel der Schwellenwert überschritten → <b>Aktionspotential</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/8d6a8bfa9033.bin' data-mime='image/png' alt='Räumliche (links) und zeitliche Summation (rechts) (Nervensystem, S. 20)'><figcaption>Räumliche (links) und zeitliche Summation (rechts) (Nervensystem, S. 20)</figcaption></figure>",
+"h": "<h3>3.1 Was ist das Nervensystem?</h3><ul><li>Gesamtheit der Nervengewebe = <b>Steuer- und Koordinationssystem</b> der Körperfunktionen: Erfassung, Auswertung, Speicherung und Aussendung von Informationen.</li><li>Regelt zusammen mit dem <b>Hormonsystem</b> alle Organsysteme und passt den Organismus an die Außenwelt an.</li><li>Voraussetzungen: <b>Sensoren/Rezeptoren</b> (Messfühler) → <b>afferente</b> (hinführende) Nervenfasern → <b>übergeordnete Zentren</b> (verarbeiten, speichern) → <b>efferente</b> (wegführende) Nervenfasern → Reaktion.</li></ul><h3>3.2 Nervengewebe: Neurone und Gliazellen</h3><table><tr><th></th><th><b>Neurone (Nervenzellen)</b></th><th><b>Gliazellen (Stützzellen)</b></th></tr><tr><td>Aufgabe</td><td>Erregungsbildung und -leitung; hoch spezialisiert</td><td>übernehmen die den Neuronen fehlenden Funktionen</td></tr><tr><td>Besonderheit</td><td>können sich <b>nicht selbst stützen, schützen oder ausreichend ernähren</b></td><td>isolieren Neuronenverbände elektrisch; bilden mit Gefäßwänden die <b>Blut-Hirn-Schranke</b></td></tr></table><figure class='pic'><img data-enc='img/bio-phys/21cf55cedeab.bin' data-mime='image/jpeg' alt='Neuron und Gliazellen (Nervensystem, S. 5)'><figcaption>Neuron und Gliazellen (Nervensystem, S. 5)</figcaption></figure><h3>3.3 Aufbau des Neurons</h3><ul><li>Funktionelle und strukturelle <b>Einheit</b> des Nervensystems; Mensch: <b>&gt; 10<sup>11</sup> Neurone</b>.</li><li>Membran kann elektrische Signale <b>erzeugen</b> und mit Botenstoffen/Rezeptoren Signale <b>empfangen</b>.</li><li>Drei Bereiche: <b>Dendriten · Zellkörper (Soma) · Axon</b> (Modell: multipolares Neuron).</li></ul><table><tr><th><b>Bereich</b></th><th><b>Eigenschaften</b></th></tr><tr><td><b>Dendriten</b> (dendron = Baum)</td><td>kurze, verzweigte Ausstülpungen; <b>afferent</b> – nehmen Reize von vielen Nachbarzellen auf und leiten sie zum Soma</td></tr><tr><td><b>Soma</b> (Zellkörper)</td><td>Zellkern + Neuroplasma mit Organellen; <b>Hauptort des Stoffwechsels</b>; reich an rauem ER (<b>Nissl-Schollen</b>); leitet Information zum <b>Axonhügel</b></td></tr><tr><td><b>Axon</b></td><td>entspringt am <b>Axonhügel</b>; teilt sich am Ende in <b>Endknöpfe</b>; <b>efferente</b> Erregungsleitung; Länge sehr unterschiedlich</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/b6afe02fc1c8.bin' data-mime='image/jpeg' alt='Multipolares Neuron: Eingangsseite und Ausgangsseite (Nervensystem, S. 6)'><figcaption>Multipolares Neuron: Eingangsseite und Ausgangsseite (Nervensystem, S. 6)</figcaption></figure><h3>3.4 Myelinscheide</h3><ul><li>Viele Axone sind von Gliazellen umhüllt: <b>Schwann-Zellen im PNS</b>, <b>Oligodendrozyten im ZNS</b>.</li><li>Im PNS: Axon + umgebende Schwann-Zelle = <b>Nervenfaser</b>.</li><li>Schwann-Zelle wickelt sich mehrfach um das Axon → Hülle aus Fett-Eiweiß-Gemisch = <b>Myelin</b>; die Hülle heißt <b>Markscheide (Myelinscheide)</b>.</li><li><b>Markhaltige</b> Fasern: dicke Myelinschicht → gute Isolation → <b>hohe Leitungsgeschwindigkeit</b>.</li><li>Kurze, nicht umhüllte Abschnitte = <b>Ranvier-Schnürringe</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/9fec84dce93e.bin' data-mime='image/jpeg' alt='Schwann-Zelle wickelt sich um das Axon (Nervensystem, S. 10)'><figcaption>Schwann-Zelle wickelt sich um das Axon (Nervensystem, S. 10)</figcaption></figure><h3>3.5 Ruhepotential</h3><p class='link'>↩ baut auf Lohrer Kap. 3 (Diffusion)    Ionen diffundieren entlang ihres Konzentrationsgefälles</p><ul><li>Neuron braucht zwei Zustände: <b>Ruhezustand (Aus)</b> und <b>Aktionszustand (Ein)</b>.</li><li>Ruhepotential: Spannung an der Membran von ca. <b>–70 mV</b>.</li><li>Ursachen: <b>unterschiedliche Ionenverteilung</b> innen/außen und <b>unterschiedliche Durchlässigkeit</b> der Membran (geöffnete Ionenkanäle).</li><li>In Ruhe ist die Leitfähigkeit für <b>K⁺ ≈ 10-fach höher</b> als für Na⁺; für Anionen vernachlässigbar.</li><li>K⁺ strömt nach <b>außen</b> → außen positive Ladungen, innen Mangel an positiven Teilchen.</li><li>Der negative Ladungsüberschuss innen bremst weiteren K⁺-Ausstrom → <b>Gleichgewichtspotential</b> (K⁺-Ausstrom = K⁺-Einstrom).</li></ul><figure class='pic'><img data-enc='img/bio-phys/7ec63817b15d.bin' data-mime='image/png' alt='Eigenes Schema: Ionenverteilung und Ruhepotential (Werte aus Nervensystem, S. 11–13)'><figcaption>Eigenes Schema: Ionenverteilung und Ruhepotential (Werte aus Nervensystem, S. 11–13)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/425a5caade81.bin' data-mime='image/jpeg' alt='Messung des Ruhepotentials (Nervensystem, S. 12)'><figcaption>Messung des Ruhepotentials (Nervensystem, S. 12)</figcaption></figure><h3>3.6 Aktionspotential</h3><table><tr><th><b>Phase</b></th><th><b>Was passiert</b></th></tr><tr><td>Auslösung</td><td>Reiz erreicht einen <b>Schwellenwert</b> (z. B. <b>–50 mV am Axonhügel</b>) → spannungsabhängige <b>Na⁺-Kanäle</b> öffnen kurz</td></tr><tr><td><b>Depolarisation</b></td><td>starker <b>Na⁺-Einstrom</b> (wenig Na⁺ innen + negative Ladung innen) → Potential wird abgebaut und kehrt sich ggf. um</td></tr><tr><td><b>Repolarisation</b></td><td>Na⁺-Leitfähigkeit sinkt rasch, <b>K⁺-Leitfähigkeit</b> steigt kurz stark an → nach ca. <b>1 ms</b> innen wieder negativ</td></tr><tr><td>Nachher</td><td>kurze <b>Hyperpolarisation</b>; <b>Na⁺/K⁺-Pumpe</b> stellt unter <b>ATP</b>-Verbrauch die Ionenverteilung wieder her (<b>3 Na⁺ raus, 2 K⁺ rein</b>)</td></tr></table><ul><li>Verläuft <b>immer gleich</b>; entsteht am <b>Axonhügel</b> nach lokaler Depolarisation.</li><li><b>Alles-oder-Nichts-Prinzip:</b> Schwelle erreicht → AP wird unwiderruflich und sofort ausgelöst.</li><li><b>Refraktärperiode:</b> während und kurz nach dem AP kein bzw. nur bedingt ein neues AP an derselben Stelle (Ionenkanäle regenerieren).</li></ul><figure class='pic'><img data-enc='img/bio-phys/314d1b6a969a.bin' data-mime='image/jpeg' alt='Verlauf des Aktionspotentials'><figcaption>Verlauf des Aktionspotentials</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/feb6f0e2ac65.bin' data-mime='image/jpeg' alt='Ionenströme bei AP und Repolarisation'><figcaption>Ionenströme bei AP und Repolarisation</figcaption></figure><h3>3.7 Erregungsleitung</h3><ul><li>AP pflanzt sich <b>nur in eine Richtung</b> fort (wegen der Refraktärperiode).</li><li>Geschwindigkeit hängt von der <b>Markscheide</b> ab:</li><li><b>marklose</b> Fasern (nur locker umhüllt): AP pflanzt sich über lokale Ströme fort, jede Stelle bildet ein eigenes AP → <b>langsam (kontinuierlich)</b>; z. B. Fasern für Temperaturempfinden</li><li><b>markhaltige</b> Fasern: Erregung „springt“ von Schnürring zu Schnürring (<b>saltatorisch</b>) → <b>schnell</b>; die meisten Fasern beim Menschen</li></ul><figure class='pic'><img data-enc='img/bio-phys/b41ff99899bf.bin' data-mime='image/jpeg' alt='kontinuierliche vs. saltatorische Erregungsleitung'><figcaption>kontinuierliche vs. saltatorische Erregungsleitung</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/aa5b9f9d5bf3.bin' data-mime='image/png' alt='refraktär – erregt – noch unerregt'><figcaption>refraktär – erregt – noch unerregt</figcaption></figure><h3>3.8 Synapse</h3><ul><li>Kontaktstelle, an der das AP auf die <b>Zielzelle</b> (Nerven-, Muskelzelle …) übertragen wird.</li><li>Prä- und postsynaptische Membran sind durch den <b>synaptischen Spalt</b> (ca. <b>20 nm</b>) getrennt.</li><li>Elektrisches Signal kann den Spalt nicht überwinden → Umwandlung in ein <b>chemisches</b> Signal (<b>Neurotransmitter</b>).</li><li>Neurotransmitter liegen in <b>präsynaptischen Vesikeln</b> und werden durch das ankommende AP ausgeschüttet.</li><li>Transmitter bindet an <b>Rezeptoren</b> der postsynaptischen Membran → Ionenleitfähigkeit ändert sich → <b>lokale Potentialänderung</b> (chemisch → elektrisch).</li><li>Danach rasche <b>Eliminierung</b>: enzymatischer Abbau im Spalt oder <b>Wiederaufnahme</b> in die Zelle.</li></ul><figure class='pic'><img data-enc='img/bio-phys/6a8be0f1e126.bin' data-mime='image/jpeg' alt='Transmitter bindet am Rezeptor → Ionenstrom'><figcaption>Transmitter bindet am Rezeptor → Ionenstrom</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/1e822120f47b.bin' data-mime='image/jpeg' alt='Aufbau der Synapse'><figcaption>Aufbau der Synapse</figcaption></figure><table><tr><th></th><th><b>EPSP (erregend)</b></th><th><b>IPSP (hemmend)</b></th></tr><tr><td>Entstehung</td><td>Öffnen von <b>Kationen-Kanälen</b> (z. B. Na⁺)</td><td>Öffnen von <b>Anionen-Kanälen</b> (z. B. Cl⁻)</td></tr><tr><td>Wirkung</td><td>Depolarisation – AP wahrscheinlicher</td><td>Hyperpolarisation – AP unwahrscheinlicher</td></tr></table><ul><li>Ob eine Synapse erregend oder hemmend ist, hängt vom <b>Rezeptor</b> der postsynaptischen Membran ab.</li><li>Die lokalen Potentiale sind <b>keine APs</b>, sondern <b>elektrotonische Potentiale</b> (passive Ausbreitung).</li></ul><figure class='pic'><img data-enc='img/bio-phys/41c5a06392be.bin' data-mime='image/png' alt='EPSP und IPSP an der postsynaptischen Membran (Nervensystem, S. 19)'><figcaption>EPSP und IPSP an der postsynaptischen Membran (Nervensystem, S. 19)</figcaption></figure><ul><li><b>Summation:</b> Verrechnung erregender und hemmender Impulse am <b>Axonhügel</b>.</li><li><b>Räumliche Summation:</b> Impulse <b>mehrerer Synapsen</b> werden addiert.</li><li><b>Zeitliche Summation:</b> <b>eine Synapse</b> feuert mehrmals kurz hintereinander.</li><li>Wird am Axonhügel der Schwellenwert überschritten → <b>Aktionspotential</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/8d6a8bfa9033.bin' data-mime='image/png' alt='Räumliche (links) und zeitliche Summation (rechts) (Nervensystem, S. 20)'><figcaption>Räumliche (links) und zeitliche Summation (rechts) (Nervensystem, S. 20)</figcaption></figure>",
 "c": [
 27,
 28,
@@ -4039,7 +4039,7 @@ const STOFF = {
 {
 "t": "Nervensystem",
 "sub": "Nerven  ·  ZNS & PNS  ·  Gehirn  ·  Rückenmark  ·  Reflexe  ·  somatisch & vegetativ",
-"h": "<h3>4.1 Nervenfasern und Nerven</h3><p class='link'>↩ baut auf Kap. 3.4 (Myelinscheide)</p><table><tr><th><b>Begriff</b></th><th><b>Bedeutung</b></th></tr><tr><td>Nervenfaser</td><td>Axon + Myelinscheide</td></tr><tr><td><b>efferent</b></td><td>vom ZNS zur Peripherie</td></tr><tr><td><b>afferent</b></td><td>zum ZNS hin</td></tr><tr><td>motorische Fasern</td><td>Efferenzen zu Skelettmuskeln, Eingeweidemuskeln und Drüsen</td></tr><tr><td>sensible / sensorische Fasern</td><td>Afferenzen der Wahrnehmung</td></tr><tr><td>Nerv</td><td>Bündel paralleler Nervenfasern in einer Bindegewebshülle; <b>Faszikel</b> = Faserbündel innerhalb eines Nervs</td></tr></table><ul><li>Eine Nervenfaser im PNS ist <b>immer nur motorisch oder sensibel</b>; Nerven enthalten oft beides (<b>gemischte Nerven</b>).</li></ul><figure class='pic'><img data-enc='img/bio-phys/e64b37c9b0c4.bin' data-mime='image/jpeg' alt='Eigenes Schema: Gliederung nach Aufbau und nach Funktion'><figcaption>Eigenes Schema: Gliederung nach Aufbau und nach Funktion</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/a103e00ff077.bin' data-mime='image/jpeg' alt='Aufbau eines Nervs (Nervensystem, S. 21)'><figcaption>Aufbau eines Nervs (Nervensystem, S. 21)</figcaption></figure><h3>4.2 Gliederung des Nervensystems</h3><ul><li><b>ZNS</b> = Gehirn + Rückenmark: Informationsverarbeitung und Steuerung.</li><li><b>PNS</b> = Hirnnerven, Rückenmarksnerven und ihre Verzweigungen: <b>leitet weiter</b>, verarbeitet nicht selbst; verbindet Peripherie („außen“) mit dem ZNS („innen“).</li></ul><figure class='pic'><img data-enc='img/bio-phys/c634fbd128f8.bin' data-mime='image/jpeg' alt='Reizaufnahme über das PNS, Verarbeitung im ZNS, Reizbeantwortung (Nervensystem, S. 23)'><figcaption>Reizaufnahme über das PNS, Verarbeitung im ZNS, Reizbeantwortung (Nervensystem, S. 23)</figcaption></figure><h3>4.3 Graue und weiße Substanz, Schutz des ZNS</h3><table><tr><th></th><th><b>Graue Substanz</b></th><th><b>Weiße Substanz</b></th></tr><tr><td>besteht aus</td><td>unmyelinisierten <b>Zellkörpern</b>, Dendriten, axonalen Endigungen</td><td>vorwiegend <b>myelinisierten Axonen</b> (weiß durch Myelin)</td></tr><tr><td>Organisation</td><td>Zellkörper in Clustern = <b>Kerne</b> (im PNS: <b>Ganglien</b>)</td><td>Axonbündel = <b>Nervenbahnen</b> zwischen ZNS-Regionen</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/b68451cb047a.bin' data-mime='image/png' alt='Rückenmark (Querschnitt)'><figcaption>Rückenmark (Querschnitt)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/42d7bd75f284.bin' data-mime='image/png' alt='Gehirn (Frontalschnitt)'><figcaption>Gehirn (Frontalschnitt)</figcaption></figure><table><tr><td>Gehirn (Frontalschnitt)</td><td>Rückenmark (Querschnitt)</td></tr></table><ul><li>Knöcherner Schutz: <b>Schädel</b> (Gehirn) und <b>Wirbelsäule</b> (Rückenmark).</li><li>Dazwischen drei Membranschichten = <b>Hirn- bzw. Rückenmarkshäute (Meningen)</b>.</li><li><b>Gehirn-Rückenmarksflüssigkeit</b> (Cerebrospinalflüssigkeit): mechanischer Schutz und streng reguliertes Milieu für die Neurone.</li></ul><h3>4.4 Gehirn</h3><table><tr><th><b>Teil</b></th><th><b>Aufgabe</b></th></tr><tr><td><b>Hirnstamm</b> (entwicklungsgeschichtlich ältester Teil)</td><td>lebenswichtige vegetative Zentren – <b>Atem-</b> und <b>Herz-Kreislauf-Zentrum</b> in der <b>Medulla oblongata</b></td></tr><tr><td><b>Kleinhirn</b></td><td>Gleichgewicht, Bewegung und deren Koordination</td></tr><tr><td><b>Zwischenhirn</b></td><td>Schaltstelle zwischen Großhirn und Hirnstamm; <b>Hypothalamus</b> = Bindeglied zwischen Nerven- und Hormonsystem</td></tr><tr><td><b>Großhirn</b></td><td>„höhere“ Funktionen: Denken, Sprache, Bewusstsein</td></tr></table><ul><li>Je „neuer“ ein Gehirnteil, desto komplexer seine Funktionen.</li></ul><figure class='pic'><img data-enc='img/bio-phys/fcc5b8b8dc34.bin' data-mime='image/jpeg' alt='MRT-Aufnahme des Gehirns (Sagittalschnitt)'><figcaption>MRT-Aufnahme des Gehirns (Sagittalschnitt)</figcaption></figure><table><tr><td>MRT-Aufnahme des Gehirns (Sagittalschnitt)</td><td>Gliederung des Gehirns</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/d1b38018bd63.bin' data-mime='image/jpeg' alt='Gliederung des Gehirns'><figcaption>Gliederung des Gehirns</figcaption></figure><h3>4.5 Rückenmark</h3><ul><li>Verbindung zwischen <b>Gehirn</b> und <b>PNS</b>; liegt im <b>Wirbelkanal</b>; paarige <b>Spinalnerven</b> treten aus.</li><li>Fünf Abschnitte (nach den Austritten der Spinalnerven), unterteilt in <b>Segmente</b> – je Segment zweigt <b>ein Spinalnervenpaar</b> ab.</li><li>Ebenso viele Segmente wie Wirbelkörper; das Rückenmark wächst aber <b>langsamer</b> als die Wirbelsäule.</li></ul><figure class='pic'><img data-enc='img/bio-phys/71e11060ca7f.bin' data-mime='image/jpeg' alt='MRT: Rückenmark im Wirbelkanal'><figcaption>MRT: Rückenmark im Wirbelkanal</figcaption></figure><table><tr><td>MRT: Rückenmark im Wirbelkanal</td><td>Austritt der Spinalnerven</td><td>Abschnitte des Rückenmarks</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/51376e1f333a.bin' data-mime='image/png' alt='Abschnitte des Rückenmarks'><figcaption>Abschnitte des Rückenmarks</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/bf1c3046c625.bin' data-mime='image/jpeg' alt='Austritt der Spinalnerven'><figcaption>Austritt der Spinalnerven</figcaption></figure><ul><li>Graue Substanz <b>schmetterlingsförmig</b>.</li><li><b>Vorderhorn:</b> Zellkörper <b>motorischer</b> Neurone → Fasern = <b>motorische Vorderwurzeln</b>.</li><li><b>Hinterhorn:</b> dort enden Fortsätze <b>sensibler</b> Neurone → Fasern = <b>sensible Hinterwurzeln</b>; deren Zellkörper liegen im <b>Spinalganglion</b>.</li><li>Vorder- und Hinterwurzel vereinigen sich zum <b>Spinalnerv</b>.</li><li>Sensorneuron = <b>pseudounipolares Neuron</b>: peripherer Ast („axonähnlicher Dendrit“) nimmt Reize auf, zentraler Ast führt zum ZNS.</li></ul><figure class='pic'><img data-enc='img/bio-phys/d1e2b9ba5fe2.bin' data-mime='image/jpeg' alt='Vorder- und Hinterhorn, Spinalganglion'><figcaption>Vorder- und Hinterhorn, Spinalganglion</figcaption></figure><table><tr><td>Vorder- und Hinterhorn, Spinalganglion</td><td>Motoneuron und (pseudounipolares) Sensorneuron</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/5380fa743d79.bin' data-mime='image/png' alt='Motoneuron und (pseudounipolares) Sensorneuron'><figcaption>Motoneuron und (pseudounipolares) Sensorneuron</figcaption></figure><ul><li>Weiße Substanz: <b>auf- und absteigende Bahnen</b> (myelinisierte Axone).</li><li><b>Absteigend:</b> überwiegend <b>efferente (motorische)</b> Signale vom Gehirn zum Rückenmark (1. Motoneuron im Gehirn → 2. Motoneuron im Vorderhorn).</li><li><b>Aufsteigend:</b> überwiegend <b>sensorische (afferente)</b> Informationen zum Gehirn; Fasern kreuzen im verlängerten Mark oder im Eintrittssegment auf die Gegenseite.</li><li>Rückenmark ist eigenständiges Integrationszentrum für <b>Rückenmarksreflexe</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/efe99841689c.bin' data-mime='image/jpeg' alt='auf- und absteigende Bahnen'><figcaption>auf- und absteigende Bahnen</figcaption></figure><table><tr><td>auf- und absteigende Bahnen</td><td>Verlauf von 1. und 2. Motoneuron</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/d638802af9ff.bin' data-mime='image/jpeg' alt='Verlauf von 1. und 2. Motoneuron'><figcaption>Verlauf von 1. und 2. Motoneuron</figcaption></figure><h3>4.6 Reflexe</h3><ul><li>Angeboren oder erworben; <b>keine Kontrolle durch das Gehirn</b>, automatisch, stereotyp, schnell.</li></ul><table><tr><th></th><th><b>Eigenreflex</b></th><th><b>Fremdreflex</b></th></tr><tr><td>Rezeptor / Effektor</td><td>Rezeptor liegt <b>im Erfolgsorgan</b></td><td>Rezeptor und Effektor in <b>getrennten Organen</b></td></tr><tr><td>Synapsen</td><td><b>monosynaptisch</b></td><td><b>polysynaptisch</b></td></tr><tr><td>Beispiel</td><td><b>Kniesehnenreflex</b>: Knicken des Knies dehnt Muskelspindeln im Oberschenkel → Streckmuskel spannt an → Knie wird gestreckt</td><td>Hand von <b>heißem Gegenstand</b> zurückziehen (Schutzreflex)</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/91eea94a138c.bin' data-mime='image/jpeg' alt='Kniesehnenreflex (Nervensystem, S. 33)'><figcaption>Kniesehnenreflex (Nervensystem, S. 33)</figcaption></figure><h3>4.7 Somatisches und vegetatives Nervensystem</h3><p class='link'>↩ baut auf Kap. 4.2 (Gliederung)</p><table><tr><th></th><th><b>Somatisches (willkürliches) NS</b></th><th><b>Vegetatives (autonomes) NS</b></th></tr><tr><td>steuert</td><td>alle dem <b>Bewusstsein und Willen</b> unterworfenen Vorgänge; Antwort meist nach außen</td><td><b>innere Organe</b> und <b>Kreislauf</b>; kontrolliert das innere Milieu</td></tr><tr><td>Willen</td><td>willkürlich</td><td><b>nicht direkt</b> beeinflussbar</td></tr><tr><td>Erfolgsorgane</td><td>Skelettmuskulatur</td><td>Herzmuskel, glatte Muskulatur, Drüsen</td></tr></table><ul><li>Beide arbeiten <b>nicht unabhängig</b>, sondern als sinnvolle Einheit.</li><li>Vegetatives NS = <b>Sympathikus</b> + <b>Parasympathikus</b> (oft <b>gegensinnige</b> Wirkung) + <b>enterisches NS</b> (eigenes NS des Darms).</li></ul><table><tr><th></th><th><b>Sympathikus</b></th><th><b>Parasympathikus</b></th></tr><tr><td>Beiname</td><td>„Leistungsnerv“ – Angriff, Flucht (fight or flight)</td><td>„Erholungsnerv“ – Regeneration, Nahrungsaufnahme, Energiespeicherung, Fortpflanzung</td></tr><tr><td>Pupillen</td><td>weit</td><td>eng</td></tr><tr><td>Speichelfluss</td><td>gering</td><td>angeregt</td></tr><tr><td>Herzschlag</td><td>schnell</td><td>langsam</td></tr><tr><td>Bronchien</td><td>weit</td><td>eng</td></tr><tr><td>Verdauung</td><td>ruht</td><td>läuft ab</td></tr><tr><td>weitere</td><td>Glykogen → Glukose; Abgabe von Adrenalin und Noradrenalin; Harnblase füllt sich</td><td>Gallenblase entleert sich; Harnblasenentleerung</td></tr><tr><td>Ursprung</td><td>unteres Halsmark, <b>gesamtes Brustmark</b>, oberes Lendenmark</td><td><b>Hirnstamm</b>, <b>Sakralmark</b></td></tr><tr><td>Ganglien</td><td><b>organfern</b> (Grenzstrang)</td><td><b>organnah</b></td></tr></table><table><tr><td>Sympathikus und Parasympathikus</td><td>Wirkungen auf die Organe</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/319e3c900aa5.bin' data-mime='image/jpeg' alt='Wirkungen auf die Organe'><figcaption>Wirkungen auf die Organe</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/2b763a68393e.bin' data-mime='image/png' alt='Unterschiede in der efferenten Weiterleitung: somatomotorisch, sympathisch, parasympathisch (Nervensystem, S. 36)'><figcaption>Unterschiede in der efferenten Weiterleitung: somatomotorisch, sympathisch, parasympathisch (Nervensystem, S. 36)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/2b763a68393e.bin' data-mime='image/png' alt='Unterschiede in der efferenten Weiterleitung: somatomotorisch, sympathisch, parasympathisch (Nervensystem, S. 36)'><figcaption>Unterschiede in der efferenten Weiterleitung: somatomotorisch, sympathisch, parasympathisch (Nervensystem, S. 36)</figcaption></figure><h4>Übungsaufgaben aus dem Skript</h4><ul><li>Unterschied Neurone/Gliazellen? Abschnitte eines Neurons und ihre Charakteristika?</li><li>Ruhepotential und Aktionspotential – Aufbau und Zweck? Wo und wie erfolgt die Signalübertragung auf die Zielzelle?</li><li>Welche Teile gehören zum ZNS bzw. PNS, welche Aufgaben haben sie? Unterschied willkürliches/vegetatives NS mit Beispielen?</li></ul><figure class='pic'><img data-enc='img/bio-phys/7bd5bcd1dec9.bin' data-mime='image/jpeg' alt='Sympathikus und Parasympathikus'><figcaption>Sympathikus und Parasympathikus</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/d9a14ab847fa.bin' data-mime='image/png' alt='bikonkave Form (Aufsicht / Schnitt)'><figcaption>bikonkave Form (Aufsicht / Schnitt)</figcaption></figure>",
+"h": "<h3>4.1 Nervenfasern und Nerven</h3><p class='link'>↩ baut auf Kap. 3.4 (Myelinscheide)</p><table><tr><th><b>Begriff</b></th><th><b>Bedeutung</b></th></tr><tr><td>Nervenfaser</td><td>Axon + Myelinscheide</td></tr><tr><td><b>efferent</b></td><td>vom ZNS zur Peripherie</td></tr><tr><td><b>afferent</b></td><td>zum ZNS hin</td></tr><tr><td>motorische Fasern</td><td>Efferenzen zu Skelettmuskeln, Eingeweidemuskeln und Drüsen</td></tr><tr><td>sensible / sensorische Fasern</td><td>Afferenzen der Wahrnehmung</td></tr><tr><td>Nerv</td><td>Bündel paralleler Nervenfasern in einer Bindegewebshülle; <b>Faszikel</b> = Faserbündel innerhalb eines Nervs</td></tr></table><ul><li>Eine Nervenfaser im PNS ist <b>immer nur motorisch oder sensibel</b>; Nerven enthalten oft beides (<b>gemischte Nerven</b>).</li></ul><figure class='pic'><img data-enc='img/bio-phys/e64b37c9b0c4.bin' data-mime='image/jpeg' alt='Eigenes Schema: Gliederung nach Aufbau und nach Funktion'><figcaption>Eigenes Schema: Gliederung nach Aufbau und nach Funktion</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/a103e00ff077.bin' data-mime='image/jpeg' alt='Aufbau eines Nervs (Nervensystem, S. 21)'><figcaption>Aufbau eines Nervs (Nervensystem, S. 21)</figcaption></figure><h3>4.2 Gliederung des Nervensystems</h3><ul><li><b>ZNS</b> = Gehirn + Rückenmark: Informationsverarbeitung und Steuerung.</li><li><b>PNS</b> = Hirnnerven, Rückenmarksnerven und ihre Verzweigungen: <b>leitet weiter</b>, verarbeitet nicht selbst; verbindet Peripherie („außen“) mit dem ZNS („innen“).</li></ul><figure class='pic'><img data-enc='img/bio-phys/c634fbd128f8.bin' data-mime='image/jpeg' alt='Reizaufnahme über das PNS, Verarbeitung im ZNS, Reizbeantwortung (Nervensystem, S. 23)'><figcaption>Reizaufnahme über das PNS, Verarbeitung im ZNS, Reizbeantwortung (Nervensystem, S. 23)</figcaption></figure><h3>4.3 Graue und weiße Substanz, Schutz des ZNS</h3><table><tr><th></th><th><b>Graue Substanz</b></th><th><b>Weiße Substanz</b></th></tr><tr><td>besteht aus</td><td>unmyelinisierten <b>Zellkörpern</b>, Dendriten, axonalen Endigungen</td><td>vorwiegend <b>myelinisierten Axonen</b> (weiß durch Myelin)</td></tr><tr><td>Organisation</td><td>Zellkörper in Clustern = <b>Kerne</b> (im PNS: <b>Ganglien</b>)</td><td>Axonbündel = <b>Nervenbahnen</b> zwischen ZNS-Regionen</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/b68451cb047a.bin' data-mime='image/png' alt='Rückenmark (Querschnitt)'><figcaption>Rückenmark (Querschnitt)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/42d7bd75f284.bin' data-mime='image/png' alt='Gehirn (Frontalschnitt)'><figcaption>Gehirn (Frontalschnitt)</figcaption></figure><ul><li>Knöcherner Schutz: <b>Schädel</b> (Gehirn) und <b>Wirbelsäule</b> (Rückenmark).</li><li>Dazwischen drei Membranschichten = <b>Hirn- bzw. Rückenmarkshäute (Meningen)</b>.</li><li><b>Gehirn-Rückenmarksflüssigkeit</b> (Cerebrospinalflüssigkeit): mechanischer Schutz und streng reguliertes Milieu für die Neurone.</li></ul><h3>4.4 Gehirn</h3><table><tr><th><b>Teil</b></th><th><b>Aufgabe</b></th></tr><tr><td><b>Hirnstamm</b> (entwicklungsgeschichtlich ältester Teil)</td><td>lebenswichtige vegetative Zentren – <b>Atem-</b> und <b>Herz-Kreislauf-Zentrum</b> in der <b>Medulla oblongata</b></td></tr><tr><td><b>Kleinhirn</b></td><td>Gleichgewicht, Bewegung und deren Koordination</td></tr><tr><td><b>Zwischenhirn</b></td><td>Schaltstelle zwischen Großhirn und Hirnstamm; <b>Hypothalamus</b> = Bindeglied zwischen Nerven- und Hormonsystem</td></tr><tr><td><b>Großhirn</b></td><td>„höhere“ Funktionen: Denken, Sprache, Bewusstsein</td></tr></table><ul><li>Je „neuer“ ein Gehirnteil, desto komplexer seine Funktionen.</li></ul><figure class='pic'><img data-enc='img/bio-phys/fcc5b8b8dc34.bin' data-mime='image/jpeg' alt='MRT-Aufnahme des Gehirns (Sagittalschnitt)'><figcaption>MRT-Aufnahme des Gehirns (Sagittalschnitt)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/d1b38018bd63.bin' data-mime='image/jpeg' alt='Gliederung des Gehirns'><figcaption>Gliederung des Gehirns</figcaption></figure><h3>4.5 Rückenmark</h3><ul><li>Verbindung zwischen <b>Gehirn</b> und <b>PNS</b>; liegt im <b>Wirbelkanal</b>; paarige <b>Spinalnerven</b> treten aus.</li><li>Fünf Abschnitte (nach den Austritten der Spinalnerven), unterteilt in <b>Segmente</b> – je Segment zweigt <b>ein Spinalnervenpaar</b> ab.</li><li>Ebenso viele Segmente wie Wirbelkörper; das Rückenmark wächst aber <b>langsamer</b> als die Wirbelsäule.</li></ul><figure class='pic'><img data-enc='img/bio-phys/71e11060ca7f.bin' data-mime='image/jpeg' alt='MRT: Rückenmark im Wirbelkanal'><figcaption>MRT: Rückenmark im Wirbelkanal</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/51376e1f333a.bin' data-mime='image/png' alt='Abschnitte des Rückenmarks'><figcaption>Abschnitte des Rückenmarks</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/bf1c3046c625.bin' data-mime='image/jpeg' alt='Austritt der Spinalnerven'><figcaption>Austritt der Spinalnerven</figcaption></figure><ul><li>Graue Substanz <b>schmetterlingsförmig</b>.</li><li><b>Vorderhorn:</b> Zellkörper <b>motorischer</b> Neurone → Fasern = <b>motorische Vorderwurzeln</b>.</li><li><b>Hinterhorn:</b> dort enden Fortsätze <b>sensibler</b> Neurone → Fasern = <b>sensible Hinterwurzeln</b>; deren Zellkörper liegen im <b>Spinalganglion</b>.</li><li>Vorder- und Hinterwurzel vereinigen sich zum <b>Spinalnerv</b>.</li><li>Sensorneuron = <b>pseudounipolares Neuron</b>: peripherer Ast („axonähnlicher Dendrit“) nimmt Reize auf, zentraler Ast führt zum ZNS.</li></ul><figure class='pic'><img data-enc='img/bio-phys/d1e2b9ba5fe2.bin' data-mime='image/jpeg' alt='Vorder- und Hinterhorn, Spinalganglion'><figcaption>Vorder- und Hinterhorn, Spinalganglion</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/5380fa743d79.bin' data-mime='image/png' alt='Motoneuron und (pseudounipolares) Sensorneuron'><figcaption>Motoneuron und (pseudounipolares) Sensorneuron</figcaption></figure><ul><li>Weiße Substanz: <b>auf- und absteigende Bahnen</b> (myelinisierte Axone).</li><li><b>Absteigend:</b> überwiegend <b>efferente (motorische)</b> Signale vom Gehirn zum Rückenmark (1. Motoneuron im Gehirn → 2. Motoneuron im Vorderhorn).</li><li><b>Aufsteigend:</b> überwiegend <b>sensorische (afferente)</b> Informationen zum Gehirn; Fasern kreuzen im verlängerten Mark oder im Eintrittssegment auf die Gegenseite.</li><li>Rückenmark ist eigenständiges Integrationszentrum für <b>Rückenmarksreflexe</b>.</li></ul><figure class='pic'><img data-enc='img/bio-phys/efe99841689c.bin' data-mime='image/jpeg' alt='auf- und absteigende Bahnen'><figcaption>auf- und absteigende Bahnen</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/d638802af9ff.bin' data-mime='image/jpeg' alt='Verlauf von 1. und 2. Motoneuron'><figcaption>Verlauf von 1. und 2. Motoneuron</figcaption></figure><h3>4.6 Reflexe</h3><ul><li>Angeboren oder erworben; <b>keine Kontrolle durch das Gehirn</b>, automatisch, stereotyp, schnell.</li></ul><table><tr><th></th><th><b>Eigenreflex</b></th><th><b>Fremdreflex</b></th></tr><tr><td>Rezeptor / Effektor</td><td>Rezeptor liegt <b>im Erfolgsorgan</b></td><td>Rezeptor und Effektor in <b>getrennten Organen</b></td></tr><tr><td>Synapsen</td><td><b>monosynaptisch</b></td><td><b>polysynaptisch</b></td></tr><tr><td>Beispiel</td><td><b>Kniesehnenreflex</b>: Knicken des Knies dehnt Muskelspindeln im Oberschenkel → Streckmuskel spannt an → Knie wird gestreckt</td><td>Hand von <b>heißem Gegenstand</b> zurückziehen (Schutzreflex)</td></tr></table><figure class='pic'><img data-enc='img/bio-phys/91eea94a138c.bin' data-mime='image/jpeg' alt='Kniesehnenreflex (Nervensystem, S. 33)'><figcaption>Kniesehnenreflex (Nervensystem, S. 33)</figcaption></figure><h3>4.7 Somatisches und vegetatives Nervensystem</h3><p class='link'>↩ baut auf Kap. 4.2 (Gliederung)</p><table><tr><th></th><th><b>Somatisches (willkürliches) NS</b></th><th><b>Vegetatives (autonomes) NS</b></th></tr><tr><td>steuert</td><td>alle dem <b>Bewusstsein und Willen</b> unterworfenen Vorgänge; Antwort meist nach außen</td><td><b>innere Organe</b> und <b>Kreislauf</b>; kontrolliert das innere Milieu</td></tr><tr><td>Willen</td><td>willkürlich</td><td><b>nicht direkt</b> beeinflussbar</td></tr><tr><td>Erfolgsorgane</td><td>Skelettmuskulatur</td><td>Herzmuskel, glatte Muskulatur, Drüsen</td></tr></table><ul><li>Beide arbeiten <b>nicht unabhängig</b>, sondern als sinnvolle Einheit.</li><li>Vegetatives NS = <b>Sympathikus</b> + <b>Parasympathikus</b> (oft <b>gegensinnige</b> Wirkung) + <b>enterisches NS</b> (eigenes NS des Darms).</li></ul><table><tr><th></th><th><b>Sympathikus</b></th><th><b>Parasympathikus</b></th></tr><tr><td>Beiname</td><td>„Leistungsnerv“ – Angriff, Flucht (fight or flight)</td><td>„Erholungsnerv“ – Regeneration, Nahrungsaufnahme, Energiespeicherung, Fortpflanzung</td></tr><tr><td>Pupillen</td><td>weit</td><td>eng</td></tr><tr><td>Speichelfluss</td><td>gering</td><td>angeregt</td></tr><tr><td>Herzschlag</td><td>schnell</td><td>langsam</td></tr><tr><td>Bronchien</td><td>weit</td><td>eng</td></tr><tr><td>Verdauung</td><td>ruht</td><td>läuft ab</td></tr><tr><td>weitere</td><td>Glykogen → Glukose; Abgabe von Adrenalin und Noradrenalin; Harnblase füllt sich</td><td>Gallenblase entleert sich; Harnblasenentleerung</td></tr><tr><td>Ursprung</td><td>unteres Halsmark, <b>gesamtes Brustmark</b>, oberes Lendenmark</td><td><b>Hirnstamm</b>, <b>Sakralmark</b></td></tr><tr><td>Ganglien</td><td><b>organfern</b> (Grenzstrang)</td><td><b>organnah</b></td></tr></table><figure class='pic'><img data-enc='img/bio-phys/319e3c900aa5.bin' data-mime='image/jpeg' alt='Wirkungen auf die Organe'><figcaption>Wirkungen auf die Organe</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/2b763a68393e.bin' data-mime='image/png' alt='Unterschiede in der efferenten Weiterleitung: somatomotorisch, sympathisch, parasympathisch (Nervensystem, S. 36)'><figcaption>Unterschiede in der efferenten Weiterleitung: somatomotorisch, sympathisch, parasympathisch (Nervensystem, S. 36)</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/2b763a68393e.bin' data-mime='image/png' alt='Unterschiede in der efferenten Weiterleitung: somatomotorisch, sympathisch, parasympathisch (Nervensystem, S. 36)'><figcaption>Unterschiede in der efferenten Weiterleitung: somatomotorisch, sympathisch, parasympathisch (Nervensystem, S. 36)</figcaption></figure><h4>Übungsaufgaben aus dem Skript</h4><ul><li>Unterschied Neurone/Gliazellen? Abschnitte eines Neurons und ihre Charakteristika?</li><li>Ruhepotential und Aktionspotential – Aufbau und Zweck? Wo und wie erfolgt die Signalübertragung auf die Zielzelle?</li><li>Welche Teile gehören zum ZNS bzw. PNS, welche Aufgaben haben sie? Unterschied willkürliches/vegetatives NS mit Beispielen?</li></ul><figure class='pic'><img data-enc='img/bio-phys/7bd5bcd1dec9.bin' data-mime='image/jpeg' alt='Sympathikus und Parasympathikus'><figcaption>Sympathikus und Parasympathikus</figcaption></figure><figure class='pic'><img data-enc='img/bio-phys/d9a14ab847fa.bin' data-mime='image/png' alt='bikonkave Form (Aufsicht / Schnitt)'><figcaption>bikonkave Form (Aufsicht / Schnitt)</figcaption></figure>",
 "c": [
 37,
 38,
@@ -4670,6 +4670,249 @@ const STOFF = {
 6,
 7,
 8
+],
+"mehr": [
+[
+"Was ist ein Reinstoff?",
+"Stoff mit einheitlicher, fester Zusammensetzung – Element oder Verbindung.",
+[
+"~einheitlich|feste Zusammensetzung",
+"Element",
+"Verbindung"
+],
+"begriff"
+],
+[
+"Element vs. Verbindung?",
+"Element: nur eine Atomsorte. Verbindung: Atome verschiedener Elemente in festem Verhältnis, chemisch zerlegbar.",
+[
+"~eine Atomsorte|nur eine Sorte",
+"~verschiedene Elemente|mehrere Atomsorten"
+],
+"begriff"
+],
+[
+"Physikalische vs. chemische Umwandlung – je ein Beispiel?",
+"Physikalisch: Zustandsänderung, Zusammensetzung bleibt (Wasser verdampft). Chemisch: neue Stoffe entstehen (H₂ verbrennt zu Wasser).",
+[
+"~Zusammensetzung bleibt|Zustandsänderung",
+"~neue Stoffe|Reaktion"
+],
+""
+],
+[
+"Nenne drei physikalische und zwei chemische Eigenschaften.",
+"Physikalisch: Farbe, Geruch, Dichte, Schmelz-/Siedepunkt. Chemisch: Entflammbarkeit, Reaktionsfähigkeit mit Wasser/Säuren.",
+[
+"Farbe|Dichte|Siedepunkt|Schmelzpunkt",
+"Entflammbarkeit|Reaktionsfähigkeit|brennbar"
+],
+""
+],
+[
+"Welches Trennverfahren für: Sand/Wasser, Salz/Sand, Alkohol/Wasser?",
+"Sand/Wasser: Filtration (oder Sedimentieren + Dekantieren). Salz/Sand: Extraktion (Salz löst sich). Alkohol/Wasser: Destillation (verschiedene Siedepunkte).",
+[
+"Filtration|Dekantieren",
+"Extraktion|lösen",
+"Destillation"
+],
+""
+],
+[
+"Was ist Dekantieren?",
+"Abgießen der Flüssigkeit, nachdem sich der Feststoff abgesetzt hat (Sedimentation).",
+[
+"abgießen|Abgießen"
+],
+"begriff"
+],
+[
+"Die sieben SI-Basiseinheiten?",
+"kg, m, s, K, mol, A, cd.",
+[
+"kg",
+"m|Meter",
+"s|Sekunde",
+"K|Kelvin",
+"mol",
+"A|Ampere",
+"cd|Candela"
+],
+""
+],
+[
+"Rechne: 1 dm³ = ? L – und Formel der Dichte?",
+"1 dm³ = 1 L; ρ = m / V.",
+[
+"1",
+"m/V|m / V"
+],
+""
+],
+[
+"Gesetz der Erhaltung der Masse?",
+"Masse vor der Reaktion = Masse nach der Reaktion.",
+[
+"~Masse vorher gleich nachher|bleibt gleich"
+],
+""
+],
+[
+"Gesetz der konstanten Proportionen?",
+"Eine Verbindung hat immer dieselbe Zusammensetzung (gleiche Atomsorten im gleichen Verhältnis).",
+[
+"~immer gleiche Zusammensetzung|gleiches Verhältnis"
+],
+""
+],
+[
+"Was zeigte Thomson mit der Kathodenstrahlröhre?",
+"Strahl von − nach + ist durch Felder ablenkbar → negativ geladenes Teilchen: Elektron; Ladung/Masse-Verhältnis messbar.",
+[
+"Elektron",
+"negativ"
+],
+""
+],
+[
+"Was bestimmte Millikan – mit welchem Wert?",
+"Die Elementarladung e = 1,602 · 10⁻¹⁹ C (Öltröpfchen-Versuch); Elektronenmasse ≈ 1/2000 der H-Masse.",
+[
+"Elementarladung",
+"1,602"
+],
+""
+],
+[
+"α-, β-, γ-Strahlung: Was ist das, wie geladen?",
+"α: He-Kerne, positiv · β: Elektronen, negativ · γ: elektromagnetische Strahlung, ungeladen (nicht abgelenkt).",
+[
+"Helium|He",
+"Elektronen",
+"ungeladen|neutral"
+],
+""
+],
+[
+"Was ist 1 u?",
+"Atomare Masseneinheit = 1/12 der Masse eines ¹²C-Atoms.",
+[
+"1/12",
+"12C|C-12|Kohlenstoff"
+],
+"begriff"
+],
+[
+"Was misst ein Massenspektrometer?",
+"Trennt Isotope nach ihrer Masse → Isotopenmassen und Häufigkeiten.",
+[
+"Isotope",
+"Masse"
+],
+""
+],
+[
+"Wie viele Neutronen haben ¹²C, ¹³C, ¹⁴C?",
+"6, 7, 8.",
+[
+"6",
+"7",
+"8"
+],
+""
+],
+[
+"Wie viele Perioden und Gruppen hat das PSE – wo stehen die Metalle?",
+"7 Perioden (Zeilen), 18 Gruppen (Spalten). Metalle links und Mitte, Nichtmetalle rechts oben, Metalloide an der Treppenlinie.",
+[
+"7",
+"18",
+"links"
+],
+""
+],
+[
+"Nenne die sieben zweiatomigen Elemente.",
+"H₂, N₂, O₂, F₂, Cl₂, Br₂, I₂.",
+[
+"H2",
+"N2",
+"O2",
+"F2",
+"Cl2",
+"Br2",
+"I2"
+],
+""
+],
+[
+"Molekülformel vs. empirische Formel – Beispiel H₂O₂?",
+"Molekülformel: tatsächliche Anzahl (H₂O₂). Empirische Formel: kleinstes ganzzahliges Verhältnis (HO).",
+[
+"H2O2",
+"HO"
+],
+"begriff"
+],
+[
+"Kation vs. Anion?",
+"Kation: positiv (Elektronen abgegeben, z. B. Na⁺). Anion: negativ (Elektronen aufgenommen, z. B. Cl⁻).",
+[
+"positiv",
+"negativ"
+],
+"begriff"
+],
+[
+"Benenne: NH₄⁺, CN⁻, NO₂⁻, SO₃²⁻, HCO₃⁻.",
+"Ammonium, Cyanid, Nitrit, Sulfit, Hydrogencarbonat.",
+[
+"Ammonium",
+"Cyanid",
+"Nitrit",
+"Sulfit",
+"Hydrogencarbonat"
+],
+""
+],
+[
+"Benenne FeCl₃ und CuO.",
+"Eisen(III)-chlorid, Kupfer(II)-oxid.",
+[
+"Eisen(III)|Eisen III",
+"Kupfer(II)|Kupfer II"
+],
+""
+],
+[
+"Klausurtyp: Welches Element hat 25 Protonen und 30 Neutronen – Massenzahl?",
+"Mn (Z = 25), A = 55.",
+[
+"Mn|Mangan",
+"55"
+],
+"klausur"
+],
+[
+"Klausurtyp: Ein Ion hat 48 Elektronen, 2+ Ladung – welches Element?",
+"48 + 2 = 50 Protonen → Sn (Zinn). (In der Übungsklausur: neutrales Atom mit 48 e⁻ = Cd.)",
+[
+"50",
+"Sn|Zinn"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+0
+],
+[
+"chem-alt",
+1
+]
 ]
 },
 {
@@ -4686,6 +4929,235 @@ const STOFF = {
 15,
 16,
 17
+],
+"mehr": [
+[
+"Was ist die Wellenlänge, was die Frequenz?",
+"λ: Abstand zweier Wellenberge (m). ν: Schwingungen pro Sekunde (s⁻¹ = Hz).",
+[
+"~Abstand zweier Wellenberge|Abstand",
+"~Schwingungen pro Sekunde|pro Sekunde|Hz"
+],
+"begriff"
+],
+[
+"Rechne: Frequenz von Licht mit λ = 600 nm?",
+"ν = c/λ = 3,00·10⁸ / 600·10⁻⁹ = 5,0·10¹⁴ s⁻¹.",
+[
+"5|5,0",
+"10^14|1014"
+],
+""
+],
+[
+"Rechne: Energie eines Photons mit ν = 5,0·10¹⁴ s⁻¹?",
+"E = h·ν = 6,626·10⁻³⁴ · 5,0·10¹⁴ ≈ 3,3·10⁻¹⁹ J.",
+[
+"3,3",
+"10^-19|10-19"
+],
+""
+],
+[
+"Welche Einheit gehört zu Röntgen, UV/sichtbar, Mikrowelle?",
+"Röntgen: Å (10⁻¹⁰ m) · UV/sichtbar: nm · Mikrowelle: cm.",
+[
+"Ångström|Angström|A",
+"nm|Nanometer",
+"cm|Zentimeter"
+],
+""
+],
+[
+"Drei Beobachtungen, die das Wellenmodell des Lichts nicht erklärt?",
+"Strahlung schwarzer Körper, photoelektrischer Effekt, Linienspektren.",
+[
+"schwarz",
+"Photoeffekt|photoelektrisch",
+"Linienspektr"
+],
+""
+],
+[
+"Was ist ein Quant?",
+"Kleinste Energieportion, die ein Atom aufnehmen oder abgeben kann (Planck) – Energie wie eine Treppe, nicht wie eine Rampe.",
+[
+"~kleinste Energie|Energieportion|Portion"
+],
+"begriff"
+],
+[
+"Warum sind blauweiße Sterne heißer als rote?",
+"Höhere Temperatur → höhere mittlere Energie → kürzere Wellenlänge (blau).",
+[
+"~kürzere Wellenlänge|kürzer",
+"Energie"
+],
+""
+],
+[
+"Kontinuierliches vs. Linienspektrum?",
+"Kontinuierlich: alle Farben lückenlos (Sonne, Glühbirne). Linienspektrum: nur einzelne Linien, typisch für jedes Element (angeregtes Gas).",
+[
+"lückenlos|alle Farben",
+"~einzelne Linien|nur bestimmte"
+],
+"begriff"
+],
+[
+"Was ist monochromatisches Licht?",
+"Licht einer einzigen Wellenlänge (z. B. Laser).",
+[
+"~eine Wellenlänge|einzige Wellenlänge"
+],
+"begriff"
+],
+[
+"Was ist der Welle-Teilchen-Dualismus?",
+"Licht (und Materie) zeigt je nach Experiment Wellen- oder Teilcheneigenschaften.",
+[
+"Welle",
+"Teilchen"
+],
+"begriff"
+],
+[
+"Was ist der Grundzustand im Bohr-Modell?",
+"n = 1: niedrigste (negativste) Energie, am stabilsten; n ≥ 2 = angeregt.",
+[
+"n = 1|n=1|1",
+"~niedrigste Energie|stabil"
+],
+"begriff"
+],
+[
+"Welcher Übergang im H-Atom liefert die längste Wellenlänge: 4→3 oder 2→1?",
+"4 → 3: kleinster Energieunterschied → niedrigste Frequenz → längste Wellenlänge.",
+[
+"4",
+"3",
+"~kleinster Energieunterschied|kleinste Energie"
+],
+""
+],
+[
+"Was bedeutet E = 0 bei n = ∞?",
+"Das Elektron ist vom Atom abgetrennt (ionisiert).",
+[
+"~abgetrennt|ionisiert|frei"
+],
+""
+],
+[
+"Warum sieht man keine Wellenlänge bei einem Tennisball?",
+"λ = h/(m·v) ist bei großer Masse winzig (4,4·10⁻³⁴ m) – nicht messbar. Beim Elektron (3,3·10⁻¹⁰ m) dagegen Atomgröße.",
+[
+"~Masse zu groß|große Masse",
+"~winzig|zu klein"
+],
+""
+],
+[
+"Was ist ψ², was eine Grenzflächendarstellung?",
+"ψ² = Elektronendichte = Aufenthaltswahrscheinlichkeit. Grenzfläche: Bereich mit 90 % Aufenthaltswahrscheinlichkeit.",
+[
+"Aufenthaltswahrscheinlichkeit|Elektronendichte",
+"90"
+],
+"begriff"
+],
+[
+"Was ist ein Orbital?",
+"Wellenfunktion bzw. Aufenthaltsbereich eines Elektrons im Atom (keine Bahn).",
+[
+"Aufenthaltsbereich|Wellenfunktion|Aufenthalt"
+],
+"begriff"
+],
+[
+"Was bedeutet „entartet“?",
+"Orbitale mit gleicher Energie (z. B. die drei p-Orbitale einer Unterschale).",
+[
+"~gleiche Energie"
+],
+"begriff"
+],
+[
+"Welche Werte darf l bei n = 3 haben – und wie viele Orbitale hat 3d?",
+"l = 0, 1, 2 (s, p, d). 3d hat 2l + 1 = 5 Orbitale.",
+[
+"0",
+"1",
+"2",
+"5"
+],
+""
+],
+[
+"Warum wird 4s vor 3d besetzt?",
+"In Mehrelektronen-Atomen liegt 4s energetisch tiefer als 3d (Unterschalen überschneiden sich).",
+[
+"~4s tiefer|niedrigere Energie"
+],
+""
+],
+[
+"Elektronenkonfiguration von Fe – kurz?",
+"[Ar] 3d⁶ 4s².",
+[
+"Ar",
+"3d6",
+"4s2"
+],
+""
+],
+[
+"Elektronenkonfiguration von S – mit Anzahl ungepaarter Elektronen?",
+"[Ne] 3s² 3p⁴ → 2 ungepaarte Elektronen (Hund).",
+[
+"3s2",
+"3p4",
+"2"
+],
+""
+],
+[
+"Warum sind Übergangsmetallverbindungen oft farbig?",
+"Sie haben teilweise gefüllte d-Orbitale (meist ungepaarte Elektronen, paramagnetisch) – Elektronen können Licht absorbieren.",
+[
+"d-Orbitale|d-Elektronen|d"
+],
+""
+],
+[
+"Valenzelektronen – was sind sie, wie viele hat ein Hauptgruppenelement?",
+"Äußere Elektronen, bestimmen die Chemie. Anzahl = Hauptgruppennummer.",
+[
+"äußere|außen",
+"Hauptgruppennummer|Gruppennummer"
+],
+"begriff"
+],
+[
+"Klausurtyp: Warum kann gelbes Licht bei einem Metall keine Elektronen lösen, UV aber schon – auch wenn das gelbe Licht heller ist?",
+"Entscheidend ist die Energie des einzelnen Photons (E = h·ν), nicht die Helligkeit. Gelb liegt unter der Mindestfrequenz des Metalls; UV hat höhere Frequenz → genug Energie pro Photon.",
+[
+"Frequenz|ν",
+"~Energie pro Photon|Photonenenergie|E = h",
+"Mindestfrequenz|Mindestenergie"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+2
+],
+[
+"chem-alt",
+3
+]
 ]
 },
 {
@@ -4701,6 +5173,176 @@ const STOFF = {
 23,
 24,
 25
+],
+"mehr": [
+[
+"Was ist Abschirmung?",
+"Innere Elektronen schwächen die Anziehung der Kernladung auf die äußeren Elektronen ab.",
+[
+"innere Elektronen|innere",
+"~schwächen die Kernladung|abschwächen"
+],
+"begriff"
+],
+[
+"Rechne Zeff für Mg und Cl (einfaches Modell).",
+"Mg: 12 − 10 = 2+ · Cl: 17 − 10 = 7+.",
+[
+"2",
+"7"
+],
+""
+],
+[
+"Was ist Penetration?",
+"s-Elektronen halten sich teilweise nah am Kern (in inneren Schalen) auf → spüren mehr Kernladung als p-Elektronen.",
+[
+"~näher am Kern|nah am Kern",
+"~mehr Kernladung|größere Zeff"
+],
+"begriff"
+],
+[
+"Bindungsradius vs. Nichtbindungsradius?",
+"Bindungsradius: halber Kernabstand zweier gebundener Atome. Nichtbindungsradius (van der Waals): kleinster Abstand beim Zusammenstoß; größer.",
+[
+"~halber Kernabstand|halber Abstand",
+"van der Waals|Zusammenstoß"
+],
+"begriff"
+],
+[
+"Warum wird der Atomradius in der Periode kleiner, obwohl die Masse steigt?",
+"Masse kommt vom Kern; die Größe von der Elektronenhülle. Zeff steigt → Elektronen werden stärker angezogen.",
+[
+"Zeff|Kernladung",
+"~Masse vom Kern|Kern"
+],
+""
+],
+[
+"Ordne nach Radius: Na⁺, Mg²⁺, F⁻, O²⁻ (alle 10 e⁻).",
+"Mg²⁺ < Na⁺ < F⁻ < O²⁻ – isoelektronisch: mehr Kernladung → kleiner.",
+[
+"Mg2+ < Na+ < F- < O2-|Mg Na F O",
+"Kernladung"
+],
+""
+],
+[
+"Was ist die Ionisierungsenergie?",
+"Minimale Energie, um ein Elektron aus einem gasförmigen Atom/Ion im Grundzustand zu entfernen; immer positiv.",
+[
+"~Elektron entfernen|abspalten",
+"gasförmig"
+],
+"begriff"
+],
+[
+"I₁ von Na?",
+"496 kJ/mol.",
+[
+"496"
+],
+""
+],
+[
+"Woran erkennt man die Zahl der Valenzelektronen an den Ionisierungsenergien?",
+"Am großen Sprung: sobald ein inneres (Edelgas-)Elektron entfernt werden müsste, steigt I stark an.",
+[
+"Sprung",
+"~inneres Elektron|Edelgasschale"
+],
+""
+],
+[
+"Warum ist I₁(B) < I₁(Be)?",
+"Das 2p-Elektron von B liegt energetisch höher und ist besser abgeschirmt als 2s.",
+[
+"2p",
+"~höher|abgeschirmt"
+],
+"klausur"
+],
+[
+"Warum ist I₁(O) < I₁(N)?",
+"Im O ist ein 2p-Orbital doppelt besetzt → Abstoßung erleichtert die Abgabe; N hat eine stabile halbbesetzte 2p-Unterschale.",
+[
+"~doppelt besetzt|Abstoßung",
+"halbbesetzt"
+],
+"klausur"
+],
+[
+"Welche Elektronen verliert Fe zuerst?",
+"Die 4s-Elektronen (größtes n): Fe²⁺ [Ar]3d⁶, Fe³⁺ [Ar]3d⁵.",
+[
+"4s",
+"3d6",
+"3d5"
+],
+""
+],
+[
+"Was ist die Elektronenaffinität – Beispiel Cl?",
+"Energieänderung, wenn ein gasförmiges Atom ein Elektron aufnimmt. Cl: −349 kJ/mol (Energie wird frei).",
+[
+"~Elektron aufnehmen|Aufnahme",
+"349"
+],
+"begriff"
+],
+[
+"Warum haben Edelgase eine positive Elektronenaffinität?",
+"Volle Schale – ein zusätzliches Elektron müsste in eine neue, weiter außen liegende Schale.",
+[
+"~volle Schale|voll",
+"~neue Schale|nächste Schale"
+],
+""
+],
+[
+"Metalloxide vs. Nichtmetalloxide?",
+"Metalloxide: ionisch, basisch. Nichtmetalloxide: molekular, sauer.",
+[
+"basisch",
+"sauer"
+],
+""
+],
+[
+"Wie kommt O im O₂ zu seiner Rolle in Reaktionen?",
+"O₂ nimmt stark Elektronen auf → oxidiert andere Elemente.",
+[
+"~nimmt Elektronen auf",
+"oxidiert|Oxidation"
+],
+""
+],
+[
+"Klausurtyp: Warum kann O zwei Elektronen aufnehmen, aber kein drittes?",
+"O [He]2s²2p⁴ → O²⁻ [Ne] hat Edelgaskonfiguration. Ein drittes Elektron müsste in die neue 3s-Schale und würde vom negativen O²⁻ abgestoßen.",
+[
+"Edelgaskonfiguration|Ne",
+"3s|neue Schale",
+"abgestoßen|Abstoßung"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+4
+],
+[
+"chem-alt",
+5
+],
+[
+"chem-alt",
+6
+]
 ]
 },
 {
@@ -4715,6 +5357,203 @@ const STOFF = {
 30,
 31,
 32
+],
+"mehr": [
+[
+"Was ist die Oktettregel – Ausnahme H?",
+"Atome nehmen auf, geben ab oder teilen Elektronen, bis sie 8 Valenzelektronen haben; H nur 2 (wie He).",
+[
+"8|acht",
+"2"
+],
+"begriff"
+],
+[
+"Was ist ein Lewis-Symbol?",
+"Elementsymbol mit einem Punkt pro Valenzelektron (Strich = Elektronenpaar).",
+[
+"Punkt",
+"Valenzelektron"
+],
+"begriff"
+],
+[
+"ΔH°f von NaCl – und welche Teilschritte kosten bzw. bringen Energie?",
+"ΔH°f = −411 kJ/mol. Na → Na⁺ kostet +496; Cl → Cl⁻ bringt −349; Gitterbildung bringt −788.",
+[
+"411",
+"496",
+"349",
+"788"
+],
+""
+],
+[
+"Was ist die Gitterenergie?",
+"Energie, um 1 mol festen Ionenkristall in gasförmige Ionen zu trennen (NaCl +788 kJ/mol).",
+[
+"~Ionenkristall trennen|Gitter auftrennen",
+"gasförmig"
+],
+"begriff"
+],
+[
+"Was ist die Koordinationszahl im NaCl-Gitter?",
+"6 – jedes Na⁺ ist von 6 Cl⁻ umgeben und umgekehrt.",
+[
+"6"
+],
+"begriff"
+],
+[
+"Was ist ein Born-Haber-Kreisprozess?",
+"Zerlegung der Bildung eines Ionenkristalls in Teilschritte (Sublimation, Ionisierung, Elektronenaffinität, Gitterenergie); die Summe ergibt ΔH°f.",
+[
+"Teilschritte|Schritte",
+"Summe|ΔH"
+],
+"begriff"
+],
+[
+"Welche Ionen bildet Ag – Konfiguration?",
+"Ag [Kr]4d¹⁰5s¹ → Ag⁺ [Kr]4d¹⁰ (erst s-Elektronen abgeben).",
+[
+"Ag+",
+"4d10"
+],
+""
+],
+[
+"Wie hängen Bindungszahl, Bindungslänge und Bindungsstärke zusammen?",
+"Mehr Bindungen (Doppel-, Dreifach-) → kürzere und stärkere Bindung.",
+[
+"kürzer",
+"stärker"
+],
+""
+],
+[
+"Wie viele freie Elektronenpaare haben CH₄, NH₃, H₂O, HF am Zentralatom?",
+"0, 1, 2, 3.",
+[
+"0",
+"1",
+"2",
+"3"
+],
+""
+],
+[
+"Was ist die Bindungsenthalpie?",
+"ΔH zum Aufbrechen von 1 mol einer Bindung im Gaszustand; je größer, desto stärker.",
+[
+"Aufbrechen|brechen",
+"1 mol|mol"
+],
+"begriff"
+],
+[
+"EN-Werte von F, O, N, C, H?",
+"F 4,0 · O 3,5 · N 3,0 · C 2,5 · H 2,1.",
+[
+"4,0",
+"3,5",
+"3,0",
+"2,5",
+"2,1"
+],
+""
+],
+[
+"Was ist ein Dipolmoment – Formel?",
+"Maß für die Größe eines Dipols: μ = Q · r.",
+[
+"Q · r|Q*r|Qr"
+],
+"begriff"
+],
+[
+"Wer bekommt δ− in einer polaren Bindung?",
+"Das elektronegativere Atom.",
+[
+"elektronegativer"
+],
+""
+],
+[
+"Lewis-Formel: Wer ist meist Zentralatom?",
+"Das am wenigsten elektronegative Atom – nie H.",
+[
+"~am wenigsten elektronegativ|kleinste EN",
+"~nie H|nicht H"
+],
+""
+],
+[
+"Wie viele Valenzelektronen hat SO₂?",
+"S 6 + 2·O 6 = 18 e⁻ = 9 Elektronenpaare.",
+[
+"18",
+"9"
+],
+""
+],
+[
+"Was ist eine dative Bindung?",
+"Beide Elektronen des Bindungspaars stammen von einem Atom (NH₃ + H⁺ → NH₄⁺).",
+[
+"~beide Elektronen von einem Atom|von einem"
+],
+"begriff"
+],
+[
+"Was ist Resonanz (Mesomerie) – drei Beispiele?",
+"Mehrere gleichwertige Lewis-Formeln mit gleichen Atompositionen; das echte Molekül ist ein Mittel. O₃, NO₃⁻, Benzol.",
+[
+"~mehrere Lewis-Formeln|Grenzformeln",
+"O3|Ozon|Nitrat|Benzol"
+],
+"begriff"
+],
+[
+"Drei Ausnahmen der Oktettregel – je ein Beispiel?",
+"Ungerade Elektronenzahl (NO), weniger als ein Oktett (BF₃), scheinbar mehr als ein Oktett ab 3. Periode (PCl₅).",
+[
+"NO",
+"BF3",
+"PCl5"
+],
+""
+],
+[
+"Klausurtyp: Ordne nach Polarität: S–Br, C–P, O–Cl.",
+"ΔEN: S–Br 0,3 < C–P 0,4 < O–Cl 0,5.",
+[
+"0,3",
+"0,4",
+"0,5"
+],
+"klausur"
+],
+[
+"Klausurtyp: Formalladungen in NH₄⁺?",
+"N: 5 − (0 + 4) = +1; jedes H: 1 − (0 + 1) = 0; Summe +1 = Ionenladung.",
+[
+"+1",
+"0"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+7
+],
+[
+"chem-alt",
+8
+]
 ]
 },
 {
@@ -4727,6 +5566,168 @@ const STOFF = {
 35,
 36,
 37
+],
+"mehr": [
+[
+"Was besagt VSEPR?",
+"Elektronenpaare am Zentralatom (bindend und frei) stoßen sich ab und gehen so weit wie möglich auseinander.",
+[
+"~stoßen sich ab|Abstoßung",
+"Elektronenpaare"
+],
+"begriff"
+],
+[
+"Strukturtyp vs. Molekülstruktur?",
+"Strukturtyp: Anordnung aller Elektronenpaare. Molekülstruktur: Anordnung nur der Atome.",
+[
+"~alle Elektronenpaare",
+"~nur Atome"
+],
+"begriff"
+],
+[
+"Zählt eine Doppelbindung als ein oder zwei Elektronenbereiche?",
+"Als einer (wie jede Einfach-, Doppel-, Dreifachbindung oder jedes freie Paar).",
+[
+"einer|1|ein"
+],
+""
+],
+[
+"Form von CO₂, BF₃, SO₂?",
+"CO₂ linear 180° · BF₃ trigonal-planar 120° · SO₂ gewinkelt (< 120°).",
+[
+"linear",
+"trigonal-planar|trigonal planar",
+"gewinkelt"
+],
+""
+],
+[
+"Form von PCl₅ und SF₆?",
+"PCl₅ trigonal-bipyramidal (90°, 120°) · SF₆ oktaedrisch (90°).",
+[
+"trigonal-bipyramidal|bipyramidal",
+"oktaedrisch"
+],
+""
+],
+[
+"Form von XeF₂, XeF₄, SF₄?",
+"XeF₂ linear · XeF₄ quadratisch-planar · SF₄ wippenförmig.",
+[
+"linear",
+"quadratisch",
+"wippe"
+],
+""
+],
+[
+"Warum drücken freie Elektronenpaare die Bindungswinkel zusammen?",
+"Freie Paare brauchen mehr Platz (gehören nur zu einem Kern, breiter verteilt) → stärkere Abstoßung.",
+[
+"~mehr Platz|größer",
+"Abstoßung"
+],
+""
+],
+[
+"Was ist Hybridisierung?",
+"Mischen von Atomorbitalen eines Atoms zu gleichwertigen Hybridorbitalen bei der Bindungsbildung.",
+[
+"~mischen|Mischung",
+"Atomorbitale"
+],
+"begriff"
+],
+[
+"Hybridisierung von C in CH₄, C₂H₄, C₂H₂?",
+"CH₄ sp³ · Ethen sp² · Ethin sp.",
+[
+"sp3",
+"sp2",
+"sp"
+],
+""
+],
+[
+"Wie viele σ- und π-Bindungen hat N₂?",
+"1 σ + 2 π (Dreifachbindung).",
+[
+"1",
+"2"
+],
+""
+],
+[
+"Was kann das MO-Modell, was das Hybridmodell nicht kann?",
+"Angeregte Zustände (Lichtabsorption) und den Paramagnetismus von O₂ erklären.",
+[
+"Paramagnetismus|paramagnetisch",
+"~angeregte Zustände|Licht"
+],
+""
+],
+[
+"Bindendes vs. antibindendes MO?",
+"Bindend: konstruktive Überlagerung, Elektronendichte zwischen den Kernen, energieärmer. Antibindend (σ*): destruktiv, keine Dichte zwischen den Kernen, energiereicher.",
+[
+"~zwischen den Kernen",
+"energieärmer|niedriger",
+"energiereicher|höher"
+],
+"begriff"
+],
+[
+"Bindungsordnung von He₂⁺ – stabil?",
+"BO = ½(2 − 1) = ½ > 0 → existiert (stabiler als He + He⁺).",
+[
+"1/2|0,5|½"
+],
+""
+],
+[
+"Bindungsordnung von He₂?",
+"½(2 − 2) = 0 → kein stabiles Molekül.",
+[
+"0"
+],
+""
+],
+[
+"Bindungsordnung von NO?",
+"½(8 − 3) = 2½.",
+[
+"2,5|2½|5/2"
+],
+""
+],
+[
+"Bei welchen Molekülen liegt π2p unter σ2p?",
+"B₂, C₂, N₂ (ab O₂ umgekehrt).",
+[
+"B2",
+"C2",
+"N2"
+],
+""
+],
+[
+"Klausurtyp: Warum ist CO₂ unpolar, obwohl die C=O-Bindungen polar sind?",
+"Lineare Struktur → die beiden Bindungsdipole zeigen entgegengesetzt und heben sich auf.",
+[
+"linear",
+"~heben sich auf|aufheben"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+9
+]
 ]
 },
 {
@@ -4739,6 +5740,153 @@ const STOFF = {
 40,
 41,
 42
+],
+"mehr": [
+[
+"Was macht organische Verbindungen aus?",
+"Stabile C–C-Bindungen; nur C bildet stabile lange Ketten. C bildet immer 4 Bindungen, H 1.",
+[
+"C–C|C-C|Kohlenstoff",
+"4"
+],
+""
+],
+[
+"Geometrie am C bei Einfach-, Doppel-, Dreifachbindung?",
+"Tetraedrisch, trigonal-planar, linear.",
+[
+"tetraedrisch",
+"trigonal",
+"linear"
+],
+""
+],
+[
+"Was heißt „gesättigt“ bei Kohlenwasserstoffen?",
+"Nur C–C-Einfachbindungen (maximal viele H) – Alkane.",
+[
+"Einfachbindung|keine Doppelbindung",
+"Alkane"
+],
+"begriff"
+],
+[
+"Summenformel von Propan, Buten, Pentin?",
+"Propan C₃H₈ · Buten C₄H₈ · Pentin C₅H₈.",
+[
+"C3H8",
+"C4H8",
+"C5H8"
+],
+""
+],
+[
+"Cycloalkane: allgemeine Formel – Beispiel?",
+"CₙH₂ₙ, z. B. Cyclohexan C₆H₁₂.",
+[
+"CnH2n",
+"C6H12"
+],
+""
+],
+[
+"Warum gibt es bei Alkenen cis/trans, bei Alkanen nicht?",
+"Die π-Bindung der C=C verhindert die Drehung; bei Einfachbindungen ist freie Drehung möglich.",
+[
+"~π-Bindung verhindert Drehung|keine Drehung|nicht drehbar"
+],
+""
+],
+[
+"Was ist eine Alkylgruppe – Beispiele?",
+"Alkan minus ein H, Endung -yl: Methyl CH₃–, Ethyl C₂H₅–, Propyl C₃H₇–.",
+[
+"-yl|yl",
+"Methyl",
+"Ethyl"
+],
+"begriff"
+],
+[
+"Warum heißt es 3,4-Dimethylheptan und nicht 4,5-?",
+"Man nummeriert von der Seite, die die kleineren Zahlen ergibt.",
+[
+"~kleinere Zahlen|kleinste"
+],
+""
+],
+[
+"Warum steht „Ethyl“ vor „Methyl“ im Namen?",
+"Alphabetische Reihenfolge; Vorsilben wie di-, tri- zählen nicht.",
+[
+"alphabetisch"
+],
+""
+],
+[
+"Was ist ein delokalisiertes π-System (Benzol)?",
+"Jedes C ist sp²; die 6 p-Orbitale überlappen ringsum → π-Elektronen gehören dem ganzen Ring (Kreis im Sechseck).",
+[
+"sp2",
+"~ganzen Ring|Ring",
+"p-Orbitale"
+],
+"begriff"
+],
+[
+"Was ist eine funktionelle Gruppe?",
+"Atomgruppe, an der die meisten Reaktionen eines Moleküls stattfinden – bestimmt das chemische Verhalten.",
+[
+"~Reaktionen|chemisches Verhalten",
+"Atomgruppe"
+],
+"begriff"
+],
+[
+"Aldehyd vs. Keton?",
+"Aldehyd: C=O am Kettenende (–CHO, Endung -al). Keton: C=O innerhalb der Kette (Endung -on).",
+[
+"Kettenende|Ende",
+"-al|al",
+"-on|on"
+],
+""
+],
+[
+"Benenne: CH₃COOH, CH₃COCH₃, CH₃CHO.",
+"Ethansäure (Essigsäure), Propanon (Aceton), Ethanal.",
+[
+"Ethansäure|Essigsäure",
+"Propanon|Aceton",
+"Ethanal"
+],
+""
+],
+[
+"Formel der Ester- und Amidgruppe?",
+"Ester –COO–, Amid –CONH₂.",
+[
+"COO",
+"CONH2"
+],
+""
+],
+[
+"Klausurtyp: Erkenne die Gruppen –OH und –CHO.",
+"–OH: Hydroxylgruppe (Alkohol) · –CHO: Aldehydgruppe (Aldehyd).",
+[
+"Hydroxyl",
+"Alkohol",
+"Aldehyd"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+10
+]
 ]
 }
 ]
@@ -4752,6 +5900,215 @@ const STOFF = {
 "c": [
 0,
 1
+],
+"mehr": [
+[
+"Warum ist Chemie eine „Querschnittswissenschaft“?",
+"Sie zieht sich durch das ganze Leben – Ernährung, Medizin, Energie, Werkstoffe, Umwelt – und ist eine Grundlage des naturwissenschaftlichen Verständnisses.",
+[
+"~ganzes Leben|überall|alle Bereiche",
+"Medizin|Ernährung|Energie|Umwelt"
+],
+"begriff"
+],
+[
+"Chemieindustrie in Deutschland: Umsatz und Beschäftigte?",
+"Umsatz inkl. Pharma > 200 Mrd. €, über 500.000 Beschäftigte (weltweit ca. 7.000 Mrd. €, Pharma ca. 2.000 Mrd. €).",
+[
+"200",
+"500"
+],
+""
+],
+[
+"Nenne fünf wichtige Industriezweige der Chemie.",
+"Grundstoffchemie (Ammoniak, Säuren), Kunststoffe, Pharma, Düngemittel, Farben/Lacke, Wasch-/Kosmetikmittel, Energie (Akkus, Raffinerie).",
+[
+"Pharma",
+"Kunststoffe|Polymere",
+"Dünger",
+"Grundstoff|Farben|Kosmetik|Energie"
+],
+""
+],
+[
+"Was macht analytische Chemie, was technische Chemie?",
+"Analytisch: Was ist drin und wie viel? Technisch: Verfahren im Großmaßstab.",
+[
+"~was ist drin|wie viel",
+"Großmaßstab|groß"
+],
+""
+],
+[
+"Wer stellte 1869 das Periodensystem auf?",
+"Mendelejew und Lothar Meyer.",
+[
+"Mendelejew",
+"Meyer"
+],
+""
+],
+[
+"Was bedeutet „átomos“?",
+"Unteilbar (griechische Vorstellung).",
+[
+"unteilbar"
+],
+"begriff"
+],
+[
+"Wie groß sind Atom, Atomkern und Bindungslänge?",
+"Atom ca. 0,06–0,5 nm; Kern einige fm (1/100.000 des Atoms); Bindungen 0,1–0,3 nm.",
+[
+"0,1|0,5",
+"fm|Femtometer",
+"100.000|100000"
+],
+""
+],
+[
+"Auflösung von Auge, Lichtmikroskop, Elektronenmikroskop?",
+"Auge ca. 0,2 mm · Lichtmikroskop knapp unter 1 µm · Elektronenmikroskop bis ca. 0,05 nm.",
+[
+"0,2",
+"1 µm|1 um|1",
+"0,05"
+],
+""
+],
+[
+"Was ist eine CAS-Nummer?",
+"Eindeutige Registriernummer jeder chemischen Verbindung (für Recherche).",
+[
+"~Nummer|Registriernummer",
+"Verbindung|Stoff"
+],
+"begriff"
+],
+[
+"Welche Methoden setzen an der Elektronenhülle an, welche am Kern?",
+"Hülle: Nasschemie (alle üblichen Reaktionen), UV, Fluoreszenz, Chromatografie, AAS, Elektrochemie. Kern: Kernchemie, NMR, radiochemische Verfahren.",
+[
+"Nasschemie|UV|Chromatografie",
+"NMR|Kernresonanz"
+],
+""
+],
+[
+"Masse von Elektron und Proton?",
+"Elektron 9,11·10⁻³¹ kg, Proton 1,67·10⁻²⁷ kg (1833-mal schwerer).",
+[
+"9,11",
+"1,67",
+"1833"
+],
+""
+],
+[
+"Die vier Grundkräfte?",
+"Starke, schwache, elektromagnetische Kraft, Gravitation.",
+[
+"stark",
+"schwach",
+"elektromagnetisch",
+"Gravitation"
+],
+""
+],
+[
+"Was ist das Standardpotential im PSE-Kästchen?",
+"„Reduktionspotential“: wie edel ein Element ist; hoch = edel, wird bei Elektrolyse eher abgeschieden.",
+[
+"edel",
+"Reduktion"
+],
+"begriff"
+],
+[
+"Wie viel ist 1 mol – und welches Volumen hat 1 mol Gas bei 0 °C bzw. 25 °C?",
+"6,022·10²³ Teilchen; 22,4 L (0 °C, 1013 hPa) bzw. 24,46 L (25 °C).",
+[
+"6,022",
+"22,4",
+"24,46|24,5"
+],
+""
+],
+[
+"Was ist die Loschmidt-Zahl?",
+"Teilchen pro cm³ idealen Gases (Normbedingungen): 2,687·10¹⁹.",
+[
+"2,687|2,7",
+"10^19|1019"
+],
+"begriff"
+],
+[
+"Normbedingungen (DIN) vs. Labor-Normalbedingungen?",
+"Norm: 0 °C (273,15 K), 1013,25 hPa. Labor: 20 °C, 1013,25 hPa.",
+[
+"0",
+"20",
+"1013"
+],
+""
+],
+[
+"Rechne: Wie viel AgCl fällt aus 1 g NaCl (M 58,5) mit AgNO₃ im Überschuss?",
+"n = 1/58,5 = 0,0171 mol → m(AgCl) = 0,0171 · 143,4 = 2,45 g.",
+[
+"0,0171",
+"2,45"
+],
+""
+],
+[
+"D- vs. C-Potenz?",
+"D: n Schritte 1 : 10 → Faktor 10⁻ⁿ. C: n Schritte 1 : 100 → Faktor 10⁻²ⁿ.",
+[
+"10",
+"100"
+],
+""
+],
+[
+"Klausurtyp Homöopathie: 10 g Arsenik (As₂O₃, M ≈ 200) in D30 – wie viele Moleküle bleiben?",
+"10/200 = 0,05 mol = 3·10²² Moleküle · 10⁻³⁰ = 3·10⁻⁸ Moleküle → praktisch kein einziges.",
+[
+"0,05",
+"3·10^22|3*10^22|3 10 22",
+"10^-8|10-8|kein"
+],
+"klausur"
+],
+[
+"Klausurtyp Homöopathie: Wie rechnest du ppm eines Elements in einer Tablette?",
+"m(Element) in mg / m(Tablette) in kg = ppm (1 ppm = 1 mg/kg). Element-Anteil: m(Wirkstoff) · (Atomzahl · M_Element)/M_Verbindung.",
+[
+"mg/kg|mg pro kg",
+"~Atomzahl mal Molmasse|Anteil"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+11
+],
+[
+"chem-alt",
+12
+],
+[
+"chem-alt",
+13
+],
+[
+"chem-alt",
+21
+]
 ]
 },
 {
@@ -4768,6 +6125,355 @@ const STOFF = {
 8,
 9,
 10
+],
+"mehr": [
+[
+"Wasserstoff: Oxidationsstufen und Isotope?",
+"+1 (H⁺) und −1 (Hydride). Isotope: Deuterium ²H (0,01 %), Tritium ³H (radioaktiv, β⁻, 12,3 a).",
+[
+"+1",
+"-1",
+"Deuterium",
+"Tritium"
+],
+""
+],
+[
+"Wasserstoffwirtschaft: Energie für 1 kg H₂ – und Hauptprobleme?",
+"9 kg Wasser und > 120 MJ (33 kWh) pro kg H₂; 1 kg H₂ ≈ 3 L Benzin. Probleme: Verflüssigen (> 4 kWh/kg), Transport, Verluste (kleines Molekül).",
+[
+"9",
+"33|120",
+"~Transport|Verflüssigen|Verluste"
+],
+""
+],
+[
+"Li-Ionen-Akku: Spannung und Reaktion an der Anode?",
+"Ca. 3,6 V (2,5–4,2 V). Anode (Ox.): Li → Li⁺ + e⁻.",
+[
+"3,6",
+"Li+|Li →"
+],
+""
+],
+[
+"Energiedichte Akku vs. Diesel?",
+"Akku ca. 0,2 (max. 0,4) kWh/kg; Diesel 12 kWh/kg (aber 50–70 % Verluste im Motor).",
+[
+"0,2",
+"12"
+],
+""
+],
+[
+"Helium: Siedepunkt, Vorkommen, Gewinnung?",
+"Niedrigster Siedepunkt aller Elemente (ca. −269 °C), wird bei Normaldruck nie fest; zweithäufigstes Element im Universum; Gewinnung aus Erdgas.",
+[
+"269",
+"Erdgas"
+],
+""
+],
+[
+"Warum heißt Kohlenstoff „Chamäleon der Elemente“?",
+"Viele Modifikationen (Diamant, Graphit, Fullerene, Nanotubes, Graphen) und Oxidationsstufen von −4 bis +4.",
+[
+"Diamant",
+"Graphit",
+"-4|+4"
+],
+""
+],
+[
+"Was ist Polymorphie?",
+"Ein Stoff kommt in mehreren Kristallformen vor (z. B. Kohlenstoff: Diamant, Graphit).",
+[
+"~mehrere Kristallformen|verschiedene Kristallformen"
+],
+"begriff"
+],
+[
+"Kritischer Punkt von CO₂ – wofür wird überkritisches CO₂ genutzt?",
+"31 °C / 74 bar; als Extraktionsmittel (z. B. Entkoffeinierung).",
+[
+"31",
+"74",
+"Extraktion"
+],
+""
+],
+[
+"Verhältnis ¹⁴C : ¹²C in Lebewesen – und wie misst man ¹⁴C?",
+"Ca. 1 : 10¹². Zählrohr (ungenauer) oder Beschleuniger-Massenspektrometrie (genauer).",
+[
+"10^12|1012",
+"Zählrohr|Massenspektrometrie"
+],
+""
+],
+[
+"Stickstoff: Oxidationsstufen und Luftanteil?",
+"−3 (NH₃) bis +5 (HNO₃); 78 Vol.-% der Luft als N₂ (Dreifachbindung, reaktionsträge).",
+[
+"-3",
+"+5",
+"78"
+],
+""
+],
+[
+"Wie werden H₂ und N₂ für Haber-Bosch gewonnen?",
+"H₂ aus Dampfreformierung (CH₄ + H₂O → CO + 3 H₂); N₂ aus Luft (Linde-Verfahren: Verflüssigung + fraktionierte Destillation).",
+[
+"Dampfreformierung|Methan",
+"Linde|Luft"
+],
+""
+],
+[
+"Wie viel NH₃ wird jährlich produziert – wie viele Menschen ernährt der Dünger?",
+"Ca. 150 Mio. t; ernährt rund die Hälfte der Weltbevölkerung.",
+[
+"150",
+"Hälfte"
+],
+""
+],
+[
+"Woraus besteht Schwarzpulver?",
+"KNO₃ + S + C (der Sauerstoff zur Oxidation steckt im KNO₃).",
+[
+"KNO3|Salpeter",
+"S|Schwefel",
+"C|Kohle"
+],
+""
+],
+[
+"Sauerstoff: Anteil in Luft und Erdkruste?",
+"21 Vol.-% der Luft, ca. 50 % der Erdkruste (Oxide, Silikate, Carbonate).",
+[
+"21",
+"50"
+],
+""
+],
+[
+"Was sind PFAS?",
+"Per- und polyfluorierte Alkylverbindungen, „Ewigkeitschemikalien“ (z. B. Teflon/PTFE) – kaum abbaubar.",
+[
+"fluoriert|Fluor",
+"Ewigkeit"
+],
+"begriff"
+],
+[
+"Warum fluoriert man Arzneistoffe?",
+"Höhere Lipophilie → bessere Wirkung (z. B. Dexamethason, Desfluran).",
+[
+"Lipophilie|lipophil"
+],
+""
+],
+[
+"Silicium: Anteil der Erdkruste – Quarz vs. Glas?",
+"Ca. 25 %. Quarz SiO₂ kristallin (Smp. 1710 °C), Glas amorph.",
+[
+"25",
+"kristallin",
+"amorph"
+],
+""
+],
+[
+"Wie schützt man Eisen vor Rost?",
+"Verzinken: das unedlere Zink wird statt des Eisens oxidiert.",
+[
+"Zink|verzinken",
+"unedler"
+],
+""
+],
+[
+"Drei Eisenerze?",
+"Magnetit Fe₃O₄, Hämatit Fe₂O₃, Siderit FeCO₃.",
+[
+"Magnetit",
+"Hämatit",
+"Siderit"
+],
+""
+],
+[
+"Was ist ein Schwermetall?",
+"Metall mit Dichte > 5 g/cm³ (z. B. Fe, As, Cu, Pb).",
+[
+"5"
+],
+"begriff"
+],
+[
+"Marsh’sche Probe – wofür und wie?",
+"Nachweis von Arsen: Zn + HCl → H₂ → mit As → AsH₃ → beim Verbrennen Arsenspiegel.",
+[
+"Arsen",
+"AsH3|Arsenwasserstoff",
+"Spiegel"
+],
+""
+],
+[
+"Kupfer: Leitfähigkeit, Standardpotential, Messing?",
+"5,8·10⁷ S/m (nur Silber besser); E° = +0,34 V („halbedel“); Cu + Zn = Messing.",
+[
+"0,34",
+"Messing",
+"Silber"
+],
+""
+],
+[
+"Was ist eine Diode, was ein Transistor?",
+"Diode: pn-Übergang, Ventil (Strom nur in eine Richtung). Transistor: npn/pnp, Schalter (1/0).",
+[
+"Ventil|eine Richtung",
+"Schalter"
+],
+"begriff"
+],
+[
+"Reihenfolge der besten elektrischen Leiter?",
+"Ag > Cu > Au > Al.",
+[
+"Ag|Silber",
+"Cu|Kupfer",
+"Au|Gold",
+"Al|Aluminium"
+],
+""
+],
+[
+"Was ist Königswasser?",
+"Konz. HCl : HNO₃ = 3 : 1 – löst Gold und Platin.",
+[
+"HCl",
+"HNO3",
+"3 : 1|3:1",
+"Gold|Platin"
+],
+"begriff"
+],
+[
+"Was sind Seltene Erden – sind sie selten?",
+"17 Elemente (Lanthanoide + Sc + Y), gar nicht so selten, aber schwer zu gewinnen (v. a. China); Magnete, Leuchtmittel, Kontrastmittel.",
+[
+"17",
+"~nicht selten|gar nicht"
+],
+"begriff"
+],
+[
+"Was ist „Yellow Cake“?",
+"(NH₄)₂U₂O₇ – Uran-Zwischenprodukt aus Pechblende.",
+[
+"Uran"
+],
+"begriff"
+],
+[
+"Natürlicher Treibhauseffekt: wie viel Grad und wichtigstes Treibhausgas?",
+"Ca. 33 K (+15 °C statt −18 °C); Wasserdampf (ca. 20 K), dann CO₂ (ca. 7 K).",
+[
+"33",
+"Wasserdampf|H2O"
+],
+""
+],
+[
+"Was ist die Albedo?",
+"Anteil der reflektierten Sonnenstrahlung (Erde ca. 30 %).",
+[
+"~reflektiert|Rückstrahlung",
+"30"
+],
+"begriff"
+],
+[
+"Wie viel stärker wirkt Methan als CO₂ (GWP)?",
+"Ca. 25-mal.",
+[
+"25"
+],
+""
+],
+[
+"Was sind Kippelemente?",
+"Nichtlineare Effekte im Klimasystem, die nach Überschreiten einer Schwelle selbstverstärkend kippen.",
+[
+"nichtlinear",
+"~Schwelle|selbstverstärkend|kippen"
+],
+"begriff"
+],
+[
+"Klausurtyp Finde die Gemeinsamkeit: He, Ne, Ar, Kr, Xe?",
+"Edelgase (Gruppe 18): volle Schale, inert, einatomig.",
+[
+"Edelgase"
+],
+"klausur"
+],
+[
+"Klausurtyp Finde die Gemeinsamkeit: Au, Pt, Pd, Ag, Rh?",
+"Edelmetalle: hohes Standardpotential, oxidationsbeständig.",
+[
+"Edelmetalle|edel"
+],
+"klausur"
+],
+[
+"Klausurtyp Finde die Gemeinsamkeit: CO₂, CH₄, N₂O, H₂O, O₃?",
+"Treibhausgase (absorbieren IR-Rückstrahlung).",
+[
+"Treibhausgase|Treibhaus"
+],
+"klausur"
+],
+[
+"Klausurtyp R/F: „Silicium ist ein sehr guter elektrischer Leiter.“",
+"Falsch – Silicium ist ein Halbleiter.",
+[
+"falsch",
+"Halbleiter"
+],
+"klausur"
+],
+[
+"Klausurtyp R/F: „In reinem Stickstoff brennt nichts.“",
+"Richtig – N₂ ist reaktionsträge (Dreifachbindung).",
+[
+"richtig",
+"reaktionsträge|Dreifachbindung"
+],
+"klausur"
+],
+[
+"Klausurtyp R/F: „Natururan ist stark radioaktiv und vollständig spaltbar.“",
+"Falsch – 99,3 % ²³⁸U, schwach radioaktiv; nur ²³⁵U (0,7 %) ist spaltbar.",
+[
+"falsch",
+"99,3",
+"235"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+22
+]
 ]
 },
 {
@@ -4780,6 +6486,172 @@ const STOFF = {
 13,
 14,
 15
+],
+"mehr": [
+[
+"Dichte von Feststoff, Flüssigkeit, Gas (Größenordnung)?",
+"Fest ca. 0,1–23 g/mL, flüssig ca. 0,7–1,5 g/mL (Hg 13,6), Gas ca. 0,001 g/mL.",
+[
+"0,001",
+"13,6|23"
+],
+""
+],
+[
+"Warum ist Cp > Cv?",
+"Bei konstantem Druck muss zusätzlich Volumenarbeit geleistet werden.",
+[
+"Volumenarbeit"
+],
+""
+],
+[
+"Was ist ein überkritisches Fluid?",
+"Zustand oberhalb von T_krit und p_krit: nur eine Phase, nicht mehr durch Druck verflüssigbar (z. B. CO₂-Extraktion, Kraftwerke).",
+[
+"~eine Phase|nur eine Phase",
+"kritisch"
+],
+"begriff"
+],
+[
+"Was ist der Tripelpunkt?",
+"Punkt im Zustandsdiagramm, an dem alle drei Phasen im Gleichgewicht sind.",
+[
+"~drei Phasen|alle drei"
+],
+"begriff"
+],
+[
+"Bei welcher Temperatur hat Wasser die größte Dichte – um wie viel dehnt es sich beim Gefrieren aus?",
+"3,98 °C (≈ 4 °C); ca. 9 % Volumenzunahme beim Gefrieren.",
+[
+"4|3,98",
+"9"
+],
+""
+],
+[
+"Kritischer Punkt von Wasser?",
+"374 °C / 22,1 MPa.",
+[
+"374",
+"22,1"
+],
+""
+],
+[
+"Was ist Sublimation – Anwendung?",
+"Direkter Übergang fest → gasförmig (unterhalb des Tripelpunkts) – Gefriertrocknung.",
+[
+"~fest zu gasförmig|fest → gas",
+"Gefriertrocknung"
+],
+"begriff"
+],
+[
+"Die 7 Kristallsysteme?",
+"Triklin, monoklin, orthorhombisch, tetragonal, trigonal, hexagonal, kubisch.",
+[
+"triklin",
+"monoklin",
+"orthorhombisch",
+"tetragonal",
+"trigonal",
+"hexagonal",
+"kubisch"
+],
+""
+],
+[
+"Flächenzentriert vs. raumzentriert?",
+"Zusätzliche Teilchen auf den Flächenmitten bzw. in der Raummitte der Elementarzelle.",
+[
+"Flächen",
+"Raum|Mitte"
+],
+"begriff"
+],
+[
+"Was sind Enantiomere?",
+"Spiegelbildliche Moleküle (chiral): physikalisch gleich, pharmakologisch oft sehr verschieden.",
+[
+"spiegelbild|Spiegel",
+"chiral|pharmakologisch"
+],
+"begriff"
+],
+[
+"Was gehört zur Präformulierung eines Wirkstoffs (Pharma)?",
+"Stabilität (Feuchte, Licht, O₂, pH), Kompatibilität, Korngröße, Löslichkeit, Schmelzpunkt (DSC), Härte/Verpressbarkeit, Spektren.",
+[
+"Stabilität",
+"Löslichkeit|Korngröße|Schmelzpunkt"
+],
+"begriff"
+],
+[
+"Gitterenthalpie vs. Gitterenergie?",
+"Gitterenthalpie = Gitterenergie + Volumenarbeit p·ΔV.",
+[
+"Volumenarbeit|pΔV|p·ΔV"
+],
+"begriff"
+],
+[
+"Gitterenthalpie von NaCl, MgO, Al₂O₃?",
+"788 · 3930 · 15160 kJ/mol.",
+[
+"788",
+"3930",
+"15160"
+],
+""
+],
+[
+"Was ist die Wärmetönung beim Lösen?",
+"Ob die Lösung warm oder kalt wird – Bilanz aus Gitterenergie (kostet) und Hydratationsenthalpie (wird frei).",
+[
+"Gitter",
+"Hydratation"
+],
+"begriff"
+],
+[
+"Was ist ein Mischschmelzpunkt?",
+"Verunreinigung senkt den Schmelzpunkt → Identitätsprüfung durch Mischen mit Referenz.",
+[
+"~senkt den Schmelzpunkt|Verunreinigung"
+],
+"begriff"
+],
+[
+"Bis wie viel Grad wirkt Streusalz höchstens?",
+"Bis zum eutektischen Punkt NaCl/Wasser, ca. −21 °C.",
+[
+"21"
+],
+""
+],
+[
+"Was sind Flüssigkristalle – Anwendung?",
+"Optisch anisotrop, richten sich im elektrischen Feld aus → LCD-Displays; auch in Salben/Cremes.",
+[
+"anisotrop|ausrichten",
+"Display|LCD"
+],
+"begriff"
+],
+[
+"Klausurtyp: Warum ist Eislaufen möglich?",
+"Anomalie des Wassers: Eis ist weniger dicht, die Schmelzkurve neigt sich nach links → Druck der Kufen kann Eis schmelzen (Wasserfilm).",
+[
+"Druck",
+"~schmilzt|Schmelzen",
+"Anomalie|Dichte"
+],
+"klausur"
+]
 ]
 },
 {
@@ -4789,6 +6661,155 @@ const STOFF = {
 "c": [
 16,
 17
+],
+"mehr": [
+[
+"Offenes, geschlossenes, abgeschlossenes System?",
+"Offen: Materie und Energie austauschbar. Geschlossen: nur Energie. Abgeschlossen: weder noch.",
+[
+"~Materie und Energie",
+"~nur Energie",
+"~weder noch|nichts"
+],
+"begriff"
+],
+[
+"Was ist eine Phase?",
+"Einheitlicher Stoffbereich mit gleichen Eigenschaften (z. B. Öl und Wasser = 2 Phasen).",
+[
+"einheitlich|gleiche Eigenschaften"
+],
+"begriff"
+],
+[
+"Was ist eine Zustandsgröße?",
+"Größe, die den Zustand beschreibt, unabhängig vom Weg dahin (z. B. p, V, T, U, H, S).",
+[
+"~unabhängig vom Weg|Weg egal"
+],
+"begriff"
+],
+[
+"Intensive vs. extensive Größe?",
+"Intensiv: unabhängig von der Systemgröße (T, p, Dichte). Extensiv: abhängig, addierbar (m, V, n).",
+[
+"~unabhängig|T|p",
+"~abhängig|m|V"
+],
+"begriff"
+],
+[
+"Was bedeutet isentrop?",
+"Entropie bleibt konstant.",
+[
+"Entropie"
+],
+"begriff"
+],
+[
+"Rechne: 2 mol ideales Gas bei 300 K und 100 kPa – Volumen?",
+"V = nRT/p = 2 · 8,314 · 300 / 100 000 ≈ 0,050 m³ = 50 L.",
+[
+"50|0,05"
+],
+""
+],
+[
+"Was ist ein Partialdruck?",
+"Druck, den ein Gas hätte, wenn es das Volumen allein ausfüllen würde.",
+[
+"~allein|alleine"
+],
+"begriff"
+],
+[
+"Wofür stehen a und b in der van-der-Waals-Gleichung?",
+"a: Wechselwirkung zwischen Teilchen; b: Eigenvolumen der Teilchen.",
+[
+"Wechselwirkung",
+"Eigenvolumen"
+],
+""
+],
+[
+"Mittlere Molmasse trockener Luft?",
+"28,95 g/mol (gewichteter Mittelwert, keine Summe).",
+[
+"28,95|29"
+],
+""
+],
+[
+"Ist feuchte Luft schwerer oder leichter als trockene?",
+"Leichter – H₂O hat nur 18 g/mol.",
+[
+"leichter",
+"18"
+],
+""
+],
+[
+"Luftdruck auf 2000 m und 8000 m (Höhenformel)?",
+"Ca. 795 hPa bzw. 356 hPa.",
+[
+"795",
+"356"
+],
+""
+],
+[
+"Warum entmischen sich Gase nie von selbst?",
+"Statistik der großen Zahlen: Gleichverteilung hat ungeheuer viel mehr Anordnungsmöglichkeiten; bei 10²³ Teilchen ist Entmischung praktisch unmöglich (Entropie).",
+[
+"~mehr Anordnungsmöglichkeiten|Statistik|Wahrscheinlichkeit",
+"Entropie"
+],
+""
+],
+[
+"Mittlere Geschwindigkeit von N₂ bei 300 K?",
+"v̄ = √(8RT/(πM)) ≈ 476 m/s (M in kg/mol!).",
+[
+"476"
+],
+""
+],
+[
+"Was sagt die Boltzmann-Verteilung?",
+"Je höher T, desto mehr Teilchen besetzen hohe Energieniveaus: Nᵢ = N₀·gᵢ·e^(−Eᵢ/kT).",
+[
+"~höhere Temperatur mehr Teilchen|höhere Energie",
+"Energieniveau"
+],
+"begriff"
+],
+[
+"Was ist die Temperatur bei Gasen?",
+"Maß für die mittlere kinetische Energie der Teilchen (E_kin = 1,5·n·R·T).",
+[
+"kinetische Energie"
+],
+"begriff"
+],
+[
+"Klausurtyp R/F: „In reinem O₂ sind 100-mal so viele O₂-Moleküle wie in Luft.“",
+"Falsch – nur ca. 5-mal (Luft hat 21 % O₂).",
+[
+"falsch",
+"5"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+23
+],
+[
+"chem-alt",
+30
+]
 ]
 },
 {
@@ -4804,6 +6825,183 @@ const STOFF = {
 23,
 24,
 25
+],
+"mehr": [
+[
+"Was ist Oberflächenspannung – Wert von Wasser?",
+"Zusammenhaltende Kraft an der Oberfläche nach innen [N/m]; Wasser 72,8 mN/m (sinkt mit steigender T).",
+[
+"~nach innen|Zusammenhalt",
+"72,8"
+],
+"begriff"
+],
+[
+"Warum sind Ethanoltropfen kleiner als Wassertropfen?",
+"Ethanol hat eine viel kleinere Oberflächenspannung (22,6 statt 72,8 mN/m).",
+[
+"Oberflächenspannung"
+],
+""
+],
+[
+"Was ist Viskosität – wie ändert sie sich mit T?",
+"Innere Reibung [Pa·s]; bei Flüssigkeiten sinkt sie stark mit steigender T (bei Gasen steigt sie).",
+[
+"~innere Reibung|Zähigkeit",
+"sinkt"
+],
+"begriff"
+],
+[
+"Pseudoplastisch vs. dilatant?",
+"Pseudoplastisch: scherverdünnend (wird beim Rühren flüssiger). Dilatant: scherverdickend.",
+[
+"scherverdünnend|flüssiger",
+"scherverdickend|dicker"
+],
+"begriff"
+],
+[
+"Was beschreibt die Young-Gleichung?",
+"Benetzung: Kontaktwinkel aus den Grenzflächenspannungen; kleiner Winkel = gute Benetzung.",
+[
+"Benetzung",
+"Kontaktwinkel|Winkel"
+],
+"begriff"
+],
+[
+"Warum hat Wasser trotz M = 18 einen so hohen Siedepunkt?",
+"Wasserstoffbrücken (gewinkelt, polar) → Cluster; hohe Verdampfungsenthalpie.",
+[
+"Wasserstoffbrücken|H-Brücken"
+],
+""
+],
+[
+"Wärmekapazität und Verdampfungsenthalpie von Wasser?",
+"4,184 kJ/(kg·K); 2455 kJ/kg (44,2 kJ/mol).",
+[
+"4,184",
+"2455|44,2"
+],
+""
+],
+[
+"Dampf vs. Nebel?",
+"Dampf: gasförmig, molekular verteilt, unsichtbar. Nebel: Tröpfchen in Luft (Aerosol, zwei Phasen).",
+[
+"unsichtbar|gasförmig",
+"Tröpfchen|Aerosol"
+],
+"begriff"
+],
+[
+"Was ist ein Siedeverzug?",
+"Flüssigkeit wird über den Siedepunkt überhitzt und siedet dann plötzlich eruptiv.",
+[
+"überhitzt",
+"plötzlich|eruptiv"
+],
+"begriff"
+],
+[
+"Wie viel Liter Dampf entstehen aus 1 L Wasser?",
+"Ca. 1573 L (bei 1013 hPa).",
+[
+"1573"
+],
+""
+],
+[
+"Dampfdruck von Wasser bei 20 °C und 100 °C?",
+"23,4 hPa bzw. 1013 hPa.",
+[
+"23",
+"1013"
+],
+""
+],
+[
+"Ethanol: Flammpunkt und Explosionsgrenzen?",
+"Flammpunkt 12 °C; 3,4–15 Vol.-%; Zündtemperatur 425 °C.",
+[
+"12",
+"3,4",
+"15"
+],
+""
+],
+[
+"Henry-Dalton: Wie viel O₂ löst sich aus Luft (0,2 bar) in Wasser?",
+"c = 0,2 · 1,3·10⁻³ = 2,6·10⁻⁴ mol/L ≈ 8,3 mg/L.",
+[
+"2,6",
+"8,3"
+],
+""
+],
+[
+"Drei Anwendungen der Gaslöslichkeit?",
+"Taucherkrankheit, Inhalationsnarkose, O₂ im Gewässer (warm → weniger O₂).",
+[
+"Taucher",
+"Narkose",
+"Gewässer|Fische|Aquarium"
+],
+""
+],
+[
+"Was ist ein Azeotrop – Beispiel?",
+"Gemisch, das nicht weiter durch Destillation getrennt werden kann – Ethanol/Wasser bei 95,6 % m/m.",
+[
+"~nicht weiter trennbar|nicht trennbar",
+"95,6"
+],
+"begriff"
+],
+[
+"Ab welcher Siedepunktsdifferenz reicht einfache Destillation?",
+"> 80 K.",
+[
+"80"
+],
+""
+],
+[
+"Was ist eine Kolonne?",
+"Vielfach-Destillation mit Rücklauf (Böden), nötig wenn Siede- und Taulinie eng beieinander liegen.",
+[
+"~Vielfach|mehrfach",
+"Rücklauf|Böden"
+],
+"begriff"
+],
+[
+"Cracken vs. Reforming?",
+"Cracken: lange Ketten in kürzere spalten. Reforming: Oktanzahl erhöhen.",
+[
+"kürzer",
+"Oktanzahl"
+],
+"begriff"
+],
+[
+"Klausurtyp R/F: „Der Dampfdruck steigt linear mit der Temperatur.“",
+"Falsch – exponentiell (Clausius-Clapeyron).",
+[
+"falsch",
+"exponentiell"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+27
+]
 ]
 },
 {
@@ -4818,6 +7016,240 @@ const STOFF = {
 30,
 31,
 32
+],
+"mehr": [
+[
+"Was ist Stöchiometrie?",
+"Berechnung der Zusammensetzung von Verbindungen mit Atom-/Molekülmassen und Reaktionsgleichungen.",
+[
+"Berechnung",
+"Reaktionsgleichung|Zusammensetzung"
+],
+"begriff"
+],
+[
+"Wozu Messkolben, Vollpipette, Messzylinder, Bürette?",
+"Messkolben/Vollpipette: exakte Volumina · Messzylinder: grob · Bürette: Titration.",
+[
+"exakt",
+"grob",
+"Titration"
+],
+""
+],
+[
+"d-Wert vs. e-Wert einer Waage?",
+"d: Ablesbarkeit. e: Eichwert.",
+[
+"Ablesbarkeit",
+"Eichwert"
+],
+"begriff"
+],
+[
+"Warum Temperatur beim Abmessen von Volumina beachten?",
+"Flüssigkeiten dehnen sich aus (Wasser 0,2 ‰/K, Alkohole 1–1,5 ‰/K; Glas nur 0,01 ‰/K).",
+[
+"~dehnt sich aus|Ausdehnung"
+],
+""
+],
+[
+"Molarität vs. Molalität – wann welche?",
+"Molarität: mol pro L Lösung (Standard). Molalität: mol pro kg Lösungsmittel (kolligative Eigenschaften, T-unabhängig).",
+[
+"L Lösung|Liter",
+"kg Lösungsmittel|kg",
+"kolligativ"
+],
+""
+],
+[
+"Was ist Normalität – Beispiel H₂SO₄?",
+"Äquivalente (H⁺/OH⁻) pro Liter: 1 n H₂SO₄ = 0,5 mol/L.",
+[
+"Äquivalent",
+"0,5"
+],
+"begriff"
+],
+[
+"Warum sind Volumina beim Mischen nicht additiv?",
+"Volumenkontraktion (z. B. Ethanol + Wasser: 1 mL + 1 mL < 2 mL).",
+[
+"Kontraktion|kleiner"
+],
+""
+],
+[
+"Rechne: 0,1 mol/L NaCl – wie viel g pro Liter?",
+"0,1 · 58,44 = 5,844 g.",
+[
+"5,844|5,84"
+],
+""
+],
+[
+"Rechne: Bier 5 % V/V – wie viel g Ethanol pro Liter?",
+"50 mL · 0,789 g/mL = 39,5 g.",
+[
+"39,5"
+],
+""
+],
+[
+"Formel zum Verdünnen?",
+"c₁ · V₁ = c₂ · V₂.",
+[
+"c1 · V1 = c2 · V2|c1V1=c2V2|c1*V1"
+],
+""
+],
+[
+"Regeln zum Aufstellen einer Reaktionsgleichung?",
+"Edukte/Produkte kennen · Massenbilanz · Ladungsbilanz · passende Oxidationsstufen · kleinste ganze Zahlen · Aggregatzustände.",
+[
+"Massenbilanz|Atome",
+"Ladung"
+],
+""
+],
+[
+"Gleiche aus: C₂H₆ + O₂ → CO₂ + H₂O.",
+"2 C₂H₆ + 7 O₂ → 4 CO₂ + 6 H₂O.",
+[
+"2",
+"7",
+"4",
+"6"
+],
+""
+],
+[
+"Oxidationszahlregeln für F, O, H?",
+"F immer −1 · O meist −2 (Peroxide −1) · H meist +1 (Metallhydride −1).",
+[
+"-1",
+"-2",
+"+1"
+],
+""
+],
+[
+"Oxidationszahl von S in H₂SO₄?",
+"2·(+1) + S + 4·(−2) = 0 → S = +6.",
+[
+"+6|6"
+],
+""
+],
+[
+"Was ist Disproportionierung?",
+"Ein Element geht aus einer Oxidationsstufe gleichzeitig in eine höhere und eine niedrigere über (Umkehrung: Kom-/Synproportionierung).",
+[
+"~höhere und niedrigere|zwei Oxidationsstufen"
+],
+"begriff"
+],
+[
+"Farben von Mangan in den Oxidationsstufen +7, +6, +4, +2?",
+"MnO₄⁻ violett · MnO₄²⁻ grün · MnO₂ braun · Mn²⁺ fast farblos/blassrosa.",
+[
+"violett",
+"grün",
+"braun"
+],
+""
+],
+[
+"Löslichkeitsbegriffe Ph. Eur.: „leicht löslich“ und „praktisch unlöslich“?",
+"Leicht löslich: 1–10 mL Lösungsmittel je g. Praktisch unlöslich: > 10.000 mL je g.",
+[
+"1",
+"10",
+"10.000|10000"
+],
+""
+],
+[
+"Warum ist Ag₂CrO₄ löslicher als AgCl, obwohl L kleiner ist?",
+"Es zerfällt in 3 Ionen: c = ³√(L/4) = 6,5·10⁻⁵ mol/L vs. AgCl √L = 1,3·10⁻⁵ mol/L.",
+[
+"3",
+"Ionen"
+],
+""
+],
+[
+"Wann fällt ein Salz aus?",
+"Wenn das Ionenprodukt (Konzentrationen nach dem Mischen!) größer als L ist.",
+[
+"~Ionenprodukt größer als L|größer"
+],
+""
+],
+[
+"Wie lösen sich Basen (z. B. Morphin) und Säuren pH-abhängig?",
+"Basen lösen sich im Sauren besser (als Salz), Säuren im Basischen (dissoziiert).",
+[
+"~Basen im Sauren",
+"~Säuren im Basischen"
+],
+""
+],
+[
+"Was sagt die Noyes-Whitney-Gleichung?",
+"Lösungsgeschwindigkeit dm/dt = (D/h)·A·(cs − c): größere Oberfläche (kleine Körner) und Rühren (dünnere Diffusionsschicht) beschleunigen.",
+[
+"Oberfläche",
+"Rühren|Diffusionsschicht"
+],
+"begriff"
+],
+[
+"Was ist der van-’t-Hoff-Faktor – Werte für NaCl, CaCl₂, Glucose?",
+"Teilchen pro Formeleinheit: 2, 3, 1.",
+[
+"2",
+"3",
+"1"
+],
+"begriff"
+],
+[
+"Kb und Kf von Wasser?",
+"Kb = 0,51 K·kg/mol (ebullioskopisch), Kf = 1,86 K·kg/mol (kryoskopisch).",
+[
+"0,51",
+"1,86"
+],
+""
+],
+[
+"Gefrierpunkt von Meerwasser (3,5 %)?",
+"Ca. −1,9 °C.",
+[
+"1,9"
+],
+""
+],
+[
+"Rechne: 10 g NaCl in 1 L Wasser – um wie viel steigt der Siedepunkt?",
+"b = 0,171 mol/kg, i = 2 → ΔT = 0,51 · 0,171 · 2 ≈ 0,17 K.",
+[
+"0,17"
+],
+""
+],
+[
+"Klausurtyp: Limitierender Reaktant – 2 mol CO₂ + 5 mol H₂ (CO₂ + 3 H₂ → CH₃OH + H₂O)?",
+"Für 2 mol CO₂ bräuchte man 6 mol H₂ → H₂ limitiert → 5/3 = 1,67 mol Methanol.",
+[
+"H2",
+"1,67"
+],
+"klausur"
+]
 ]
 },
 {
@@ -4832,6 +7264,190 @@ const STOFF = {
 37,
 38,
 39
+],
+"mehr": [
+[
+"Was ist der Reaktionsquotient Q?",
+"MWG-Ausdruck mit den aktuellen Konzentrationen; Q < K → Reaktion läuft zu den Produkten, Q > K → zu den Edukten.",
+[
+"aktuell",
+"~Q kleiner K Produkte|Produkte"
+],
+"begriff"
+],
+[
+"Rechne Q: 0,1 mol Br₂, 0,3 mol Cl₂, 0,05 mol BrCl (K = 2,17) – wohin läuft die Reaktion?",
+"Q = 0,05²/(0,1·0,3) = 0,083 < K → Richtung BrCl.",
+[
+"0,083",
+"BrCl|Produkte|rechts"
+],
+""
+],
+[
+"Was ist das Prinzip vom kleinsten Zwang?",
+"Le Chatelier: Ein System im Gleichgewicht weicht einem äußeren Zwang (Druck, T, Konzentration) so aus, dass der Zwang verringert wird.",
+[
+"Le Chatelier",
+"~weicht aus|ausweichen"
+],
+"begriff"
+],
+[
+"Wie verschiebt man das Gleichgewicht zu mehr Produkt (z. B. ASS-Synthese)?",
+"Produkt entfernen (z. B. Wasser abtrennen) oder Edukt zugeben.",
+[
+"~Produkt entfernen|Wasser abtrennen",
+"~Edukt zugeben"
+],
+""
+],
+[
+"Was ist amphoter – Beispiele?",
+"Kann als Säure und Base reagieren: H₂O, NH₃.",
+[
+"~Säure und Base",
+"H2O|Wasser"
+],
+"begriff"
+],
+[
+"Was ist ein korrespondierendes Säure-Base-Paar?",
+"Säure und die Base, die nach Abgabe des H⁺ entsteht (HA/A⁻); starke Säure ↔ schwache konjugierte Base.",
+[
+"HA",
+"A-|Base"
+],
+"begriff"
+],
+[
+"pKs + pKb = ?",
+"14 (in Wasser, 25 °C).",
+[
+"14"
+],
+""
+],
+[
+"Was sind oxidierende Säuren?",
+"Oxosäuren wie HNO₃, H₂SO₄, deren Anion zusätzlich oxidieren kann.",
+[
+"HNO3|H2SO4",
+"oxidieren"
+],
+"begriff"
+],
+[
+"Reagiert NaHCO₃ sauer oder basisch?",
+"Basisch – Salz aus starker Base und schwacher Säure.",
+[
+"basisch"
+],
+""
+],
+[
+"Welchen pH hat neutrales Wasser bei 50 °C?",
+"6,63 – Kw ist temperaturabhängig.",
+[
+"6,63"
+],
+""
+],
+[
+"Rechne: pH von 0,01 mol/L HCl.",
+"Starke Säure: pH = −log 0,01 = 2.",
+[
+"2"
+],
+""
+],
+[
+"Rechne: pH von 0,01 mol/L Essigsäure (pKs 4,75).",
+"pH = ½(4,75 − log 0,01) = ½(4,75 + 2) = 3,38; Dissoziationsgrad 4,2 %.",
+[
+"3,38",
+"4,2"
+],
+""
+],
+[
+"Was ist der Äquivalenzpunkt?",
+"Punkt der Titration, an dem n(H⁺) = n(OH⁻) – Wendepunkt der Titrationskurve.",
+[
+"~n(H+) = n(OH-)|gleich viel",
+"Wendepunkt"
+],
+"begriff"
+],
+[
+"Warum sind Indikatoren eine Fehlerquelle?",
+"Sie sind selbst schwache Säuren/Basen (Indikatorfehler); auch CO₂ aus der Luft stört.",
+[
+"~selbst Säuren|schwache Säure",
+"CO2"
+],
+""
+],
+[
+"Wann gilt pH = pKs beim Puffer?",
+"Wenn c(A⁻) = c(HA).",
+[
+"~gleich|c(A-) = c(HA)"
+],
+""
+],
+[
+"Rechne: Acetatpuffer (je 0,1 mol/L) + 0,05 mol/L HCl – neuer pH?",
+"Acetat 0,05, Essigsäure 0,15 → pH = 4,75 + log(0,05/0,15) = 4,27 (ohne Puffer pH 1,3).",
+[
+"4,27"
+],
+""
+],
+[
+"Was ist die Pufferkapazität?",
+"Wie viel Säure/Base man zugeben kann bis zu einer bestimmten pH-Änderung.",
+[
+"~wie viel Säure|Menge"
+],
+"begriff"
+],
+[
+"Warum sind Laugenverätzungen gefährlicher als Säureverätzungen?",
+"Laugen verseifen Gewebe und gehen in die Tiefe; Säuren bilden eine Koagulationsnekrose, die sich selbst begrenzt.",
+[
+"Verseifung|Tiefe",
+"Koagulation|begrenzt"
+],
+""
+],
+[
+"Klausurtyp R/F: „Ein Katalysator verschiebt das Gleichgewicht zu den Produkten.“",
+"Falsch – er ändert die Lage nicht, das Gleichgewicht stellt sich nur schneller ein.",
+[
+"falsch",
+"schneller|Lage"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+24
+],
+[
+"chem-alt",
+25
+],
+[
+"chem-alt",
+26
+],
+[
+"chem-alt",
+31
+]
 ]
 },
 {
@@ -4844,6 +7460,194 @@ const STOFF = {
 42,
 43,
 44
+],
+"mehr": [
+[
+"Reaktion 0. Ordnung – Beispiel?",
+"Konstante Menge pro Zeit (linear), z. B. Ethanolabbau in der Leber (Enzymsättigung, 0,10–0,15 ‰/h).",
+[
+"~konstante Menge|linear",
+"Ethanol|Alkohol"
+],
+""
+],
+[
+"Reaktion 1. Ordnung – Merkmal?",
+"Konstanter Anteil pro Zeit (exponentiell); Halbwertszeit ln 2/k unabhängig von c₀.",
+[
+"~konstanter Anteil|exponentiell",
+"unabhängig"
+],
+""
+],
+[
+"t₁/₂ bei 2. Ordnung?",
+"1/(k·c₀) – hängt von der Anfangskonzentration ab.",
+[
+"1/(k·c0)|1/(k c0)",
+"Anfangskonzentration|c0"
+],
+""
+],
+[
+"Was ist pseudo-1. Ordnung?",
+"Eigentlich 2. Ordnung, aber ein Partner (Wasser) im großen Überschuss bleibt praktisch konstant → verhält sich wie 1. Ordnung (Hydrolyse von Arzneistoffen).",
+[
+"Überschuss",
+"Wasser|konstant"
+],
+"begriff"
+],
+[
+"Wie viel Wirkstoff muss am Ende der Laufzeit noch enthalten sein?",
+"Meist 90 % (95 %) des deklarierten Gehalts; Laufzeit max. 5 Jahre.",
+[
+"90",
+"5"
+],
+""
+],
+[
+"Rechne: t₁/₂ = 12 Monate – nach wie vielen Monaten sind 10 % zerfallen?",
+"k = ln 2/12 = 0,0578/Monat; t = ln(1/0,9)/k = 0,1054/0,0578 ≈ 1,82 Monate.",
+[
+"0,0578",
+"1,82"
+],
+""
+],
+[
+"Was zeigt der Arrhenius-Plot?",
+"ln k gegen 1/T ergibt eine Gerade mit Steigung −E_A/R.",
+[
+"ln k",
+"1/T",
+"-EA/R|EA/R"
+],
+"begriff"
+],
+[
+"Was ist ein Stresstest bei Arzneimitteln?",
+"Lagerung bei hoher Temperatur, Extrapolation auf Lagertemperatur (Arrhenius) → Haltbarkeit abschätzen.",
+[
+"hohe Temperatur",
+"Extrapol"
+],
+"begriff"
+],
+[
+"Was misst das Bombenkalorimeter?",
+"Reaktionswärme bei konstantem Volumen → ΔU (= ΔH, wenn ΔV = 0).",
+[
+"~konstantes Volumen|Volumen",
+"ΔU|U"
+],
+""
+],
+[
+"Exotherm vs. endotherm – Vorzeichen?",
+"Exotherm: ΔH < 0 (Wärme an die Umgebung). Endotherm: ΔH > 0.",
+[
+"~ΔH < 0|negativ",
+"~ΔH > 0|positiv"
+],
+"begriff"
+],
+[
+"ΔHf° von Elementen?",
+"0 (auch O₂, H₂, N₂).",
+[
+"0"
+],
+""
+],
+[
+"Warum Aggregatzustand angeben – Beispiel Wasser?",
+"ΔHf°: H₂O(g) −241,8, H₂O(l) −285,9 kJ/mol – unterschiedlich.",
+[
+"241,8",
+"285,9"
+],
+""
+],
+[
+"Was ist der Hess’sche Satz?",
+"Die Reaktionsenthalpie hängt nur von Anfangs- und Endzustand ab, nicht vom Weg: ΔH° = ΣΔHf°(P) − ΣΔHf°(E).",
+[
+"~Weg egal|unabhängig vom Weg",
+"Anfangs|Endzustand"
+],
+"begriff"
+],
+[
+"Berechne ΔH aus Bindungsenergien – Prinzip?",
+"ΔH ≈ Σ(gebrochene Bindungen) − Σ(geknüpfte Bindungen).",
+[
+"gebrochen",
+"geknüpft"
+],
+""
+],
+[
+"Knallgas: ΔS System und Umgebung – warum läuft es trotzdem?",
+"ΔS_System = −327 J/(mol·K), ΔS_Umgebung = +1919 → gesamt +1592 > 0.",
+[
+"327",
+"1919",
+"1592"
+],
+""
+],
+[
+"Wie rechnet man die Umkehrtemperatur?",
+"T = ΔH/ΔS (ΔS in kJ umrechnen!).",
+[
+"ΔH/ΔS|H/S"
+],
+""
+],
+[
+"Wann ist eine Reaktion nur bei hoher Temperatur freiwillig – Beispiel?",
+"ΔH > 0 und ΔS > 0, z. B. CaCO₃ → CaO + CO₂ (erst bei ca. 1000 °C).",
+[
+"ΔH > 0|endotherm",
+"ΔS > 0|Entropie",
+"CaCO3|Kalk"
+],
+""
+],
+[
+"Formel ΔG° und K – Bedeutung von ΔG° = −819 kJ/mol?",
+"ΔG° = −R·T·ln K. Sehr negativ → K riesig, Gleichgewicht vollständig rechts.",
+[
+"-RT ln K|R·T·ln K|RT ln K",
+"rechts|Produkte"
+],
+""
+],
+[
+"Klausurtyp R/F: „ΔG < 0 bedeutet, dass die Reaktion schnell abläuft.“",
+"Falsch – ΔG sagt nichts über die Geschwindigkeit (Kohle + O₂ ist lagerfähig).",
+[
+"falsch",
+"Geschwindigkeit"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+14
+],
+[
+"chem-alt",
+15
+],
+[
+"chem-alt",
+28
+]
 ]
 },
 {
@@ -4858,6 +7662,243 @@ const STOFF = {
 49,
 50,
 51
+],
+"mehr": [
+[
+"Was ist die Faraday-Konstante?",
+"Ladung von 1 mol Elektronen: 96.485 C/mol.",
+[
+"96485|96.485"
+],
+"begriff"
+],
+[
+"Merkhilfe Anode/Kathode?",
+"Anode – Oxidation (beides Vokale), Kathode – Reduktion (beides Konsonanten).",
+[
+"Oxidation",
+"Reduktion"
+],
+""
+],
+[
+"Pol der Kathode bei Elektrolyse und galvanischer Zelle?",
+"Elektrolyse: Minuspol. Galvanische Zelle: Pluspol.",
+[
+"Minus",
+"Plus"
+],
+""
+],
+[
+"Elektrolyse von NaCl-Lösung – Produkte?",
+"Kathode: H₂ (Na zu unedel); Anode: Cl₂; übrig bleibt NaOH.",
+[
+"H2",
+"Cl2",
+"NaOH"
+],
+""
+],
+[
+"Elektrolyse von CuSO₄-Lösung – Produkte?",
+"Kathode: Cu; Anode: O₂ (Sulfat wird nicht oxidiert).",
+[
+"Cu|Kupfer",
+"O2|Sauerstoff"
+],
+""
+],
+[
+"Warum entsteht aus Chloridlösung Cl₂ statt O₂, obwohl E°(O₂) kleiner ist?",
+"Hohe Überspannung von O₂ an Graphit/Platin (kinetische Hemmung).",
+[
+"Überspannung"
+],
+""
+],
+[
+"Zellspannung Daniell-Element – wer ist Anode?",
+"0,34 − (−0,76) = 1,10 V; Zink (unedler) ist Anode und löst sich.",
+[
+"1,10|1,1",
+"Zink|Zn"
+],
+""
+],
+[
+"Welche Spannung haben Alkali-Mangan-, Silberoxid- und Li-Knopfzelle?",
+"1,5 V · 1,8 V · 3–3,3 V.",
+[
+"1,5",
+"1,8",
+"3"
+],
+""
+],
+[
+"Faraday-Gesetz – und worauf muss man achten?",
+"m = M·I·t/(z·F). Prüfen, wie viel Metall überhaupt gelöst ist – mehr kann nicht abgeschieden werden.",
+[
+"M·I·t|MIt",
+"z·F|zF",
+"~gelöste Menge|wie viel gelöst"
+],
+""
+],
+[
+"Wodurch ändern α- und β⁻-Zerfall Massen- und Ordnungszahl?",
+"α: Massenzahl −4, Ordnungszahl −2. β⁻: Ordnungszahl +1 (n → p), Masse gleich.",
+[
+"-4",
+"-2",
+"+1"
+],
+""
+],
+[
+"Was ist β⁺-Strahlung?",
+"Positronen; Ordnungszahl −1 (seltener).",
+[
+"Positron"
+],
+"begriff"
+],
+[
+"Womit misst man Radioaktivität?",
+"Geiger-Müller-Zählrohr, Szintillationszähler.",
+[
+"Geiger",
+"Szintillation"
+],
+""
+],
+[
+"Was ist Aktivität – Einheit?",
+"Zerfälle pro Sekunde, Becquerel (Bq); A = k·N.",
+[
+"Zerfälle pro Sekunde",
+"Becquerel|Bq"
+],
+"begriff"
+],
+[
+"Natürliche Strahlendosis pro Jahr – beruflicher Grenzwert?",
+"Ca. 1 mSv/Jahr natürlich (Folie); beruflich max. 20 mSv (≈ ein großes CT).",
+[
+"1",
+"20"
+],
+""
+],
+[
+"Wie viel Energie liefert eine ²³⁵U-Spaltung – und ein Gramm?",
+"Ca. 200 MeV pro Spaltung; 8,2·10¹⁰ J = 23.000 kWh pro Gramm.",
+[
+"200",
+"23.000|23000"
+],
+""
+],
+[
+"Was ist die kritische Masse?",
+"Mindestmasse spaltbaren Materials, ab der eine Kettenreaktion von selbst weiterläuft.",
+[
+"Kettenreaktion",
+"Mindest"
+],
+"begriff"
+],
+[
+"Wozu dienen Moderatoren und Steuerstäbe?",
+"Moderatoren bremsen Neutronen (spaltfähiger), Steuerstäbe fangen Neutronen ab → Kettenreaktion geregelt.",
+[
+"bremsen|langsam",
+"~fangen Neutronen|regeln"
+],
+""
+],
+[
+"Anreicherung: Reaktor vs. Bombe?",
+"Reaktor 3,5–5 % ²³⁵U; Bombe > 85 %. Anreicherung über UF₆ und Gaszentrifugen.",
+[
+"3,5|5",
+"85",
+"UF6|Zentrifug"
+],
+""
+],
+[
+"Fusionsreaktion im Reaktor – Energie?",
+"²H + ³H → ⁴He + n + 17,6 MeV; Plasma > 100 Mio. K, Magnetfeld-Käfig.",
+[
+"17,6",
+"Deuterium|2H",
+"Tritium|3H"
+],
+""
+],
+[
+"Wie viel mehr Energie liefert Fusion pro Gramm als Spaltung bzw. Verbrennung?",
+"Ca. 4-mal mehr als Spaltung, ca. 10⁷-mal mehr als Verbrennung (94.000 kWh/g).",
+[
+"4",
+"10^7|107"
+],
+""
+],
+[
+"Klausurtyp: Nach wie vielen Halbwertszeiten ist weniger als 1/1000 übrig?",
+"Nach 10 HWZ (2¹⁰ = 1024).",
+[
+"10"
+],
+"klausur"
+],
+[
+"Klausurtyp R/F: „Eine Kettenreaktion in der Atombombe dauert Stunden.“",
+"Falsch – Mikrosekunden.",
+[
+"falsch",
+"Mikrosekunden"
+],
+"klausur"
+],
+[
+"Klausurtyp R/F: „Helium ist Ausgangsstoff der Kernfusion.“",
+"Falsch – Helium ist Produkt (aus Wasserstoffisotopen).",
+[
+"falsch",
+"Produkt"
+],
+"klausur"
+]
+],
+"alt": [
+[
+"chem-alt",
+16
+],
+[
+"chem-alt",
+17
+],
+[
+"chem-alt",
+18
+],
+[
+"chem-alt",
+19
+],
+[
+"chem-alt",
+20
+],
+[
+"chem-alt",
+29
+]
 ]
 }
 ]
@@ -4876,6 +7917,156 @@ const STOFF = {
 4,
 5,
 6
+],
+"mehr": [
+[
+"Was ist analytische Chemie (Definition)?",
+"Entwicklung von Methoden, Geräten und Strategien zur Untersuchung der qualitativen und quantitativen Zusammensetzung von Stoffen sowie ihrer räumlichen Struktur und ihres dynamischen Verhaltens.",
+[
+"Methoden",
+"qualitativ",
+"quantitativ"
+],
+"begriff"
+],
+[
+"Nenne fünf Anwendungsgebiete der Analytik.",
+"Umwelt-, forensische, Prozess-, pharmazeutische, medizinische, Lebensmittel-, Drogen-, Dopinganalytik.",
+[
+"Umwelt",
+"Forensik|forensisch",
+"Pharma|pharmazeutisch",
+"Lebensmittel|Doping|Medizin"
+],
+""
+],
+[
+"Melamin-Skandal: Was ist passiert?",
+"Melamin (stickstoffreich) wurde in China verdünnter Milch zugesetzt, um mehr Protein vorzutäuschen; mit Cyanursäure → Nierensteine/Nierenversagen bei ca. 300.000 Babys.",
+[
+"Melamin",
+"Stickstoff|Protein",
+"Nieren"
+],
+""
+],
+[
+"Was ist eine Verteilungsanalyse?",
+"Zusätzlich zu Art und Menge des Analyten auch seine Raumkoordinaten (z. B. Stoffverteilung auf einer Fläche).",
+[
+"~Raum|Ort|Verteilung"
+],
+"begriff"
+],
+[
+"Was muss bei der Prozessanalyse gelten?",
+"Die Analysezeit muss deutlich kürzer sein als der Prozess (z. B. Zuckerabbau beim Wein).",
+[
+"~Analysezeit kürzer|schneller als der Prozess"
+],
+""
+],
+[
+"Mit welchen Methoden macht man Strukturanalyse?",
+"UV, IR, MS, H-NMR (z. B. Isomere unterscheiden).",
+[
+"IR",
+"MS|Massenspektrometrie",
+"NMR"
+],
+""
+],
+[
+"Welche Qualität braucht man, um zu prüfen, ob ein Grenzwert überschritten ist?",
+"Hohe Genauigkeit (Präzision + Richtigkeit): Referenz- oder Laborvergleichsverfahren.",
+[
+"Genauigkeit|Präzision",
+"Referenz"
+],
+""
+],
+[
+"Was ist ein Orientierungstest?",
+"Schneller Ja/Nein- oder Bereichs-Test ohne hohe Präzision (z. B. Feldmethoden, Teststreifen).",
+[
+"Ja/Nein|ja nein",
+"~ohne hohe Präzision|grob|schnell"
+],
+"begriff"
+],
+[
+"Analysenmethode vs. Analysenverfahren?",
+"Methode: die Messung (mit Probenvorbereitung, Auswertung). Verfahren: die komplette Arbeitsvorschrift vom Untersuchungsobjekt bis zur Information.",
+[
+"Messung",
+"Arbeitsvorschrift|komplett"
+],
+"begriff"
+],
+[
+"Wie viel Zeit kostet die Probenvorbereitung?",
+"Ca. 61 % (Datenmanagement ca. 27 %).",
+[
+"61"
+],
+""
+],
+[
+"Warum Blutproben teils auf Eis lagern?",
+"Blut lebt weiter: Glukose, O₂ und pH fallen, CO₂ steigt → Kühlung bremst das.",
+[
+"Glukose|O2",
+"~lebendes Gewebe|lebt"
+],
+""
+],
+[
+"Welches Röhrchen für Blutbild/PCR, Hormone, Glukose, Gerinnung?",
+"EDTA · Lithium-Heparin · Natrium-Fluorid · Citrat.",
+[
+"EDTA",
+"Heparin",
+"Fluorid",
+"Citrat"
+],
+""
+],
+[
+"Was bedeuten ±1σ, ±2σ, ±3σ?",
+"68,26 %, 95,46 %, 99,74 % der Werte (Normalverteilung).",
+[
+"68",
+"95",
+"99,7"
+],
+""
+],
+[
+"Warum reicht der Mittelwert allein nicht?",
+"Zwei Messreihen können denselben Mittelwert, aber ganz unterschiedliche Streuung (Standardabweichung) haben.",
+[
+"Streuung|Standardabweichung"
+],
+""
+],
+[
+"Klausurtyp: Erkläre an einem Beispiel, warum eine Probe kontaminationsfrei sein muss.",
+"Chrom im Blut wurde jahrelang > 100-fach zu hoch gemessen: die Edelstahlkanüle gab Chrom im ppb-Bereich ab.",
+[
+"Chrom",
+"Kanüle|Edelstahl"
+],
+"klausur"
+],
+[
+"Klausurtyp: Warum ist eine Tüte Suppe keine repräsentative Probe für eine Charge von 1000 kg?",
+"28 g sind viel zu wenig im Verhältnis zur Charge; Inhaltsstoffe können ungleich verteilt sein → viele Einzelproben nehmen.",
+[
+"~zu wenig|zu klein",
+"~ungleich verteilt|repräsentativ|viele Proben"
+],
+"klausur"
+]
 ]
 },
 {
@@ -4889,6 +8080,99 @@ const STOFF = {
 10,
 11,
 12
+],
+"mehr": [
+[
+"Größenordnung: Was wiegt ca. 1 mg, 1 µg, 1 ng, 1 pg?",
+"Mücke ≈ 1 mg · Sandkorn ≈ 1 µg · Mückenzelle ≈ 1 ng · DNA dieser Zelle ≈ 1 pg.",
+[
+"Mücke",
+"Sandkorn",
+"Zelle",
+"DNA"
+],
+""
+],
+[
+"Welcher Faktor ist atto, zepto, yocto?",
+"10⁻¹⁸, 10⁻²¹, 10⁻²⁴.",
+[
+"18",
+"21",
+"24"
+],
+""
+],
+[
+"Molmasse von Essigsäure CH₃COOH?",
+"12 + 3 + 12 + 16 + 16 + 1 = 60 g/mol.",
+[
+"60"
+],
+""
+],
+[
+"Rechne: Einwaage für 1 L einer 250 mmol/L-Ibuprofenlösung (M = 206,28)?",
+"n = 250 mmol → m = 0,25 · 206,28 = 51,570 g.",
+[
+"51,57"
+],
+""
+],
+[
+"Was ist der Probenmassenbereich S?",
+"Gesamte Probenmenge aus Analyt x und Matrix y: S = m(x) + m(y).",
+[
+"Analyt",
+"Matrix"
+],
+"begriff"
+],
+[
+"Was ist der Gehaltsbereich C?",
+"Anteil der Analytmasse an der gesamten Probe: C = m(x)/[m(x) + m(y)].",
+[
+"~Anteil|Verhältnis",
+"Analyt"
+],
+"begriff"
+],
+[
+"Was sind ppm, ppb, ppt?",
+"parts per million (10⁻⁶), billion (10⁻⁹), trillion (10⁻¹²) – Angaben für Spuren.",
+[
+"10^-6|million",
+"10^-9|billion",
+"10^-12|trillion"
+],
+"begriff"
+],
+[
+"Was bedeutet GLP und warum?",
+"Gute Laborpraxis: nichts dem Zufall überlassen, alles lückenlos dokumentieren, damit Ergebnisse nachvollziehbar und überall gleich verlässlich sind.",
+[
+"Gute Laborpraxis",
+"~Dokumentation|dokumentieren|nachvollziehbar"
+],
+"begriff"
+],
+[
+"Klausurtyp: Ibuprofen 150 mg in 5,2 mL – Konzentration?",
+"n = 0,150/206,28 = 0,727 mmol → c = 0,727/0,0052 = 139,840 mmol/L.",
+[
+"139,84"
+],
+"klausur"
+],
+[
+"Klausurtyp: Nachweis von Ecstasy im Urin – was ist Analyt, was Matrix?",
+"Analyt: Ecstasy. Matrix: Urin (alles außer dem Analyten).",
+[
+"~Ecstasy Analyt|Analyt Ecstasy",
+"~Urin Matrix|Matrix Urin"
+],
+"klausur"
+]
 ]
 },
 {
@@ -4903,6 +8187,135 @@ const STOFF = {
 17,
 18,
 19
+],
+"mehr": [
+[
+"Nitrat-Test: Wie entsteht die Farbe?",
+"Nitrat wird zu Nitrit reduziert, Nitrit reagiert mit zwei Substanzen zu einem roten Farbstoff – je mehr Nitrat, desto röter.",
+[
+"Nitrit",
+"rot"
+],
+""
+],
+[
+"Wie stellt man eine Verdünnungsreihe 1:10 her?",
+"1 Teil Lösung + 9 Teile Wasser, aus jeder Stufe weiter verdünnen.",
+[
+"1",
+"9"
+],
+""
+],
+[
+"Was ist der Arbeitsbereich (Linearität)?",
+"Konzentrationsbereich, in dem die Methode (linear) auswertbar ist.",
+[
+"~Konzentrationsbereich|Bereich",
+"linear"
+],
+"begriff"
+],
+[
+"Was ist ein Blankwert?",
+"Messwert einer Vergleichsprobe ohne Analyt (z. B. nur Wasser/Lösungsmittel).",
+[
+"~ohne Analyt|Nullwert"
+],
+"begriff"
+],
+[
+"Formel Detektionslimit nach IUPAC – k für Nachweis- und Bestimmungsgrenze?",
+"Blank + k · σ(Blank); Nachweisgrenze k = 3, Bestimmungsgrenze k = 10.",
+[
+"3",
+"10",
+"Standardabweichung|σ"
+],
+""
+],
+[
+"Wie viel Prozent falsch-positiv gibt es genau an der Nachweisgrenze?",
+"Ca. 1 % (99 % liegen mindestens auf Höhe der Nachweisgrenze).",
+[
+"1",
+"99"
+],
+""
+],
+[
+"Welche Standardabweichung sollte man bei Quantifizierung anstreben?",
+"< 10 %.",
+[
+"10"
+],
+""
+],
+[
+"Reihenfolge: Blank, Detektionslimit, Quantifizierungslimits, linearer Bereich?",
+"Blank < Detektionslimit < unteres Quantifizierungslimit < linearer Bereich < oberes Quantifizierungslimit < Ende dynamischer Bereich.",
+[
+"Blank",
+"Detektionslimit|Nachweisgrenze",
+"Quantifizierungslimit|Bestimmungsgrenze",
+"linear"
+],
+""
+],
+[
+"Was ist Matrixkompatibilität?",
+"Wie stark die Probe verdünnt/aufbereitet werden muss, damit sie mit der Methode messbar ist.",
+[
+"~verdünnt|aufbereitet|aufbereiten"
+],
+"begriff"
+],
+[
+"Was ist das Signal/Rausch-Verhältnis?",
+"Verhältnis von echtem Messsignal zum Rauschen (Fremdinformation); hohes S/N = gut erkennbares Signal.",
+[
+"Signal",
+"Rauschen"
+],
+"begriff"
+],
+[
+"Wodurch wird die Robustheit getestet?",
+"Verschiedene Anwender, Geräte gleichen Typs, Temperaturschwankungen, neue Chemikalien-Chargen, zeitliche Schwankungen.",
+[
+"Anwender|Geräte",
+"Temperatur|Chemikalien|Zeit"
+],
+""
+],
+[
+"Klausurtyp: Blank-Mittelwert 0,083, σ = 0,055, Probe misst 0,196 – nachweisbar?",
+"Detektionslimit = 0,083 + 3·0,055 ≈ 0,25 → 0,196 liegt darunter → nicht sicher nachweisbar.",
+[
+"0,25",
+"~nicht nachweisbar|nein|darunter"
+],
+"klausur"
+],
+[
+"Klausurtyp: Zeichne/erkläre die Zielscheibe für „präzise, aber nicht richtig“.",
+"Treffer liegen eng beieinander (kleine Streuung), aber neben der Mitte (systematische Abweichung vom wahren Wert).",
+[
+"~eng beieinander|kleine Streuung",
+"~neben der Mitte|nicht in der Mitte|systematisch"
+],
+"klausur"
+],
+[
+"Bild: Wie liest man die unbekannte Probe ab?",
+"Signal der Probe auf der y-Achse suchen, waagerecht zur Standardkurve, senkrecht runter → Konzentration auf der x-Achse.",
+[
+"Standardkurve|Eichkurve",
+"Konzentration"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/ana/18476acff509.bin' data-mime='image/png' alt='Bild zur Frage'></figure>"
+]
 ]
 },
 {
@@ -4916,6 +8329,156 @@ const STOFF = {
 23,
 24,
 25
+],
+"mehr": [
+[
+"Fünf Grundfragen der Probennahme?",
+"Wo? Wie (Technik)? Wann? Wie viel und wie oft? Wer?",
+[
+"wo",
+"wie",
+"wann",
+"wer"
+],
+""
+],
+[
+"Zeit-, durchfluss-, volumenproportionale Probennahme – wofür?",
+"Für fließende Flüssigkeiten (z. B. Abwasser): Probe je nach Zeit, Durchfluss oder Volumen entnehmen.",
+[
+"fließend|Flüssigkeiten|Abwasser"
+],
+""
+],
+[
+"Wie wird aus einem Feststoff die Analyseprobe?",
+"Viele Einzelproben → Mischprobe → mahlen, sieben, teilen → Teilprobe → Analyseprobe.",
+[
+"Einzelproben",
+"Mischprobe",
+"mahlen|sieben|teilen"
+],
+""
+],
+[
+"Drei Probennahmegeräte für Gewässer?",
+"Sedimentstecher, van-Veen-Bodengreifer, Ruttner-Schöpfer.",
+[
+"Sedimentstecher",
+"van Veen|Bodengreifer",
+"Ruttner"
+],
+""
+],
+[
+"Welche DIN regelt Wasserproben?",
+"DIN 38402.",
+[
+"38402"
+],
+""
+],
+[
+"Ammoniumprobe: Wie bleibt sie stabil?",
+"Mit HgCl₂ konserviert stabil; tiefgefroren fast stabil; im Kühlschrank nach ca. 10 Tagen starker Abfall.",
+[
+"HgCl2|Quecksilber",
+"tiefgefroren|gefroren"
+],
+""
+],
+[
+"Was ist clean-up – was ist Maskierung?",
+"Clean-up: störende Matrix abtrennen. Maskierung: störende Stoffe chemisch „unsichtbar“ machen.",
+[
+"~Matrix abtrennen|aufreinigen",
+"~stören|unsichtbar"
+],
+"begriff"
+],
+[
+"Quecksilber in Trockenmilch: Was war die Fehlerquelle?",
+"Kontamination aus der Laborluft (Hg-Dämpfe aus kaputten Thermometern, alten Vakuumpumpen).",
+[
+"Laborluft|Luft",
+"Thermometer|Pumpen"
+],
+""
+],
+[
+"Warum sind Hormonproben schwierig – Beispiele für Halbwertszeiten?",
+"Sehr kurze biologische Halbwertszeiten: Adrenalin < 3 min, Insulin < 10 min, Testosteron 15 min.",
+[
+"Halbwertszeit",
+"Adrenalin|Insulin"
+],
+""
+],
+[
+"Was ist ein Memory-Effekt beim Aufschluss?",
+"Reste aus vorherigen Aufschlüssen verunreinigen die neue Probe.",
+[
+"~Reste|vorherige"
+],
+"begriff"
+],
+[
+"Schmelzaufschluss vs. Mikrowellenaufschluss?",
+"Schmelz: Probe + Oxidationsmittel (Na₂O₂) in der Parr-Bombe bei hoher T. Mikrowelle: gleiches Prinzip wie andere Erhitzung, aber Minuten statt Stunden.",
+[
+"Parr|Oxidationsmittel",
+"Minuten|schnell"
+],
+""
+],
+[
+"Was ist Kaltplasma-Veraschung?",
+"Sauerstoff-Plasma oxidiert die Probe bei relativ niedriger Temperatur (Spurenmetalle in Lebensmitteln).",
+[
+"Plasma",
+"niedrige Temperatur|kalt"
+],
+"begriff"
+],
+[
+"Fünf Anreicherungsmethoden?",
+"Extraktion (flüssig–flüssig), flüssig–gasförmig–flüssig, Mitfällung (z. B. Eisenhydroxid), Ionenaustausch, Elektrolyse.",
+[
+"Extraktion",
+"Mitfällung",
+"Ionenaustausch",
+"Elektrolyse"
+],
+""
+],
+[
+"Was ist der Anreicherungsfaktor?",
+"AF = C_A(2)/C_A(1) – Konzentration nach / vor der Anreicherung.",
+[
+"~nachher durch vorher|Verhältnis"
+],
+"begriff"
+],
+[
+"Klausurtyp: Warum fiel Melamin bei der Kjeldahl-Methode nicht auf?",
+"Kjeldahl misst Stickstoff, nicht direkt Protein; Melamin ist sehr stickstoffreich → täuscht Protein vor.",
+[
+"Stickstoff",
+"~nicht Protein|kein Protein"
+],
+"klausur"
+],
+[
+"Klausurtyp: Kjeldahl in drei Schritten.",
+"1. Kochen mit H₂SO₄ → (NH₄)₂SO₄ · 2. + NaOH → NH₃ · 3. NH₃ in H₂SO₄ auffangen → NH₄⁺ bestimmen.",
+[
+"H2SO4|Schwefelsäure",
+"NaOH|Base",
+"NH3|Ammoniak",
+"NH4"
+],
+"klausur"
+]
 ]
 },
 {
@@ -4929,6 +8492,174 @@ const STOFF = {
 29,
 30,
 31
+],
+"mehr": [
+[
+"Klassische vs. instrumentelle Analytik?",
+"Klassisch (nasschemisch): Maßanalyse, Gravimetrie, Trennverfahren. Instrumentell: nur über physikalische Eigenschaften (Spektroskopie …).",
+[
+"nasschemisch|Maßanalyse|Gravimetrie",
+"physikalisch"
+],
+""
+],
+[
+"Was ist Gravimetrie – Vorteile?",
+"Quantifizierung durch Wägung. Absolutmethode (bei Reinsubstanz), präzise, günstig, kaum umweltabhängig.",
+[
+"Wägung|wiegen",
+"Absolutmethode|präzise|günstig"
+],
+"begriff"
+],
+[
+"Wann ist eine Fällung für die Gravimetrie geeignet?",
+"Quantitativ (Rest < 10⁻⁶ mol/L) und ohne Mitfällung anderer Ionen; langsam fällen.",
+[
+"quantitativ|10^-6",
+"~keine anderen Ionen|Mitfällung"
+],
+""
+],
+[
+"Welcher Filter für Fe(OH)₃, welcher für BaSO₄?",
+"Schwarzband (7 µm) für Fe(OH)₃, Blauband (2 µm) für BaSO₄.",
+[
+"Schwarzband",
+"Blauband"
+],
+""
+],
+[
+"Was ist ein Exsikkator?",
+"Gefäß mit Trockenmittel zum Abkühlen/Aufbewahren von Tiegeln ohne Feuchtigkeitsaufnahme.",
+[
+"Trockenmittel|trocken",
+"Feuchtigkeit"
+],
+"begriff"
+],
+[
+"Genauigkeit von Makro-, Halbmikro-, Mikrowaage?",
+"0,1 mg · 0,01 mg · 0,1 µg.",
+[
+"0,1 mg",
+"0,01",
+"0,1 µg|0,1 ug"
+],
+""
+],
+[
+"Nenne vier Fehlerquellen beim Wiegen.",
+"Vibrationen, Sonne/Wärmequellen, Luftströmung, Temperaturschwankung, Luftfeuchte/Elektrostatik, Magnetismus, Verdunstung.",
+[
+"Vibration|Erschütterung",
+"Luftzug|Luftströmung",
+"Temperatur",
+"Elektrostatik|Feuchte|Magnet"
+],
+""
+],
+[
+"Was ist der stöchiometrische Faktor – NaCl → Na?",
+"f = M(gesucht)/M(gewogen) (mit Atomzahlen); 23/58,5 = 0,393 → 39,3 % Na.",
+[
+"0,393",
+"39,3"
+],
+"begriff"
+],
+[
+"Was ist der Titer?",
+"t = c(ist)/c(soll) – Korrekturfaktor der Maßlösung.",
+[
+"ist",
+"soll"
+],
+"begriff"
+],
+[
+"Direkte vs. inverse Titration?",
+"Direkt: Probe vorlegen, Reagenz zutitrieren. Invers: Reagenz vorlegen, mit Probe titrieren.",
+[
+"~Probe vorlegen",
+"~Reagenz vorlegen"
+],
+""
+],
+[
+"Wie funktioniert die Permanganometrie?",
+"Violettes MnO₄⁻ entfärbt sich bis zum Äquivalenzpunkt; danach bleibt die violette Farbe (Selbstindikation).",
+[
+"violett",
+"~entfärbt|farblos"
+],
+""
+],
+[
+"Mohr, Volhard, Fajans – wobei?",
+"Fällungstitration (Argentometrie): Mohr mit Chromat, Volhard Rücktitration mit Fe(III)-thiocyanat, Fajans mit Adsorptionsindikatoren (Eosin, Fluorescein).",
+[
+"Argentometrie|Fällung",
+"Chromat",
+"Thiocyanat|Rücktitration"
+],
+""
+],
+[
+"Komplexometrie: Prinzip und Beispiel?",
+"Analyt bildet stabilen Komplex, z. B. Ca²⁺ + EDTA; Indikator (Erio T, Murexid) wird von EDTA verdrängt → Farbumschlag.",
+[
+"EDTA",
+"Komplex"
+],
+""
+],
+[
+"Nenne zwei elektrochemische Indikationsmethoden für Titrationen.",
+"Konduktometrie, Potentiometrie (auch Amperometrie).",
+[
+"Konduktometrie|Potentiometrie|Amperometrie"
+],
+""
+],
+[
+"Was ist der Titrierfehler?",
+"Volumendifferenz zwischen Indikationspunkt und Äquivalenzpunkt (systematischer Fehler).",
+[
+"Indikationspunkt",
+"Äquivalenzpunkt"
+],
+"begriff"
+],
+[
+"Klausurtyp: 233,4 mg Fe₂O₃ ausgewogen – wie viel Fe? (M Fe 55,847, Fe₂O₃ 159,692)",
+"f = 2·55,847/159,692 = 0,6994 → 233,4 · 0,6994 = 163,2 mg Fe.",
+[
+"0,6994",
+"163,2"
+],
+"klausur"
+],
+[
+"Klausurtyp: Warum ist 1 m höher auf der Waage ein anderes Gewicht?",
+"Die Schwerebeschleunigung ändert sich mit der Höhe → 199,9999 g statt 200,0000 g.",
+[
+"Schwerebeschleunigung|Erdanziehung|g"
+],
+"klausur"
+],
+[
+"Bild: Benenne die gezeigten Geräte der Gravimetrie.",
+"Porzellantiegel, Exsikkator, Papierfilter, Glasfiltertiegel.",
+[
+"Tiegel",
+"Exsikkator",
+"Filter"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/ana/44c5f961aa41.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
 ]
 },
 {
@@ -4948,6 +8679,191 @@ const STOFF = {
 41,
 42,
 43
+],
+"mehr": [
+[
+"Warum macht UV Sonnenbrand, Radiowellen aber nicht?",
+"Kürzere Wellenlänge = mehr Energie pro Photon.",
+[
+"~kürzere Wellenlänge|kurzwellig",
+"Energie"
+],
+""
+],
+[
+"Transmission vs. Extinktion?",
+"T = I/I₀ (durchgelassener Anteil, < 1). E = log(I₀/I) (logarithmisch, proportional zur Konzentration).",
+[
+"I/I0",
+"log"
+],
+"begriff"
+],
+[
+"Was ist der Extinktionskoeffizient ε?",
+"Extinktion einer 1-molaren Lösung bei 1 cm Schichtdicke und definierter Wellenlänge [L·mol⁻¹·cm⁻¹].",
+[
+"1-molar|1 mol",
+"1 cm"
+],
+"begriff"
+],
+[
+"Wie viel Licht wird bei E = 1 und E = 2 absorbiert?",
+"E = 1: 90 %, E = 2: 99 %.",
+[
+"90",
+"99"
+],
+""
+],
+[
+"Was braucht ein Molekül, um UV/VIS-Licht zu absorbieren?",
+"Ein konjugiertes π-Elektronensystem (aromatische Farbstoffe, Polyene ab 9 Doppelbindungen; DNA, Proteine).",
+[
+"konjugiert|π|pi",
+"Aromat|Doppelbindung"
+],
+""
+],
+[
+"Was sind auxochrome Gruppen – Beispiele?",
+"Elektronendonatoren (–OH, –NH₂, –OR …) → mehr Delokalisierung → langwelligere Absorption (bathochrom).",
+[
+"Elektronendonator|Donator",
+"langwellig|bathochrom"
+],
+"begriff"
+],
+[
+"Aufbau eines UV/VIS-Photometers?",
+"Lichtquelle → Blende → Monochromator → Küvette → Detektor (ca. 190–800 nm).",
+[
+"Lichtquelle",
+"Monochromator",
+"Küvette",
+"Detektor"
+],
+""
+],
+[
+"Warum immer eine Blank-Messung beim Photometer?",
+"Auch Lösungsmittel und Küvette absorbieren Licht.",
+[
+"Lösungsmittel",
+"Küvette"
+],
+""
+],
+[
+"Messung bei einer Wellenlänge vs. ganzes Spektrum?",
+"Eine Wellenlänge: quantitativ. Ganzes Spektrum: qualitativ (Identifizierung).",
+[
+"quantitativ",
+"qualitativ"
+],
+""
+],
+[
+"Wann braucht man keine Verdünnungsreihe?",
+"Wenn ε bekannt ist → direkt über Lambert-Beer rechnen.",
+[
+"ε|Extinktionskoeffizient"
+],
+""
+],
+[
+"Messbereiche: Bradford, BCA, Biuret, Lowry?",
+"Bradford 1–25 µg/mL · BCA 0,2–50 µg/mL · Biuret 0,5–5 mg/mL · Lowry 5–100 µg/mL.",
+[
+"1–25|25",
+"0,2|50",
+"0,5|5 mg",
+"5–100|100"
+],
+""
+],
+[
+"Was stört den Bradford-Test – Nachteile?",
+"SDS stört; eingeschränkte Linearität; starke Protein-zu-Protein-Variation (38 %); < 3 kDa nicht erkannt.",
+[
+"SDS",
+"Variation"
+],
+""
+],
+[
+"Welcher Proteintest hat die geringste Protein-zu-Protein-Variation?",
+"Modifizierter Lowry (11,9 %), dann BCA (14,7 %); Bradford 38,2 %.",
+[
+"Lowry"
+],
+""
+],
+[
+"Wozu dient Biuret im Biuret-Test?",
+"Biuret selbst wird nicht benötigt; es komplexiert ebenfalls Cu²⁺ und dient als Positivkontrolle.",
+[
+"Positivkontrolle|Kontrolle"
+],
+""
+],
+[
+"Was ist eine Hohlkathodenlampe – warum braucht AAS sie?",
+"Lichtquelle, die das Linienspektrum des Kathodenmaterials aussendet; Atomabsorptionslinien sind sehr schmal (10⁻³–10⁻² nm).",
+[
+"~schmale Linien|Linienspektrum|schmal"
+],
+"begriff"
+],
+[
+"Flammentemperaturen bei der AAS?",
+"Acetylen/Luft ca. 2200 °C; Acetylen/N₂O ca. 3200 °C.",
+[
+"2200",
+"3200"
+],
+""
+],
+[
+"Graphitrohr-Programm in 4 Schritten?",
+"Trocknung (400 K) → Pyrolyse (1500 K, Matrix zerstören) → Atomisierung (2400 K) → Ausheizen (2800 K).",
+[
+"Trocknung",
+"Pyrolyse",
+"Atomisierung",
+"Ausheizen"
+],
+""
+],
+[
+"Wofür wird AAS typisch eingesetzt?",
+"Elementspurenanalytik, z. B. Blei im Blut, Selen im Serum.",
+[
+"Spuren|Element",
+"Blei|Selen"
+],
+""
+],
+[
+"Klausurtyp: E(Probe) = 0,65, E(Blank) = 0,05, ε = 1500 L/(mol·cm), d = 1 cm – Konzentration?",
+"c = (0,65 − 0,05)/(1500 · 1) = 4,0·10⁻⁴ mol/L = 0,4 mmol/L.",
+[
+"0,4",
+"4"
+],
+"klausur"
+],
+[
+"Klausurtyp: Warum soll man nicht über E = 2 quantifizieren?",
+"Extinktion ist logarithmisch: bei E = 2 kommen nur noch 1 % des Lichts durch → kleine Messfehler werden riesig; besser bis 1,5.",
+[
+"logarithmisch",
+"~1 %|wenig Licht",
+"1,5"
+],
+"klausur"
+]
 ]
 },
 {
@@ -5102,6 +9018,136 @@ const STOFF = {
 "nmol"
 ]
 ]
+],
+"mehr": [
+[
+"Was ist eine Halbzelle?",
+"Elektrode in der Lösung ihrer Ionen (z. B. Zinkstab in ZnSO₄).",
+[
+"Elektrode",
+"Lösung"
+],
+"begriff"
+],
+[
+"Was ist eine Salzbrücke?",
+"Ionenleitende Verbindung zwischen den Halbzellen, die Ladungsausgleich ermöglicht und den Stromkreis schließt.",
+[
+"Ladungsausgleich|Ionen",
+"Stromkreis"
+],
+"begriff"
+],
+[
+"Was ist die Indikator- bzw. Arbeitselektrode, was die Referenzelektrode?",
+"Indikator-/Messelektrode reagiert auf den Analyten; Referenz-/Bezugselektrode hat ein konstantes Potential.",
+[
+"~reagiert auf den Analyten|Messelektrode",
+"~konstantes Potential|konstant"
+],
+"begriff"
+],
+[
+"Warum misst man mit der Glaselektrode nur bis ca. pH 9?",
+"Alkalifehler: Bei sehr vielen Fremdkationen (Na⁺, > 10¹²-mal mehr als H⁺) nimmt die Quellschicht diese auf und misst falsch.",
+[
+"Alkalifehler",
+"Na+|Natrium|Kationen"
+],
+""
+],
+[
+"Aufbau der Kalomelelektrode?",
+"Quecksilber mit Hg₂Cl₂ in KCl-Lösung – häufige Referenzelektrode.",
+[
+"Quecksilber|Hg",
+"Hg2Cl2|Kalomel",
+"KCl"
+],
+""
+],
+[
+"Nenne drei Ionen, für die es ionenselektive Elektroden gibt.",
+"Ca²⁺, NH₄⁺, F⁻, Cl⁻, NO₃⁻ (über 50).",
+[
+"Ca|NH4|F|Cl|NO3"
+],
+""
+],
+[
+"Welche Elektrode bei Säure-Base-, Fällungs- und Redoxtitration?",
+"Säure-Base: Glaselektrode · Fällung: Metall-/ionenselektive Elektrode · Redox: inerte Elektrode (Platin).",
+[
+"Glaselektrode",
+"ionenselektiv|Metall",
+"Platin|inert"
+],
+""
+],
+[
+"Was ist die Elektrogravimetrie – Aufbau?",
+"Metall wird vollständig an der Kathode abgeschieden und gewogen; Platinnetz-Kathode, drehbare Anode, Heizplatte.",
+[
+"Kathode",
+"gewogen|Wägung",
+"Platin"
+],
+"begriff"
+],
+[
+"Welche analytischen Parameter sind bei der Elektrogravimetrie wichtig?",
+"Richtigkeit und Präzision (Wägung), Selektivität (über die Spannung steuerbar), Arbeitsbereich (eher große Mengen, hohe Bestimmungsgrenze).",
+[
+"Richtigkeit|Präzision",
+"Selektivität",
+"Arbeitsbereich|Bestimmungsgrenze"
+],
+""
+],
+[
+"Rechne: Ibuprofen 10 g in 1 L – Konzentration?",
+"10/206,28 = 0,048478 mol → 48,478 mmol/L.",
+[
+"48,478"
+],
+""
+],
+[
+"Rechne: Einwaage für 100 mL einer 10 µmol/L-Lösung (M 206,28)?",
+"1 µmol → 206,280 µg.",
+[
+"206,28"
+],
+""
+],
+[
+"Verdünnungsreihe 1:8 ab 250 mmol/L – 2. Stufe?",
+"250/8² = 3,906 mmol/L.",
+[
+"3,906"
+],
+""
+],
+[
+"Klausurtyp: Vorteil der potentiometrischen Titration gegenüber Farbindikator?",
+"Funktioniert auch in trüben, kolloidalen oder gefärbten Proben; automatisierbar.",
+[
+"trüb|gefärbt|kolloidal"
+],
+"klausur"
+],
+[
+"Bild: Erkläre das gezeigte Element – wer ist Plus-, wer Minuspol?",
+"Daniell-Element: Zink (unedler) wird oxidiert → Minuspol (Anode); Kupfer scheidet sich ab → Pluspol (Kathode); Salzbrücke/Membran für Ladungsausgleich.",
+[
+"Zink|Zn",
+"Kupfer|Cu",
+"~Zink Minus|Minuspol",
+"~Kupfer Plus|Pluspol"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/ana/0759dc37ea74.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
 ]
 },
 {
@@ -5216,6 +9262,137 @@ const STOFF = {
 "200000|200.000",
 "21000000|21.000.000"
 ]
+]
+],
+"mehr": [
+[
+"Wie viele H-Brücken haben A–T und G–C?",
+"A–T 2, G–C 3.",
+[
+"2",
+"3"
+],
+""
+],
+[
+"B-, A-, Z-Helix?",
+"B: klassische DNA-Doppelhelix (Watson/Crick) · A: meist RNA · Z: linksgängige Sonderform.",
+[
+"Watson|klassisch",
+"RNA"
+],
+""
+],
+[
+"Wer erfand die PCR und wann?",
+"Kary Mullis, 1983.",
+[
+"Mullis",
+"1983"
+],
+""
+],
+[
+"Was macht die DNA-Polymerase chemisch?",
+"Die 3′-OH-Gruppe am Strangende greift das α-Phosphat des nächsten dNTP an; dabei wird Pyrophosphat frei.",
+[
+"3'-OH|3-OH|3′",
+"Pyrophosphat"
+],
+""
+],
+[
+"Wovon hängt die Annealing-Temperatur ab?",
+"Von der Primersequenz (ca. 50–65 °C).",
+[
+"Primer"
+],
+""
+],
+[
+"Wie viele PCR-Zyklen typisch – wie viele Kopien nach 25?",
+"Bis ca. 30 Zyklen; nach 25 Zyklen 2²⁵ = 33.554.432.",
+[
+"30",
+"33.554.432|33554432|2^25"
+],
+""
+],
+[
+"Was ist cDNA?",
+"Komplementäre DNA, die die Reverse Transkriptase aus RNA umschreibt.",
+[
+"komplementär",
+"Reverse Transkriptase|RNA"
+],
+"begriff"
+],
+[
+"Wie lang ist das Genom von SARS-CoV-2?",
+"Ein RNA-Einzelstrang mit 29.903 Basen.",
+[
+"RNA",
+"29.903|29903"
+],
+""
+],
+[
+"Was ist alternatives Splicing – warum relevant für Microarrays?",
+"Ein Gen kann zu verschiedenen mRNA/Protein-Varianten zusammengesetzt werden → noch mehr Varianten als die ca. 20.000 Proteine; einzelne RT-PCRs reichen nicht.",
+[
+"~verschiedene Varianten|Varianten",
+"Gen|mRNA"
+],
+"begriff"
+],
+[
+"Was ist eine Sonde auf einem Microarray?",
+"Bekannte DNA-Sequenz, an einem Punkt fixiert, an die komplementäre Proben-RNA/cDNA bindet.",
+[
+"~bekannte Sequenz|bekannt",
+"komplementär|fixiert"
+],
+"begriff"
+],
+[
+"Nenne fünf Anwendungen molekularbiologischer Analytik.",
+"Genetischer Fingerabdruck, Vaterschaftstest, pränatale Diagnostik, Virus-/Bakteriennachweis, Genomsequenzierung, Genexpressionsanalyse, Phylogenie.",
+[
+"Fingerabdruck|Vaterschaft",
+"Virus|Bakterien",
+"Diagnostik|Sequenzierung|Genexpression"
+],
+""
+],
+[
+"Rechne: 0,04 nmol in pmol, 10 amol in fmol?",
+"40 pmol; 0,01 fmol.",
+[
+"40",
+"0,01"
+],
+""
+],
+[
+"Klausurtyp: Warum braucht man für den Corona-PCR-Test zusätzlich ein Enzym?",
+"SARS-CoV-2 ist ein RNA-Virus; die Reverse Transkriptase schreibt die RNA erst in cDNA um, dann normale PCR (RT-PCR).",
+[
+"Reverse Transkriptase",
+"RNA",
+"cDNA"
+],
+"klausur"
+],
+[
+"Bild: Erkläre das Prinzip dieses Microarrays.",
+"Fixierte bekannte Sonden in Punkten; markierte Proben-RNA/cDNA bindet komplementär; Leuchtstärke = Aktivität des Gens.",
+[
+"Sonde",
+"komplementär|bindet",
+"~Leuchten|Fluoreszenz|Signal"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/ana/8175499d7c56.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
 ]
 ]
 },
@@ -5367,6 +9544,163 @@ const STOFF = {
 "Dichte|Granularität"
 ]
 ]
+],
+"mehr": [
+[
+"Was ist PTM – vier Beispiele?",
+"Posttranslationale Modifizierung: kovalente Veränderung nach der Translation – Phosphorylierung, Azetylierung, Glykosylierung, Amidierung.",
+[
+"posttranslational",
+"Phosphorylierung|Glykosylierung|Azetylierung"
+],
+"begriff"
+],
+[
+"Welche Antikörperklasse nutzt man meist in der Bioanalytik?",
+"IgG.",
+[
+"IgG"
+],
+""
+],
+[
+"Wo bindet ein Antikörper das Antigen?",
+"An den Spitzen der Arme (variable Region) – Antikörper sind keine Klemmen.",
+[
+"~Armspitzen|Spitzen|variable Region"
+],
+""
+],
+[
+"Wozu „Blocken“ beim ELISA?",
+"Freie Bindestellen auf dem Kunststoff absättigen, weil der fast jedes Protein unspezifisch bindet.",
+[
+"unspezifisch",
+"~Bindestellen absättigen|blockieren"
+],
+""
+],
+[
+"ELISA-Substrat TMB: wie gestoppt, bei welcher Wellenlänge gemessen?",
+"Stopp mit 2 M H₂SO₄, Messung bei 450 nm.",
+[
+"H2SO4|Schwefelsäure",
+"450"
+],
+""
+],
+[
+"Signalverstärkung und Detektionslimit des ELISA?",
+"Ca. 10⁷–10⁹-fach; bis 20 pg/mL.",
+[
+"10^7|107|10^9",
+"20"
+],
+""
+],
+[
+"Formel der elektrophoretischen Mobilität?",
+"u = v/E = q/k_R (Kugel: k_R = 6πηr).",
+[
+"q",
+"6πηr|6 pi eta r|Reibung"
+],
+""
+],
+[
+"Woraus besteht ein Polyacrylamidgel?",
+"Acrylamid + Vernetzer Methylenbisacrylamid; Monomer ist toxisch; Porengröße über Konzentration.",
+[
+"Acrylamid",
+"Bisacrylamid|Vernetzer"
+],
+""
+],
+[
+"Wie viel SDS bindet pro g Protein?",
+"1,4 g SDS pro 1 g Protein.",
+[
+"1,4"
+],
+""
+],
+[
+"Sammelgel vs. Trenngel?",
+"Sammelgel konzentriert die Proben zu scharfen Banden; Trenngel trennt nach Größe.",
+[
+"~konzentriert|sammelt",
+"~trennt|Größe"
+],
+"begriff"
+],
+[
+"Fluoreszenzfärbung bei SDS-PAGE – Vorteil?",
+"Empfindlich und großer linearer Bereich.",
+[
+"empfindlich",
+"linear"
+],
+""
+],
+[
+"Wozu der 2. Antikörper beim Western Blot?",
+"Trägt das Enzym (HRP/AP) und erkennt den 1. Antikörper → Signal und Verstärkung.",
+[
+"Enzym|HRP",
+"~erkennt den ersten|1. Antikörper"
+],
+""
+],
+[
+"Seit wann gibt es FACS – wie werden Zellen sortiert?",
+"Seit 1975; Zellen in geladenen Tröpfchen werden im elektrischen Feld abgelenkt.",
+[
+"1975",
+"Tröpfchen|abgelenkt"
+],
+""
+],
+[
+"Klausurtyp: Warum kommen bei Western Blot die Antikörper nicht ins Gel?",
+"Antikörper sind zu groß, um ins Gel einzudringen → Proteine werden erst auf eine Membran übertragen, dort kommen die Antikörper ran.",
+[
+"~zu groß|groß",
+"Membran"
+],
+"klausur"
+],
+[
+"Klausurtyp: Welche Zellpopulation hat den größten Side Scatter?",
+"Granulozyten (viel Granula = hohe innere Komplexität); Lymphozyten am kleinsten.",
+[
+"Granulozyten"
+],
+"klausur"
+],
+[
+"Bild: Beschrifte den Antikörper.",
+"Y-Form: 2 schwere + 2 leichte Ketten, Disulfidbrücken; variable Region (Antigenbindung) an den Armspitzen, konstante Region im Stamm.",
+[
+"schwere",
+"leichte",
+"variabel|variable",
+"konstant"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/ana/f465e561f55f.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+],
+[
+"Bild: Beschreibe die Schritte dieses ELISA.",
+"Fänger-Antikörper → Blocken → Probe (Analyt bindet) → Detektions-Antikörper mit Enzym → Substrat → Farbe; dazwischen waschen.",
+[
+"Fänger",
+"Blocken|blocken",
+"Detektion",
+"Substrat"
+],
+"bild",
+"<figure class='pic'><img data-enc='img/ana/6a2db2553fff.bin' data-mime='image/jpeg' alt='Bild zur Frage'></figure>"
+]
 ]
 }
 ]
@@ -5414,7 +9748,7 @@ const STOFF = {
 {
 "t": "Trigonometrie & Vektoren",
 "sub": "Test 4  ·  Winkelmaße  ·  sin/cos/tan  ·  Sinusschwingung  ·  Arkus  ·  Vektoren",
-"h": "<h3>4.1 Grad- und Bogenmaß</h3><ul><li>x (rad) = α° · π/180;  α = x · 180/π.  360° = 2π, 180° = π, 90° = π/2, 45° = π/4.</li><li>Taschenrechner auf <b>DEG oder RAD</b> stellen – häufigster Fehler im Test!</li></ul><h3>4.2 sin, cos, tan</h3><div class='box'><b>Rechtwinkliges Dreieck und Einheitskreis</b><br>sin α = Gegenkathete/Hypotenuse · cos α = Ankathete/Hypotenuse · tan α = GK/AK = sin α/cos α  (nur im rechtwinkligen Dreieck!)<br>Trigonometrischer Pythagoras: sin²α + cos²α = 1.<br>Im Einheitskreis: Punkt P(cos x | sin x) – daraus lassen sich Vorzeichen und Symmetrien direkt ablesen.</div><table><tr><td>Einheitskreis (S. 117)</td><td>Sinus als Projektion (S. 120)</td></tr></table><h3>4.3 Allgemeine Sinusfunktion und Arkusfunktionen</h3><ul><li><b>y = a · sin(b·x + c)</b>: |a| = <b>Amplitude</b>, Periode <b>p = 2π/b</b>, Phasenverschiebung x₀ = −c/b (nach links bei c &gt; 0). Beschreibt Schwingungen (Zeigerdiagramm).</li><li><b>Arkusfunktionen</b> = Umkehrfunktionen: arcsin, arccos, arctan liefern <b>nur einen Hauptwert</b>. sin x = 0,5 hat unendlich viele Lösungen: x = π/6 + 2kπ <b>und</b> x = 5π/6 + 2kπ.</li></ul><h3>4.4 Vektoren</h3><table><tr><th><b>Operation</b></th><th><b>Formel</b></th></tr><tr><td><b>Vektor von A nach B</b></td><td>AB = B − A (komponentenweise)</td></tr><tr><td><b>Addition / Vielfaches</b></td><td>(a₁ + b₁, a₂ + b₂) · λ·a = (λa₁, λa₂)</td></tr><tr><td><b>Betrag (Länge)</b></td><td>|a| = √(a₁² + a₂² + a₃²)</td></tr><tr><td><b>Einheitsvektor</b></td><td>a / |a|</td></tr><tr><td><b>Skalarprodukt</b></td><td>a·b = a₁b₁ + a₂b₂ + a₃b₃ = |a||b| cos φ → <b>senkrecht, wenn a·b = 0</b></td></tr></table><figure class='pic'><img data-enc='img/mathe/7b8373ef137e.bin' data-mime='image/jpeg' alt='Sinus als Projektion (S. 120)'><figcaption>Sinus als Projektion (S. 120)</figcaption></figure><figure class='pic'><img data-enc='img/mathe/aa67b767007d.bin' data-mime='image/jpeg' alt='Einheitskreis (S. 117)'><figcaption>Einheitskreis (S. 117)</figcaption></figure>",
+"h": "<h3>4.1 Grad- und Bogenmaß</h3><ul><li>x (rad) = α° · π/180;  α = x · 180/π.  360° = 2π, 180° = π, 90° = π/2, 45° = π/4.</li><li>Taschenrechner auf <b>DEG oder RAD</b> stellen – häufigster Fehler im Test!</li></ul><h3>4.2 sin, cos, tan</h3><div class='box'><b>Rechtwinkliges Dreieck und Einheitskreis</b><br>sin α = Gegenkathete/Hypotenuse · cos α = Ankathete/Hypotenuse · tan α = GK/AK = sin α/cos α  (nur im rechtwinkligen Dreieck!)<br>Trigonometrischer Pythagoras: sin²α + cos²α = 1.<br>Im Einheitskreis: Punkt P(cos x | sin x) – daraus lassen sich Vorzeichen und Symmetrien direkt ablesen.</div><h3>4.3 Allgemeine Sinusfunktion und Arkusfunktionen</h3><ul><li><b>y = a · sin(b·x + c)</b>: |a| = <b>Amplitude</b>, Periode <b>p = 2π/b</b>, Phasenverschiebung x₀ = −c/b (nach links bei c &gt; 0). Beschreibt Schwingungen (Zeigerdiagramm).</li><li><b>Arkusfunktionen</b> = Umkehrfunktionen: arcsin, arccos, arctan liefern <b>nur einen Hauptwert</b>. sin x = 0,5 hat unendlich viele Lösungen: x = π/6 + 2kπ <b>und</b> x = 5π/6 + 2kπ.</li></ul><h3>4.4 Vektoren</h3><table><tr><th><b>Operation</b></th><th><b>Formel</b></th></tr><tr><td><b>Vektor von A nach B</b></td><td>AB = B − A (komponentenweise)</td></tr><tr><td><b>Addition / Vielfaches</b></td><td>(a₁ + b₁, a₂ + b₂) · λ·a = (λa₁, λa₂)</td></tr><tr><td><b>Betrag (Länge)</b></td><td>|a| = √(a₁² + a₂² + a₃²)</td></tr><tr><td><b>Einheitsvektor</b></td><td>a / |a|</td></tr><tr><td><b>Skalarprodukt</b></td><td>a·b = a₁b₁ + a₂b₂ + a₃b₃ = |a||b| cos φ → <b>senkrecht, wenn a·b = 0</b></td></tr></table><figure class='pic'><img data-enc='img/mathe/7b8373ef137e.bin' data-mime='image/jpeg' alt='Sinus als Projektion (S. 120)'><figcaption>Sinus als Projektion (S. 120)</figcaption></figure><figure class='pic'><img data-enc='img/mathe/aa67b767007d.bin' data-mime='image/jpeg' alt='Einheitskreis (S. 117)'><figcaption>Einheitskreis (S. 117)</figcaption></figure>",
 "c": [
 16,
 17,

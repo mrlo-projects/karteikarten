@@ -1,4 +1,4 @@
-const APP_VERSION = "2026-11-11 (2)";
+const APP_VERSION = "2026-11-11 (3)";
 const DECKS = [
 { id:"bio-berg", modul:"bio", name:"Bergemann", sub:"Vielfalt des Lebens · Gewebe & Haut", cards:[
 ["Welche Elemente entstanden beim Urknall – und wo bilden sich schwerere Elemente wie C, N und O?", "Beim Urknall entstanden nur Wasserstoff und Helium.\nSchwerere Elemente (C, N, O …) bilden sich im Inneren von Sonnen (Sternen) – durch Kernfusion. Deshalb: „Wir sind Sternenstaub.“", ["Wasserstoff|H", "Helium|He", "~im Inneren von Sonnen|in Sternen|in der Sonne|im Stern"]],
