@@ -198,6 +198,33 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
 .stoff th{background:var(--m-soft)}
 .lnav{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:sticky;bottom:0;padding:10px 0 calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(transparent,var(--bg) 30%)}
 @media (prefers-reduced-motion: reduce){ .prog i{transition:none} }
+/* Originalbilder (verschlüsselt, nach Passwort sichtbar) */
+figure.pic{margin:12px 0 16px;padding:8px;border-radius:14px;background:#fff;border:1px solid var(--line)}
+figure.pic img{display:block;max-width:100%;height:auto;margin:0 auto;border-radius:8px;min-height:40px}
+figure.pic img:not([src]){min-height:90px;background:repeating-linear-gradient(45deg,var(--m-soft),var(--m-soft) 10px,transparent 10px,transparent 20px);width:100%}
+figure.pic figcaption{font-size:13px;color:#5d5866;margin-top:6px;line-height:1.4}
+.card figure.pic{margin:4px 0}
+.unlock{margin:12px 0;padding:14px;border-radius:14px;background:var(--m-soft);border:1px solid var(--m-mid);display:flex;flex-direction:column;gap:8px}
+.unlock input{font:inherit;font-size:17px;padding:10px 12px;border-radius:10px;border:1px solid var(--line)}
+.unlock button{font:inherit;font-weight:700;padding:10px;border-radius:10px;border:0;background:var(--m-acc);color:#fff}
+.unlock small{color:var(--muted)}
+/* Kartentyp-Badge */
+.ktype{font-size:11px;font-weight:800;letter-spacing:.05em;padding:3px 9px;border-radius:999px;margin-left:6px;vertical-align:1px}
+.ktype.klausur{background:var(--again-soft);color:var(--again)}
+.ktype.begriff{background:var(--ok-soft);color:var(--ok)}
+.ktype.bild{background:#ECE7FA;color:#5A4796}
+.chip.c{border-style:dashed}
+/* Karte melden */
+.report{align-self:flex-start;background:none;border:0;color:var(--muted);font:inherit;font-size:14px;text-decoration:underline;cursor:pointer;padding:0}
+.repbox{display:flex;flex-direction:column;gap:8px;padding:12px;border-radius:14px;border:1px dashed var(--line)}
+.repbox textarea{font:inherit;font-size:16px;min-height:70px;padding:8px;border-radius:10px;border:1px solid var(--line)}
+.repbox .r{display:flex;gap:8px}
+.repbox .r button{flex:1;font:inherit;padding:9px;border-radius:10px;border:1px solid var(--line);background:var(--surface)}
+.repbox .r button.go{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.reports{margin:0 0 18px;padding:14px 16px;border-radius:16px;background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.reports .r{display:flex;gap:8px;flex-wrap:wrap}
+.reports button{font:inherit;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);cursor:pointer}
+.reports button.go{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 </style>
 </head>
 <body>
@@ -219,13 +246,25 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
       (ch.neu || []).forEach(card => { d.cards.push(card); ch.c.push(d.cards.length - 1); });
     });
   });
+  // Zusatzkarten (mehr) bekommen feste Schlüssel aus dem Fragetext → Lernstand bleibt stabil, egal wo Karten dazukommen
+  const hashQ = t => { let h = 5381; for (let k = 0; k < t.length; k++) h = ((h << 5) + h + t.charCodeAt(k)) | 0; return "h" + (h >>> 0).toString(36); };
+  Object.keys(ST).forEach(id => {
+    const d = DECKS.find(x => x.id === id); if (!d) return;
+    ST[id].chapters.forEach(ch => {
+      (ch.mehr || []).forEach(card => { d.cards.push(card); d.keys = d.keys || []; d.keys[d.cards.length - 1] = hashQ(card[0]); ch.c.push(d.cards.length - 1); });
+    });
+  });
+  // Altklausur-Karten aus anderen Stapeln direkt im passenden Kapitel mit abfragen (gleicher Lernstand)
+  Object.keys(ST).forEach(id => ST[id].chapters.forEach(ch => {
+    ch.x = (ch.alt || []).map(([did, i]) => ({ deck: DECKS.find(x => x.id === did), i })).filter(o => o.deck && o.deck.cards[o.i]);
+  }));
   const KEY = "bia1-karten-v1";
   let store = {};
   try { store = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e) { store = {}; }
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch(e) {} };
   const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const paras = s => s.split("\n").map(l => "<p>" + esc(l) + "</p>").join("");
-  const cid = (d, i) => d.id + ":" + i;
+  const cid = (d, i) => d.id + ":" + ((d.keys && d.keys[i]) || i);
   const statusOf = id => store[id] || 0;           // 0 neu, 1 unsicher, 2 gewusst
   const modVars = m => `--m-soft:var(--${m}-soft);--m-mid:var(--${m}-mid);--m-ink:var(--${m}-ink);--m-acc:var(--${m}-acc)`;
   const daysTo = iso => { if(!iso) return null; const t = new Date(iso + "T09:00:00"); return Math.ceil((t - new Date()) / 864e5); };
@@ -247,11 +286,15 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     .normalize("NFD").replace(/[̀-ͯ]/g, "")
     .replace(/(\d),(\d)/g, "$1.$2").replace(/[−–]/g, "-")
     .replace(/[^a-z0-9.+\-\/% ]+/g, " ").replace(/\s+/g, " ").trim();
-  function autoKeys(answer){
+  // Wörter, die schon in der Frage stehen, muss man nicht nochmal schreiben
+  const stemOf = w => w.length > 6 ? w.slice(0, w.length - 2) : w;
+  const inQuestion = (w, qText) => { const n = norm(w); if (!n) return false; return qText.split(" ").some(t => t.length >= 3 && (t === n || (n.length >= 5 && t.startsWith(stemOf(n))) || (t.length >= 5 && n.startsWith(stemOf(t))))); };
+  function autoKeys(answer, question){
+    const qText = norm(question || "");
     const raw = answer.split(/[\s,;:()·→=\/\n„“"!?]+/).map(w => w.replace(/^[.\-]+|[.\-]+$/g, "")).filter(Boolean);
     const out = [], seen = new Set();
     for (const w of raw){
-      const n = norm(w); if (!n || seen.has(n) || STOP.has(n)) continue;
+      const n = norm(w); if (!n || seen.has(n) || STOP.has(n) || inQuestion(w, qText)) continue;
       const tech = /\d/.test(w) || /^[A-ZÄÖÜ]{2,}/.test(w) || /[A-Z][a-z]?\d/.test(w) || n.length >= 7 || (/^[A-ZÄÖÜ]/.test(w) && n.length >= 5);
       if (tech){ seen.add(n); out.push(w); }
     }
@@ -265,19 +308,46 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
       d[i][j] = Math.min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + (a[i-1] === b[j-1] ? 0 : 1));
     return d[a.length][b.length];
   }
+  // gleichbedeutende Wörter (sinngemäß richtig zählt)
+  const SYN = [["sonne","sonnen","stern","sterne","sternen"],["kernfusion","fusion","verschmelzung"],["wasserstoff","h","h2"],["helium","he"],["sauerstoff","o2"],["kohlenstoffdioxid","kohlendioxid","co2"],["erhoeht","steigt","nimmt zu","groesser","mehr","hoeher"],["sinkt","nimmt ab","kleiner","weniger","niedriger","faellt"],["bildet","entsteht","entstehen","gebildet","synthese"],["verbindung","bindung","verknuepfung","verknuepft"],["zelle","zellen"],["membran","huelle","membranumschlossen"],["schnell","rasch"],["langsam","traege"],["enzym","katalysator","biokatalysator"],["nicht","kein","keine","ohne"],["gleich","gleiche","identisch","dieselbe"],["vererbung","weitergabe","weitergeben","erbinformation"],["verdopplung","replikation","kopieren","kopie"],["gleichartig","aehnlich","gleich","gleichen","identisch"],["gemeinsam","zusammen"],["verband","gruppe","verbund","zusammenschluss","ansammlung"],["verschieden","unterschiedlich","mehrere","verschiedenartig"],["funktion","aufgabe"],["schicht","lage"],["transport","befoerderung","befoerdert","transportiert","bringt"],["abbau","spaltung","zerlegung","abgebaut","gespalten"],["aufbau","synthese","zusammensetzen"],["positiv","plus"],["negativ","minus"],["wasserloeslich","hydrophil","polar"],["wasserunloeslich","hydrophob","unpolar","fettloeslich","lipophil"]];
+  const synOf = w => { for (const g of SYN) if (g.some(e => e === w || (e.length >= 5 && w.startsWith(e) && w.length - e.length <= 3))) return g.concat([w]); return [w]; };
   function wordHit(word, text, toks){
+    if (!word) return true;
+    const alts = synOf(word);
+    if (alts.length > 1) return alts.some(a => wordHit1(a, text, toks));
+    return wordHit1(word, text, toks);
+  }
+  function wordHit1(word, text, toks){
     if (!word) return true;
     if (/\d/.test(word) || word.length <= 3) return (" " + text + " ").includes(" " + word + " ") || text.replace(/ /g, "").includes(word.replace(/ /g, ""));
     if (text.includes(word)) return true;
     const stem = word.slice(0, Math.max(4, word.length - 3));
     return toks.some(t => t.startsWith(stem) || (t.length >= 4 && word.startsWith(t) && t.length >= word.length - 3) || lev(t, word) <= Math.floor(word.length / 6) + (word.length >= 8 ? 1 : 0));
   }
+  // Schlüssel: "Begriff|Synonym" = Fachbegriff (muss drin sein, Tippfehler egal)
+  //            "~Aussage|andere Formulierung" = Inhalt (zählt, wenn der Sinn passt: die meisten Kernwörter einer Formulierung kommen vor)
   function checkAnswer(card, typed){
-    const keys = (card[2] && card[2].length) ? card[2] : autoKeys(card[1]);
+    const own = card[2] && card[2].length;
+    const qText = norm(card[0]);
+    let keys = own ? card[2].slice() : autoKeys(card[1], card[0]);
+    // Begriffe, die schon in der Frage stehen, nicht abfragen
+    const kept = keys.filter(k => k.startsWith("~") || !k.split("|").every(alt => norm(alt).split(" ").filter(Boolean).every(w => inQuestion(w, qText))));
+    if (kept.length) keys = kept;
     const text = norm(typed), toks = text.split(" ");
-    const res = keys.map(k => ({ k: k.split("|")[0], hit: k.split("|").some(alt => norm(alt).split(" ").filter(Boolean).every(w => wordHit(w, text, toks))) }));
+    const res = keys.map(k => {
+      const concept = k.startsWith("~"); const alts = (concept ? k.slice(1) : k).split("|");
+      const hit = alts.some(alt => {
+        const ws = norm(alt).split(" ").filter(Boolean);
+        if (!concept) return ws.every(w => wordHit(w, text, toks));
+        const core = ws.filter(w => !STOP.has(w) && (w.length >= 3 || /\d/.test(w)));
+        if (!core.length) return true;
+        const n = core.filter(w => wordHit(w, text, toks)).length;
+        return n / core.length >= 0.6 || (core.length >= 4 && n >= core.length - 1);
+      });
+      return { k: alts[0], hit, c: concept };
+    });
     const hits = res.filter(r => r.hit).length;
-    return { res, pct: keys.length ? Math.round(hits / keys.length * 100) : 0, auto: !(card[2] && card[2].length) };
+    return { res, pct: keys.length ? Math.round(hits / keys.length * 100) : 0, auto: !own };
   }
 
   function counts(deck){
@@ -314,7 +384,7 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     let html = `<header class="head"><span class="eyebrow">BIA-1 · WiSe 26/27</span><h1>Karteikarten</h1>
       <p>Fach antippen → Kapitel wählen → erst den Stoff lesen, dann die Fragen dazu. Dein Stand bleibt auf diesem Gerät.</p></header>${installGuide()}
       <div class="summary"><span class="pill"><b>${total}</b> Karten</span><span class="pill"><b>${known}</b> gewusst</span><span class="pill"><b>${unsure}</b> unsicher</span></div>
-      ${todayBlock()}
+      ${reportsBlock()}${todayBlock()}
       <label class="switch"><span><b>Antworten eintippen</b><br><span style="color:var(--muted);font-size:14px">Ganzer Satz oder nur Fachwörter – die App prüft die Fachbegriffe</span></span><input type="checkbox" id="typing" ${typingOn() ? "checked" : ""}></label>
       <button class="mix" id="mix" ${unsure ? "" : "disabled"}><div><b>Unsichere Karten aus allen Fächern</b><br><span>${unsure ? unsure + " Karten zum Wiederholen" : "Noch keine – erst ein Fach lernen"}</span></div><span aria-hidden="true">→</span></button>`;
     order.forEach(m => {
@@ -342,10 +412,31 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     document.getElementById("typing").onchange = e => { meta().typing = e.target.checked; save(); };
     app.querySelectorAll("[data-task]").forEach(cb => cb.onchange = () => { const t = meta().tasks; t[cb.dataset.task] = cb.checked; save(); home(); });
     const gb = document.getElementById("goalgo"); if (gb) gb.onclick = startGoal;
+    const rs = document.getElementById("repsend"); if (rs) rs.onclick = sendReports;
+    const rc = document.getElementById("repclear"); if (rc) rc.onclick = () => { meta().reports = []; save(); home(); };
     document.getElementById("reset").onclick = () => { document.getElementById("resetq").hidden = false; };
-    document.getElementById("resetyes").onclick = () => { const m = store.__meta; store = {}; if (m) store.__meta = { log:{}, tasks:m.tasks || {}, typing:m.typing }; save(); home(); };
+    document.getElementById("resetyes").onclick = () => { const m = store.__meta; store = {}; if (m) store.__meta = { log:{}, tasks:m.tasks || {}, typing:m.typing, reports:m.reports || [] }; save(); home(); };
     window.scrollTo(0, 0);
   }
+
+  function reportText(){
+    const list = meta().reports || [];
+    return "Karteikarten Meldungen (" + todayISO() + ")\n\n" + list.map((r, n) => {
+      const d = DECKS.find(x => x.id === r.deck);
+      return (n + 1) + ". [" + r.deck + " #" + r.i + "] " + (d ? d.name + ": " : "") + r.q + "\n   Grund: " + (r.why || "–") + (r.typed ? "\n   Meine Antwort: " + r.typed : "");
+    }).join("\n\n");
+  }
+  function reportsBlock(){
+    const list = meta().reports || []; if (!list.length) return "";
+    return `<section class="reports"><b>${list.length} gemeldete ${list.length === 1 ? "Karte" : "Karten"}</b><span style="color:var(--muted);font-size:14px">Über „Teilen“ in die Notiz „Karteikarten Meldungen“ legen, dann Claude sagen: „prüf die Meldungen“. Danach Liste leeren.</span>
+      <div class="r"><button class="go" id="repsend" type="button">Teilen / kopieren</button><button id="repclear" type="button">Liste leeren</button></div></section>`;
+  }
+  async function sendReports(){
+    const text = reportText();
+    try { if (navigator.share){ await navigator.share({ title:"Karteikarten Meldungen", text }); return; } } catch(e){ if (e && e.name === "AbortError") return; }
+    try { await navigator.clipboard.writeText(text); alertBox("Kopiert – jetzt in die Notiz einfügen."); } catch(e){ alertBox("Bitte markieren und kopieren:\n\n" + text); }
+  }
+  function alertBox(msg){ const b = document.querySelector(".reports"); if (b){ const p = document.createElement("pre"); p.style.whiteSpace = "pre-wrap"; p.style.fontSize = "13px"; p.textContent = msg; b.appendChild(p); } }
 
   function todayBlock(){
     if (typeof PLAN === "undefined") return "";
@@ -379,13 +470,60 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     study();
   }
 
+  // ---- Kartentyp ----
+  const KT = { klausur:"KLAUSURFRAGE", begriff:"FACHBEGRIFF", bild:"BILD" };
+  const ktype = c => c && KT[c[3]] ? ` <span class="ktype ${c[3]}">${KT[c[3]]}</span>` : "";
+
+  // ---- Originalbilder: verschlüsselt im Repo, Passwort nur auf diesem Gerät ----
+  const PWKEY = "bia1-bildpw";
+  let pw = null; try { pw = localStorage.getItem(PWKEY); } catch(e) {}
+  const keyCache = new Map(), urlCache = new Map();
+  async function decryptBuf(buf, pass){
+    const u = new Uint8Array(buf);
+    if (String.fromCharCode(...u.slice(0, 8)) !== "Salted__") throw new Error("format");
+    const salt = u.slice(8, 16), data = u.slice(16);
+    const ck = pass + ":" + Array.from(salt).join(",");
+    let kv = keyCache.get(ck);
+    if (!kv){
+      const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveBits"]);
+      const bits = new Uint8Array(await crypto.subtle.deriveBits({ name:"PBKDF2", salt, iterations:100000, hash:"SHA-256" }, base, 384));
+      kv = { key: await crypto.subtle.importKey("raw", bits.slice(0, 32), "AES-CBC", false, ["decrypt"]), iv: bits.slice(32, 48) };
+      keyCache.set(ck, kv);
+    }
+    return crypto.subtle.decrypt({ name:"AES-CBC", iv:kv.iv }, kv.key, data);
+  }
+  async function loadImg(img){
+    const rel = img.dataset.enc, mime = img.dataset.mime || "image/jpeg";
+    if (urlCache.has(rel)){ img.src = urlCache.get(rel); return; }
+    const res = await fetch(rel); if (!res.ok) throw new Error("net");
+    const plain = await decryptBuf(await res.arrayBuffer(), pw);
+    const url = URL.createObjectURL(new Blob([plain], { type:mime }));
+    urlCache.set(rel, url); img.src = url;
+  }
+  function unlockImages(root){
+    const imgs = Array.from(root.querySelectorAll("img[data-enc]")); if (!imgs.length) return;
+    if (!pw || !(window.crypto && crypto.subtle)){
+      if (root.querySelector(".unlock")) return;
+      const box = document.createElement("div"); box.className = "unlock";
+      box.innerHTML = `<b>Bilder aus den Skripten entsperren</b><input type="password" id="pwin" placeholder="Passwort" autocomplete="current-password"><button type="button" id="pwgo">Entsperren</button><small>Die Originalbilder liegen verschlüsselt im Netz. Passwort einmal eingeben, dann merkt sich die App es auf diesem Gerät.</small>`;
+      const first = imgs[0].closest("figure") || imgs[0]; first.parentNode.insertBefore(box, first);
+      box.querySelector("#pwgo").onclick = async () => {
+        const v = box.querySelector("#pwin").value.trim(); if (!v) return;
+        try { const r = await fetch(imgs[0].dataset.enc); await decryptBuf(await r.arrayBuffer(), v); pw = v; try { localStorage.setItem(PWKEY, v); } catch(e) {} box.remove(); unlockImages(root); }
+        catch(e){ box.querySelector("small").textContent = "Passwort stimmt nicht (oder kein Netz). Nochmal versuchen."; }
+      };
+      return;
+    }
+    imgs.forEach(img => { if (!img.getAttribute("src")) loadImg(img).catch(() => { img.alt = "Bild gerade nicht verfügbar (offline?)"; }); });
+  }
+
   let S = null; // session
   function shuffle(a){ for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
   // ---- Kapitel: Stoff lesen, dann Fragen ----
   function readOf(id, i){ const r = meta().read || {}; return !!r[id + ":" + i]; }
   function setRead(id, i){ meta().read = meta().read || {}; meta().read[id + ":" + i] = true; save(); }
-  function chCounts(deck, ch){ let k = 0; ch.c.forEach(i => { if (statusOf(cid(deck, i)) === 2) k++; }); return { k, n: ch.c.length }; }
+  function chCounts(deck, ch){ let k = 0; ch.c.forEach(i => { if (statusOf(cid(deck, i)) === 2) k++; }); (ch.x || []).forEach(o => { if (statusOf(cid(o.deck, o.i)) === 2) k++; }); return { k, n: ch.c.length + (ch.x || []).length }; }
   function deckView(deck){
     S = null;
     const chs = ST[deck.id].chapters, c = counts(deck);
@@ -414,19 +552,26 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     let html = `<div class="lesson" style="${modVars(deck.modul)}"><div class="top"><button class="back" id="back">← ${esc(deck.name)}</button>
       <div class="ttl"><b>Kapitel ${i + 1} von ${chs.length}</b><span>erst lesen, dann Fragen</span></div></div>
       <article class="stoff"><h2>${esc(ch.t)}</h2>${ch.sub ? `<p class="sub">${esc(ch.sub)}</p>` : ""}${ch.h}</article>
-      <div class="lnav">${ch.c.length ? `<button class="btn show" id="toq" style="grid-column:1 / -1">Gelesen – weiter zu ${ch.c.length} Fragen</button>` : `<button class="btn show" id="nx" style="grid-column:1 / -1">${i + 1 < chs.length ? "Gelesen – nächstes Kapitel" : "Gelesen – fertig"}</button>`}</div></div>`;
+      <div class="lnav">${ch.c.length + ch.x.length ? `<button class="btn show" id="toq" style="grid-column:1 / -1">Gelesen – weiter zu ${ch.c.length + ch.x.length} Fragen</button>` : `<button class="btn show" id="nx" style="grid-column:1 / -1">${i + 1 < chs.length ? "Gelesen – nächstes Kapitel" : "Gelesen – fertig"}</button>`}</div></div>`;
     app.innerHTML = html;
     document.getElementById("back").onclick = () => deckView(deck);
     const toq = document.getElementById("toq"); if (toq) toq.onclick = () => { setRead(deck.id, i); start(deck, false, i); };
     const nx = document.getElementById("nx"); if (nx) nx.onclick = () => { setRead(deck.id, i); i + 1 < chs.length ? lesson(deck, i + 1) : deckView(deck); };
+    unlockImages(app);
     window.scrollTo(0, 0);
   }
 
   function start(deck, onlyUnsure, chIdx){
     const chap = (chIdx !== undefined && ST[deck.id]) ? ST[deck.id].chapters[chIdx] : null;
     let items = deck.cards.map((c, i) => ({ deck, i, q: c[0], a: c[1], card: c }));
-    if (chap){ const set = new Set(chap.c); items = items.filter(it => set.has(it.i)); }
-    if (onlyUnsure) items = items.filter(it => statusOf(cid(deck, it.i)) !== 2);
+    if (chap){
+      const set = new Set(chap.c); items = items.filter(it => set.has(it.i));
+      // Reihenfolge: erst Fachbegriffe + klassische Karten, dann Bilder, zum Schluss Klausurfragen (auch aus den Altklausur-Stapeln)
+      const ord = it => ({ begriff:0, bild:2, klausur:3 })[it.card[3]] ?? 1;
+      items = items.concat((chap.x || []).map(o => ({ deck:o.deck, i:o.i, q:o.deck.cards[o.i][0], a:o.deck.cards[o.i][1], card:Object.assign(o.deck.cards[o.i].slice(), { 3:"klausur" }) })));
+      items.sort((a, b) => ord(a) - ord(b));
+    }
+    if (onlyUnsure) items = items.filter(it => statusOf(cid(it.deck, it.i)) !== 2);
     S = { title: chap ? "Kap. " + (chIdx + 1) + " · " + chap.t : deck.name, modul: deck.modul, deck, ch: chap ? chIdx : undefined, queue: chap ? items : shuffle(items), done: 0, total: items.length, ok: 0, again: 0, flipped: false, missed: new Set() };
     study();
   }
@@ -462,14 +607,14 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
       if (S.typed.trim()){
         const c = checkAnswer(it.card || [it.q, it.a], S.typed);
         sug = c.pct >= 70 ? "ok" : "again";
-        checkHtml = `<div class="check"><div class="score">${c.pct >= 70 ? "Sehr gut" : c.pct >= 40 ? "Teilweise" : "Noch nicht"} – ${c.res.filter(r => r.hit).length} von ${c.res.length} Fachbegriffen</div>
-          <div class="chips">${c.res.map(r => `<span class="chip ${r.hit ? "hit" : "miss"}">${r.hit ? "✓" : "✗"} ${esc(r.k)}</span>`).join("")}</div>
-          <div class="yours">Deine Antwort: ${esc(S.typed)}</div>${c.auto ? `<small style="color:var(--muted)">Begriffe automatisch aus der Antwort gewählt – vergleiche selbst mit der Lösung.</small>` : ""}</div>`;
+        checkHtml = `<div class="check"><div class="score">${c.pct >= 70 ? "Sehr gut" : c.pct >= 40 ? "Teilweise" : "Noch nicht"} – ${c.res.filter(r => r.hit).length} von ${c.res.length} Punkten</div>
+          <div class="chips">${c.res.map(r => `<span class="chip ${r.hit ? "hit" : "miss"} ${r.c ? "c" : ""}" title="${r.c ? "Inhalt – sinngemäß" : "Fachbegriff"}">${r.hit ? "✓" : "✗"} ${r.c ? "Sinn: " : ""}${esc(r.k)}</span>`).join("")}</div>
+          <div class="yours">Deine Antwort: ${esc(S.typed)}</div>${c.auto ? `<small style="color:var(--muted)">Punkte automatisch aus der Antwort gewählt – vergleiche selbst mit der Lösung. Falsch bewertet? Unten „Karte melden“.</small>` : ""}</div>`;
       } else { sug = "again"; }
     }
     html += `<div class="card" id="card" ${typing && !S.flipped ? "" : `role="button" tabindex="0" aria-label="Karte umdrehen"`}><span class="tag">${esc(tag)}${it.deck.exam ? " · Altklausur" : ""}</span>
-      <div class="q">${esc(it.q)}</div>
-      ${S.flipped ? `${checkHtml}<div class="a">${paras(it.a)}</div>`
+      <div class="q">${esc(it.q)}${ktype(it.card)}</div>${it.card && it.card[4] ? it.card[4] : ""}
+      ${S.flipped ? `${checkHtml}<div class="a">${paras(it.a)}</div>${S.rep ? `<div class="repbox"><b>Was stimmt an der Karte nicht?</b><textarea id="rept" placeholder="z. B. Frage ungenau, Antwort falsch, richtige Antwort als falsch bewertet …"></textarea><div class="r"><button id="repno" type="button">Abbrechen</button><button class="go" id="repyes" type="button">Meldung speichern</button></div></div>` : S.repDone ? `<small style="color:var(--ok)">✓ Gemeldet – auf der Startseite an Notizen schicken.</small>` : `<button class="report" id="rep" type="button">⚑ Karte melden</button>`}`
         : typing ? `<div class="type"><textarea id="ta" placeholder="Antwort oder nur die Fachwörter eintippen …" autocapitalize="off" autocomplete="off" spellcheck="false"></textarea><small>Tippfehler und Groß/Klein sind egal. Strg/Cmd+Enter = prüfen.</small></div>`
         : `<div class="hint">Antwort im Kopf überlegen, dann tippen</div>`}</div>
       <div class="btns">${S.flipped
@@ -492,7 +637,16 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
     } else {
       document.getElementById("again").onclick = () => answer(false);
       document.getElementById("ok").onclick = () => answer(true);
+      const rep = document.getElementById("rep"); if (rep) rep.onclick = e => { e.stopPropagation(); S.rep = true; study(); setTimeout(() => { const t = document.getElementById("rept"); if (t) t.focus(); }, 50); };
+      const rno = document.getElementById("repno"); if (rno) rno.onclick = () => { S.rep = false; study(); };
+      const ryes = document.getElementById("repyes"); if (ryes) ryes.onclick = () => {
+        const why = document.getElementById("rept").value.trim();
+        const m = meta(); m.reports = m.reports || [];
+        m.reports.push({ d: todayISO(), deck: it.deck.id, i: it.i, q: it.q, why, typed: S.typed || "" });
+        save(); S.rep = false; S.repDone = true; study();
+      };
     }
+    unlockImages(app);
   }
   function answer(ok){
     const it = S.queue.shift(); const id = cid(it.deck, it.i);
@@ -505,7 +659,7 @@ details.week summary{cursor:pointer;font-weight:700;font-size:15px}
       S.queue.splice(pos, 0, it);
     }
     const lg = meta().log; lg[todayISO()] = (lg[todayISO()] || 0) + 1;
-    save(); S.flipped = false; S.typed = undefined; study();
+    save(); S.flipped = false; S.typed = undefined; S.rep = false; S.repDone = false; study();
   }
   document.addEventListener("keydown", e => {
     if (!S || !document.getElementById("card")) return;
