@@ -230,10 +230,8 @@ figure.pic figcaption{font-size:13px;color:#5d5866;margin-top:6px;line-height:1.
 <body>
 <div class="wrap" id="app"></div>
 
-<script src="cards.js"></script>
-<script src="stoff.js"></script>
 <script>
-(function(){
+window.__startApp = function(){
   const app = document.getElementById("app");
   // Stoff-Kapitel: neue Karten aus stoff.js an die Stapel hängen (bestehende Nummern bleiben gleich)
   const ST = (typeof STOFF !== "undefined") ? STOFF : {};
@@ -669,6 +667,53 @@ figure.pic figcaption{font-size:13px;color:#5d5866;margin-top:6px;line-height:1.
     else if (S.flipped && (e.key === "2" || e.key === "ArrowRight")) answer(true);
   });
   home();
+};
+</script>
+<script>
+// Schutz: Karten (cards.bin) und Lernstoff (stoff.bin) liegen verschlüsselt im Netz.
+// Das Passwort wird nur auf diesem Gerät gespeichert (dasselbe wie für die Bilder).
+(function(){
+  const app = document.getElementById("app");
+  const KEY = "bia1-bildpw";
+  async function dec(buf, pass){
+    const u = new Uint8Array(buf);
+    if (String.fromCharCode(...u.slice(0, 8)) !== "Salted__") throw new Error("format");
+    const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveBits"]);
+    const bits = new Uint8Array(await crypto.subtle.deriveBits({ name:"PBKDF2", salt:u.slice(8, 16), iterations:100000, hash:"SHA-256" }, base, 384));
+    const key = await crypto.subtle.importKey("raw", bits.slice(0, 32), "AES-CBC", false, ["decrypt"]);
+    return new TextDecoder().decode(await crypto.subtle.decrypt({ name:"AES-CBC", iv:bits.slice(32, 48) }, key, u.slice(16)));
+  }
+  function addScript(code){
+    return new Promise((ok, bad) => { const s = document.createElement("script"); s.src = URL.createObjectURL(new Blob([code], { type:"text/javascript" })); s.onload = ok; s.onerror = bad; document.body.appendChild(s); });
+  }
+  async function open(pass){
+    const [a, b] = await Promise.all(["cards.bin", "stoff.bin"].map(f => fetch(f).then(r => { if (!r.ok) throw new Error("net"); return r.arrayBuffer(); })));
+    const cards = await dec(a, pass), stoff = await dec(b, pass);   // wirft bei falschem Passwort
+    try { localStorage.setItem(KEY, pass); } catch(_) {}
+    await addScript(cards); await addScript(stoff);
+    window.__startApp();
+  }
+  function lock(msg){
+    app.innerHTML = `<div style="max-width:420px;margin:18vh auto 0;display:flex;flex-direction:column;gap:12px">
+      <h1 style="font-family:var(--font-display);font-size:30px">Karteikarten</h1>
+      <p style="color:var(--muted)">Diese Seite ist geschützt. Bitte Passwort eingeben – die App merkt es sich auf diesem Gerät.</p>
+      <form id="lf" style="display:flex;flex-direction:column;gap:10px">
+        <input id="lp" type="password" autocomplete="current-password" placeholder="Passwort" style="font:inherit;font-size:18px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink)">
+        <button style="font:inherit;font-weight:700;font-size:17px;padding:12px;border-radius:12px;border:0;background:var(--ink);color:var(--bg)">Öffnen</button>
+      </form>
+      <p id="lm" style="color:var(--again);min-height:1.4em">${msg || ""}</p></div>`;
+    document.getElementById("lf").onsubmit = async e => {
+      e.preventDefault();
+      const v = document.getElementById("lp").value.trim(); if (!v) return;
+      document.getElementById("lm").textContent = "Wird geöffnet …";
+      try { await open(v); }
+      catch(err){ document.getElementById("lm").textContent = err.message === "net" ? "Keine Verbindung – bitte mit Internet erneut versuchen." : "Passwort stimmt nicht."; }
+    };
+  }
+  let pw = null; try { pw = localStorage.getItem(KEY); } catch(e) {}
+  if (!(window.crypto && crypto.subtle)) { app.innerHTML = "<p>Dieser Browser kann die geschützte Seite nicht öffnen.</p>"; return; }
+  if (pw) open(pw).catch(err => lock(err.message === "net" ? "Keine Verbindung." : "Passwort hat sich geändert – bitte neu eingeben."));
+  else lock();
 })();
 </script>
 <script>
